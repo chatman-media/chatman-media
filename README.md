@@ -51,17 +51,17 @@ I'm Alexander Kireyev, a founder of @timelinestudio
     <img
       alt="Profile details"
       width="99.8%"
-      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=nord_bright"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=tokyonight"
     />
     <img
       alt="Stats"
       width="49.5%"
-      src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=nord_bright"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=tokyonight"
     />
     <img
       alt="Productive time"
       width="49.5%"
-      src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&theme=nord_bright&utcOffset=10"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&theme=tokyonight&utcOffset=10"
     />
   </section>
   <hr>
