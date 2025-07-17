@@ -6,16 +6,19 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
           user: chatman-media
           token: ${{ secrets.METRICS_TOKEN }}
-
-          base: no
-          config_display: regular
+          filename: github-metrics.svg
+          
+          base: header, activity, community, repositories
+          base_indepth: yes
           config_timezone: Asia/Bangkok
-
+          
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_days: 7
