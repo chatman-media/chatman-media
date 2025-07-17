@@ -1,0 +1,23 @@
+name: Metrics
+on:
+  schedule: [{ cron: "0 0 * * *" }]
+  workflow_dispatch:
+  push: { branches: ["main"] }
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          user: chatman-media
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          base: no
+          config_display: regular
+          config_timezone: Asia/Bangkok
+
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+          plugin_wakatime_days: 7
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors
+          plugin_wakatime_limit: 5
