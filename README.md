@@ -2,11 +2,6 @@
 
 I'm Alexander Kireyev, a founder of @timelinestudio
 
-## 🏆 Stack Overflow
-
-⭐️ From [chatman-media](https://github.com/chatman-media)
-
-
 <div align="center">
   <section>
     <a href="https://stackoverflow.com/users/724036/alexander-kireyev"><img src="https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark" alt="Stack Overflow profile"/></a>
@@ -44,7 +39,6 @@ I'm Alexander Kireyev, a founder of @timelinestudio
       src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
     />
   </section>
-  <hr>
 
   <hr>
   <section>
