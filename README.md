@@ -9,23 +9,9 @@ I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman
   <a href="https://t.me/timelinestudio"><img src="https://img.shields.io/badge/Join%20Group-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
   <a href="https://discord.gg/BSddjvWk"><img src="https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
     
-  <div align="center">
-    <a href="https://t.me/alexanderkireyev">
-      <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1c1917" alt="Telegram" height="50" />
-    </a>
-    <a href="https://x.com/chatman_media">
-      <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1c1917" alt="X" height="50" />
-    </a>
-    <a href="https://www.youtube.com/@chatman-media">
-      <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=1c1917" alt="YouTube" height="50" />
-    </a>
-    <a href="https://www.tiktok.com/@chatman.media">
-      <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1c1917" alt="TikTok" height="50" />
-    </a>
-    <a href="https://www.instagram.com/chatman.media/">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=1c1917" alt="Instagram" height="50" />
-    </a>
-  </div>
+  <p align="center">
+    <a href="https://t.me/alexanderkireyev"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1c1917" alt="Telegram" height="50" /></a><a href="https://x.com/chatman_media"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1c1917" alt="X" height="50" /></a><a href="https://www.youtube.com/@chatman-media"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=1c1917" alt="YouTube" height="50" /></a><a href="https://www.tiktok.com/@chatman.media"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1c1917" alt="TikTok" height="50" /></a><a href="https://www.instagram.com/chatman.media/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=1c1917" alt="Instagram" height="50" /></a>
+  </p>
   <br/>
   <section>
     <table>
