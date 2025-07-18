@@ -2,6 +2,8 @@
 
 I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman-media/timeline-studio) & [real X](https://github.com/chatman-media/x)
 
+[![](/logo2.png)](https://timelinestudio.pro/)
+
 <div align="center">
 
   [![Telegram](https://img.shields.io/badge/Join%20Group-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/timelinestudio)
@@ -10,9 +12,18 @@ I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman
   [![YouTube](https://img.shields.io/badge/Subscribe-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@chatman-media)
 
   <section>
-    <a href="https://stackoverflow.com/users/724036/alexander-kireyev"><img src="https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark" alt="Stack Overflow profile"/></a>
+    <table>
+      <tr>
+        <td align="center">
+          <a href="https://stackoverflow.com/users/724036/alexander-kireyev"><img src="https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark" alt="Stack Overflow profile"/></a>
+        </td>
+        <td align="center">
+          <a href="https://www.codewars.com/users/chatman"><img src="https://www.codewars.com/users/chatman/badges/large" alt="Codewars profile"/></a>
+        </td>
+      </tr>
+    </table>
   </section>
-  <br/>
+
   <section>
     <img
       alt="Wakatime total"
@@ -20,14 +31,14 @@ I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman
       src="https://wakatime.com/badge/user/4393eda7-541a-42ae-974f-3a312c0631b7.svg?style=for-the-badge"
     />
     <img
-      alt="TypeScript"
+      alt="Tauri"
       height="24"
-      src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+      src="https://img.shields.io/badge/tauri-%23FFC131.svg?style=for-the-badge&logo=tauri&logoColor=black"
     />
     <img
-      alt="React"
+      alt="Node.js"
       height="24"
-      src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+      src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
     />
     <img
       alt="NextJS"
@@ -35,24 +46,53 @@ I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman
       src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"
     />
     <img
-      alt="Rust"
+      alt="React"
       height="24"
-      src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white"
+      src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
     />
     <img
-      alt="Tauri"
+      alt="XState"
       height="24"
-      src="https://img.shields.io/badge/tauri-%23FFC131.svg?style=for-the-badge&logo=tauri&logoColor=black"
+      src="https://img.shields.io/badge/xstate-%232C3E50.svg?style=for-the-badge&logo=xstate&logoColor=white"
     />
+    <img
+      alt="SolidJS"
+      height="24"
+      src="https://img.shields.io/badge/SolidJS-2c4f7c?style=for-the-badge&logo=solid&logoColor=c8c9cb"
+    />
+  </section>
+
+  <br/>
+  <section>
     <img
       alt="Ruby"
       height="24"
       src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white"
     />
     <img
-      alt="Node.js"
+      alt="Rust"
       height="24"
-      src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+      src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white"
+    />
+    <img
+      alt="TypeScript"
+      height="24"
+      src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+    />
+    <img
+      alt="JavaScript"
+      height="24"
+      src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+    />
+    <img
+      alt="Python"
+      height="24"
+      src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+    />
+    <img
+      alt="C Sharp"
+      height="24"
+      src="https://img.shields.io/badge/c%23-%23512BD4.svg?style=for-the-badge&logo=csharp&logoColor=white"
     />
   </section>
 
