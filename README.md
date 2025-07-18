@@ -26,7 +26,7 @@ I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman
       <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=1c1917" alt="Instagram" height="50" />
     </a>
   </div>
-
+  <br/>
   <section>
     <table>
       <tr>
@@ -77,8 +77,6 @@ I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman
       src="https://img.shields.io/badge/SolidJS-2c4f7c?style=for-the-badge&logo=solid&logoColor=c8c9cb"
     />
   </section>
-
-  <br/>
   <section>
     <img
       alt="Ruby"
