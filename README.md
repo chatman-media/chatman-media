@@ -96,7 +96,8 @@ I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman
     />
   </section>
 
-  <hr>
+  <br/>
+
   <section>
     <img
       alt="Profile details"
@@ -114,8 +115,26 @@ I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman
       src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&theme=github_dark&utcOffset=10"
     />
   </section>
-  <hr>
   <section>
+    <img
+      alt="GitHub Activity Graph"
+      width="99.8%"
+      src="https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=github-compact&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area_color=1f6feb&area=true&hide_border=true"
+    />
+  </section>
+  <section>
+    <img
+      alt="GitHub Streak"
+      width="99.8%"
+      src="https://streak-stats.demolab.com/?user=chatman-media&theme=dark&hide_border=true"
+    />
+  </section>
+  <section>
+    <img
+      alt="Wakatime stats"
+      width="99.8%"
+      src="https://wakatime.com/share/@chatman/charts/activity.svg"
+    />
     <img
       alt="Metrics"
       width="70%"
