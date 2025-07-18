@@ -95,9 +95,11 @@ I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman
       src="https://img.shields.io/badge/c%23-%23512BD4.svg?style=for-the-badge&logo=csharp&logoColor=white"
     />
   </section>
-
-  <br/>
-
+  <img
+    alt="Wakatime Activity"
+    width="99.8%"
+    src="https://wakatime.com/share/@chatman/b67749ee-d2b0-4721-a30e-cfb74d977fce.svg"
+  />
   <section>
     <img
       alt="Profile details"
@@ -127,13 +129,6 @@ I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman
       alt="GitHub Streak"
       width="99.8%"
       src="https://streak-stats.demolab.com/?user=chatman-media&theme=dark&hide_border=true"
-    />
-  </section>
-  <section>
-    <img
-      alt="Wakatime stats"
-      width="99.8%"
-      src="https://wakatime.com/share/@chatman/charts/activity.svg"
     />
     <img
       alt="Metrics"
