@@ -25,6 +25,11 @@ I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman
       src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
     />
     <img
+      alt="React"
+      height="24"
+      src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+    />
+    <img
       alt="NextJS"
       height="24"
       src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"
@@ -40,9 +45,14 @@ I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman
       src="https://img.shields.io/badge/tauri-%23FFC131.svg?style=for-the-badge&logo=tauri&logoColor=black"
     />
     <img
-      alt="React"
+      alt="Ruby"
       height="24"
-      src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+      src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white"
+    />
+    <img
+      alt="Node.js"
+      height="24"
+      src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
     />
   </section>
 
