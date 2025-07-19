@@ -3,7 +3,7 @@
 [![](/logo2.png)](https://timelinestudio.pro/)
 
 <section>
-  <table>
+  <table style="border: none;">
     <tr>
       <td align="center">
         <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Alexander+Kireyev;+Welcome+to+My+Profile!;Physicist+•+Mathematician+•+Engineer+•+Philosopher;Timeline+Studio:+AI+video+editor+;X+Digital+Marketplace+ecosystem+🚀" alt="Typing SVG"/></a>
@@ -106,17 +106,17 @@
     <img
       alt="Profile details"
       width="99.8%"
-      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=github_dark"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media"
     />
     <img
       alt="Stats"
       width="49.5%"
-      src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=github_dark"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media"
     />
     <img
       alt="Productive time"
       width="49.5%"
-      src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&theme=github_dark&utcOffset=10"
+      src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10"
     />
   </section>
   <section>
@@ -127,11 +127,9 @@
     />
   </section>
   <section>
-    <img
-      alt="GitHub Streak"
+    <img 
       width="99.8%"
-      src="https://streak-stats.demolab.com/?user=chatman-media&theme=dark&hide_border=true"
-    />
+      src="https://streak-stats.demolab.com?user=chatman-media&theme=telegram-gradient&hide_border=true&card_width=900" alt="GitHub Streak" />
     <img
       alt="Metrics"
       width="70%"
