@@ -1,8 +1,19 @@
-# Hi there 👋
-
-I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman-media/timeline-studio) & [real X](https://github.com/chatman-media/x)
+# [Timeline Studio](https://github.com/chatman-media/timeline-studio) & [real X](https://github.com/chatman-media/x)
 
 [![](/logo2.png)](https://timelinestudio.pro/)
+
+<section>
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Alexander+Kireyev;+Welcome+to+My+Profile!;Physicist+•+Mathematician+•+Engineer+•+Philosopher;Timeline+Studio:+AI+video+editor+;X+Digital+Marketplace+ecosystem+🚀" alt="Typing SVG"/></a>
+      </td>
+      <td align="center">
+        <a href="https://stackoverflow.com/users/724036/alexander-kireyev"><img src="https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark" alt="Stack Overflow profile"/></a>
+      </td>
+    </tr>
+  </table>
+</section>
 
 <div align="center">
 
@@ -17,19 +28,6 @@ I'm Alexander Kireyev, a founder of [Timeline Studio](https://github.com/chatman
     <a href="https://x.com/chatman_media"><img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1c1917" alt="X" height="50" style="margin: 0 10px;" /></a>
     <a href="https://www.instagram.com/chatman.media/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=1c1917" alt="Instagram" height="50" style="margin: 0 10px;" /></a>
   </p>
-  <section>
-    <table>
-      <tr>
-        <td align="center">
-          <a href="https://stackoverflow.com/users/724036/alexander-kireyev"><img src="https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark" alt="Stack Overflow profile"/></a>
-        </td>
-        <td align="center">
-          <a href="https://www.codewars.com/users/chatman"><img src="https://www.codewars.com/users/chatman/badges/large" alt="Codewars profile"/></a>
-        </td>
-      </tr>
-    </table>
-  </section>
-
   <section>
     <img
       alt="Wakatime total"
