@@ -120,17 +120,17 @@
   <img
     alt="Profile details"
     width="99.8%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=github_dark"
   />
   <img
     alt="Stats"
     width="49.5%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=github_dark"
   />
   <img
     alt="Productive time"
     width="49.5%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&theme=github_dark"
   />
   <img
     alt="GitHub Activity Graph"
