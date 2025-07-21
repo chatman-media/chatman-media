@@ -2,7 +2,7 @@
 
 [![](/logo2.png)](https://timelinestudio.pro/)
 
-| [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Alexander+Kireyev;+Welcome+to+My+Profile!;Physicist+•+Mathematician+•+Engineer+•+Philosopher;Timeline+Studio:+AI+video+editor+;X+Digital+Marketplace+ecosystem+🚀)](https://git.io/typing-svg) | [![Stack Overflow profile](https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark)](https://stackoverflow.com/users/724036/alexander-kireyev) |
+| [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Alexander+Kireyev;+Welcome+to+My+Profile!;Physicist+•+Mathematician+•+Engineer+•+Philosopher+;Timeline+Studio:+founder+;X+Digital+Marketplace+ecosystem+🚀)](https://git.io/typing-svg) | [![Stack Overflow profile](https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark)](https://stackoverflow.com/users/724036/alexander-kireyev) |
 |:---:|:---:|
 
 <div align="center">
