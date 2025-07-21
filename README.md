@@ -7,8 +7,8 @@
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Join%20Group-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/timelinestudio)
-[![Discord](https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/BSddjvWk)
+[![Telegram](https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&logo=true&color=2CA5E0&link=https://t.me/timelinestudio)](https://t.me/timelinestudio)
+[![Discord](https://img.shields.io/discord/1385728510689017866?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/BSddjvWk)
 
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1c1917)](https://www.tiktok.com/@chatman.media)
 [![twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white&labelColor=1c1917)](https://www.twitch.tv/chatman1984)
