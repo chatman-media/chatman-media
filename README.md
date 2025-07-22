@@ -7,11 +7,12 @@
 
 <div align="center">
 
-[![Telegram](https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&link=https://t.me/timelinestudio)](https://t.me/timelinestudio)
+[![GitHub](https://img.shields.io/badge/Badge_Repo-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chatman-media/telegram-badge) ![Arrow](https://img.shields.io/badge/→-gray?style=for-the-badge) [![Telegram](https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&link=https://t.me/timelinestudio)](https://t.me/timelinestudio)
 [![Discord](https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/BSddjvWk)
+[![Twitch Status](https://img.shields.io/twitch/status/chatman1984?style=for-the-badge&logo=twitch&logoColor=white&color=9146FF&label=Twitch)](https://www.twitch.tv/chatman1984)
+
 
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1c1917)](https://www.tiktok.com/@chatman.media)
-[![twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white&labelColor=1c1917)](https://www.twitch.tv/chatman1984)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=1c1917)](https://www.youtube.com/@chatman-media)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1c1917)](https://t.me/alexanderkireyev)
 [![X](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1c1917)](https://x.com/chatman_media)
