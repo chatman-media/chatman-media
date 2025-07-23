@@ -70,6 +70,8 @@
 
 ![Metrics](https://github.com/chatman-media/chatman-media/blob/main/github-metrics.svg)
 
+## People Reached
+
 [![Stargazers over time](https://starchart.cc/chatman-media/timeline-studio.svg?variant=adaptive)](https://starchart.cc/chatman-media/timeline-studio)
 
 </div>
