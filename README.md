@@ -57,6 +57,10 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![C Sharp](https://img.shields.io/badge/c%23-%23512BD4.svg?style=for-the-badge&logo=csharp&logoColor=white)
 
+## 🏆 GitHub Trophies
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=chatman-media&theme=github_dark&no-frame=true&no-bg=true&margin-w=4)
+
 ![Wakatime Activity](https://wakatime.com/share/@chatman/b67749ee-d2b0-4721-a30e-cfb74d977fce.svg)
 
 ![Profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=github_dark)
@@ -67,10 +71,6 @@
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=github-compact&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area_color=1f6feb&area=true&hide_border=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=chatman-media&theme=telegram-gradient&hide_border=true&card_width=900)
-
-## 🏆 GitHub Trophies
-
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=chatman-media&theme=darkhub&no-frame=true&no-bg=true&margin-w=4)
 
 ![Metrics](https://github.com/chatman-media/chatman-media/blob/main/github-metrics.svg)
 
