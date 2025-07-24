@@ -68,6 +68,10 @@
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=chatman-media&theme=telegram-gradient&hide_border=true&card_width=900)
 
+## 🏆 GitHub Trophies
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=chatman-media&theme=darkhub&no-frame=true&no-bg=true&margin-w=4)
+
 ![Metrics](https://github.com/chatman-media/chatman-media/blob/main/github-metrics.svg)
 
 ## People Reached
