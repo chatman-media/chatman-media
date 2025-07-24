@@ -80,6 +80,6 @@
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=chatman-media/timeline-studio,chatman-media/x&type=Date)](https://star-history.com/#chatman-media/timeline-studio&chatman-media/x&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=chatman-media/timeline-studio,chatman-media/telegram-badge&type=Date)](https://star-history.com/#chatman-media/timeline-studio&chatman-media/telegram-badge&Date)
 
 </div>
