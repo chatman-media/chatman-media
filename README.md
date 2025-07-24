@@ -78,4 +78,8 @@
 
 [![Stargazers over time](https://starchart.cc/chatman-media/timeline-studio.svg?variant=adaptive)](https://starchart.cc/chatman-media/timeline-studio)
 
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=chatman-media/timeline-studio,chatman-media/x&type=Date)](https://star-history.com/#chatman-media/timeline-studio&chatman-media/x&Date)
+
 </div>
