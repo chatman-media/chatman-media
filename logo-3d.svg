@@ -1,0 +1,81 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Градиент фона -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#020617;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Градиент для текста -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Фильтр свечения -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Анимация облаков -->
+    <filter id="cloud1">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="15"/>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="800" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Анимированные элементы фона -->
+  <circle cx="100" cy="80" r="60" fill="#3b82f6" opacity="0.1">
+    <animate attributeName="r" values="60;80;60" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.1;0.2;0.1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="700" cy="320" r="80" fill="#8b5cf6" opacity="0.1">
+    <animate attributeName="r" values="80;100;80" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.1;0.15;0.1" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Изображение горы (placeholder) -->
+  <image href="mountain.png" x="100" y="50" width="600" height="300" opacity="0.9"/>
+  
+  <!-- Анимированные облака -->
+  <g filter="url(#cloud1)">
+    <ellipse cx="150" cy="350" rx="80" ry="30" fill="white" opacity="0.15">
+      <animateTransform attributeName="transform" type="translate" 
+        values="0,0; 800,0" dur="40s" repeatCount="indefinite"/>
+    </ellipse>
+    
+    <ellipse cx="350" cy="360" rx="100" ry="25" fill="white" opacity="0.12">
+      <animateTransform attributeName="transform" type="translate" 
+        values="0,0; 800,0" dur="35s" repeatCount="indefinite"/>
+    </ellipse>
+    
+    <ellipse cx="550" cy="355" rx="70" ry="20" fill="white" opacity="0.18">
+      <animateTransform attributeName="transform" type="translate" 
+        values="0,0; 800,0" dur="45s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  
+  <!-- 3D текст Timeline Studio -->
+  <text x="400" y="220" font-family="Brush Script MT, cursive" font-size="72" 
+        text-anchor="middle" fill="url(#textGradient)" filter="url(#glow)"
+        transform="perspective(1000) rotateX(10)">
+    <tspan>Timeline Studio</tspan>
+    <!-- Анимация пульсации -->
+    <animate attributeName="font-size" values="72;76;72" dur="3s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Подпись -->
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="16" 
+        text-anchor="middle" fill="#9ca3af" opacity="0.8">
+    AI-Powered Video Editor
+  </text>
+</svg>

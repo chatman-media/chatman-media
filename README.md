@@ -1,9 +1,34 @@
 # [Timeline Studio](https://github.com/chatman-media/timeline-studio) & [real X](https://github.com/chatman-media/x)
 
 <div align="center">
+  
+  <!-- Основное изображение с горой -->
   <a href="https://timelinestudio.pro/">
-    <img src="mountain.png" alt="Timeline Studio 3D Logo" width="100%" style="max-width: 800px; margin: 20px 0;" />
+    <picture>
+      <img src="mountain.png" alt="Timeline Studio" width="100%" style="max-width: 600px; border-radius: 10px; box-shadow: 0 10px 30px rgba(139, 92, 246, 0.2);" />
+    </picture>
   </a>
+  
+  <!-- Анимированный текст -->
+  <h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Brush+Script+MT&size=60&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Timeline+Studio" alt="Timeline Studio" />
+  </h1>
+  
+  <!-- Описание с эмодзи -->
+  <p align="center">
+    <b>🎬 AI-Powered Video Editor • 🚀 Multi-Platform Export • ⚡ GPU Acceleration</b>
+  </p>
+  
+  <!-- Анимированная линия -->
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+  
+  <!-- Timeline Studio Stats -->
+  <p align="center">
+    <img src="https://img.shields.io/github/stars/chatman-media/timeline-studio?style=for-the-badge&logo=github&color=8b5cf6&labelColor=1c1917" alt="Stars">
+    <img src="https://img.shields.io/github/v/release/chatman-media/timeline-studio?style=for-the-badge&color=8b5cf6&labelColor=1c1917" alt="Version">
+    <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-8b5cf6?style=for-the-badge&labelColor=1c1917" alt="Platform">
+  </p>
+  
 </div>
 
 | [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Alexander+Kireyev;+Welcome+to+My+Profile!;Physicist+•+Mathematician+•+Engineer+•+Philosopher+;Timeline+Studio:+founder+;X+Digital+Marketplace+ecosystem+🚀)](https://git.io/typing-svg) | [![Stack Overflow profile](https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark)](https://stackoverflow.com/users/724036/alexander-kireyev) |
@@ -65,27 +90,55 @@
 
 ## 🏆 GitHub Trophies
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=chatman-media&theme=nord&no-frame=true&no-bg=false&margin-w=4&margin-h=4)
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=chatman-media&theme=nord&no-frame=true&no-bg=false&margin-w=4&margin-h=4&column=8" alt="GitHub Trophies"/>
 
-![Wakatime Activity](https://wakatime.com/share/@chatman/b67749ee-d2b0-4721-a30e-cfb74d977fce.svg)
+## 📊 GitHub Stats
 
-![Profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=github_dark)
+<div align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=react-dark&bg_color=1a1b27&color=70a5fd&line=70a5fd&point=bf91f3&area_color=1a1b27&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
+</div>
 
-![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=github_dark)
-![Productive time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&theme=github_dark)
+<div align="center">
+  <img width="100%" src="https://streak-stats.demolab.com?user=chatman-media&theme=telegram-gradient&hide_border=true&card_width=1000" alt="GitHub Streak"/>
+</div>
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=react-dark&bg_color=1a1b27&color=70a5fd&line=70a5fd&point=bf91f3&area_color=1a1b27&area=true&hide_border=true)
+## 📈 Coding Activity
 
-![GitHub Streak](https://streak-stats.demolab.com?user=chatman-media&theme=telegram-gradient&hide_border=true&card_width=900)
+<div align="center">
+  <img width="100%" src="https://wakatime.com/share/@chatman/b67749ee-d2b0-4721-a30e-cfb74d977fce.svg" alt="Wakatime Activity"/>
+</div>
 
-![Metrics](https://github.com/chatman-media/chatman-media/blob/main/github-metrics.svg)
+## 🎯 Profile Summary
 
-## People Reached
+<div align="center">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=github_dark" alt="Profile Details"/>
+</div>
 
-[![Stargazers over time](https://starchart.cc/chatman-media/timeline-studio.svg?variant=adaptive)](https://starchart.cc/chatman-media/timeline-studio)
+<div align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=github_dark" alt="Stats"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&theme=github_dark" alt="Productive Time"/>
+</div>
+
+## 🔬 Detailed Metrics
+
+<div align="center">
+  <img width="100%" src="https://github.com/chatman-media/chatman-media/blob/main/github-metrics.svg" alt="Detailed Metrics"/>
+</div>
+
+## 📈 People Reached
+
+<div align="center">
+  <a href="https://starchart.cc/chatman-media/timeline-studio">
+    <img width="100%" src="https://starchart.cc/chatman-media/timeline-studio.svg?variant=adaptive" alt="Stargazers over time"/>
+  </a>
+</div>
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=chatman-media/timeline-studio,chatman-media/telegram-badge&type=Date)](https://star-history.com/#chatman-media/timeline-studio&chatman-media/telegram-badge&Date)
+<div align="center">
+  <a href="https://star-history.com/#chatman-media/timeline-studio&chatman-media/telegram-badge&Date">
+    <img width="100%" src="https://api.star-history.com/svg?repos=chatman-media/timeline-studio,chatman-media/telegram-badge&type=Date" alt="Star History Chart"/>
+  </a>
+</div>
 
 </div>
