@@ -4,17 +4,13 @@
   
   <!-- Основное изображение с горой -->
   <a href="https://timelinestudio.pro/">
-    <picture>
-      <img src="mountain.png" alt="Timeline Studio" width="100%" style="max-width: 600px; border-radius: 10px; box-shadow: 0 10px 30px rgba(139, 92, 246, 0.2);" />
-    </picture>
+    <img src="mountain.png" alt="Timeline Studio" width="100%" style="max-width: 800px; border-radius: 10px; box-shadow: 0 20px 40px rgba(139, 92, 246, 0.3);" />
   </a>
   
-  <!-- Анимированный текст -->
-  <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Brush+Script+MT&size=60&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Timeline+Studio" alt="Timeline Studio" />
-  </h1>
+  <!-- Анимированный текст Timeline Studio -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Brush+Script+MT&size=80&pause=2000&color=8B5CF6&center=true&vCenter=true&width=800&height=100&lines=Timeline+Studio&duration=4000" alt="Timeline Studio" />
   
-  <!-- Описание с эмодзи -->
+  <!-- Подзаголовок -->
   <p align="center">
     <b>🎬 AI-Powered Video Editor • 🚀 Multi-Platform Export • ⚡ GPU Acceleration</b>
   </p>

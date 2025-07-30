@@ -1,0 +1,61 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Градиент для фона -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1b27;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f0f;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Фильтр для текста -->
+    <filter id="textShadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#8b5cf6" flood-opacity="0.5"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+    
+    <!-- Фильтр свечения -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="800" height="400" fill="url(#bgGrad)"/>
+  
+  <!-- Декоративные элементы фона -->
+  <circle cx="100" cy="100" r="150" fill="#8b5cf6" opacity="0.05"/>
+  <circle cx="700" cy="300" r="200" fill="#3b82f6" opacity="0.05"/>
+  
+  <!-- Изображение горы -->
+  <image href="mountain.png" x="0" y="50" width="800" height="300" opacity="0.95"/>
+  
+  <!-- Затемнение для лучшей читаемости текста -->
+  <rect x="0" y="150" width="800" height="150" fill="black" opacity="0.4"/>
+  
+  <!-- Основной текст Timeline Studio -->
+  <text x="400" y="230" 
+        font-family="Brush Script MT, Lucida Handwriting, cursive" 
+        font-size="80" 
+        font-weight="bold"
+        text-anchor="middle" 
+        fill="#8b5cf6" 
+        filter="url(#textShadow)">
+    Timeline Studio
+  </text>
+  
+  <!-- Подзаголовок -->
+  <text x="400" y="280" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" 
+        font-size="18" 
+        text-anchor="middle" 
+        fill="#e0e0e0"
+        opacity="0.9">
+    AI-Powered Video Editor • Multi-Platform Export • GPU Acceleration
+  </text>
+  
+  <!-- Декоративная линия -->
+  <line x1="200" y1="300" x2="600" y2="300" stroke="#8b5cf6" stroke-width="2" opacity="0.5"/>
+</svg>
