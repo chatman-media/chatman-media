@@ -1,6 +1,10 @@
 # [Timeline Studio](https://github.com/chatman-media/timeline-studio) & [real X](https://github.com/chatman-media/x)
 
-[![](/logo2.png)](https://timelinestudio.pro/)
+<div align="center">
+  <a href="https://timelinestudio.pro/">
+    <img src="mountain.png" alt="Timeline Studio 3D Logo" width="100%" style="max-width: 800px; margin: 20px 0;" />
+  </a>
+</div>
 
 | [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Alexander+Kireyev;+Welcome+to+My+Profile!;Physicist+•+Mathematician+•+Engineer+•+Philosopher+;Timeline+Studio:+founder+;X+Digital+Marketplace+ecosystem+🚀)](https://git.io/typing-svg) | [![Stack Overflow profile](https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark)](https://stackoverflow.com/users/724036/alexander-kireyev) |
 |:---:|:---:|
@@ -61,7 +65,7 @@
 
 ## 🏆 GitHub Trophies
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=chatman-media&theme=github_dark&no-frame=true&no-bg=true&margin-w=4)
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=chatman-media&theme=nord&no-frame=true&no-bg=false&margin-w=4&margin-h=4)
 
 ![Wakatime Activity](https://wakatime.com/share/@chatman/b67749ee-d2b0-4721-a30e-cfb74d977fce.svg)
 
@@ -70,7 +74,7 @@
 ![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=github_dark)
 ![Productive time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&theme=github_dark)
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=github-compact&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area_color=1f6feb&area=true&hide_border=true)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=react-dark&bg_color=1a1b27&color=70a5fd&line=70a5fd&point=bf91f3&area_color=1a1b27&area=true&hide_border=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=chatman-media&theme=telegram-gradient&hide_border=true&card_width=900)
 
