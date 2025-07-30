@@ -101,18 +101,26 @@
 ## 📈 Coding Activity
 
 <div align="center">
-  <img width="100%" src="https://wakatime.com/share/@chatman/b67749ee-d2b0-4721-a30e-cfb74d977fce.svg" alt="Wakatime Activity"/>
+  <!-- GitHub Contribution Snake -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
+  </picture>
+  
+  <!-- Wakatime Stats Badge -->
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=chatman&theme=tokyonight&hide_border=true&layout=compact&langs_count=10&custom_title=Weekly%20Coding%20Activity&card_width=1000" alt="Wakatime Stats" width="100%"/>
 </div>
 
 ## 🎯 Profile Summary
 
 <div align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=github_dark" alt="Profile Details"/>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=tokyonight" alt="Profile Details"/>
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=github_dark" alt="Stats"/>
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&theme=github_dark" alt="Productive Time"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=tokyonight" alt="Stats"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&theme=tokyonight" alt="Productive Time"/>
 </div>
 
 ## 🔬 Detailed Metrics
