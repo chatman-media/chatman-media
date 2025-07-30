@@ -1,17 +1,18 @@
 <div align="center">
   
-  <!-- Основное изображение с горой -->
-  <a href="https://timelinestudio.pro/">
-    <img src="mountain.png" alt="Timeline Studio" width="100%" style="max-width: 800px; border-radius: 10px 10px 0 0; box-shadow: 0 20px 40px rgba(139, 92, 246, 0.3); mask-image: linear-gradient(to bottom, black 0%, black 70%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 0%, black 70%, transparent 100%);" />
-  </a>
-  
-  <!-- Анимированный текст Timeline Studio -->
-  <a href="https://timelinestudio.pro/">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Brush+Script+MT&size=80&pause=2000&color=8B5CF6&center=true&vCenter=true&width=800&height=100&lines=Timeline+Studio&duration=4000" alt="Timeline Studio" />
-  </a>
+  <!-- Контейнер с позиционированием -->
+  <div style="position: relative; display: inline-block; max-width: 800px;">
+    <a href="https://timelinestudio.pro/">
+      <!-- Основное изображение с горой -->
+      <img src="mountain.png" alt="Timeline Studio" width="100%" style="border-radius: 10px 10px 0 0; box-shadow: 0 20px 40px rgba(139, 92, 246, 0.3); mask-image: linear-gradient(to bottom, black 0%, black 70%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 0%, black 70%, transparent 100%);" />
+      <div style="position: absolute; top: 79%; left: 50%; transform: translate(-50%, -50%); width: 90%;">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Brush+Script+MT&size=140&pause=2000&color=8B5CF6&center=true&vCenter=true&width=800&height=100&lines=Timeline+Studio&duration=4000" alt="Timeline Studio" style="width: 100%; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.8)) drop-shadow(0 2px 4px rgba(139,92,246,0.5)) drop-shadow(0 0 40px rgba(139,92,246,0.4));" />
+      </div>
+    </a>
+  </div>
   
   <!-- Подзаголовок -->
-  <p align="center">
+  <p align="center" style="margin-top: 10px; margin-bottom: 0px;">
     <b>🎬 AI-Powered Video Editor • 🚀 Multi-Platform Export • ⚡ GPU Acceleration</b>
   </p>
   
