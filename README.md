@@ -21,9 +21,9 @@
   
   <!-- Timeline Studio Stats -->
   <p align="center">
-    <a href="https://timelinestudio.pro/"><img src="https://img.shields.io/github/stars/chatman-media/timeline-studio?style=for-the-badge&logo=github&color=8b5cf6&labelColor=1c1917" alt="Stars"></a>
-    <a href="https://timelinestudio.pro/"><img src="https://img.shields.io/github/v/release/chatman-media/timeline-studio?style=for-the-badge&color=8b5cf6&labelColor=1c1917" alt="Version"></a>
-    <a href="https://timelinestudio.pro/"><img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-8b5cf6?style=for-the-badge&labelColor=1c1917" alt="Platform"></a>
+    <a href="https://github.com/chatman-media/timeline-studio"><img src="https://img.shields.io/github/stars/chatman-media/timeline-studio?style=for-the-badge&logo=github&color=8b5cf6&labelColor=1c1917" alt="Stars"></a>
+    <a href="https://github.com/chatman-media/timeline-studio"><img src="https://img.shields.io/github/v/release/chatman-media/timeline-studio?style=for-the-badge&color=8b5cf6&labelColor=1c1917" alt="Version"></a>
+    <a href="https://github.com/chatman-media/timeline-studio"><img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-8b5cf6?style=for-the-badge&labelColor=1c1917" alt="Platform"></a>
   </p>
   
 </div>
