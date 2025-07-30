@@ -1,305 +1,443 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatman's Mind</title>
-    <link rel="icon" type="image/png" href="favicon.ico">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background-color: #0d1117;
-            color: #c9d1d9;
-            line-height: 1.6;
-            min-height: 100vh;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        
-        header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-        
-        h1 a {
-            color: #58a6ff;
-            text-decoration: none;
-            transition: opacity 0.2s;
-        }
-        
-        h1 a:hover {
-            opacity: 0.8;
-        }
-        
-        .logo {
-            margin: 2rem 0;
-        }
-        
-        .logo img {
-            max-width: 900px;
-            width: 100%;
-            height: auto;
-        }
-        
-        .intro-section {
-            display: flex;
-            gap: 2rem;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 3rem;
-            flex-wrap: wrap;
-        }
-        
-        .typing-svg, .stackoverflow-card {
-            flex: 1;
-            min-width: 300px;
-            display: flex;
-            justify-content: center;
-        }
-        
-        .social-badges {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            justify-content: center;
-            margin-bottom: 3rem;
-        }
-        
-        .badge-link {
-            display: inline-flex;
-            align-items: center;
-            text-decoration: none;
-            transition: transform 0.2s;
-        }
-        
-        .badge-link:hover {
-            transform: translateY(-2px);
-        }
-        
-        .badge-link img {
-            height: 28px;
-        }
-        
-        .arrow-badge {
-            padding: 0 0.5rem;
-            color: #8b949e;
-            font-size: 1.2rem;
-        }
-        
-        section {
-            margin-bottom: 3rem;
-        }
-        
-        h2 {
-            font-size: 1.8rem;
-            margin-bottom: 1.5rem;
-            text-align: center;
-            color: #f0f6fc;
-        }
-        
-        .support-list {
-            background-color: #161b22;
-            border-radius: 6px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-        }
-        
-        .support-list ul {
-            list-style: none;
-        }
-        
-        .support-list li {
-            margin-bottom: 1rem;
-            font-family: 'Courier New', monospace;
-            word-break: break-all;
-        }
-        
-        .support-list strong {
-            color: #58a6ff;
-            margin-right: 0.5rem;
-        }
-        
-        .qr-codes {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            justify-content: center;
-        }
-        
-        .qr-codes img {
-            height: 205px;
-            border-radius: 6px;
-        }
-        
-        .skills-badges {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            justify-content: center;
-            margin-bottom: 2rem;
-        }
-        
-        .github-stats {
-            display: grid;
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-        
-        .github-stats img {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            display: block;
-            border-radius: 6px;
-        }
-        
-        .stats-row {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1rem;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        
-        @media (max-width: 768px) {
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chatman's Mind</title>
+        <link rel="icon" type="image/png" href="favicon.ico" />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family:
+                    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                    Oxygen, Ubuntu, Cantarell, sans-serif;
+                background-color: #0d1117;
+                color: #c9d1d9;
+                line-height: 1.6;
+                min-height: 100vh;
+            }
+
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 2rem;
+            }
+
+            header {
+                text-align: center;
+                margin-bottom: 3rem;
+            }
+
             h1 {
-                font-size: 1.8rem;
+                font-size: 2.5rem;
+                margin-bottom: 1rem;
             }
-            
+
+            h1 a {
+                color: #58a6ff;
+                text-decoration: none;
+                transition: opacity 0.2s;
+            }
+
+            h1 a:hover {
+                opacity: 0.8;
+            }
+
+            .logo {
+                margin: 2rem 0;
+            }
+
+            .logo img {
+                max-width: 900px;
+                width: 100%;
+                height: auto;
+            }
+
             .intro-section {
+                display: flex;
+                gap: 2rem;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 3rem;
+                flex-wrap: wrap;
+            }
+
+            .typing-svg,
+            .stackoverflow-card {
+                flex: 1;
+                min-width: 300px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .social-badges {
+                display: flex;
                 flex-direction: column;
+                gap: 1rem;
+                justify-content: center;
+                margin-bottom: 3rem;
             }
-            
+
+            .badge-link {
+                display: inline-flex;
+                align-items: center;
+                text-decoration: none;
+                transition: transform 0.2s;
+            }
+
+            .badge-link:hover {
+                transform: translateY(-2px);
+            }
+
+            .badge-link img {
+                height: 28px;
+            }
+
+            .arrow-badge {
+                padding: 0 0.5rem;
+                color: #8b949e;
+                font-size: 1.2rem;
+            }
+
+            section {
+                margin-bottom: 3rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+                margin-bottom: 1.5rem;
+                text-align: center;
+                color: #f0f6fc;
+            }
+
             .support-list {
-                padding: 1rem;
+                background-color: #161b22;
+                border-radius: 6px;
+                padding: 2rem;
+                margin-bottom: 2rem;
             }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>
-                <a href="https://github.com/chatman-media/timeline-studio">Timeline Studio</a> & 
-                <a href="https://github.com/chatman-media/x">real X</a>
-            </h1>
-            
-            <div class="logo">
-                <a href="https://timelinestudio.pro/">
-                    <img src="logo2.png" alt="Timeline Studio Logo">
-                </a>
-            </div>
-        </header>
-        
-        <div class="intro-section">
-            <div class="typing-svg">
-                <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Alexander+Kireyev;+Welcome+to+My+Profile!;Physicist+•+Mathematician+•+Engineer+•+Philosopher+;Timeline+Studio:+founder+;X+Digital+Marketplace+ecosystem+🚀" alt="Typing SVG">
-            </div>
-            <div class="stackoverflow-card">
-                <a href="https://stackoverflow.com/users/724036/alexander-kireyev">
-                    <img src="https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark" alt="Stack Overflow profile">
-                </a>
-            </div>
-        </div>
-        
-        <div class="social-badges">
-            <div style="width: 100%; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-                <a href="https://github.com/chatman-media/telegram-badge" class="badge-link">
-                    <img src="https://img.shields.io/badge/GitHub_repo-this_badge_→-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge Repo">
-                </a>
-                <a href="https://t.me/timelinestudio" class="badge-link">
-                    <img src="https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&link=https://t.me/timelinestudio" alt="Telegram">
-                </a>
-                <a href="https://discord.gg/BSddjvWk" class="badge-link">
-                    <img src="https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-                </a>
-                <a href="https://www.twitch.tv/chatman1984" class="badge-link">
-                    <img src="https://img.shields.io/twitch/status/chatman1984?style=for-the-badge&logo=twitch&logoColor=white&color=9146FF&label=Twitch" alt="Twitch Status">
-                </a>
-            </div>
-            <div style="width: 100%; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-                <a href="https://www.tiktok.com/@chatman.media" class="badge-link">
-                    <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1c1917" alt="TikTok">
-                </a>
-                <a href="https://www.youtube.com/@chatman-media" class="badge-link">
-                    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=1c1917" alt="YouTube">
-                </a>
-                <a href="https://t.me/alexanderkireyev" class="badge-link">
-                    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1c1917" alt="Telegram Personal">
-                </a>
-                <a href="https://x.com/chatman_media" class="badge-link">
-                    <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1c1917" alt="X/Twitter">
-                </a>
-            </div>
-        </div>
-        
-        <section>
-            <h2>Support 💝🚀</h2>
-            <div class="support-list">
-                <ul>
-                    <li><strong>BTC:</strong> 14s9Y9Rb2CUWHSAatiQMhfkpx1MWXofUzw</li>
-                    <li><strong>TON:</strong> UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj</li>
-                    <li><strong>NOT:</strong> UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj</li>
-                    <li><strong>ETH:</strong> 0x286D65151b622dCC16624cEd8463FDa45585fd60</li>
-                </ul>
-            </div>
-            <div class="qr-codes">
-                <img src="btc.png" alt="BTC QR Code">
-                <img src="ton.png" alt="TON QR Code">
-                <img src="not.png" alt="NOT QR Code">
-                <img src="eth.png" alt="ETH QR Code">
-            </div>
-        </section>
-        
-        <section>
-            <h2>Skills & Passion</h2>
-            <div class="skills-badges">
-                <img src="https://wakatime.com/badge/user/4393eda7-541a-42ae-974f-3a312c0631b7.svg?style=for-the-badge" alt="Wakatime total">
-                <img src="https://img.shields.io/badge/tauri-%23FFC131.svg?style=for-the-badge&logo=tauri&logoColor=black" alt="Tauri">
-                <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
-                <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="NextJS">
-                <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
-                <img src="https://img.shields.io/badge/xstate-%232C3E50.svg?style=for-the-badge&logo=xstate&logoColor=white" alt="XState">
-                <img src="https://img.shields.io/badge/SolidJS-2c4f7c?style=for-the-badge&logo=solid&logoColor=c8c9cb" alt="SolidJS">
-            </div>
-            <div class="skills-badges">
-                <img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white" alt="Ruby">
-                <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
-                <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-                <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
-                <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
-                <img src="https://img.shields.io/badge/c%23-%23512BD4.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="C#">
-            </div>
-            
-            <div class="github-stats">
-                <img src="https://wakatime.com/share/@chatman/b67749ee-d2b0-4721-a30e-cfb74d977fce.svg" alt="Wakatime Activity">
-                <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=github_dark" alt="Profile details">
-                
-                <div class="stats-row">
-                    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=github_dark" alt="Stats">
-                    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&theme=github_dark" alt="Productive time">
+
+            .support-list ul {
+                list-style: none;
+            }
+
+            .support-list li {
+                margin-bottom: 1rem;
+                font-family: "Courier New", monospace;
+                word-break: break-all;
+            }
+
+            .support-list strong {
+                color: #58a6ff;
+                margin-right: 0.5rem;
+            }
+
+            .qr-codes {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+                justify-content: center;
+            }
+
+            .qr-codes img {
+                height: 205px;
+                border-radius: 6px;
+            }
+
+            .skills-badges {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                justify-content: center;
+                margin-bottom: 2rem;
+            }
+
+            .github-stats {
+                display: grid;
+                gap: 2rem;
+                margin-top: 2rem;
+            }
+
+            .github-stats img {
+                width: 100%;
+                max-width: 900px;
+                margin: 0 auto;
+                display: block;
+                border-radius: 6px;
+            }
+
+            .stats-row {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 1rem;
+                max-width: 900px;
+                margin: 0 auto;
+            }
+
+            @media (max-width: 768px) {
+                h1 {
+                    font-size: 1.8rem;
+                }
+
+                .intro-section {
+                    flex-direction: column;
+                }
+
+                .support-list {
+                    padding: 1rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>
+                    <a href="https://github.com/chatman-media/timeline-studio"
+                        >Timeline Studio</a
+                    >
+                    &
+                    <a href="https://github.com/chatman-media/x">real X</a>
+                </h1>
+
+                <div class="logo">
+                    <a href="https://timelinestudio.pro/">
+                        <img src="logo2.png" alt="Timeline Studio Logo" />
+                    </a>
                 </div>
-                
-                <img src="https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=github-compact&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area_color=1f6feb&area=true&hide_border=true" alt="GitHub Activity Graph">
-                <img src="https://streak-stats.demolab.com?user=chatman-media&theme=telegram-gradient&hide_border=true&card_width=900" alt="GitHub Streak">
-                <img src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg" alt="Metrics">
+            </header>
+
+            <div class="intro-section">
+                <div class="typing-svg">
+                    <img
+                        src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Alexander+Kireyev;+Welcome+to+My+Profile!;Physicist+•+Mathematician+•+Engineer+•+Philosopher+;Timeline+Studio:+founder+;X+Digital+Marketplace+ecosystem+🚀"
+                        alt="Typing SVG"
+                    />
+                </div>
+                <div class="stackoverflow-card">
+                    <a
+                        href="https://stackoverflow.com/users/724036/alexander-kireyev"
+                    >
+                        <img
+                            src="https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark"
+                            alt="Stack Overflow profile"
+                        />
+                    </a>
+                </div>
             </div>
-        </section>
-    </div>
-</body>
+
+            <div class="social-badges">
+                <div
+                    style="
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 1rem;
+                        justify-content: center;
+                    "
+                >
+                    <a
+                        href="https://github.com/chatman-media/telegram-badge"
+                        class="badge-link"
+                    >
+                        <img
+                            src="https://img.shields.io/badge/GitHub_repo-this_badge_→-181717?style=for-the-badge&logo=github&logoColor=white"
+                            alt="GitHub Badge Repo"
+                        />
+                    </a>
+                    <a href="https://t.me/timelinestudio" class="badge-link">
+                        <img
+                            src="https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&link=https://t.me/timelinestudio"
+                            alt="Telegram"
+                        />
+                    </a>
+                    <a href="https://discord.gg/uvSBCw6e" class="badge-link">
+                        <img
+                            src="https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"
+                            alt="Discord"
+                        />
+                    </a>
+                    <a
+                        href="https://www.twitch.tv/chatman1984"
+                        class="badge-link"
+                    >
+                        <img
+                            src="https://img.shields.io/twitch/status/chatman1984?style=for-the-badge&logo=twitch&logoColor=white&color=9146FF&label=Twitch"
+                            alt="Twitch Status"
+                        />
+                    </a>
+                </div>
+                <div
+                    style="
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 1rem;
+                        justify-content: center;
+                    "
+                >
+                    <a
+                        href="https://www.tiktok.com/@chatman.media"
+                        class="badge-link"
+                    >
+                        <img
+                            src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1c1917"
+                            alt="TikTok"
+                        />
+                    </a>
+                    <a
+                        href="https://www.youtube.com/@chatman-media"
+                        class="badge-link"
+                    >
+                        <img
+                            src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=1c1917"
+                            alt="YouTube"
+                        />
+                    </a>
+                    <a href="https://t.me/alexanderkireyev" class="badge-link">
+                        <img
+                            src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1c1917"
+                            alt="Telegram Personal"
+                        />
+                    </a>
+                    <a href="https://x.com/chatman_media" class="badge-link">
+                        <img
+                            src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1c1917"
+                            alt="X/Twitter"
+                        />
+                    </a>
+                </div>
+            </div>
+
+            <section>
+                <h2>Support 💝🚀</h2>
+                <div class="support-list">
+                    <ul>
+                        <li>
+                            <strong>BTC:</strong>
+                            14s9Y9Rb2CUWHSAatiQMhfkpx1MWXofUzw
+                        </li>
+                        <li>
+                            <strong>TON:</strong>
+                            UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj
+                        </li>
+                        <li>
+                            <strong>NOT:</strong>
+                            UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj
+                        </li>
+                        <li>
+                            <strong>ETH:</strong>
+                            0x286D65151b622dCC16624cEd8463FDa45585fd60
+                        </li>
+                    </ul>
+                </div>
+                <div class="qr-codes">
+                    <img src="btc.png" alt="BTC QR Code" />
+                    <img src="ton.png" alt="TON QR Code" />
+                    <img src="not.png" alt="NOT QR Code" />
+                    <img src="eth.png" alt="ETH QR Code" />
+                </div>
+            </section>
+
+            <section>
+                <h2>Skills & Passion</h2>
+                <div class="skills-badges">
+                    <img
+                        src="https://wakatime.com/badge/user/4393eda7-541a-42ae-974f-3a312c0631b7.svg?style=for-the-badge"
+                        alt="Wakatime total"
+                    />
+                    <img
+                        src="https://img.shields.io/badge/tauri-%23FFC131.svg?style=for-the-badge&logo=tauri&logoColor=black"
+                        alt="Tauri"
+                    />
+                    <img
+                        src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+                        alt="Node.js"
+                    />
+                    <img
+                        src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"
+                        alt="NextJS"
+                    />
+                    <img
+                        src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+                        alt="React"
+                    />
+                    <img
+                        src="https://img.shields.io/badge/xstate-%232C3E50.svg?style=for-the-badge&logo=xstate&logoColor=white"
+                        alt="XState"
+                    />
+                    <img
+                        src="https://img.shields.io/badge/SolidJS-2c4f7c?style=for-the-badge&logo=solid&logoColor=c8c9cb"
+                        alt="SolidJS"
+                    />
+                </div>
+                <div class="skills-badges">
+                    <img
+                        src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white"
+                        alt="Ruby"
+                    />
+                    <img
+                        src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white"
+                        alt="Rust"
+                    />
+                    <img
+                        src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+                        alt="TypeScript"
+                    />
+                    <img
+                        src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+                        alt="JavaScript"
+                    />
+                    <img
+                        src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+                        alt="Python"
+                    />
+                    <img
+                        src="https://img.shields.io/badge/c%23-%23512BD4.svg?style=for-the-badge&logo=csharp&logoColor=white"
+                        alt="C#"
+                    />
+                </div>
+
+                <div class="github-stats">
+                    <img
+                        src="https://wakatime.com/share/@chatman/b67749ee-d2b0-4721-a30e-cfb74d977fce.svg"
+                        alt="Wakatime Activity"
+                    />
+                    <img
+                        src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=github_dark"
+                        alt="Profile details"
+                    />
+
+                    <div class="stats-row">
+                        <img
+                            src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=github_dark"
+                            alt="Stats"
+                        />
+                        <img
+                            src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&theme=github_dark"
+                            alt="Productive time"
+                        />
+                    </div>
+
+                    <img
+                        src="https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=github-compact&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area_color=1f6feb&area=true&hide_border=true"
+                        alt="GitHub Activity Graph"
+                    />
+                    <img
+                        src="https://streak-stats.demolab.com?user=chatman-media&theme=telegram-gradient&hide_border=true&card_width=900"
+                        alt="GitHub Streak"
+                    />
+                    <img
+                        src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg"
+                        alt="Metrics"
+                    />
+                </div>
+            </section>
+        </div>
+    </body>
 </html>

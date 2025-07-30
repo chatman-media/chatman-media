@@ -10,7 +10,7 @@
 <!-- <a href="https://app.daily.dev/chatman_media"><img src="https://api.daily.dev/devcards/v2/m03UAnE1I90U0mAxEpcNd.png?type=default&r=8i7" width="280" alt="Chatman's Dev Card"/></a> -->
 
 [![GitHub](https://img.shields.io/badge/GitHub_repo-this_badge_→-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chatman-media/telegram-badge) [![Telegram](https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&link=https://t.me/timelinestudio)](https://t.me/timelinestudio)
-[![Discord](https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/BSddjvWk)
+[![Discord](https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/uvSBCw6e)
 [![Twitch Status](https://img.shields.io/twitch/status/chatman1984?style=for-the-badge&logo=twitch&logoColor=white&color=9146FF&label=Twitch)](https://www.twitch.tv/chatman1984)
 
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1c1917)](https://www.tiktok.com/@chatman.media)
