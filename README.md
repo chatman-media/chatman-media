@@ -2,7 +2,7 @@
   
   <!-- Основное изображение с горой -->
   <a href="https://timelinestudio.pro/">
-    <img src="mountain.png" alt="Timeline Studio" width="100%" style="max-width: 800px; border-radius: 10px; box-shadow: 0 20px 40px rgba(139, 92, 246, 0.3);" />
+    <img src="mountain.png" alt="Timeline Studio" width="100%" style="max-width: 800px; border-radius: 10px 10px 0 0; box-shadow: 0 20px 40px rgba(139, 92, 246, 0.3); mask-image: linear-gradient(to bottom, black 0%, black 70%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 0%, black 70%, transparent 100%);" />
   </a>
   
   <!-- Анимированный текст Timeline Studio -->
