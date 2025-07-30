@@ -129,20 +129,4 @@
   <img width="100%" src="https://github.com/chatman-media/chatman-media/blob/main/github-metrics.svg" alt="Detailed Metrics"/>
 </div>
 
-## 📈 People Reached
-
-<div align="center">
-  <a href="https://starchart.cc/chatman-media/timeline-studio">
-    <img width="100%" src="https://starchart.cc/chatman-media/timeline-studio.svg?variant=adaptive" alt="Stargazers over time"/>
-  </a>
-</div>
-
-## ⭐ Star History
-
-<div align="center">
-  <a href="https://star-history.com/#chatman-media/timeline-studio&chatman-media/telegram-badge&Date">
-    <img width="100%" src="https://api.star-history.com/svg?repos=chatman-media/timeline-studio,chatman-media/telegram-badge&type=Date" alt="Star History Chart"/>
-  </a>
-</div>
-
 </div>
