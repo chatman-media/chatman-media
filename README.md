@@ -1,5 +1,3 @@
-# [Timeline Studio](https://github.com/chatman-media/timeline-studio) & [real X](https://github.com/chatman-media/x)
-
 <div align="center">
   
   <!-- Основное изображение с горой -->
@@ -8,7 +6,9 @@
   </a>
   
   <!-- Анимированный текст Timeline Studio -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Brush+Script+MT&size=80&pause=2000&color=8B5CF6&center=true&vCenter=true&width=800&height=100&lines=Timeline+Studio&duration=4000" alt="Timeline Studio" />
+  <a href="https://timelinestudio.pro/">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Brush+Script+MT&size=80&pause=2000&color=8B5CF6&center=true&vCenter=true&width=800&height=100&lines=Timeline+Studio&duration=4000" alt="Timeline Studio" />
+  </a>
   
   <!-- Подзаголовок -->
   <p align="center">
