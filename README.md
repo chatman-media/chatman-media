@@ -1,5 +1,5 @@
 <div align="center">
-  
+
   <!-- Контейнер с позиционированием -->
   <!-- <div style="position: relative; display: inline-block; max-width: 800px;">
     <a href="https://timelinestudio.pro/">
@@ -9,23 +9,24 @@
       </div>
     </a>
   </div> -->
+
   <a href="https://timelinestudio.pro/"><img src="https://readme-typing-svg.herokuapp.com?font=Brush+Script+MT&size=140&pause=2000&color=8B5CF6&center=true&vCenter=true&width=800&height=140&lines=Timeline+Studio&duration=4000" alt="Timeline Studio" style="width: 100%; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.8)) drop-shadow(0 2px 4px rgba(139,92,246,0.5)) drop-shadow(0 0 40px rgba(139,92,246,0.4));" /></a>
-  
+
   <!-- Подзаголовок -->
   <p align="center" style="margin-top: 10px; margin-bottom: 0px;">
     <b>🎬 AI-Powered Video Editor • 🚀 Multi-Platform Export • ⚡ GPU Acceleration</b>
   </p>
-  
+
   <!-- Анимированная линия -->
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-  
+
   <!-- Timeline Studio Stats -->
   <p align="center">
     <a href="https://github.com/chatman-media/timeline-studio"><img src="https://img.shields.io/github/stars/chatman-media/timeline-studio?style=for-the-badge&logo=github&color=8b5cf6&labelColor=1c1917" alt="Stars"></a>
     <a href="https://github.com/chatman-media/timeline-studio"><img src="https://img.shields.io/github/v/release/chatman-media/timeline-studio?style=for-the-badge&color=8b5cf6&labelColor=1c1917" alt="Version"></a>
     <a href="https://github.com/chatman-media/timeline-studio"><img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-8b5cf6?style=for-the-badge&labelColor=1c1917" alt="Platform"></a>
   </p>
-  
+
 </div>
 
 | [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Alexander+Kireyev;+Welcome+to+My+Profile!;Physicist+•+Mathematician+•+Engineer+•+Philosopher+;Timeline+Studio:+founder+;X+Digital+Marketplace+ecosystem+🚀)](https://git.io/typing-svg) | [![Stack Overflow profile](https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark)](https://stackoverflow.com/users/724036/alexander-kireyev) |
@@ -111,9 +112,6 @@ Support the development via crypto donations:
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
   </picture>
-  
-  <!-- Wakatime Stats Badge -->
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=chatman&theme=tokyonight&hide_border=true&layout=compact&langs_count=10&custom_title=Weekly%20Coding%20Activity&card_width=1000" alt="Wakatime Stats" width="100%"/>
 </div>
 
 ## 🎯 Profile Summary
