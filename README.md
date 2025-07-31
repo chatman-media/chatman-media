@@ -56,19 +56,37 @@
 
 ## Support 💝🚀
 
-- **BTC:** 14s9Y9Rb2CUWHSAatiQMhfkpx1MWXofUzw
-- **TON:** UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj
-- **NOT:** UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj
-- **ETH:** 0x286D65151b622dCC16624cEd8463FDa45585fd60
+Support the development via crypto donations:
 
 <div align="center">
-
-  <img src="btc.png" alt="BTC" style="height: 205px" />
-  <img src="ton.png" alt="TON" style="height: 205px" />
-  <img src="not.png" alt="TON" style="height: 205px" />
-  <img src="eth.png" alt="ETH" style="height: 205px" />
-
+  <table>
+    <tr>
+      <td align="center">
+        <strong>BTC</strong><br/>
+        <img src="btc.png" alt="BTC QR Code" height="200" /><br/>
+        <code>14s9Y9Rb2CUWHSAatiQMhfkpx1MWXofUzw</code>
+      </td>
+      <td align="center">
+        <strong>ETH</strong><br/>
+        <img src="eth.png" alt="ETH QR Code" height="200" /><br/>
+        <code>0x286D65151b622dCC16624cEd8463FDa45585fd60</code>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <strong>TON</strong><br/>
+        <img src="ton.png" alt="TON QR Code" height="200" /><br/>
+        <code>UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj</code>
+      </td>
+      <td align="center">
+        <strong>NOT</strong><br/>
+        <img src="not.png" alt="NOT QR Code" height="200" /><br/>
+        <code>UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj</code>
+      </td>
+    </tr>
+  </table>
 </div>
+
 
 ## 🏆 GitHub Trophies
 
