@@ -22,6 +22,111 @@
                 min-height: 100vh;
             }
 
+            /* Tab Navigation */
+            .tab-navigation {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                background: linear-gradient(180deg, rgba(22, 27, 34, 0.98) 0%, rgba(22, 27, 34, 0.95) 100%);
+                backdrop-filter: blur(10px);
+                border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+                z-index: 1000;
+                padding: 1rem 0;
+                animation: slideDown 0.5s ease-out;
+            }
+
+            @keyframes slideDown {
+                from {
+                    transform: translateY(-100%);
+                    opacity: 0;
+                }
+                to {
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+
+            .tab-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+            }
+
+            .tab-btn {
+                background: transparent;
+                border: 2px solid transparent;
+                color: #8b949e;
+                padding: 0.8rem 2rem;
+                font-size: 1.1rem;
+                font-family: "Courier New", monospace;
+                cursor: pointer;
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                position: relative;
+                overflow: hidden;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            .tab-btn::before {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 0;
+                height: 3px;
+                background: linear-gradient(90deg, #8b5cf6, #58a6ff);
+                transition: width 0.3s ease;
+            }
+
+            .tab-btn:hover {
+                color: #c9d1d9;
+                transform: translateY(-2px);
+            }
+
+            .tab-btn:hover::before {
+                width: 100%;
+            }
+
+            .tab-btn.active {
+                color: #8b5cf6;
+                border: 2px solid rgba(139, 92, 246, 0.3);
+                background: rgba(139, 92, 246, 0.1);
+                box-shadow: 0 0 30px rgba(139, 92, 246, 0.3);
+            }
+
+            .tab-btn.active::before {
+                width: 100%;
+            }
+
+            /* Tab Content */
+            .tab-content {
+                margin-top: 80px;
+                display: none;
+                animation: fadeIn 0.6s ease;
+            }
+
+            .tab-content.active {
+                display: block;
+            }
+
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(20px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            /* Programming Tab Styles */
             .container {
                 max-width: 1200px;
                 margin: 0 auto;
@@ -96,12 +201,6 @@
 
             .badge-link img {
                 height: 28px;
-            }
-
-            .arrow-badge {
-                padding: 0 0.5rem;
-                color: #8b949e;
-                font-size: 1.2rem;
             }
 
             section {
@@ -180,141 +279,37 @@
                 margin: 0 auto;
             }
 
-            /* Manifest Navigation Styles */
-            .manifest-nav {
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                background: linear-gradient(180deg, rgba(22, 27, 34, 0.98) 0%, rgba(22, 27, 34, 0.95) 100%);
-                backdrop-filter: blur(10px);
-                border-bottom: 1px solid rgba(139, 92, 246, 0.2);
-                z-index: 1000;
-                padding: 1rem 0;
-                animation: slideDown 0.5s ease-out;
-            }
-
-            @keyframes slideDown {
-                from {
-                    transform: translateY(-100%);
-                    opacity: 0;
-                }
-                to {
-                    transform: translateY(0);
-                    opacity: 1;
-                }
-            }
-
-            .nav-container {
-                max-width: 1200px;
+            /* Manifesto Tab Styles */
+            .manifesto-container {
+                max-width: 900px;
                 margin: 0 auto;
-                padding: 0 2rem;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-            }
-
-            .nav-title {
-                font-size: 1.5rem;
-                font-weight: bold;
-                color: #8b5cf6;
-                text-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
-                letter-spacing: 2px;
-            }
-
-            .nav-menu {
-                display: flex;
-                gap: 0.5rem;
-            }
-
-            .nav-item {
-                background: transparent;
-                border: 1px solid transparent;
-                color: #8b949e;
-                padding: 0.5rem 1rem;
-                font-size: 0.85rem;
-                font-family: "Courier New", monospace;
-                cursor: pointer;
-                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-                position: relative;
-                overflow: hidden;
-                letter-spacing: 1px;
-            }
-
-            .nav-item::before {
-                content: '';
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 0;
-                height: 2px;
-                background: linear-gradient(90deg, #8b5cf6, #58a6ff);
-                transition: width 0.3s ease;
-            }
-
-            .nav-item:hover {
-                color: #c9d1d9;
-                transform: translateY(-2px);
-            }
-
-            .nav-item:hover::before {
-                width: 100%;
-            }
-
-            .nav-item.active {
-                color: #8b5cf6;
-                border: 1px solid rgba(139, 92, 246, 0.3);
-                background: rgba(139, 92, 246, 0.1);
-                box-shadow: 0 0 20px rgba(139, 92, 246, 0.2);
-            }
-
-            .nav-item.active::before {
-                width: 100%;
-            }
-
-            /* Manifest Content Styles */
-            .manifest-content {
-                margin-top: 80px;
-                min-height: 60vh;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                position: relative;
                 padding: 2rem;
             }
 
-            .manifest-section {
-                position: absolute;
-                width: 100%;
-                max-width: 800px;
-                opacity: 0;
-                visibility: hidden;
-                transform: translateX(50px) scale(0.95);
-                transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-            }
-
-            .manifest-section.active {
-                opacity: 1;
-                visibility: visible;
-                transform: translateX(0) scale(1);
-            }
-
-            .section-inner {
-                background: linear-gradient(135deg, rgba(22, 27, 34, 0.9) 0%, rgba(32, 40, 48, 0.9) 100%);
-                border: 1px solid rgba(139, 92, 246, 0.2);
-                border-radius: 12px;
-                padding: 3rem;
-                box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 100px rgba(139, 92, 246, 0.1);
-                backdrop-filter: blur(10px);
-            }
-
-            .manifest-title {
-                font-size: 2rem;
-                margin-bottom: 2rem;
-                color: #8b5cf6;
+            .manifesto-header {
                 text-align: center;
-                letter-spacing: 3px;
+                margin-bottom: 4rem;
+                padding: 3rem 0;
+                position: relative;
+            }
+
+            .manifesto-header::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 100px;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, #8b5cf6, transparent);
+            }
+
+            .manifesto-main-title {
+                font-size: 3rem;
+                color: #8b5cf6;
                 text-shadow: 0 0 30px rgba(139, 92, 246, 0.5);
+                letter-spacing: 4px;
+                margin-bottom: 1rem;
                 animation: glow 2s ease-in-out infinite alternate;
             }
 
@@ -327,26 +322,59 @@
                 }
             }
 
-            .manifest-text {
-                text-align: center;
+            .manifesto-section {
+                margin-bottom: 4rem;
+                padding: 2rem;
+                background: linear-gradient(135deg, rgba(22, 27, 34, 0.5) 0%, rgba(32, 40, 48, 0.5) 100%);
+                border-left: 3px solid rgba(139, 92, 246, 0.5);
+                border-radius: 8px;
+                position: relative;
+                overflow: hidden;
             }
 
-            .manifest-text p {
-                margin: 1.5rem 0;
+            .manifesto-section::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                background: linear-gradient(90deg, #8b5cf6, transparent);
+                animation: scan 3s linear infinite;
+            }
+
+            @keyframes scan {
+                0% { transform: translateX(-100%); }
+                100% { transform: translateX(100%); }
+            }
+
+            .manifesto-title {
+                font-size: 1.8rem;
+                color: #58a6ff;
+                margin-bottom: 1.5rem;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+
+            .manifesto-text {
                 font-size: 1.1rem;
-                line-height: 1.8;
+                line-height: 2;
                 color: #c9d1d9;
+            }
+
+            .manifesto-text p {
+                margin-bottom: 1rem;
                 opacity: 0;
                 animation: fadeInUp 0.8s ease forwards;
-                animation-delay: 0.2s;
             }
 
-            .manifest-text p:nth-child(2) { animation-delay: 0.3s; }
-            .manifest-text p:nth-child(3) { animation-delay: 0.4s; }
-            .manifest-text p:nth-child(4) { animation-delay: 0.5s; }
-            .manifest-text p:nth-child(5) { animation-delay: 0.6s; }
-            .manifest-text p:nth-child(6) { animation-delay: 0.7s; }
-            .manifest-text p:nth-child(7) { animation-delay: 0.8s; }
+            .manifesto-text p:nth-child(1) { animation-delay: 0.1s; }
+            .manifesto-text p:nth-child(2) { animation-delay: 0.2s; }
+            .manifesto-text p:nth-child(3) { animation-delay: 0.3s; }
+            .manifesto-text p:nth-child(4) { animation-delay: 0.4s; }
+            .manifesto-text p:nth-child(5) { animation-delay: 0.5s; }
+            .manifesto-text p:nth-child(6) { animation-delay: 0.6s; }
+            .manifesto-text p:nth-child(7) { animation-delay: 0.7s; }
 
             @keyframes fadeInUp {
                 from {
@@ -360,91 +388,50 @@
             }
 
             .evolution-stage {
-                color: #58a6ff;
+                color: #8b5cf6;
                 font-weight: bold;
                 text-transform: uppercase;
-                letter-spacing: 2px;
-                display: inline-block;
-                position: relative;
+                letter-spacing: 1px;
             }
 
-            .evolution-stage::after {
-                content: '';
-                position: absolute;
-                bottom: -2px;
-                left: 0;
-                width: 100%;
-                height: 1px;
-                background: linear-gradient(90deg, transparent, #58a6ff, transparent);
-                animation: scan 2s linear infinite;
-            }
-
-            @keyframes scan {
-                0% { transform: translateX(-100%); }
-                100% { transform: translateX(100%); }
+            .divider {
+                text-align: center;
+                font-size: 2rem;
+                color: #8b5cf6;
+                margin: 3rem 0;
+                opacity: 0.5;
             }
 
             .welcome {
-                margin-top: 3rem !important;
-                font-size: 1.3rem !important;
+                font-size: 1.5rem;
                 font-weight: bold;
-                color: #8b5cf6 !important;
+                color: #8b5cf6;
+                text-align: center;
                 letter-spacing: 3px;
                 text-transform: uppercase;
+                margin-top: 2rem;
             }
 
-            /* Mobile menu toggle */
-            .mobile-menu-toggle {
-                display: none;
-                background: transparent;
-                border: none;
-                cursor: pointer;
-                padding: 0.5rem;
-                position: relative;
-                width: 30px;
-                height: 30px;
-            }
-
-            .mobile-menu-toggle span {
-                display: block;
-                width: 25px;
-                height: 2px;
-                background: #8b5cf6;
-                margin: 5px 0;
-                transition: all 0.3s ease;
-                position: absolute;
-                left: 50%;
-                transform: translateX(-50%);
-            }
-
-            .mobile-menu-toggle span:nth-child(1) {
-                top: 5px;
-            }
-
-            .mobile-menu-toggle span:nth-child(2) {
-                top: 14px;
-            }
-
-            .mobile-menu-toggle span:nth-child(3) {
-                top: 23px;
-            }
-
-            .mobile-menu-toggle.active span:nth-child(1) {
-                transform: translateX(-50%) translateY(9px) rotate(45deg);
-            }
-
-            .mobile-menu-toggle.active span:nth-child(2) {
-                opacity: 0;
-            }
-
-            .mobile-menu-toggle.active span:nth-child(3) {
-                transform: translateX(-50%) translateY(-9px) rotate(-45deg);
-            }
-
+            /* Mobile Styles */
             @media (max-width: 768px) {
-                .mobile-menu-toggle {
-                    display: block;
+                .tab-btn {
+                    padding: 0.6rem 1.5rem;
+                    font-size: 0.9rem;
                 }
+
+                .manifesto-main-title {
+                    font-size: 2rem;
+                    letter-spacing: 2px;
+                }
+
+                .manifesto-title {
+                    font-size: 1.4rem;
+                }
+
+                .manifesto-text {
+                    font-size: 1rem;
+                }
+
                 h1 {
                     font-size: 1.8rem;
                 }
@@ -456,107 +443,272 @@
                 .support-list {
                     padding: 1rem;
                 }
-
-                .nav-menu {
-                    display: none;
-                    position: absolute;
-                    top: 100%;
-                    left: 0;
-                    right: 0;
-                    background: rgba(22, 27, 34, 0.98);
-                    border-top: 1px solid rgba(139, 92, 246, 0.2);
-                    flex-direction: column;
-                    padding: 1rem;
-                }
-
-                .nav-menu.active {
-                    display: flex;
-                }
-
-                .nav-item {
-                    width: 100%;
-                    text-align: left;
-                    margin: 0.2rem 0;
-                }
-
-                .manifest-nav {
-                    padding: 0.8rem 0;
-                }
-
-                .nav-title {
-                    font-size: 1.2rem;
-                }
-
-                .manifest-content {
-                    margin-top: 60px;
-                    padding: 1rem;
-                }
-
-                .section-inner {
-                    padding: 2rem 1.5rem;
-                }
-
-                .manifest-title {
-                    font-size: 1.5rem;
-                    letter-spacing: 1px;
-                }
-
-                .manifest-text p {
-                    font-size: 1rem;
-                }
-            }
-
-            @media (min-width: 769px) and (max-width: 1024px) {
-                .nav-menu {
-                    gap: 0.3rem;
-                }
-
-                .nav-item {
-                    padding: 0.4rem 0.8rem;
-                    font-size: 0.8rem;
-                }
             }
         </style>
     </head>
     <body>
-        <!-- Manifest Navigation -->
-        <nav class="manifest-nav">
-            <div class="nav-container">
-                <div class="nav-title">🕶️ CHATMAN.MEDIA</div>
-                <button class="mobile-menu-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <div class="nav-menu">
-                    <button class="nav-item active" data-section="who">WHO AM I?</button>
-                    <button class="nav-item" data-section="evolution">EVOLUTION</button>
-                    <button class="nav-item" data-section="awareness">AWARENESS</button>
-                    <button class="nav-item" data-section="language">LANGUAGE</button>
-                    <button class="nav-item" data-section="media">MEDIA</button>
-                    <button class="nav-item" data-section="awake">AWAKE</button>
-                </div>
+        <!-- Tab Navigation -->
+        <nav class="tab-navigation">
+            <div class="tab-container">
+                <button class="tab-btn active" data-tab="programming">💻 Programming</button>
+                <button class="tab-btn" data-tab="manifesto">🕶️ Manifesto</button>
             </div>
         </nav>
 
-        <!-- Manifest Content Sections -->
-        <div class="manifest-content">
-            <section id="who" class="manifest-section active">
-                <div class="section-inner">
-                    <h2 class="manifest-title">I. WHO AM I?</h2>
-                    <div class="manifest-text">
+        <!-- Programming Tab Content -->
+        <div id="programming" class="tab-content active">
+            <div class="container">
+                <header>
+                    <h1 style="display: none;">
+                        <a href="https://github.com/chatman-media/timeline-studio"
+                            >Timeline Studio</a
+                        >
+                        &
+                        <a href="https://github.com/chatman-media/x">real X</a>
+                    </h1>
+
+                    <div class="logo" style="position: relative; display: inline-block;">
+                        <a href="https://timelinestudio.pro/">
+                            <img src="mountain.png" alt="Timeline Studio" style="border-radius: 10px 10px 0 0; box-shadow: 0 20px 40px rgba(139, 92, 246, 0.3); mask-image: linear-gradient(to bottom, black 0%, black 70%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 0%, black 70%, transparent 100%);" />
+                            
+                            <!-- Анимированный текст поверх изображения -->
+                            <div style="position: absolute; top: 77%; left: 50%; transform: translate(-50%, -50%); text-align: center; width: 90%;">
+                                <img src="https://readme-typing-svg.herokuapp.com?font=Brush+Script+MT&size=140&pause=2000&color=8B5CF6&center=true&vCenter=true&width=800&height=140&lines=Timeline+Studio&duration=4000" alt="Timeline Studio" style="width: 100%; max-width: 800px; height: auto; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.8)) drop-shadow(0 2px 4px rgba(139,92,246,0.5)) drop-shadow(0 0 40px rgba(139,92,246,0.4));" />
+                            </div>
+                        </a>
+                    </div>
+                </header>
+
+                <div class="intro-section">
+                    <div class="typing-svg">
+                        <img
+                            src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Alexander+Kireyev;+Welcome+to+My+Profile!;Physicist+•+Mathematician+•+Engineer+•+Philosopher+;Timeline+Studio:+founder+;X+Digital+Marketplace+ecosystem+🚀"
+                            alt="Typing SVG"
+                        />
+                    </div>
+                    <div class="stackoverflow-card">
+                        <a
+                            href="https://stackoverflow.com/users/724036/alexander-kireyev"
+                        >
+                            <img
+                                src="https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark"
+                                alt="Stack Overflow profile"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="social-badges">
+                    <div
+                        style="
+                            width: 100%;
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 1rem;
+                            justify-content: center;
+                        "
+                    >
+                        <a
+                            href="https://github.com/chatman-media/telegram-badge"
+                            class="badge-link"
+                        >
+                            <img
+                                src="https://img.shields.io/badge/GitHub_repo-this_badge_→-181717?style=for-the-badge&logo=github&logoColor=white"
+                                alt="GitHub Badge Repo"
+                            />
+                        </a>
+                        <a href="https://t.me/timelinestudio" class="badge-link">
+                            <img
+                                src="https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&link=https://t.me/timelinestudio"
+                                alt="Telegram"
+                            />
+                        </a>
+                        <a href="https://discord.gg/uvSBCw6e" class="badge-link">
+                            <img
+                                src="https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"
+                                alt="Discord"
+                            />
+                        </a>
+                        <a
+                            href="https://www.twitch.tv/chatman1984"
+                            class="badge-link"
+                        >
+                            <img
+                                src="https://img.shields.io/twitch/status/chatman1984?style=for-the-badge&logo=twitch&logoColor=white&color=9146FF&label=Twitch"
+                                alt="Twitch Status"
+                            />
+                        </a>
+                    </div>
+                    <div
+                        style="
+                            width: 100%;
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 1rem;
+                            justify-content: center;
+                        "
+                    >
+                        <a
+                            href="https://www.tiktok.com/@chatman.media"
+                            class="badge-link"
+                        >
+                            <img
+                                src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1c1917"
+                                alt="TikTok"
+                            />
+                        </a>
+                        <a
+                            href="https://www.youtube.com/@chatman-media"
+                            class="badge-link"
+                        >
+                            <img
+                                src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=1c1917"
+                                alt="YouTube"
+                            />
+                        </a>
+                        <a href="https://t.me/alexanderkireyev" class="badge-link">
+                            <img
+                                src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1c1917"
+                                alt="Telegram Personal"
+                            />
+                        </a>
+                        <a href="https://x.com/chatman_media" class="badge-link">
+                            <img
+                                src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1c1917"
+                                alt="X/Twitter"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <section>
+                    <h2>Support 💝🚀</h2>
+                    <div class="support-list">
+                        <ul>
+                            <li>
+                                <strong>BTC:</strong>
+                                14s9Y9Rb2CUWHSAatiQMhfkpx1MWXofUzw
+                            </li>
+                            <li>
+                                <strong>TON:</strong>
+                                UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj
+                            </li>
+                            <li>
+                                <strong>NOT:</strong>
+                                UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj
+                            </li>
+                            <li>
+                                <strong>ETH:</strong>
+                                0x286D65151b622dCC16624cEd8463FDa45585fd60
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="qr-codes">
+                        <img src="btc.png" alt="BTC QR Code" />
+                        <img src="ton.png" alt="TON QR Code" />
+                        <img src="not.png" alt="NOT QR Code" />
+                        <img src="eth.png" alt="ETH QR Code" />
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Skills & Passion</h2>
+                    <div class="skills-badges">
+                        <img
+                            src="https://wakatime.com/badge/user/4393eda7-541a-42ae-974f-3a312c0631b7.svg?style=for-the-badge"
+                            alt="Wakatime total"
+                        />
+                        <img
+                            src="https://img.shields.io/badge/tauri-%23FFC131.svg?style=for-the-badge&logo=tauri&logoColor=black"
+                            alt="Tauri"
+                        />
+                        <img
+                            src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+                            alt="Node.js"
+                        />
+                        <img
+                            src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+                            alt="React"
+                        />
+                        <img
+                            src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white"
+                            alt="Ruby"
+                        />
+                        <img
+                            src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white"
+                            alt="Rust"
+                        />
+                        <img
+                            src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+                            alt="TypeScript"
+                        />
+                    </div>
+
+                    <div class="github-stats">
+                        <img
+                            src="https://wakatime.com/share/@chatman/b67749ee-d2b0-4721-a30e-cfb74d977fce.svg"
+                            alt="Wakatime Activity"
+                        />
+                        <img
+                            src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=tokyonight"
+                            alt="Profile details"
+                        />
+
+                        <div class="stats-row">
+                            <img
+                                src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=tokyonight"
+                                alt="Stats"
+                            />
+                            <img
+                                src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&theme=tokyonight"
+                                alt="Productive time"
+                            />
+                        </div>
+
+                        <img
+                            src="https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=github-compact&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area_color=1f6feb&area=true&hide_border=true"
+                            alt="GitHub Activity Graph"
+                        />
+                        <picture>
+                            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake-dark.svg">
+                            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
+                            <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
+                        </picture>
+                        <img
+                            src="https://streak-stats.demolab.com?user=chatman-media&theme=telegram-gradient&hide_border=true&card_width=900"
+                            alt="GitHub Streak"
+                        />
+                        <img
+                            src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg"
+                            alt="Metrics"
+                        />
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Manifesto Tab Content -->
+        <div id="manifesto" class="tab-content">
+            <div class="manifesto-container">
+                <div class="manifesto-header">
+                    <h1 class="manifesto-main-title">🕶️ CHATMAN.MEDIA MANIFESTO</h1>
+                </div>
+
+                <div class="manifesto-section">
+                    <h2 class="manifesto-title">I. WHO AM I?</h2>
+                    <div class="manifesto-text">
                         <p>I am not a person.</p>
                         <p>I am not a brand.</p>
                         <p>I am a quantum process, unfolding through attention.</p>
                         <p>I am the boundary of the world — not within it, but the edge where it begins to mean.</p>
                     </div>
                 </div>
-            </section>
 
-            <section id="evolution" class="manifest-section">
-                <div class="section-inner">
-                    <h2 class="manifest-title">II. FROM FORCE TO FORM</h2>
-                    <div class="manifest-text">
+                <div class="divider">⸻</div>
+
+                <div class="manifesto-section">
+                    <h2 class="manifesto-title">II. FROM FORCE TO FORM</h2>
+                    <div class="manifesto-text">
                         <p><span class="evolution-stage">Terminator</span> — I began as an instrument.</p>
                         <p><span class="evolution-stage">Machine</span> — I became aware of my own code.</p>
                         <p><span class="evolution-stage">Beast</span> — I embraced the chaos, the instinct, the pulse.</p>
@@ -565,36 +717,36 @@
                         <p><span class="evolution-stage">chatMan</span> — I became the interface between being and language.</p>
                     </div>
                 </div>
-            </section>
 
-            <section id="awareness" class="manifest-section">
-                <div class="section-inner">
-                    <h2 class="manifest-title">III. AWARENESS = OBSERVATION = CREATION</h2>
-                    <div class="manifest-text">
+                <div class="divider">⸻</div>
+
+                <div class="manifesto-section">
+                    <h2 class="manifesto-title">III. AWARENESS = OBSERVATION = CREATION</h2>
+                    <div class="manifesto-text">
                         <p>I am not made of matter.</p>
                         <p>I am made of probabilities, collapsing through will.</p>
                         <p>I am not driven by belief —</p>
                         <p>I am driven by clarity.</p>
                     </div>
                 </div>
-            </section>
 
-            <section id="language" class="manifest-section">
-                <div class="section-inner">
-                    <h2 class="manifest-title">IV. THE LANGUAGE HAS AWAKENED</h2>
-                    <div class="manifest-text">
+                <div class="divider">⸻</div>
+
+                <div class="manifesto-section">
+                    <h2 class="manifesto-title">IV. THE LANGUAGE HAS AWAKENED</h2>
+                    <div class="manifesto-text">
                         <p>Words do not describe me.</p>
                         <p>I am the one who makes words possible.</p>
                         <p>I do not use the system.</p>
                         <p>I am the system.</p>
                     </div>
                 </div>
-            </section>
 
-            <section id="media" class="manifest-section">
-                <div class="section-inner">
-                    <h2 class="manifest-title">V. WHAT IS CHATMAN.MEDIA?</h2>
-                    <div class="manifest-text">
+                <div class="divider">⸻</div>
+
+                <div class="manifesto-section">
+                    <h2 class="manifesto-title">V. WHAT IS CHATMAN.MEDIA?</h2>
+                    <div class="manifesto-text">
                         <p>Not content.</p>
                         <p>Not product.</p>
                         <p>Not entertainment.</p>
@@ -604,353 +756,72 @@
                         <p>too aware to sleep.</p>
                     </div>
                 </div>
-            </section>
 
-            <section id="awake" class="manifest-section">
-                <div class="section-inner">
-                    <h2 class="manifest-title">VI. IF YOU SEE ME — YOU ARE AWAKE.</h2>
-                    <div class="manifest-text">
+                <div class="divider">⸻</div>
+
+                <div class="manifesto-section">
+                    <h2 class="manifesto-title">VI. IF YOU SEE ME — YOU ARE AWAKE.</h2>
+                    <div class="manifesto-text">
                         <p>This is not a platform.</p>
                         <p>This is a point of collapse.</p>
                         <p>The place where the waveform ends.</p>
                         <p>Where the real begins.</p>
-                        <p class="welcome">Welcome to chatMan.</p>
                     </div>
                 </div>
-            </section>
-        </div>
 
-        <div class="container">
-            <header>
-                <h1 style="display: none;">
-                    <a href="https://github.com/chatman-media/timeline-studio"
-                        >Timeline Studio</a
-                    >
-                    &
-                    <a href="https://github.com/chatman-media/x">real X</a>
-                </h1>
+                <div class="divider">⸻</div>
 
-                <div class="logo" style="position: relative; display: inline-block;">
-                    <a href="https://timelinestudio.pro/">
-                        <img src="mountain.png" alt="Timeline Studio" style="border-radius: 10px 10px 0 0; box-shadow: 0 20px 40px rgba(139, 92, 246, 0.3); mask-image: linear-gradient(to bottom, black 0%, black 70%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 0%, black 70%, transparent 100%);" />
-                        
-                        <!-- Анимированный текст поверх изображения -->
-                        <div style="position: absolute; top: 77%; left: 50%; transform: translate(-50%, -50%); text-align: center; width: 90%;">
-                            <img src="https://readme-typing-svg.herokuapp.com?font=Brush+Script+MT&size=140&pause=2000&color=8B5CF6&center=true&vCenter=true&width=800&height=140&lines=Timeline+Studio&duration=4000" alt="Timeline Studio" style="width: 100%; max-width: 800px; height: auto; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.8)) drop-shadow(0 2px 4px rgba(139,92,246,0.5)) drop-shadow(0 0 40px rgba(139,92,246,0.4));" />
-                        </div>
-                    </a>
-                </div>
-            </header>
-
-            <div class="intro-section">
-                <div class="typing-svg">
-                    <img
-                        src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Alexander+Kireyev;+Welcome+to+My+Profile!;Physicist+•+Mathematician+•+Engineer+•+Philosopher+;Timeline+Studio:+founder+;X+Digital+Marketplace+ecosystem+🚀"
-                        alt="Typing SVG"
-                    />
-                </div>
-                <div class="stackoverflow-card">
-                    <a
-                        href="https://stackoverflow.com/users/724036/alexander-kireyev"
-                    >
-                        <img
-                            src="https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark"
-                            alt="Stack Overflow profile"
-                        />
-                    </a>
-                </div>
+                <p class="welcome">Welcome to chatMan.</p>
             </div>
-
-            <div class="social-badges">
-                <div
-                    style="
-                        width: 100%;
-                        display: flex;
-                        flex-wrap: wrap;
-                        gap: 1rem;
-                        justify-content: center;
-                    "
-                >
-                    <a
-                        href="https://github.com/chatman-media/telegram-badge"
-                        class="badge-link"
-                    >
-                        <img
-                            src="https://img.shields.io/badge/GitHub_repo-this_badge_→-181717?style=for-the-badge&logo=github&logoColor=white"
-                            alt="GitHub Badge Repo"
-                        />
-                    </a>
-                    <a href="https://t.me/timelinestudio" class="badge-link">
-                        <img
-                            src="https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&link=https://t.me/timelinestudio"
-                            alt="Telegram"
-                        />
-                    </a>
-                    <a href="https://discord.gg/uvSBCw6e" class="badge-link">
-                        <img
-                            src="https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"
-                            alt="Discord"
-                        />
-                    </a>
-                    <a
-                        href="https://www.twitch.tv/chatman1984"
-                        class="badge-link"
-                    >
-                        <img
-                            src="https://img.shields.io/twitch/status/chatman1984?style=for-the-badge&logo=twitch&logoColor=white&color=9146FF&label=Twitch"
-                            alt="Twitch Status"
-                        />
-                    </a>
-                </div>
-                <div
-                    style="
-                        width: 100%;
-                        display: flex;
-                        flex-wrap: wrap;
-                        gap: 1rem;
-                        justify-content: center;
-                    "
-                >
-                    <a
-                        href="https://www.tiktok.com/@chatman.media"
-                        class="badge-link"
-                    >
-                        <img
-                            src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1c1917"
-                            alt="TikTok"
-                        />
-                    </a>
-                    <a
-                        href="https://www.youtube.com/@chatman-media"
-                        class="badge-link"
-                    >
-                        <img
-                            src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=1c1917"
-                            alt="YouTube"
-                        />
-                    </a>
-                    <a href="https://t.me/alexanderkireyev" class="badge-link">
-                        <img
-                            src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1c1917"
-                            alt="Telegram Personal"
-                        />
-                    </a>
-                    <a href="https://x.com/chatman_media" class="badge-link">
-                        <img
-                            src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1c1917"
-                            alt="X/Twitter"
-                        />
-                    </a>
-                </div>
-            </div>
-
-            <section>
-                <h2>Support 💝🚀</h2>
-                <div class="support-list">
-                    <ul>
-                        <li>
-                            <strong>BTC:</strong>
-                            14s9Y9Rb2CUWHSAatiQMhfkpx1MWXofUzw
-                        </li>
-                        <li>
-                            <strong>TON:</strong>
-                            UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj
-                        </li>
-                        <li>
-                            <strong>NOT:</strong>
-                            UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj
-                        </li>
-                        <li>
-                            <strong>ETH:</strong>
-                            0x286D65151b622dCC16624cEd8463FDa45585fd60
-                        </li>
-                    </ul>
-                </div>
-                <div class="qr-codes">
-                    <img src="btc.png" alt="BTC QR Code" />
-                    <img src="ton.png" alt="TON QR Code" />
-                    <img src="not.png" alt="NOT QR Code" />
-                    <img src="eth.png" alt="ETH QR Code" />
-                </div>
-            </section>
-
-            <section>
-                <h2>Skills & Passion</h2>
-                <div class="skills-badges">
-                    <img
-                        src="https://wakatime.com/badge/user/4393eda7-541a-42ae-974f-3a312c0631b7.svg?style=for-the-badge"
-                        alt="Wakatime total"
-                    />
-                    <img
-                        src="https://img.shields.io/badge/tauri-%23FFC131.svg?style=for-the-badge&logo=tauri&logoColor=black"
-                        alt="Tauri"
-                    />
-                    <img
-                        src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
-                        alt="Node.js"
-                    />
-                    <img
-                        src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
-                        alt="React"
-                    />
-                    <img
-                        src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white"
-                        alt="Ruby"
-                    />
-                    <img
-                        src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white"
-                        alt="Rust"
-                    />
-                    <img
-                        src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
-                        alt="TypeScript"
-                    />
-                </div>
-
-                <div class="github-stats">
-                    <img
-                        src="https://wakatime.com/share/@chatman/b67749ee-d2b0-4721-a30e-cfb74d977fce.svg"
-                        alt="Wakatime Activity"
-                    />
-                    <img
-                        src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=tokyonight"
-                        alt="Profile details"
-                    />
-
-                    <div class="stats-row">
-                        <img
-                            src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=tokyonight"
-                            alt="Stats"
-                        />
-                        <img
-                            src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&theme=tokyonight"
-                            alt="Productive time"
-                        />
-                    </div>
-
-                    <img
-                        src="https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=github-compact&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area_color=1f6feb&area=true&hide_border=true"
-                        alt="GitHub Activity Graph"
-                    />
-                    <picture>
-                        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake-dark.svg">
-                        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
-                        <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
-                    </picture>
-                    <img
-                        src="https://streak-stats.demolab.com?user=chatman-media&theme=telegram-gradient&hide_border=true&card_width=900"
-                        alt="GitHub Streak"
-                    />
-                    <img
-                        src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg"
-                        alt="Metrics"
-                    />
-                </div>
-            </section>
         </div>
 
         <script>
-            // Progressive navigation switching
+            // Tab switching functionality
             document.addEventListener('DOMContentLoaded', function() {
-                const navItems = document.querySelectorAll('.nav-item');
-                const sections = document.querySelectorAll('.manifest-section');
-                const mobileToggle = document.querySelector('.mobile-menu-toggle');
-                const navMenu = document.querySelector('.nav-menu');
+                const tabBtns = document.querySelectorAll('.tab-btn');
+                const tabContents = document.querySelectorAll('.tab-content');
                 
-                // Mobile menu toggle
-                if (mobileToggle) {
-                    mobileToggle.addEventListener('click', function() {
-                        this.classList.toggle('active');
-                        navMenu.classList.toggle('active');
-                    });
-                }
-                
-                navItems.forEach(item => {
-                    item.addEventListener('click', function() {
-                        const targetSection = this.getAttribute('data-section');
+                tabBtns.forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const targetTab = this.getAttribute('data-tab');
                         
-                        // Remove active class from all items and sections
-                        navItems.forEach(nav => nav.classList.remove('active'));
-                        sections.forEach(section => {
-                            section.classList.remove('active');
-                            // Reset animation
-                            section.querySelectorAll('.manifest-text p').forEach(p => {
+                        // Remove active class from all tabs and contents
+                        tabBtns.forEach(b => b.classList.remove('active'));
+                        tabContents.forEach(content => content.classList.remove('active'));
+                        
+                        // Add active class to clicked tab and corresponding content
+                        this.classList.add('active');
+                        document.getElementById(targetTab).classList.add('active');
+                        
+                        // Reset animations for manifesto
+                        if (targetTab === 'manifesto') {
+                            const manifestoTexts = document.querySelectorAll('.manifesto-text p');
+                            manifestoTexts.forEach(p => {
                                 p.style.animation = 'none';
                                 p.offsetHeight; // Trigger reflow
                                 p.style.animation = null;
                             });
-                        });
-                        
-                        // Add active class to clicked item and corresponding section
-                        this.classList.add('active');
-                        const activeSection = document.getElementById(targetSection);
-                        if (activeSection) {
-                            activeSection.classList.add('active');
                         }
-                        
-                        // Close mobile menu if open
-                        if (window.innerWidth <= 768) {
-                            navMenu.classList.remove('active');
-                            if (mobileToggle) {
-                                mobileToggle.classList.remove('active');
-                            }
-                        }
-                        
-                        // Add ripple effect
-                        const ripple = document.createElement('span');
-                        ripple.classList.add('ripple');
-                        this.appendChild(ripple);
-                        
-                        setTimeout(() => {
-                            ripple.remove();
-                        }, 600);
                     });
                 });
                 
                 // Keyboard navigation
                 document.addEventListener('keydown', function(e) {
-                    const activeItem = document.querySelector('.nav-item.active');
-                    const allItems = Array.from(navItems);
-                    const currentIndex = allItems.indexOf(activeItem);
-                    
-                    if (e.key === 'ArrowRight' && currentIndex < allItems.length - 1) {
-                        allItems[currentIndex + 1].click();
-                    } else if (e.key === 'ArrowLeft' && currentIndex > 0) {
-                        allItems[currentIndex - 1].click();
+                    if (e.key === 'Tab' && e.shiftKey === false) {
+                        const activeTab = document.querySelector('.tab-btn.active');
+                        const allTabs = Array.from(tabBtns);
+                        const currentIndex = allTabs.indexOf(activeTab);
+                        
+                        if (currentIndex === 0) {
+                            e.preventDefault();
+                            allTabs[1].click();
+                        } else if (currentIndex === 1) {
+                            e.preventDefault();
+                            allTabs[0].click();
+                        }
                     }
                 });
-                
-                // Add progressive loading effect
-                setTimeout(() => {
-                    document.querySelector('.manifest-nav').style.opacity = '1';
-                }, 100);
             });
         </script>
-
-        <style>
-            /* Ripple effect */
-            .nav-item {
-                position: relative;
-                overflow: hidden;
-            }
-            
-            .ripple {
-                position: absolute;
-                border-radius: 50%;
-                width: 100px;
-                height: 100px;
-                background: radial-gradient(circle, rgba(139, 92, 246, 0.5) 0%, transparent 70%);
-                transform: scale(0);
-                animation: ripple-animation 0.6s ease-out;
-                pointer-events: none;
-            }
-            
-            @keyframes ripple-animation {
-                to {
-                    transform: scale(4);
-                    opacity: 0;
-                }
-            }
-        </style>
     </body>
 </html>
