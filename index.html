@@ -104,6 +104,42 @@
                 width: 100%;
             }
 
+            .tab-link {
+                color: #8b949e;
+                padding: 0.8rem 2rem;
+                font-size: 1.1rem;
+                font-family: "Courier New", monospace;
+                text-decoration: none;
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                position: relative;
+                overflow: hidden;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                font-weight: bold;
+                display: inline-flex;
+                align-items: center;
+            }
+
+            .tab-link::before {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 0;
+                height: 3px;
+                background: linear-gradient(90deg, #8b5cf6, #58a6ff);
+                transition: width 0.3s ease;
+            }
+
+            .tab-link:hover {
+                color: #58a6ff;
+                transform: translateY(-2px);
+            }
+
+            .tab-link:hover::before {
+                width: 100%;
+            }
+
             /* Tab Content */
             .tab-content {
                 margin-top: 80px;
@@ -452,6 +488,7 @@
             <div class="tab-container">
                 <button class="tab-btn active" data-tab="programming">💻 Programming</button>
                 <button class="tab-btn" data-tab="manifesto">🕶️ Manifesto</button>
+                <a href="https://timelinestudio.pro/" class="tab-link" target="_blank">🚀 Timeline Studio</a>
             </div>
         </nav>
 
@@ -466,15 +503,6 @@
                         &
                         <a href="https://github.com/chatman-media/x">real X</a>
                     </h1>
-
-                    <div class="logo" style="position: relative; display: inline-block;">
-                        <a href="https://timelinestudio.pro/">
-                            <!-- Анимированный текст поверх изображения -->
-                            <div style="position: absolute; top: 77%; left: 50%; transform: translate(-50%, -50%); text-align: center; width: 90%;">
-                                <img src="https://readme-typing-svg.herokuapp.com?font=Brush+Script+MT&size=100&pause=2000&color=8B5CF6&center=true&vCenter=true&width=800&height=140&lines=Timeline+Studio&duration=4000" alt="Timeline Studio" style="width: 100%; max-width: 800px; height: auto; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.8)) drop-shadow(0 2px 4px rgba(139,92,246,0.5)) drop-shadow(0 0 40px rgba(139,92,246,0.4));" />
-                            </div>
-                        </a>
-                    </div>
                 </header>
 
                 <div class="intro-section">
