@@ -63,16 +63,16 @@
 
 ## 🏆 GitHub Trophies
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=chatman-media&theme=algolia&no-frame=true&no-bg=true&row=1&rank=SSS,SS,S,AAA,AA,A,SECRET" alt="GitHub Trophies"/>
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=chatman-media&theme=transparent&no-frame=true&no-bg=true&row=1&rank=SSS,SS,S,AAA,AA,A,SECRET" alt="GitHub Trophies"/>
 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=algolia&bg_color=1a1b27&color=70a5fd&line=70a5fd&point=bf91f3&area_color=1a1b27&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=transparent&bg_color=1a1b27&color=8b5cf6&line=8b5cf6&point=bf91f3&area_color=1a1b27&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
 </div>
 
 <div align="center">
-  <img width="100%" src="https://streak-stats.demolab.com?user=chatman-media&theme=algolia&hide_border=true&card_width=1000" alt="GitHub Streak"/>
+  <img width="100%" src="https://streak-stats.demolab.com?user=chatman-media&theme=transparent&hide_border=true&card_width=1000" alt="GitHub Streak"/>
 </div>
 
 ## Support 💝🚀
