@@ -48,6 +48,8 @@
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1c1917)](https://t.me/alexanderkireyev)
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1c1917)](https://www.tiktok.com/@chatman.media)
 [![X](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1c1917)](https://x.com/chatman_media)
+
+<a href="https://leolem.dev"><img src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fleolem.dev"></a>
 [![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=1c1917)](https://dev.to/chatman-media)
 
 ![Wakatime total](https://wakatime.com/badge/user/4393eda7-541a-42ae-974f-3a312c0631b7.svg?style=for-the-badge)
