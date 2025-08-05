@@ -95,7 +95,7 @@ Support the development via crypto donations:
 
 ## 🏆 GitHub Trophies
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=chatman-media&theme=nord&no-frame=true&no-bg=false&margin-w=4&margin-h=4&column=8" alt="GitHub Trophies"/>
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=chatman-media&theme=algolia&no-frame=true&no-bg=true&column=10" alt="GitHub Trophies"/>
 
 ## 📊 GitHub Stats
 
@@ -121,12 +121,12 @@ Support the development via crypto donations:
 ## 🎯 Profile Summary
 
 <div align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=tokyonight" alt="Profile Details"/>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=transparent" alt="Profile Details"/>
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=tokyonight" alt="Stats"/>
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&theme=tokyonight" alt="Productive Time"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&&theme=transparent" alt="Stats"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&&theme=transparent" alt="Productive Time"/>
 </div>
 
 ## 🔬 Detailed Metrics
