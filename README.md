@@ -54,9 +54,7 @@
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://x.com/chatman_media">
   <img src="icons/twitter-x.svg" width="50" height="50" alt="X" />
-</a>
-
-<br>
+</a><br/><br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=chatman-media&style=for-the-badge&color=8b5cf6&labelColor=1c1917)
 <a href="https://chatman.media"><img src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fchatman.media"></a>
