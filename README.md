@@ -44,16 +44,16 @@
 [![Twitch Status](https://img.shields.io/twitch/status/chatman1984?style=for-the-badge&logo=twitch&logoColor=white&color=9146FF&label=Twitch)](https://www.twitch.tv/chatman1984)
 
 <a href="https://www.youtube.com/@chatman-media">
-  <img src="https://img.icons8.com/color/60/youtube-play.png" alt="YouTube" />
+  <img src="icons/youtube.svg" width="50" height="50" alt="YouTube" />
 </a>
 <a href="https://t.me/alexanderkireyev">
-  <img src="https://img.icons8.com/color/60/telegram-app.png" alt="Telegram" />
+  <img src="icons/telegram.svg" width="50" height="50" alt="Telegram" />
 </a>
 <a href="https://www.tiktok.com/@chatman.media">
-  <img src="https://img.icons8.com/color/60/tiktok.png" alt="TikTok" />
+  <img src="icons/tiktok.svg" width="50" height="50" alt="TikTok" />
 </a>
 <a href="https://x.com/chatman_media">
-  <img src="https://img.icons8.com/color/60/x.png" alt="X" />
+  <img src="icons/twitter-x.svg" width="50" height="50" alt="X" />
 </a>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=chatman-media&style=for-the-badge&color=8b5cf6&labelColor=1c1917)
