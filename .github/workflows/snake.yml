@@ -20,9 +20,9 @@ jobs:
         with:
           github_user_name: chatman-media
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            
+            dist/github-contribution-grid-snake.svg?color_snake=#8B5CF6&color_dots=#87CEEB,#5F9EA0,#4682B4,#0069FF,#00008B
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#8B5CF6&color_dots=#87CEEB,#5F9EA0,#4682B4,#0069FF,#00008B&palette=github-dark
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
