@@ -44,16 +44,16 @@
 [![Twitch Status](https://img.shields.io/twitch/status/chatman1984?style=for-the-badge&logo=twitch&logoColor=white&color=9146FF&label=Twitch)](https://www.twitch.tv/chatman1984)
 
 <a href="https://www.youtube.com/@chatman-media">
-  <img src="https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" height="35" alt="YouTube" />
+  <img src="https://img.icons8.com/color/60/youtube-play.png" alt="YouTube" />
 </a>
 <a href="https://t.me/alexanderkireyev">
-  <img src="https://img.shields.io/badge/-Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white" height="35" alt="Telegram" />
+  <img src="https://img.icons8.com/color/60/telegram-app.png" alt="Telegram" />
 </a>
 <a href="https://www.tiktok.com/@chatman.media">
-  <img src="https://img.shields.io/badge/-TikTok-000000?style=flat-square&logo=tiktok&logoColor=white" height="35" alt="TikTok" />
+  <img src="https://img.icons8.com/color/60/tiktok.png" alt="TikTok" />
 </a>
 <a href="https://x.com/chatman_media">
-  <img src="https://img.shields.io/badge/-X-000000?style=flat-square&logo=x&logoColor=white" height="35" alt="X" />
+  <img src="https://img.icons8.com/color/60/x.png" alt="X" />
 </a>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=chatman-media&style=for-the-badge&color=8b5cf6&labelColor=1c1917)
