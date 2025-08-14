@@ -26,14 +26,15 @@
 
 <div align="center">
 
-[![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=chatman&theme=light)](https://www.codewars.com/users/chatman)
+<!-- [![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=chatman&theme=dark)](https://www.codewars.com/users/chatman) -->
 
-[![Alexander Kireyev profile views](https://u8views.com/api/v1/github/profiles/883279/views/day-week-month-total-count.svg)](https://u8views.com/github/chatman-media)
+<!-- <a href="https://app.daily.dev/chatman_media"><img src="https://api.daily.dev/devcards/v2/m03UAnE1I90U0mAxEpcNd.png?type=default&r=o7v" width="356" alt="Chatman's Dev Card"/></a> -->
 
 <!-- <a href="https://app.daily.dev/chatman_media"><img src="https://api.daily.dev/devcards/v2/m03UAnE1I90U0mAxEpcNd.png?type=default&r=8i7" width="280" alt="Chatman's Dev Card"/></a> -->
 
-[![GitHub](https://img.shields.io/badge/GitHub_repo-this_badge_→-FF0000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chatman-media/telegram-badge) [![Telegram](https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&link=https://t.me/timelinestudio)](https://t.me/timelinestudio)
-[![Discord](https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/uvSBCw6e)
+[![GitHub](https://img.shields.io/badge/GitHub_repo-this_badge_→-FF0000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chatman-media/telegram-badge)
+[![Telegram](https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&link=https://t.me/aisuperhumans)](https://t.me/aisuperhumans)
+[![Discord](https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/VgEAzqyQ)
 [![Twitch Status](https://img.shields.io/twitch/status/chatman1984?style=for-the-badge&logo=twitch&logoColor=white&color=9146FF&label=Twitch)](https://www.twitch.tv/chatman1984)
 
 <a href="https://www.youtube.com/@chatman-media">
@@ -61,11 +62,13 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Tauri](https://img.shields.io/badge/tauri-%23FFC131.svg?style=for-the-badge&logo=tauri&logoColor=black)
 
+[![Alexander Kireyev profile views](https://u8views.com/api/v1/github/profiles/883279/views/day-week-month-total-count.svg)](https://u8views.com/github/chatman-media)
+
 </div>
 
 ## 🏆 GitHub Trophies
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=chatman-media&theme=transparent&no-frame=true&no-bg=true&row=1&rank=SSS,SS,S,AAA,AA,A,SECRET" alt="GitHub Trophies"/>
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=chatman-media&theme=transparent&no-frame=true&row=1&rank=SSS,SS,S,AAA,AA,A,SECRET" alt="GitHub Trophies"/>
 
 ## 📊 GitHub Stats
 
