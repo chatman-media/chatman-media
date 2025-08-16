@@ -33,7 +33,7 @@
 <!-- <a href="https://app.daily.dev/chatman_media"><img src="https://api.daily.dev/devcards/v2/m03UAnE1I90U0mAxEpcNd.png?type=default&r=8i7" width="280" alt="Chatman's Dev Card"/></a> -->
 
 [![GitHub](https://img.shields.io/badge/GitHub_repo-this_badge_→-FF0000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chatman-media/telegram-badge)
-[![Telegram](https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&link=https://t.me/aisuperhumans)](https://t.me/aisuperhumans)
+[![Telegram](https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&channelId=@aisuperhumans)](https://t.me/aisuperhumans)
 [![Discord](https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/VgEAzqyQ)
 [![Twitch Status](https://img.shields.io/twitch/status/chatman1984?style=for-the-badge&logo=twitch&logoColor=white&color=9146FF&label=Twitch)](https://www.twitch.tv/chatman1984)
 
