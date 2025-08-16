@@ -26,17 +26,6 @@
 
 <div align="center">
 
-<!-- [![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=chatman&theme=dark)](https://www.codewars.com/users/chatman) -->
-
-<!-- <a href="https://app.daily.dev/chatman_media"><img src="https://api.daily.dev/devcards/v2/m03UAnE1I90U0mAxEpcNd.png?type=default&r=o7v" width="356" alt="Chatman's Dev Card"/></a> -->
-
-<!-- <a href="https://app.daily.dev/chatman_media"><img src="https://api.daily.dev/devcards/v2/m03UAnE1I90U0mAxEpcNd.png?type=default&r=8i7" width="280" alt="Chatman's Dev Card"/></a> -->
-
-[![GitHub](https://img.shields.io/badge/GitHub_repo-this_badge_→-FF0000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chatman-media/telegram-badge)
-[![Telegram](https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&channelId=@aisuperhumans)](https://t.me/aisuperhumans)
-[![Discord](https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/VgEAzqyQ)
-[![Twitch Status](https://img.shields.io/twitch/status/chatman1984?style=for-the-badge&logo=twitch&logoColor=white&color=9146FF&label=Twitch)](https://www.twitch.tv/chatman1984)
-
 <a href="https://www.youtube.com/@chatman-media">
   <img src="icons/youtube.svg" width="50" height="50" alt="YouTube" />
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -49,6 +38,17 @@
 <a href="https://x.com/chatman_media">
   <img src="icons/twitter-x.svg" width="50" height="50" alt="X" />
 </a><br/><br/>
+
+<!-- [![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=chatman&theme=dark)](https://www.codewars.com/users/chatman) -->
+
+<!-- <a href="https://app.daily.dev/chatman_media"><img src="https://api.daily.dev/devcards/v2/m03UAnE1I90U0mAxEpcNd.png?type=default&r=o7v" width="356" alt="Chatman's Dev Card"/></a> -->
+
+<!-- <a href="https://app.daily.dev/chatman_media"><img src="https://api.daily.dev/devcards/v2/m03UAnE1I90U0mAxEpcNd.png?type=default&r=8i7" width="280" alt="Chatman's Dev Card"/></a> -->
+
+[![GitHub](https://img.shields.io/badge/GitHub_repo-this_badge_→-FF0000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chatman-media/telegram-badge)
+[![Telegram](https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&channelId=@aisuperhumans)](https://t.me/aisuperhumans)
+[![Discord](https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/VgEAzqyQ)
+[![Twitch Status](https://img.shields.io/twitch/status/chatman1984?style=for-the-badge&logo=twitch&logoColor=white&color=9146FF&label=Twitch)](https://www.twitch.tv/chatman1984)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=chatman-media&style=for-the-badge&color=8b5cf6&labelColor=1c1917)
 <a href="https://chatman.media"><img src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fchatman.media"></a>
