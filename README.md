@@ -64,10 +64,6 @@
 
 </div>
 
-<div style="display:none;">
-[![Alexander Kireyev profile views](https://u8views.com/api/v1/github/profiles/883279/views/day-week-month-total-count.svg)](https://u8views.com/github/chatman-media)
-</div>
-
 ## 🏆 GitHub Trophies
 
 <img width="100%" src="https://github-profile-trophy.vercel.app/?username=chatman-media&theme=transparent&no-frame=true&row=1&rank=SSS,SS,S,AAA,AA,A,SECRET" alt="GitHub Trophies"/>
