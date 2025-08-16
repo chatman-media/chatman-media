@@ -62,8 +62,10 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Tauri](https://img.shields.io/badge/tauri-%23FFC131.svg?style=for-the-badge&logo=tauri&logoColor=black)
 
-[![Alexander Kireyev profile views](https://u8views.com/api/v1/github/profiles/883279/views/day-week-month-total-count.svg)](https://u8views.com/github/chatman-media)
+</div>
 
+<div style="display:none;">
+[![Alexander Kireyev profile views](https://u8views.com/api/v1/github/profiles/883279/views/day-week-month-total-count.svg)](https://u8views.com/github/chatman-media)
 </div>
 
 ## 🏆 GitHub Trophies
