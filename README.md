@@ -66,7 +66,7 @@
 
 ## 🏆 GitHub Trophies
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=chatman-media&theme=transparent&no-frame=true&row=1&rank=SSS,SS,S,AAA,AA,A,SECRET" alt="GitHub Trophies"/>
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=chatman-media&no-frame=true&row=1&rank=SSS,SS,S,AAA,AA,A,SECRET" alt="GitHub Trophies"/>
 
 ## 📊 GitHub Stats
 
