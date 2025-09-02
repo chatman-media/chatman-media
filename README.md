@@ -136,11 +136,11 @@ Support the development via crypto donations:
 ## 🔬 Detailed Metrics
 
 <div align="center">
-  <img width="100%" src="https://github.com/chatman-media/chatman-media/blob/main/github-metrics.svg" alt="Detailed Metrics"/>
+  <img width="100%" src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg" alt="Detailed Metrics"/>
 </div>
 
-# Stargazers
+## ⭐ Stargazers
 
 <div align="center">
-  <img width="100%" src="https://github.com/chatman-media/chatman-media/blob/main/github-stargazers.svg" alt="Stargazers"/>
+  <img width="100%" src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-stargazers.svg" alt="Stargazers"/>
 </div>
