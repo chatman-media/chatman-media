@@ -68,6 +68,34 @@
 
 <img width="100%" src="https://github-trophies.vercel.app/?username=chatman-media&theme=transparent&column=8&row=1&no-frame=true&rank=SSS,SS,S,AAA,SECRET" alt="GitHub Trophies"/>
 
+## 📈 Coding Activity
+
+<div align="center">
+  <!-- GitHub Contribution Snake -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+## 🎯 Profile Summary
+
+<div align="center">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=transparent" alt="Profile Details"/>
+</div>
+
+<div align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&&theme=transparent" alt="Stats"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&&theme=transparent" alt="Productive Time"/>
+</div>
+
+## 🔬 Detailed Metrics
+
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg" alt="Detailed Metrics"/>
+</div>
+
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -109,34 +137,6 @@ Support the development via crypto donations:
       </td>
     </tr>
   </table>
-</div>
-
-## 📈 Coding Activity
-
-<div align="center">
-  <!-- GitHub Contribution Snake -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
-## 🎯 Profile Summary
-
-<div align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=transparent" alt="Profile Details"/>
-</div>
-
-<div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&&theme=transparent" alt="Stats"/>
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&&theme=transparent" alt="Productive Time"/>
-</div>
-
-## 🔬 Detailed Metrics
-
-<div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg" alt="Detailed Metrics"/>
 </div>
 
 ## ⭐ Stargazers
