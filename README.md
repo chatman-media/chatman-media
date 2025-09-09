@@ -66,7 +66,7 @@
 
 ## 🏆 GitHub Trophies
 
-<img width="100%" src="https://github-trophies.vercel.app/?username=chatman-media&theme=transparent&column=8&row=1&no-frame=true&rank=SSS,SS,S,AAA,SECRET" alt="GitHub Trophies"/>
+<img width="100%" src="https://github-trophies.vercel.app/?username=chatman-media&theme=transparent&column=7" alt="GitHub Trophies"/>
 
 ## 📈 Coding Activity
 
