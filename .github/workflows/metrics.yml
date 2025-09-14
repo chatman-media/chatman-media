@@ -27,3 +27,7 @@ jobs:
           
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_stargazers_charts_type: classic
