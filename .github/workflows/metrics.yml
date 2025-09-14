@@ -20,7 +20,7 @@ jobs:
           config_timezone: Asia/Bangkok
           committer_message: "chore: update metrics"
 
-          plugin_introduction: yes  # общая информация о аккаунте
+          plugin_introduction: yes # общая информация о аккаунте
 
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
@@ -31,27 +31,26 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          plugin_languages: yes  # отображение применяемых языков программирования
-          plugin_languages_details: bytes-size, percentage  # дополнительная информация о коде размер и процент
+          plugin_languages: yes # отображение применяемых языков программирования
+          plugin_languages_details: bytes-size, percentage # дополнительная информация о коде размер и процент
 
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
           plugin_stargazers_charts_type: classic
 
-          plugin_habits: yes  # активность за сутки и неделю
-          plugin_habits_facts: yes  # отображает анализ вашей активность за неделю
-          plugin_habits_charts: yes  # отображает характеристики
+          plugin_habits: yes # активность за сутки и неделю
+          plugin_habits_facts: yes # отображает анализ вашей активность за неделю
+          plugin_habits_charts: yes # отображает характеристики
 
-          plugin_licenses: yes  # информация о лицензиях
-          plugin_licenses_setup: npm ci  # подробная информация о применяемых лицензиях
+          plugin_licenses: yes # информация о лицензиях
+          plugin_licenses_setup: npm ci # подробная информация о применяемых лицензиях
 
-          plugin_topics: yes  # плагин ипсользуемых тем
+          plugin_topics: yes # плагин ипсользуемых тем
           plugin_topics_limit: 0
           plugin_topics_mode: icons
 
-
           plugin_activity: yes
-          plugin_activity_days: 14
+          plugin_activity_days: 90
           plugin_activity_filter: all
           plugin_activity_limit: 1
           plugin_activity_load: 300
