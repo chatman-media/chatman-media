@@ -109,6 +109,14 @@
   <img width="100%" src="https://streak-stats.demolab.com?user=chatman-media&theme=transparent&hide_border=true&card_width=1000&fire=8b5cf6&border=8b5cf6" alt="GitHub Streak"/>
 </div>
 
+#### Thanks for visiting :heart:
+
+<a href="https://info.flagcounter.com/V5YQ"><img src="https://s01.flagcounter.com/count2/V5YQ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_40/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date)](https://star-history.com/#chatman-media/chatman-media&Date)
+
 ## Support 💝🚀
 
 Support the development via crypto donations:
