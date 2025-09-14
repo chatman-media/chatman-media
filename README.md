@@ -64,7 +64,6 @@
 <a href="https://chatman.media"><img src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fchatman.media"></a>
 [![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=1c1917)](https://dev.to/chatman-media)
 [![Bluesky](https://img.shields.io/badge/Bluesky-00A7E3?style=for-the-badge&logo=bluesky&logoColor=white&labelColor=1c1917)](https://bsky.app/profile/chatman-media.bsky.social)
-<a href="https://gitroll.io/profile/urxUXkxOYRaP2R0lQPjS59tqGbxE3" target="_blank"><img width="90%" src="https://gitroll.io/api/badges/profiles/v1/urxUXkxOYRaP2R0lQPjS59tqGbxE3?theme=default" alt="GitRoll Profile Badge"/></a>
 
 </div>
 
