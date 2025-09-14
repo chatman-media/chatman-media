@@ -143,8 +143,4 @@ Support the development via crypto donations:
   </table>
 </div>
 
-## ⭐ Stargazers
 
-<div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-stargazers.svg" alt="Stargazers"/>
-</div>
