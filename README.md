@@ -53,10 +53,11 @@
 [![Discord](https://img.shields.io/badge/Chat-on%20Discord-5865F2?logo=discord&logoColor=white)](https://discord.gg/VgEAzqyQ)
 [![Twitch Status](https://img.shields.io/twitch/status/chatman1984?logo=twitch&logoColor=white&color=9146FF&label=Twitch)](https://www.twitch.tv/chatman1984)
 
+[![committers.top badge](https://user-badge.committers.top/thailand/chatman-media.svg)](https://user-badge.committers.top/thailand/chatman-media)
 ![Profile Views](https://komarev.com/ghpvc/?username=chatman-media&color=8b5cf6&labelColor=1c1917)
 ![Wakatime total](https://wakatime.com/badge/user/4393eda7-541a-42ae-974f-3a312c0631b7.svg)
 [![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?logo=dev.to&logoColor=white&labelColor=1c1917)](https://dev.to/chatman-media)
-[![Bluesky](https://img.shields.io/badge/Bluesky-00A7E3?logo=bluesky&logoColor=white&labelColor=1c1917)](https://bsky.app/profile/chatman-media.bsky.social)
+<!-- [![Bluesky](https://img.shields.io/badge/Bluesky-00A7E3?logo=bluesky&logoColor=white&labelColor=1c1917)](https://bsky.app/profile/chatman-media.bsky.social) -->
 
 </div>
 
