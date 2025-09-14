@@ -37,6 +37,9 @@
 </a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://x.com/chatman_media">
   <img src="icons/twitter-x.svg" width="50" height="50" alt="X" />
+</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://gitroll.io/profile/urxUXkxOYRaP2R0lQPjS59tqGbxE3">
+  <img src="icons/github.svg" width="50" height="50" alt="GitRoll" />
 </a><br/><br/>
 
 <!-- [![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=chatman&theme=dark)](https://www.codewars.com/users/chatman) -->
@@ -60,7 +63,7 @@
 ![Wakatime total](https://wakatime.com/badge/user/4393eda7-541a-42ae-974f-3a312c0631b7.svg?style=for-the-badge)
 <a href="https://chatman.media"><img src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fchatman.media"></a>
 [![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=1c1917)](https://dev.to/chatman-media)
-<!-- [![Bluesky](https://img.shields.io/badge/Bluesky-00A7E3?style=for-the-badge&logo=bluesky&logoColor=white&labelColor=1c1917)](https://bsky.app/profile/chatman-media.bsky.social) -->
+[![Bluesky](https://img.shields.io/badge/Bluesky-00A7E3?style=for-the-badge&logo=bluesky&logoColor=white&labelColor=1c1917)](https://bsky.app/profile/chatman-media.bsky.social)
 
 </div>
 
