@@ -38,18 +38,12 @@ jobs:
           plugin_stargazers_charts: yes
           plugin_stargazers_charts_type: classic
 
-          plugin_achievements: yes
-          plugin_achievements_threshold: X  # (покажет фишки достижений которые еще не разблокированы)
-          plugin_achievements_display: detailed  # детальное описание фишек достижений
-
           plugin_habits: yes  # активность за сутки и неделю
           plugin_habits_facts: yes  # отображает анализ вашей активность за неделю
           plugin_habits_charts: yes  # отображает характеристики
 
           plugin_licenses: yes  # информация о лицензиях
           plugin_licenses_setup: npm ci  # подробная информация о применяемых лицензиях
-
-          plugin_support: yes  # плагин поддержки
 
           plugin_topics: yes  # плагин ипсользуемых тем
           plugin_topics_limit: 0
