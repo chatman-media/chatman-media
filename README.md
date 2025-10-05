@@ -111,39 +111,42 @@
 
 <a href="https://info.flagcounter.com/V5YQ"><img src="https://s01.flagcounter.com/count2/V5YQ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_40/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date)](https://star-history.com/#chatman-media/chatman-media&Date)
-
 ## Support 💝🚀
 
-Support the development via crypto donations:
+- **BTC:** 14s9Y9Rb2CUWHSAatiQMhfkpx1MWXofUzw
+- **TON:** UQBx7Sgtn5q_PzwUAjvnA_lj9CQx1NhN9JDi3abOgpRYnAnr
+- **NOT:** UQBx7Sgtn5q_PzwUAjvnA_lj9CQx1NhN9JDi3abOgpRYnAnr
+- **ETH:** 0x286D65151b622dCC16624cEd8463FDa45585fd60
 
 <div align="center">
   <table>
     <tr>
-      <td align="center">
-        <strong>BTC</strong><br/>
-        <img src="btc.png" alt="BTC QR Code" height="200" /><br/>
-        <code>14s9Y9Rb2CUWHSAatiQMhfkpx1MWXofUzw</code>
-      </td>
-      <td align="center">
-        <strong>ETH</strong><br/>
-        <img src="eth.png" alt="ETH QR Code" height="200" /><br/>
-        <code>0x286D65151b622dCC16624cEd8463FDa45585fd60</code>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <strong>TON</strong><br/>
-        <img src="ton.png" alt="TON QR Code" height="200" /><br/>
-        <code>UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj</code>
-      </td>
-      <td align="center">
-        <strong>NOT</strong><br/>
-        <img src="not.png" alt="NOT QR Code" height="200" /><br/>
-        <code>UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj</code>
-      </td>
+      <td><img src="btc.png" alt="BTC" height="185" width="185" /></td>
+      <td><img src="ton.png" alt="TON" height="185" width="185" /></td>
+      <td><img src="not.png" alt="NOT" height="185" width="185" /></td>
+      <td><img src="eth.png" alt="ETH" height="185" width="185" /></td>
     </tr>
   </table>
 </div>
+
+## Star History
+
+<a href="https://www.star-history.com/#chatman-media/telegram-badge&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=chatman-media/telegram-badge&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=chatman-media/telegram-badge&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=chatman-media/telegram-badge&type=Date" />
+ </picture>
+</a>
+
+## Repo Activity
+
+![Alt](https://repobeats.axiom.co/api/embed/74975e0da934ce1756e69f04fe68f2b026a77aee.svg "Repobeats analytics image")
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with ❤️ by [Chatman Media](https://github.com/chatman-media)
