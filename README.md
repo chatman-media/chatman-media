@@ -131,11 +131,11 @@
 
 ## Star History
 
-<a href="https://www.star-history.com/#chatman-media/telegram-badge&Date">
+<a href="https://www.star-history.com/#chatman-media/chatman-media&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=chatman-media/telegram-badge&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=chatman-media/telegram-badge&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=chatman-media/telegram-badge&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date" />
  </picture>
 </a>
 
