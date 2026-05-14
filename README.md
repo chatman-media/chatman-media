@@ -48,18 +48,10 @@
   <img src="icons/github.svg" width="50" height="50" alt="GitRoll" />
 </a><br/><br/>
 
-<!-- [![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=chatman&theme=dark)](https://www.codewars.com/users/chatman) -->
-
-<!-- <a href="https://app.daily.dev/chatman_media"><img src="https://api.daily.dev/devcards/v2/m03UAnE1I90U0mAxEpcNd.png?type=default&r=o7v" width="356" alt="Chatman's Dev Card"/></a> -->
-
-<!-- <a href="https://app.daily.dev/chatman_media"><img src="https://api.daily.dev/devcards/v2/m03UAnE1I90U0mAxEpcNd.png?type=default&r=8i7" width="280" alt="Chatman's Dev Card"/></a> -->
-
 [![GitHub](https://img.shields.io/badge/GitHub_repo-this_badge_→-FF0000?logo=github&logoColor=white)](https://github.com/chatman-media/telegram-badge)
 [![Telegram](https://telegram-badge.vercel.app/api/telegram-badge?label=Join%20Group&color=2CA5E0&channelId=@aisuperhumans)](https://t.me/aisuperhumans)
 [![Discord](https://img.shields.io/badge/Chat-on%20Discord-5865F2?logo=discord&logoColor=white)](https://discord.gg/VgEAzqyQ)
 [![Twitch Status](https://img.shields.io/twitch/status/chatman1984?logo=twitch&logoColor=white&color=9146FF&label=Twitch)](https://www.twitch.tv/chatman1984)
-[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?logo=dev.to&logoColor=white&labelColor=1c1917)](https://dev.to/chatman-media)
-<!--[![Bluesky](https://img.shields.io/badge/Bluesky-00A7E3?logo=bluesky&logoColor=white&labelColor=1c1917)](https://bsky.app/profile/chatman-media.bsky.social)-->
 
 </div>
 
@@ -67,7 +59,9 @@
 
 <img width="100%" src="https://github-trophies.vercel.app/?username=chatman-media&theme=transparent&column=8&row=1&no-frame=true" alt="GitHub Trophies"/>
 
-<!-- [![trophy](https://github-profile-trophy.vercel.app/?username=chatman-media)](https://github.com/chatman-media/github-profile-trophy) -->
+## 🏆 Alternative GitHub Trophies
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=chatman-media)](https://github.com/chatman-media/github-profile-trophy)
 
 ## 📈 Coding Activity
 
