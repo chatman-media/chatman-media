@@ -88,6 +88,15 @@
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&&theme=transparent" alt="Productive Time"/>
 </div>
 
+## 🔬 Detailed Metrics
+
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg" alt="Detailed Metrics"/>
+</div>
+
+#### Thanks for visiting :heart:
+
+<a href="https://info.flagcounter.com/V5YQ"><img src="https://s01.flagcounter.com/count2/V5YQ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_40/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 
 
 <details>
