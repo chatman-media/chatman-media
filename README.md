@@ -70,6 +70,11 @@
 [![X](https://img.shields.io/badge/X-@chatman__media-000000?style=flat&logo=x&logoColor=white)](https://x.com/chatman_media)
 [![YouTube](https://img.shields.io/badge/YouTube-@chatman--media-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@chatman-media)
 
+#### Thanks for visiting :heart:
+
+<a href="https://info.flagcounter.com/V5YQ"><img src="https://s01.flagcounter.com/count2/V5YQ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_40/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+
+
 <details>
 <summary><b>🇷🇺 Русская версия</b></summary>
 
@@ -157,10 +162,10 @@
 
 ## 🔬 Detailed Metrics
 
+<details>
+
 <div align="center">
   <img width="100%" src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg" alt="Detailed Metrics"/>
 </div>
 
-#### Thanks for visiting :heart:
-
-<a href="https://info.flagcounter.com/V5YQ"><img src="https://s01.flagcounter.com/count2/V5YQ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_40/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+</details>
