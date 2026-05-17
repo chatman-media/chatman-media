@@ -43,11 +43,11 @@
 
 ## 🧑‍💻 Why work with me
 
+- 🎓 **15+ years as a Lead / Senior Software Engineer** — Lomonosov Moscow State University (MSU) graduate
+- 🚀 Shipped real production software end-to-end: an AI video editor, custom trading terminals, a crypto wallet, an RPA platform and React Native apps on the App Store / Google Play
 - 🏆 **Top-10 GitHub developers in Thailand**, ~3,000 followers
-- 📅 **14+ years on GitHub** (since 2011) — shipping real products, not demos
 - 🎬 Author and maintainer of **[Timeline Studio](https://github.com/chatman-media/timeline-studio)**, an open-source AI video editor
-- 💬 Active on [Stack Overflow](https://stackoverflow.com/users/724036/alexander-kireyev)
-- 🌏 Based in Phuket, Thailand — comfortable working remotely across Asia / Europe time zones
+- 💬 Active on [Stack Overflow](https://stackoverflow.com/users/724036/alexander-kireyev) · 🌏 remote across Asia / Europe time zones
 
 ## 🤝 How we work
 
@@ -61,6 +61,7 @@
 ## 📬 Contacts
 
 [![Telegram](https://img.shields.io/badge/Telegram-@alexanderkireyev-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/alexanderkireyev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexander_Kireev-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kireyevalexander/)
 [![Email](https://img.shields.io/badge/Email-ak.chatman.media@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ak.chatman.media@gmail.com)
 [![Website](https://img.shields.io/badge/Website-chatman.media-8b5cf6?style=flat&logo=googlechrome&logoColor=white)](https://chatman.media)
 [![X](https://img.shields.io/badge/X-@chatman__media-000000?style=flat&logo=x&logoColor=white)](https://x.com/chatman_media)
@@ -109,11 +110,11 @@
 
 ### 🧑‍💻 Почему я
 
+- 🎓 **15+ лет как Lead / Senior Software Engineer** — выпускник МГУ им. М. В. Ломоносова
+- 🚀 Довожу до продакшена реальные продукты: AI-видеоредактор, торговые терминалы, крипто-кошелёк, RPA-платформу и React Native приложения в App Store / Google Play
 - 🏆 **Топ-10 GitHub-разработчиков Таиланда**, ~3000 подписчиков
-- 📅 **14+ лет на GitHub** (с 2011) — выпускаю реальные продукты, а не демки
 - 🎬 Автор и мейнтейнер **[Timeline Studio](https://github.com/chatman-media/timeline-studio)** — open-source AI-видеоредактора
-- 💬 Активен на [Stack Overflow](https://stackoverflow.com/users/724036/alexander-kireyev)
-- 🌏 Базируюсь в Пхукете (Таиланд) — удобно работать удалённо в часовых поясах Азии / Европы
+- 💬 Активен на [Stack Overflow](https://stackoverflow.com/users/724036/alexander-kireyev) · 🌏 удалённо в часовых поясах Азии / Европы
 
 ### 🤝 Как работаем
 
@@ -127,6 +128,7 @@
 ### 📬 Контакты
 
 - Telegram — [@alexanderkireyev](https://t.me/alexanderkireyev)
+- LinkedIn — [Alexander Kireev](https://www.linkedin.com/in/kireyevalexander/)
 - Email — [ak.chatman.media@gmail.com](mailto:ak.chatman.media@gmail.com)
 - Сайт — [chatman.media](https://chatman.media)
 - X — [@chatman_media](https://x.com/chatman_media)
