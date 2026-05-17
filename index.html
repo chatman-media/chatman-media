@@ -8,6 +8,24 @@
       name="description"
       content="Беседка — сообщество Пхукета для живого офлайн-общения. Знакомься с участниками и связывайся напрямую. Плюс автоматизация и разработка от Александра Киреева."
     />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://chatman.media/" />
+    <meta property="og:site_name" content="chatman.media" />
+    <meta property="og:title" content="Беседка — сообщество Пхукета · chatman.media" />
+    <meta
+      property="og:description"
+      content="Сообщество Пхукета для живого офлайн-общения + автоматизация, чат-боты и разработка от Александра Киреева."
+    />
+    <meta property="og:image" content="https://chatman.media/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Беседка — сообщество Пхукета · chatman.media" />
+    <meta
+      name="twitter:description"
+      content="Сообщество Пхукета для живого офлайн-общения + автоматизация, чат-боты и разработка от Александра Киреева."
+    />
+    <meta name="twitter:image" content="https://chatman.media/og.png" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -505,6 +523,74 @@
           grid-template-columns: 1fr;
         }
       }
+
+      /* works grid */
+      .work-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1px;
+        background: var(--line);
+        border: 1px solid var(--line);
+      }
+      @media (max-width: 860px) {
+        .work-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (max-width: 540px) {
+        .work-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .work {
+        background: var(--bg);
+        padding: 1.5rem 1.4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.55rem;
+        transition: background 0.18s ease;
+        animation: cardIn 0.4s ease backwards;
+      }
+      .work:hover {
+        background: var(--surface-2);
+      }
+      .work-top {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 0.7rem;
+      }
+      .work-name {
+        font-family: var(--mono);
+        font-weight: 700;
+        font-size: 1.02rem;
+        letter-spacing: -0.03em;
+      }
+      .work-meta {
+        font-family: var(--mono);
+        font-size: 0.64rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--ink-mute);
+        white-space: nowrap;
+      }
+      .work p {
+        font-size: 0.86rem;
+        color: var(--ink-soft);
+        flex-grow: 1;
+      }
+      .work-link {
+        font-family: var(--mono);
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--ink-mute);
+        transition: color 0.14s ease;
+      }
+      .work:hover .work-link {
+        color: var(--ink);
+      }
+
       .svc {
         background: var(--bg);
         padding: 1.8rem 1.6rem;
@@ -793,6 +879,12 @@
         <div class="svc-grid" id="svcGrid"></div>
 
         <div class="sec-head">
+          <div class="eyebrow" data-i18n="auto.worksEyebrow">// Работы</div>
+          <h2 data-i18n="auto.worksTitle">Кейсы и проекты</h2>
+        </div>
+        <div class="work-grid" id="workGrid"></div>
+
+        <div class="sec-head">
           <div class="eyebrow" data-i18n="auto.howEyebrow">// Процесс</div>
           <h2 data-i18n="auto.howTitle">Как мы работаем</h2>
         </div>
@@ -1072,6 +1164,54 @@
       ];
 
       /* ============================================================
+         КЕЙСЫ И ПРОЕКТЫ / SELECTED WORK
+         ============================================================ */
+      const PROJECTS = [
+        {
+          name: "Timeline Studio",
+          url: "https://timelinestudio.pro/",
+          meta: "160★ · open-source",
+          ru: "AI-видеоредактор для всех платформ — мой флагманский продукт на Tauri + Rust.",
+          en: "Cross-platform AI video editor — my flagship product on Tauri + Rust.",
+        },
+        {
+          name: "rag",
+          url: "https://github.com/chatman-media/rag",
+          meta: "GitHub",
+          ru: "RAG-движок production-уровня: гибридный поиск (pgvector + BM25), защита от галлюцинаций.",
+          en: "Production-grade RAG engine: hybrid retrieval (pgvector + BM25), hallucination guard.",
+        },
+        {
+          name: "sales",
+          url: "https://github.com/chatman-media/sales",
+          meta: "GitHub",
+          ru: "Движок sales-воронок на LLM: композиция персон, маршрутизация, A/B-тесты.",
+          en: "LLM sales funnel engine: persona composition, routing, A/B testing.",
+        },
+        {
+          name: "telegram-badge",
+          url: "https://github.com/chatman-media/telegram-badge",
+          meta: "25★",
+          ru: "Генератор SVG-бейджей с живым счётчиком участников Telegram-групп.",
+          en: "SVG badge generator with a live Telegram group member count.",
+        },
+        {
+          name: "Video-Translation-API",
+          url: "https://github.com/chatman-media/Video-Translation-API",
+          meta: "GitHub",
+          ru: "Автоматический перевод видео на несколько языков с озвучкой.",
+          en: "Automatic multi-language video translation with voice-over.",
+        },
+        {
+          name: "farang-marketplace",
+          url: "https://github.com/chatman-media/farang-marketplace",
+          meta: "GitHub",
+          ru: "Платформа мультивендорного маркетплейса на TypeScript.",
+          en: "Multi-vendor marketplace platform in TypeScript.",
+        },
+      ];
+
+      /* ============================================================
          I18N — интерфейсные строки
          ============================================================ */
       const I18N = {
@@ -1112,6 +1252,8 @@
         "auto.p3": { ru: "GitHub Таиланд", en: "GitHub Thailand" },
         "auto.svcEyebrow": { ru: "// Услуги", en: "// Services" },
         "auto.svcTitle": { ru: "Что я автоматизирую", en: "What I automate" },
+        "auto.worksEyebrow": { ru: "// Работы", en: "// Selected work" },
+        "auto.worksTitle": { ru: "Кейсы и проекты", en: "Selected work" },
         "auto.howEyebrow": { ru: "// Процесс", en: "// Process" },
         "auto.howTitle": { ru: "Как мы работаем", en: "How we work" },
         "auto.bannerTitle": {
@@ -1167,6 +1309,7 @@
         renderFilters();
         renderMembers();
         renderServices();
+        renderProjects();
         renderSteps();
       }
 
@@ -1265,6 +1408,23 @@
         $("#stepGrid").innerHTML = STEPS.map((s) => {
           const d = s[L];
           return `<div class="step"><h4>${d.t}</h4><p>${d.d}</p></div>`;
+        }).join("");
+      }
+
+      function renderProjects() {
+        const L = state.lang;
+        const open = L === "ru" ? "Открыть →" : "Open →";
+        $("#workGrid").innerHTML = PROJECTS.map((p, i) => {
+          return `<a class="work" href="${p.url}" target="_blank" rel="noopener" style="animation-delay:${
+            i * 0.05
+          }s">
+            <div class="work-top">
+              <span class="work-name">${p.name}</span>
+              <span class="work-meta">${p.meta}</span>
+            </div>
+            <p>${p[L]}</p>
+            <span class="work-link">${open}</span>
+          </a>`;
         }).join("");
       }
 

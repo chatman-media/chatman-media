@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#000000" />
+  <g stroke="#ffffff" stroke-opacity="0.045">
+    <line x1="0" y1="157" x2="1200" y2="157" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+    <line x1="0" y1="473" x2="1200" y2="473" />
+    <line x1="300" y1="0" x2="300" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="900" y1="0" x2="900" y2="630" />
+  </g>
+  <rect x="24.5" y="24.5" width="1151" height="581" fill="none" stroke="#2e2e2e" />
+  <path d="M152 92 H214 L122 300 H60 Z" fill="#ffffff" />
+  <text x="82" y="436" font-family="'JetBrains Mono','SF Mono','Menlo',monospace" font-size="116" font-weight="800" letter-spacing="-5" fill="#ffffff">chatman<tspan fill="#5a5a5a">/</tspan>media</text>
+  <text x="86" y="505" font-family="'JetBrains Mono','SF Mono','Menlo',monospace" font-size="29" letter-spacing="6.5" fill="#9a9a9a">AI AUTOMATION · CHATBOTS · WEB DEVELOPMENT</text>
+  <text x="86" y="566" font-family="'JetBrains Mono','SF Mono','Menlo',monospace" font-size="21" letter-spacing="3" fill="#5a5a5a">PHUKET COMMUNITY — BESEDKA</text>
+  <text x="1116" y="566" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Menlo',monospace" font-size="21" letter-spacing="2" fill="#5a5a5a">chatman.media</text>
+</svg>
