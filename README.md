@@ -139,3 +139,14 @@
 - YouTube — [@chatman-media](https://www.youtube.com/@chatman-media)
 
 </details>
+
+---
+
+<div align="center">
+
+<img src="https://github-trophies.vercel.app/?username=chatman-media&theme=transparent&column=8&row=1&no-frame=true" alt="GitHub Trophies" width="100%"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=chatman-media&show_icons=true&hide_border=true&count_private=true&theme=transparent&icon_color=8b5cf6&title_color=8b5cf6" alt="GitHub Stats"/>
+<img height="165" src="https://streak-stats.demolab.com?user=chatman-media&hide_border=true&theme=transparent&fire=8b5cf6&currStreakLabel=8b5cf6&ring=8b5cf6&sideNums=8b5cf6" alt="GitHub Streak"/>
+
+</div>
