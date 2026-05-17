@@ -13,6 +13,8 @@
 
 <a href="https://t.me/alexanderkireyev"><img src="https://img.shields.io/badge/Hire%20me%20%E2%86%92%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Hire me on Telegram"></a>
 &nbsp;
+<a href="https://wa.me/66968686196"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
+&nbsp;
 <a href="mailto:ak.chatman.media@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
 </div>
@@ -61,6 +63,7 @@
 ## 📬 Contacts
 
 [![Telegram](https://img.shields.io/badge/Telegram-@alexanderkireyev-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/alexanderkireyev)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-+66_96_868_6196-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/66968686196)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexander_Kireev-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kireyevalexander/)
 [![Email](https://img.shields.io/badge/Email-ak.chatman.media@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ak.chatman.media@gmail.com)
 [![Website](https://img.shields.io/badge/Website-chatman.media-8b5cf6?style=flat&logo=googlechrome&logoColor=white)](https://chatman.media)
@@ -128,6 +131,7 @@
 ### 📬 Контакты
 
 - Telegram — [@alexanderkireyev](https://t.me/alexanderkireyev)
+- WhatsApp — [+66 96 868 6196](https://wa.me/66968686196)
 - LinkedIn — [Alexander Kireev](https://www.linkedin.com/in/kireyevalexander/)
 - Email — [ak.chatman.media@gmail.com](mailto:ak.chatman.media@gmail.com)
 - Сайт — [chatman.media](https://chatman.media)
