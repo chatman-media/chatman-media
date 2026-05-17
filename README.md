@@ -11,6 +11,8 @@
 
 **I build AI/LLM automation, chatbots and web products that save businesses hours and bring in leads.**
 
+<a href="https://chatman.media"><img src="https://img.shields.io/badge/Visit%20my%20site%20%E2%86%92%20chatman.media-0b0b0b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website — chatman.media"></a>
+
 <a href="https://t.me/alexanderkireyev"><img src="https://img.shields.io/badge/Hire%20me%20%E2%86%92%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Hire me on Telegram"></a>
 &nbsp;
 <a href="https://wa.me/66968686196"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
@@ -66,7 +68,7 @@
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-+66_96_868_6196-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/66968686196)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexander_Kireev-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kireyevalexander/)
 [![Email](https://img.shields.io/badge/Email-ak.chatman.media@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ak.chatman.media@gmail.com)
-[![Website](https://img.shields.io/badge/Website-chatman.media-8b5cf6?style=flat&logo=googlechrome&logoColor=white)](https://chatman.media)
+[![Website](https://img.shields.io/badge/Website-chatman.media-0b0b0b?style=flat&logo=googlechrome&logoColor=white)](https://chatman.media)
 [![X](https://img.shields.io/badge/X-@chatman__media-000000?style=flat&logo=x&logoColor=white)](https://x.com/chatman_media)
 [![YouTube](https://img.shields.io/badge/YouTube-@chatman--media-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@chatman-media)
 
@@ -87,6 +89,8 @@
 ### AI-автоматизация и разработка ПО
 
 **Делаю AI/LLM-автоматизацию, чат-ботов и веб-продукты, которые экономят бизнесу часы и приносят заявки.**
+
+<a href="https://chatman.media"><img src="https://img.shields.io/badge/%D0%9C%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%E2%86%92%20chatman.media-0b0b0b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Сайт — chatman.media"></a>
 
 <a href="https://t.me/alexanderkireyev"><img src="https://img.shields.io/badge/%D0%9D%D0%B0%D0%BF%D0%B8%D1%88%D0%B8%D1%82%D0%B5%20%E2%86%92%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Написать в Telegram"></a>
 
