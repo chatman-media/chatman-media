@@ -149,8 +149,6 @@
 
 ---
 
-## 🎯 Profile Summary
-
 <div align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=transparent" alt="Profile Details"/>
 </div>
@@ -160,7 +158,7 @@
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&&theme=transparent" alt="Productive Time"/>
 </div>
 
-## 🔬 Detailed Metrics
+---
 
 <details>
 
