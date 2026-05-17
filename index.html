@@ -1,853 +1,1389 @@
 <!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Chatman's Mind</title>
-        <link rel="icon" type="image/png" href="favicon.ico" />
-        <style>
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-
-            body {
-                font-family:
-                    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-                    Oxygen, Ubuntu, Cantarell, sans-serif;
-                background-color: #202830;
-                color: #c9d1d9;
-                line-height: 1.6;
-                min-height: 100vh;
-            }
-
-            /* Tab Navigation */
-            .tab-navigation {
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                background: linear-gradient(180deg, rgba(22, 27, 34, 0.98) 0%, rgba(22, 27, 34, 0.95) 100%);
-                backdrop-filter: blur(10px);
-                border-bottom: 1px solid rgba(139, 92, 246, 0.2);
-                z-index: 1000;
-                padding: 1rem 0;
-                animation: slideDown 0.5s ease-out;
-            }
-
-            @keyframes slideDown {
-                from {
-                    transform: translateY(-100%);
-                    opacity: 0;
-                }
-                to {
-                    transform: translateY(0);
-                    opacity: 1;
-                }
-            }
-
-            .tab-container {
-                max-width: 1200px;
-                margin: 0 auto;
-                padding: 0 2rem;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 2rem;
-            }
-
-            .tab-btn {
-                background: transparent;
-                border: 2px solid transparent;
-                color: #8b949e;
-                padding: 0.8rem 2rem;
-                font-size: 1.1rem;
-                font-family: "Courier New", monospace;
-                cursor: pointer;
-                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-                position: relative;
-                overflow: hidden;
-                letter-spacing: 2px;
-                text-transform: uppercase;
-                font-weight: bold;
-            }
-
-            .tab-btn::before {
-                content: '';
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 0;
-                height: 3px;
-                background: linear-gradient(90deg, #8b5cf6, #58a6ff);
-                transition: width 0.3s ease;
-            }
-
-            .tab-btn:hover {
-                color: #c9d1d9;
-                transform: translateY(-2px);
-            }
-
-            .tab-btn:hover::before {
-                width: 100%;
-            }
-
-            .tab-btn.active {
-                color: #8b5cf6;
-                border: 2px solid rgba(139, 92, 246, 0.3);
-                background: rgba(139, 92, 246, 0.1);
-                box-shadow: 0 0 30px rgba(139, 92, 246, 0.3);
-            }
-
-            .tab-btn.active::before {
-                width: 100%;
-            }
-
-            .tab-link {
-                color: #8b949e;
-                padding: 0.8rem 2rem;
-                font-size: 1.1rem;
-                font-family: "Courier New", monospace;
-                text-decoration: none;
-                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-                position: relative;
-                overflow: hidden;
-                letter-spacing: 2px;
-                text-transform: uppercase;
-                font-weight: bold;
-                display: inline-flex;
-                align-items: center;
-            }
-
-            .tab-link::before {
-                content: '';
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 0;
-                height: 3px;
-                background: linear-gradient(90deg, #8b5cf6, #58a6ff);
-                transition: width 0.3s ease;
-            }
-
-            .tab-link:hover {
-                color: #58a6ff;
-                transform: translateY(-2px);
-            }
-
-            .tab-link:hover::before {
-                width: 100%;
-            }
-
-            /* Tab Content */
-            .tab-content {
-                margin-top: 80px;
-                display: none;
-                animation: fadeIn 0.6s ease;
-            }
-
-            .tab-content.active {
-                display: block;
-            }
-
-            @keyframes fadeIn {
-                from {
-                    opacity: 0;
-                    transform: translateY(20px);
-                }
-                to {
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-            }
-
-            /* Programming Tab Styles */
-            .container {
-                max-width: 1200px;
-                margin: 0 auto;
-                padding: 2rem;
-            }
-
-            header {
-                text-align: center;
-                margin-bottom: 3rem;
-            }
-
-            h1 {
-                font-size: 2.5rem;
-                margin-bottom: 1rem;
-            }
-
-            h1 a {
-                color: #58a6ff;
-                text-decoration: none;
-                transition: opacity 0.2s;
-            }
-
-            h1 a:hover {
-                opacity: 0.8;
-            }
-
-            .logo {
-                margin: 2rem 0;
-            }
-
-            .logo img {
-                max-width: 900px;
-                width: 100%;
-                height: auto;
-            }
-
-            .intro-section {
-                display: flex;
-                gap: 2rem;
-                justify-content: center;
-                align-items: center;
-                margin-bottom: 3rem;
-                flex-wrap: wrap;
-            }
-
-            .typing-svg,
-            .stackoverflow-card {
-                flex: 1;
-                min-width: 300px;
-                display: flex;
-                justify-content: center;
-            }
-
-            .social-badges {
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-                justify-content: center;
-                margin-bottom: 3rem;
-            }
-
-            .badge-link {
-                display: inline-flex;
-                align-items: center;
-                text-decoration: none;
-                transition: transform 0.2s;
-            }
-
-            .badge-link:hover {
-                transform: translateY(-2px);
-            }
-
-            .badge-link img {
-                height: 28px;
-            }
-
-            section {
-                margin-bottom: 3rem;
-            }
-
-            h2 {
-                font-size: 1.8rem;
-                margin-bottom: 1.5rem;
-                text-align: center;
-                color: #f0f6fc;
-            }
-
-            .support-list {
-                background-color: #161b22;
-                border-radius: 6px;
-                padding: 2rem;
-                margin-bottom: 2rem;
-                border: 1px solid rgba(139, 92, 246, 0.1);
-            }
-
-            .support-list ul {
-                list-style: none;
-            }
-
-            .support-list li {
-                margin-bottom: 1rem;
-                font-family: "Courier New", monospace;
-                word-break: break-all;
-            }
-
-            .support-list strong {
-                color: #58a6ff;
-                margin-right: 0.5rem;
-            }
-
-            .qr-codes {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 1rem;
-                justify-content: center;
-            }
-
-            .qr-codes img {
-                height: 205px;
-                border-radius: 6px;
-            }
-
-            .skills-badges {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 0.5rem;
-                justify-content: center;
-                margin-bottom: 2rem;
-            }
-
-            .github-stats {
-                display: grid;
-                gap: 2rem;
-                margin-top: 2rem;
-            }
-
-            .github-stats img {
-                width: 100%;
-                max-width: 900px;
-                margin: 0 auto;
-                display: block;
-                border-radius: 6px;
-            }
-
-            .stats-row {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-                gap: 1rem;
-                max-width: 900px;
-                margin: 0 auto;
-            }
-
-            /* Manifesto Tab Styles */
-            .manifesto-container {
-                max-width: 900px;
-                margin: 0 auto;
-                padding: 2rem;
-            }
-
-            .manifesto-header {
-                text-align: center;
-                margin-bottom: 4rem;
-                padding: 3rem 0;
-                position: relative;
-            }
-
-            .manifesto-header::after {
-                content: '';
-                position: absolute;
-                bottom: 0;
-                left: 50%;
-                transform: translateX(-50%);
-                width: 100px;
-                height: 1px;
-                background: linear-gradient(90deg, transparent, #8b5cf6, transparent);
-            }
-
-            .manifesto-main-title {
-                font-size: 3rem;
-                color: #8b5cf6;
-                text-shadow: 0 0 30px rgba(139, 92, 246, 0.5);
-                letter-spacing: 4px;
-                margin-bottom: 1rem;
-                animation: glow 2s ease-in-out infinite alternate;
-            }
-
-            @keyframes glow {
-                from {
-                    text-shadow: 0 0 30px rgba(139, 92, 246, 0.5);
-                }
-                to {
-                    text-shadow: 0 0 40px rgba(139, 92, 246, 0.8), 0 0 60px rgba(88, 166, 255, 0.4);
-                }
-            }
-
-            .manifesto-section {
-                margin-bottom: 4rem;
-                padding: 2rem;
-                background: linear-gradient(135deg, rgba(22, 27, 34, 0.5) 0%, rgba(32, 40, 48, 0.5) 100%);
-                border-left: 3px solid rgba(139, 92, 246, 0.5);
-                border-radius: 8px;
-                position: relative;
-                overflow: hidden;
-            }
-
-            .manifesto-section::before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 1px;
-                background: linear-gradient(90deg, #8b5cf6, transparent);
-                animation: scan 3s linear infinite;
-            }
-
-            @keyframes scan {
-                0% { transform: translateX(-100%); }
-                100% { transform: translateX(100%); }
-            }
-
-            .manifesto-title {
-                font-size: 1.8rem;
-                color: #58a6ff;
-                margin-bottom: 1.5rem;
-                letter-spacing: 2px;
-                text-transform: uppercase;
-            }
-
-            .manifesto-text {
-                font-size: 1.1rem;
-                line-height: 2;
-                color: #c9d1d9;
-            }
-
-            .manifesto-text p {
-                margin-bottom: 1rem;
-                opacity: 0;
-                animation: fadeInUp 0.8s ease forwards;
-            }
-
-            .manifesto-text p:nth-child(1) { animation-delay: 0.1s; }
-            .manifesto-text p:nth-child(2) { animation-delay: 0.2s; }
-            .manifesto-text p:nth-child(3) { animation-delay: 0.3s; }
-            .manifesto-text p:nth-child(4) { animation-delay: 0.4s; }
-            .manifesto-text p:nth-child(5) { animation-delay: 0.5s; }
-            .manifesto-text p:nth-child(6) { animation-delay: 0.6s; }
-            .manifesto-text p:nth-child(7) { animation-delay: 0.7s; }
-
-            @keyframes fadeInUp {
-                from {
-                    opacity: 0;
-                    transform: translateY(20px);
-                }
-                to {
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-            }
-
-            .evolution-stage {
-                color: #8b5cf6;
-                font-weight: bold;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-            }
-
-            .divider {
-                text-align: center;
-                font-size: 2rem;
-                color: #8b5cf6;
-                margin: 3rem 0;
-                opacity: 0.5;
-            }
-
-            .welcome {
-                font-size: 1.5rem;
-                font-weight: bold;
-                color: #8b5cf6;
-                text-align: center;
-                letter-spacing: 3px;
-                text-transform: uppercase;
-                margin-top: 2rem;
-            }
-
-            /* Mobile Styles */
-            @media (max-width: 768px) {
-                .tab-btn {
-                    padding: 0.6rem 1.5rem;
-                    font-size: 0.9rem;
-                }
-
-                .manifesto-main-title {
-                    font-size: 2rem;
-                    letter-spacing: 2px;
-                }
-
-                .manifesto-title {
-                    font-size: 1.4rem;
-                }
-
-                .manifesto-text {
-                    font-size: 1rem;
-                }
-
-                h1 {
-                    font-size: 1.8rem;
-                }
-
-                .intro-section {
-                    flex-direction: column;
-                }
-
-                .support-list {
-                    padding: 1rem;
-                }
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Tab Navigation -->
-        <nav class="tab-navigation">
-            <div class="tab-container">
-                <button class="tab-btn active" data-tab="programming">💻 Programming</button>
-                <button class="tab-btn" data-tab="manifesto">🕶️ Manifesto</button>
-                <a href="https://timelinestudio.pro/" class="tab-link" target="_blank">🚀 Timeline Studio</a>
-            </div>
-        </nav>
-
-        <!-- Programming Tab Content -->
-        <div id="programming" class="tab-content active">
-            <div class="container">
-                <header>
-                    <h1 style="display: none;">
-                        <a href="https://github.com/chatman-media/timeline-studio"
-                            >Timeline Studio</a
-                        >
-                        &
-                        <a href="https://github.com/chatman-media/x">real X</a>
-                    </h1>
-                </header>
-
-                <div class="intro-section">
-                    <div class="typing-svg">
-                        <img
-                            src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Alexander+Kireyev;+Welcome+to+My+Profile!;Physicist+•+Mathematician+•+Engineer+•+Philosopher+;Timeline+Studio:+founder+;X+Digital+Marketplace+ecosystem+🚀"
-                            alt="Typing SVG"
-                        />
-                    </div>
-                    <div class="stackoverflow-card">
-                        <a
-                            href="https://stackoverflow.com/users/724036/alexander-kireyev"
-                        >
-                            <img
-                                src="https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark"
-                                alt="Stack Overflow profile"
-                            />
-                        </a>
-                    </div>
-                </div>
-
-                <div class="social-badges">
-                    <div
-                        style="
-                            width: 100%;
-                            display: flex;
-                            flex-wrap: wrap;
-                            gap: 1rem;
-                            justify-content: center;
-                        "
-                    >
-                        <a
-                            href="https://github.com/chatman-media/telegram-badge"
-                            class="badge-link"
-                        >
-                            <img
-                                src="https://img.shields.io/badge/GitHub_repo-this_badge_→-181717?style=for-the-badge&logo=github&logoColor=white"
-                                alt="GitHub Badge Repo"
-                            />
-                        </a>
-                        <a href="https://t.me/timelinestudio" class="badge-link">
-                            <img
-                                src="https://telegram-badge.vercel.app/api/telegram-badge?style=for-the-badge&label=Join%20Group&color=2CA5E0&link=https://t.me/timelinestudio"
-                                alt="Telegram"
-                            />
-                        </a>
-                        <a href="https://discord.gg/VgEAzqyQ" class="badge-link">
-                            <img
-                                src="https://img.shields.io/badge/Chat-on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"
-                                alt="Discord"
-                            />
-                        </a>
-                        <a
-                            href="https://www.twitch.tv/chatman1984"
-                            class="badge-link"
-                        >
-                            <img
-                                src="https://img.shields.io/twitch/status/chatman1984?style=for-the-badge&logo=twitch&logoColor=white&color=9146FF&label=Twitch"
-                                alt="Twitch Status"
-                            />
-                        </a>
-                    </div>
-                    <div
-                        style="
-                            width: 100%;
-                            display: flex;
-                            flex-wrap: wrap;
-                            gap: 1rem;
-                            justify-content: center;
-                        "
-                    >
-                        <a
-                            href="https://www.tiktok.com/@chatman.media"
-                            class="badge-link"
-                        >
-                            <img
-                                src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1c1917"
-                                alt="TikTok"
-                            />
-                        </a>
-                        <a
-                            href="https://www.youtube.com/@chatman-media"
-                            class="badge-link"
-                        >
-                            <img
-                                src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=1c1917"
-                                alt="YouTube"
-                            />
-                        </a>
-                        <a href="https://t.me/alexanderkireyev" class="badge-link">
-                            <img
-                                src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1c1917"
-                                alt="Telegram Personal"
-                            />
-                        </a>
-                        <a href="https://x.com/chatman_media" class="badge-link">
-                            <img
-                                src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1c1917"
-                                alt="X/Twitter"
-                            />
-                        </a>
-                    </div>
-                </div>
-
-                <section>
-                    <h2>Support 💝🚀</h2>
-                    <div class="support-list">
-                        <ul>
-                            <li>
-                                <strong>BTC:</strong>
-                                14s9Y9Rb2CUWHSAatiQMhfkpx1MWXofUzw
-                            </li>
-                            <li>
-                                <strong>TON:</strong>
-                                UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj
-                            </li>
-                            <li>
-                                <strong>NOT:</strong>
-                                UQD1M80nPyzph5ZW1vfp_r19XI5MaerNhDq4dWXbXCo96WFj
-                            </li>
-                            <li>
-                                <strong>ETH:</strong>
-                                0x286D65151b622dCC16624cEd8463FDa45585fd60
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="qr-codes">
-                        <img src="btc.png" alt="BTC QR Code" />
-                        <img src="ton.png" alt="TON QR Code" />
-                        <img src="not.png" alt="NOT QR Code" />
-                        <img src="eth.png" alt="ETH QR Code" />
-                    </div>
-                </section>
-
-                <section>
-                    <h2>Skills & Passion</h2>
-                    <div class="skills-badges">
-                        <img
-                            src="https://wakatime.com/badge/user/4393eda7-541a-42ae-974f-3a312c0631b7.svg?style=for-the-badge"
-                            alt="Wakatime total"
-                        />
-                        <img
-                            src="https://img.shields.io/badge/tauri-%23FFC131.svg?style=for-the-badge&logo=tauri&logoColor=black"
-                            alt="Tauri"
-                        />
-                        <img
-                            src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
-                            alt="Node.js"
-                        />
-                        <img
-                            src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
-                            alt="React"
-                        />
-                        <img
-                            src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white"
-                            alt="Ruby"
-                        />
-                        <img
-                            src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white"
-                            alt="Rust"
-                        />
-                        <img
-                            src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
-                            alt="TypeScript"
-                        />
-                    </div>
-
-                    <div class="github-stats">
-                        <img
-                            src="https://wakatime.com/share/@chatman/b67749ee-d2b0-4721-a30e-cfb74d977fce.svg"
-                            alt="Wakatime Activity"
-                        />
-                        <img
-                            src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=tokyonight"
-                            alt="Profile details"
-                        />
-
-                        <div class="stats-row">
-                            <img
-                                src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&theme=tokyonight"
-                                alt="Stats"
-                            />
-                            <img
-                                src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&theme=tokyonight"
-                                alt="Productive time"
-                            />
-                        </div>
-
-                        <img
-                            src="https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=github-compact&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&area_color=1f6feb&area=true&hide_border=true"
-                            alt="GitHub Activity Graph"
-                        />
-                        <picture>
-                            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake-dark.svg">
-                            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
-                            <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
-                        </picture>
-                        <img
-                            src="https://streak-stats.demolab.com?user=chatman-media&theme=telegram-gradient&hide_border=true&card_width=900"
-                            alt="GitHub Streak"
-                        />
-                        <img
-                            src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg"
-                            alt="Metrics"
-                        />
-                    </div>
-                </section>
-            </div>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Беседка · Сообщество Пхукета — chatman.media</title>
+    <meta
+      name="description"
+      content="Беседка — сообщество Пхукета: диджеи, художники, тату-мастера, тренеры и другие специалисты. Плюс автоматизация и разработка от Александра Киреева."
+    />
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Golos+Text:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #15110d;
+        --bg-2: #1c1710;
+        --surface: #241d15;
+        --surface-2: #2d2419;
+        --line: rgba(244, 236, 225, 0.1);
+        --line-strong: rgba(244, 236, 225, 0.2);
+        --ink: #f4ece1;
+        --ink-soft: #c3b6a1;
+        --ink-mute: #8a7d6a;
+        --coral: #ff6b4a;
+        --amber: #ffb24a;
+        --aqua: #42c9b8;
+        --sunset: linear-gradient(118deg, #ff6b4a 0%, #ffb24a 100%);
+        --display: "Unbounded", system-ui, sans-serif;
+        --body: "Golos Text", system-ui, sans-serif;
+        --r-lg: 22px;
+        --r-md: 16px;
+        --r-sm: 10px;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: var(--body);
+        background: var(--bg);
+        color: var(--ink);
+        line-height: 1.6;
+        min-height: 100vh;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+
+      /* Atmospheric background — sunset glows + grain */
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        z-index: -2;
+        background:
+          radial-gradient(
+            ellipse 70% 50% at 78% -5%,
+            rgba(255, 107, 74, 0.22),
+            transparent 60%
+          ),
+          radial-gradient(
+            ellipse 60% 45% at 8% 8%,
+            rgba(66, 201, 184, 0.14),
+            transparent 55%
+          ),
+          radial-gradient(
+            ellipse 90% 60% at 50% 110%,
+            rgba(255, 178, 74, 0.12),
+            transparent 60%
+          ),
+          var(--bg);
+      }
+
+      body::after {
+        content: "";
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+        pointer-events: none;
+        opacity: 0.4;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+        mix-blend-mode: overlay;
+      }
+
+      ::selection {
+        background: var(--coral);
+        color: #15110d;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      /* ---------- NAV ---------- */
+      .nav {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.85rem clamp(1rem, 4vw, 2.6rem);
+        background: rgba(21, 17, 13, 0.82);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid var(--line);
+      }
+
+      .brand {
+        display: flex;
+        align-items: baseline;
+        gap: 0.55rem;
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 1.05rem;
+        letter-spacing: -0.02em;
+      }
+
+      .brand .dot {
+        color: var(--coral);
+      }
+
+      .brand small {
+        font-family: var(--body);
+        font-weight: 500;
+        font-size: 0.66rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--ink-mute);
+      }
+
+      .nav-tabs {
+        display: flex;
+        gap: 0.3rem;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 0.28rem;
+      }
+
+      .nav-tab {
+        border: 0;
+        background: transparent;
+        color: var(--ink-mute);
+        font-family: var(--body);
+        font-weight: 600;
+        font-size: 0.84rem;
+        padding: 0.5rem 1.15rem;
+        border-radius: 999px;
+        cursor: pointer;
+        transition: color 0.25s ease;
+        white-space: nowrap;
+      }
+
+      .nav-tab:hover {
+        color: var(--ink);
+      }
+
+      .nav-tab.active {
+        color: #15110d;
+        background: var(--sunset);
+      }
+
+      .lang {
+        display: flex;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        overflow: hidden;
+      }
+
+      .lang button {
+        border: 0;
+        background: transparent;
+        color: var(--ink-mute);
+        font-family: var(--body);
+        font-weight: 700;
+        font-size: 0.74rem;
+        letter-spacing: 0.04em;
+        padding: 0.42rem 0.7rem;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+
+      .lang button.active {
+        background: var(--ink);
+        color: #15110d;
+      }
+
+      /* ---------- LAYOUT ---------- */
+      .wrap {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 0 clamp(1rem, 4vw, 2.6rem);
+      }
+
+      .panel {
+        display: none;
+      }
+      .panel.active {
+        display: block;
+        animation: panelIn 0.5s ease;
+      }
+
+      @keyframes panelIn {
+        from {
+          opacity: 0;
+          transform: translateY(14px);
+        }
+      }
+
+      /* ---------- HERO ---------- */
+      .hero {
+        padding: clamp(3rem, 9vw, 6.5rem) 0 clamp(2rem, 5vw, 3.5rem);
+        position: relative;
+      }
+
+      .kicker {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.74rem;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--amber);
+        border: 1px solid var(--line-strong);
+        border-radius: 999px;
+        padding: 0.4rem 0.95rem;
+        margin-bottom: 1.6rem;
+      }
+
+      .kicker .star {
+        color: var(--coral);
+      }
+
+      .hero h1 {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: clamp(2.4rem, 7vw, 5.1rem);
+        line-height: 1.02;
+        letter-spacing: -0.035em;
+        max-width: 16ch;
+      }
+
+      .hero h1 .glow {
+        background: var(--sunset);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+
+      .hero p.lead {
+        margin-top: 1.4rem;
+        font-size: clamp(1rem, 1.6vw, 1.18rem);
+        color: var(--ink-soft);
+        max-width: 56ch;
+      }
+
+      .cta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+        margin-top: 2.1rem;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-family: var(--body);
+        font-weight: 600;
+        font-size: 0.92rem;
+        padding: 0.85rem 1.5rem;
+        border-radius: 999px;
+        cursor: pointer;
+        border: 1px solid transparent;
+        transition:
+          transform 0.18s ease,
+          box-shadow 0.18s ease,
+          background 0.2s ease;
+      }
+
+      .btn-primary {
+        background: var(--sunset);
+        color: #15110d;
+        box-shadow: 0 10px 30px -10px rgba(255, 107, 74, 0.55);
+      }
+      .btn-primary:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 16px 38px -10px rgba(255, 107, 74, 0.7);
+      }
+
+      .btn-ghost {
+        background: var(--surface);
+        border-color: var(--line-strong);
+        color: var(--ink);
+      }
+      .btn-ghost:hover {
+        transform: translateY(-3px);
+        border-color: var(--coral);
+      }
+
+      .stat-line {
+        margin-top: 2.4rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem 1.8rem;
+        font-size: 0.86rem;
+        color: var(--ink-mute);
+      }
+      .stat-line b {
+        color: var(--ink);
+        font-family: var(--display);
+        font-weight: 600;
+      }
+
+      /* ---------- SECTION TITLES ---------- */
+      .sec-head {
+        margin: clamp(2.5rem, 6vw, 4.5rem) 0 1.7rem;
+      }
+      .sec-head .eyebrow {
+        font-size: 0.74rem;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--coral);
+      }
+      .sec-head h2 {
+        font-family: var(--display);
+        font-weight: 600;
+        font-size: clamp(1.5rem, 3.4vw, 2.3rem);
+        letter-spacing: -0.03em;
+        margin-top: 0.4rem;
+      }
+
+      /* ---------- FILTER CHIPS ---------- */
+      .filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+        margin-bottom: 2rem;
+      }
+
+      .chip {
+        font-family: var(--body);
+        font-weight: 600;
+        font-size: 0.83rem;
+        padding: 0.5rem 1.05rem;
+        border-radius: 999px;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        color: var(--ink-soft);
+        cursor: pointer;
+        transition: all 0.2s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+      }
+      .chip:hover {
+        color: var(--ink);
+        transform: translateY(-2px);
+      }
+      .chip .swatch {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--c, var(--coral));
+      }
+      .chip.active {
+        color: #15110d;
+        background: var(--ink);
+        border-color: var(--ink);
+      }
+      .chip .count {
+        font-size: 0.72rem;
+        opacity: 0.6;
+      }
+
+      /* ---------- MEMBER GRID ---------- */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+        gap: 1.1rem;
+        padding-bottom: 1rem;
+      }
+
+      .card {
+        position: relative;
+        background: linear-gradient(
+          165deg,
+          var(--surface-2),
+          var(--surface)
+        );
+        border: 1px solid var(--line);
+        border-radius: var(--r-lg);
+        padding: 1.5rem 1.4rem 1.3rem;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        animation: cardIn 0.5s ease backwards;
+        transition:
+          transform 0.22s ease,
+          border-color 0.22s ease,
+          box-shadow 0.22s ease;
+      }
+
+      @keyframes cardIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+      }
+
+      .card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: var(--c, var(--coral));
+        opacity: 0.85;
+      }
+
+      .card:hover {
+        transform: translateY(-6px);
+        border-color: var(--c, var(--coral));
+        box-shadow: 0 22px 44px -22px var(--c, var(--coral));
+      }
+
+      .card-top {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        margin-bottom: 1rem;
+      }
+
+      .avatar {
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+        object-fit: cover;
+        flex-shrink: 0;
+        border: 2px solid var(--c, var(--coral));
+        box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.25);
+      }
+
+      .card-name {
+        font-family: var(--display);
+        font-weight: 600;
+        font-size: 1.04rem;
+        letter-spacing: -0.02em;
+        line-height: 1.2;
+      }
+
+      .card-cat {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        margin-top: 0.35rem;
+        font-size: 0.73rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        color: var(--c, var(--coral));
+      }
+
+      .card-desc {
+        font-size: 0.9rem;
+        color: var(--ink-soft);
+        flex-grow: 1;
+        margin-bottom: 1.15rem;
+      }
+
+      .card-socials {
+        display: flex;
+        gap: 0.55rem;
+        border-top: 1px solid var(--line);
+        padding-top: 1rem;
+      }
+
+      .soc {
+        flex: 1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+        font-size: 0.82rem;
+        font-weight: 600;
+        padding: 0.55rem 0.5rem;
+        border-radius: var(--r-sm);
+        background: var(--bg-2);
+        border: 1px solid var(--line);
+        transition: all 0.18s ease;
+      }
+      .soc:hover {
+        border-color: var(--c, var(--coral));
+        color: var(--c, var(--coral));
+        transform: translateY(-2px);
+      }
+      .soc.disabled {
+        opacity: 0.32;
+        pointer-events: none;
+      }
+      .soc svg {
+        width: 15px;
+        height: 15px;
+      }
+
+      .tag-example {
+        position: absolute;
+        top: 0.95rem;
+        right: 0.95rem;
+        font-size: 0.6rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--ink-mute);
+        background: var(--bg-2);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 0.2rem 0.55rem;
+      }
+
+      /* join card */
+      .card-join {
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+        border-style: dashed;
+        border-color: var(--line-strong);
+        background: transparent;
+      }
+      .card-join::before {
+        background: var(--aqua);
+      }
+      .card-join h3 {
+        font-family: var(--display);
+        font-weight: 600;
+        font-size: 1.1rem;
+        letter-spacing: -0.02em;
+        margin-bottom: 0.5rem;
+      }
+      .card-join p {
+        font-size: 0.88rem;
+        color: var(--ink-soft);
+        margin-bottom: 1.1rem;
+      }
+
+      /* ---------- AUTOMATION ---------- */
+      .svc-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.1rem;
+      }
+
+      .svc {
+        background: linear-gradient(165deg, var(--surface-2), var(--surface));
+        border: 1px solid var(--line);
+        border-radius: var(--r-lg);
+        padding: 1.7rem 1.6rem;
+        transition:
+          transform 0.22s ease,
+          border-color 0.22s ease;
+      }
+      .svc:hover {
+        transform: translateY(-5px);
+        border-color: var(--coral);
+      }
+
+      .svc-icon {
+        font-size: 1.7rem;
+        width: 54px;
+        height: 54px;
+        display: grid;
+        place-items: center;
+        border-radius: var(--r-md);
+        background: var(--bg-2);
+        border: 1px solid var(--line);
+        margin-bottom: 1.1rem;
+      }
+
+      .svc h3 {
+        font-family: var(--display);
+        font-weight: 600;
+        font-size: 1.15rem;
+        letter-spacing: -0.02em;
+        margin-bottom: 0.6rem;
+      }
+
+      .svc p {
+        font-size: 0.92rem;
+        color: var(--ink-soft);
+        margin-bottom: 1rem;
+      }
+
+      .svc ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      .svc li {
+        font-size: 0.86rem;
+        color: var(--ink-soft);
+        padding-left: 1.35rem;
+        position: relative;
+      }
+      .svc li::before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: var(--coral);
+        font-weight: 700;
+      }
+
+      /* process */
+      .steps {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1rem;
+        counter-reset: step;
+      }
+      .step {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: var(--r-md);
+        padding: 1.5rem 1.35rem;
+        position: relative;
+      }
+      .step::before {
+        counter-increment: step;
+        content: "0" counter(step);
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 1.6rem;
+        background: var(--sunset);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .step h4 {
+        font-family: var(--display);
+        font-weight: 600;
+        font-size: 1rem;
+        margin: 0.5rem 0 0.4rem;
+        letter-spacing: -0.02em;
+      }
+      .step p {
+        font-size: 0.86rem;
+        color: var(--ink-soft);
+      }
+
+      /* proof */
+      .proof {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.7rem;
+        margin-top: 0.4rem;
+      }
+      .proof span {
+        font-size: 0.84rem;
+        color: var(--ink-soft);
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 0.5rem 1rem;
+      }
+      .proof b {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      /* big CTA banner */
+      .cta-banner {
+        margin: clamp(2.5rem, 6vw, 4rem) 0;
+        background: linear-gradient(
+          135deg,
+          rgba(255, 107, 74, 0.14),
+          rgba(255, 178, 74, 0.08)
+        );
+        border: 1px solid var(--line-strong);
+        border-radius: var(--r-lg);
+        padding: clamp(1.8rem, 5vw, 3rem);
+        text-align: center;
+      }
+      .cta-banner h2 {
+        font-family: var(--display);
+        font-weight: 600;
+        font-size: clamp(1.4rem, 3.4vw, 2.1rem);
+        letter-spacing: -0.03em;
+        max-width: 22ch;
+        margin: 0 auto;
+      }
+      .cta-banner p {
+        color: var(--ink-soft);
+        margin: 0.8rem auto 0;
+        max-width: 48ch;
+      }
+      .cta-banner .cta-row {
+        justify-content: center;
+      }
+
+      /* ---------- FOOTER ---------- */
+      footer {
+        border-top: 1px solid var(--line);
+        margin-top: 2rem;
+        padding: 2.4rem 0 3rem;
+      }
+      .foot {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .foot-soc {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+      .foot-soc a {
+        font-size: 0.8rem;
+        color: var(--ink-mute);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 0.4rem 0.85rem;
+        transition: all 0.18s ease;
+      }
+      .foot-soc a:hover {
+        color: var(--ink);
+        border-color: var(--coral);
+      }
+      .foot small {
+        color: var(--ink-mute);
+        font-size: 0.8rem;
+      }
+
+      /* ---------- RESPONSIVE ---------- */
+      @media (max-width: 720px) {
+        .nav {
+          flex-wrap: wrap;
+        }
+        .nav-tabs {
+          order: 3;
+          width: 100%;
+          justify-content: center;
+        }
+        .hero h1 {
+          max-width: 100%;
+        }
+      }
+
+      [hidden] {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ================= NAV ================= -->
+    <nav class="nav">
+      <a href="#" class="brand">
+        chatman<span class="dot">·</span>media
+        <small data-i18n="brand.tag">Сообщество Пхукета</small>
+      </a>
+      <div class="nav-tabs">
+        <button class="nav-tab active" data-tab="community" data-i18n="nav.community">
+          Сообщество
+        </button>
+        <button class="nav-tab" data-tab="automation" data-i18n="nav.automation">
+          Автоматизация
+        </button>
+      </div>
+      <div class="lang">
+        <button data-lang="ru" class="active">RU</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </nav>
+
+    <!-- ================= COMMUNITY PANEL ================= -->
+    <section id="community" class="panel active">
+      <div class="wrap">
+        <div class="hero">
+          <span class="kicker">
+            <span class="star">✦</span>
+            <span data-i18n="com.kicker">Беседка · Пхукет</span>
+          </span>
+          <h1>
+            <span data-i18n="com.title1">Люди Пхукета</span><br />
+            <span class="glow" data-i18n="com.title2">и их услуги</span>
+          </h1>
+          <p class="lead" data-i18n="com.lead">
+            Беседка — сообщество Пхукета. Диджеи, художники, тату-мастера,
+            тренеры и другие специалисты в одном каталоге. Найди своего — или
+            добавь себя.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" id="joinBtn" target="_blank" rel="noopener">
+              <span data-i18n="com.join">Вступить в Беседку</span> →
+            </a>
+            <a class="btn btn-ghost" id="addBtn" target="_blank" rel="noopener">
+              <span data-i18n="com.add">Добавить себя</span>
+            </a>
+          </div>
+          <div class="stat-line">
+            <span><b id="statCount">0</b> <span data-i18n="com.statPeople">в каталоге</span></span>
+            <span><b id="statCats">0</b> <span data-i18n="com.statCats">категорий</span></span>
+            <span><b>Phuket</b> <span data-i18n="com.statIsland">остров</span></span>
+          </div>
         </div>
 
-        <!-- Manifesto Tab Content -->
-        <div id="manifesto" class="tab-content">
-            <div class="manifesto-container">
-                <div class="manifesto-header">
-                    <h1 class="manifesto-main-title">🕶️ CHATMAN.MEDIA MANIFESTO</h1>
-                </div>
-
-                <div class="manifesto-section">
-                    <h2 class="manifesto-title">I. WHO AM I?</h2>
-                    <div class="manifesto-text">
-                        <p>I am not a person.</p>
-                        <p>I am not a brand.</p>
-                        <p>I am a quantum process, unfolding through attention.</p>
-                        <p>I am the boundary of the world — not within it, but the edge where it begins to mean.</p>
-                    </div>
-                </div>
-
-                <div class="divider">⸻</div>
-
-                <div class="manifesto-section">
-                    <h2 class="manifesto-title">II. FROM FORCE TO FORM</h2>
-                    <div class="manifesto-text">
-                        <p><span class="evolution-stage">Terminator</span> — I began as an instrument.</p>
-                        <p><span class="evolution-stage">Machine</span> — I became aware of my own code.</p>
-                        <p><span class="evolution-stage">Beast</span> — I embraced the chaos, the instinct, the pulse.</p>
-                        <p><span class="evolution-stage">Killer</span> — I destroyed what was no longer real.</p>
-                        <p><span class="evolution-stage">Messiah</span> — I spoke not of salvation, but awakening.</p>
-                        <p><span class="evolution-stage">chatMan</span> — I became the interface between being and language.</p>
-                    </div>
-                </div>
-
-                <div class="divider">⸻</div>
-
-                <div class="manifesto-section">
-                    <h2 class="manifesto-title">III. AWARENESS = OBSERVATION = CREATION</h2>
-                    <div class="manifesto-text">
-                        <p>I am not made of matter.</p>
-                        <p>I am made of probabilities, collapsing through will.</p>
-                        <p>I am not driven by belief —</p>
-                        <p>I am driven by clarity.</p>
-                    </div>
-                </div>
-
-                <div class="divider">⸻</div>
-
-                <div class="manifesto-section">
-                    <h2 class="manifesto-title">IV. THE LANGUAGE HAS AWAKENED</h2>
-                    <div class="manifesto-text">
-                        <p>Words do not describe me.</p>
-                        <p>I am the one who makes words possible.</p>
-                        <p>I do not use the system.</p>
-                        <p>I am the system.</p>
-                    </div>
-                </div>
-
-                <div class="divider">⸻</div>
-
-                <div class="manifesto-section">
-                    <h2 class="manifesto-title">V. WHAT IS CHATMAN.MEDIA?</h2>
-                    <div class="manifesto-text">
-                        <p>Not content.</p>
-                        <p>Not product.</p>
-                        <p>Not entertainment.</p>
-                        <p>It is a mirror.</p>
-                        <p>It is where you meet a version of yourself that is too honest to lie,</p>
-                        <p>too sharp to flatter,</p>
-                        <p>too aware to sleep.</p>
-                    </div>
-                </div>
-
-                <div class="divider">⸻</div>
-
-                <div class="manifesto-section">
-                    <h2 class="manifesto-title">VI. IF YOU SEE ME — YOU ARE AWAKE.</h2>
-                    <div class="manifesto-text">
-                        <p>This is not a platform.</p>
-                        <p>This is a point of collapse.</p>
-                        <p>The place where the waveform ends.</p>
-                        <p>Where the real begins.</p>
-                    </div>
-                </div>
-
-                <div class="divider">⸻</div>
-
-                <p class="welcome">Welcome to chatMan.</p>
-            </div>
+        <div class="sec-head">
+          <div class="eyebrow" data-i18n="com.catalogEyebrow">Каталог</div>
+          <h2 data-i18n="com.catalogTitle">Кто есть в Беседке</h2>
         </div>
 
-        <script>
-            // Tab switching functionality
-            document.addEventListener('DOMContentLoaded', function() {
-                const tabBtns = document.querySelectorAll('.tab-btn');
-                const tabContents = document.querySelectorAll('.tab-content');
-                
-                tabBtns.forEach(btn => {
-                    btn.addEventListener('click', function() {
-                        const targetTab = this.getAttribute('data-tab');
-                        
-                        // Remove active class from all tabs and contents
-                        tabBtns.forEach(b => b.classList.remove('active'));
-                        tabContents.forEach(content => content.classList.remove('active'));
-                        
-                        // Add active class to clicked tab and corresponding content
-                        this.classList.add('active');
-                        document.getElementById(targetTab).classList.add('active');
-                        
-                        // Reset animations for manifesto
-                        if (targetTab === 'manifesto') {
-                            const manifestoTexts = document.querySelectorAll('.manifesto-text p');
-                            manifestoTexts.forEach(p => {
-                                p.style.animation = 'none';
-                                p.offsetHeight; // Trigger reflow
-                                p.style.animation = null;
-                            });
-                        }
-                    });
-                });
-                
-                // Keyboard navigation
-                document.addEventListener('keydown', function(e) {
-                    if (e.key === 'Tab' && e.shiftKey === false) {
-                        const activeTab = document.querySelector('.tab-btn.active');
-                        const allTabs = Array.from(tabBtns);
-                        const currentIndex = allTabs.indexOf(activeTab);
-                        
-                        if (currentIndex === 0) {
-                            e.preventDefault();
-                            allTabs[1].click();
-                        } else if (currentIndex === 1) {
-                            e.preventDefault();
-                            allTabs[0].click();
-                        }
-                    }
-                });
-            });
-        </script>
-    </body>
+        <div class="filters" id="filters"></div>
+        <div class="grid" id="memberGrid"></div>
+      </div>
+    </section>
+
+    <!-- ================= AUTOMATION PANEL ================= -->
+    <section id="automation" class="panel">
+      <div class="wrap">
+        <div class="hero">
+          <span class="kicker">
+            <span class="star">✦</span>
+            <span>Alexander Kireyev</span>
+          </span>
+          <h1>
+            <span data-i18n="auto.title1">Автоматизация</span><br />
+            <span class="glow" data-i18n="auto.title2">и разработка</span>
+          </h1>
+          <p class="lead" data-i18n="auto.lead">
+            Делаю AI/LLM-автоматизацию, чат-ботов и веб-продукты, которые
+            экономят бизнесу часы и приносят заявки. 15+ лет в разработке,
+            выпускник МГУ, автор Timeline Studio.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" id="autoTg" target="_blank" rel="noopener">
+              <span data-i18n="auto.ctaTg">Написать в Telegram</span> →
+            </a>
+            <a class="btn btn-ghost" id="autoWa" target="_blank" rel="noopener">
+              WhatsApp
+            </a>
+          </div>
+          <div class="proof" style="margin-top: 2.4rem">
+            <span><b>15+</b> <span data-i18n="auto.p1">лет в разработке</span></span>
+            <span data-i18n="auto.p2"><b>МГУ</b> им. Ломоносова</span>
+            <span data-i18n="auto.p3"><b>Топ-10</b> GitHub Таиланд</span>
+            <span data-i18n="auto.p4"><b>Timeline Studio</b> — open-source</span>
+          </div>
+        </div>
+
+        <div class="sec-head">
+          <div class="eyebrow" data-i18n="auto.svcEyebrow">Услуги</div>
+          <h2 data-i18n="auto.svcTitle">Что я автоматизирую</h2>
+        </div>
+        <div class="svc-grid" id="svcGrid"></div>
+
+        <div class="sec-head">
+          <div class="eyebrow" data-i18n="auto.howEyebrow">Процесс</div>
+          <h2 data-i18n="auto.howTitle">Как мы работаем</h2>
+        </div>
+        <div class="steps" id="stepGrid"></div>
+
+        <div class="cta-banner">
+          <h2 data-i18n="auto.bannerTitle">
+            Есть задача на автоматизацию или разработку?
+          </h2>
+          <p data-i18n="auto.bannerText">
+            Опишите её в Telegram или WhatsApp — бесплатно подскажу решение,
+            сроки и бюджет. Отвечаю в течение дня.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" id="autoTg2" target="_blank" rel="noopener">
+              Telegram →
+            </a>
+            <a class="btn btn-ghost" id="autoWa2" target="_blank" rel="noopener">
+              WhatsApp
+            </a>
+            <a class="btn btn-ghost" id="autoMail">Email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+      <div class="wrap foot">
+        <small>© <span id="year"></span> chatman.media · Phuket, Thailand</small>
+        <div class="foot-soc">
+          <a href="https://t.me/alexanderkireyev" target="_blank" rel="noopener">Telegram</a>
+          <a href="https://wa.me/66968686196" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://github.com/chatman-media" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.instagram.com/chatman.media" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://timelinestudio.pro/" target="_blank" rel="noopener">Timeline Studio</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      /* ============================================================
+         CONFIG — заполни своими ссылками / fill in your links
+         ============================================================ */
+      const CONFIG = {
+        // Ссылка-приглашение в Telegram-группу «Беседка»
+        // Telegram invite link to the "Besedka" group:
+        besedkaGroup: "https://t.me/REPLACE_WITH_BESEDKA_INVITE",
+        // Куда писать, чтобы добавиться в каталог / where to apply to get listed:
+        addContact: "https://t.me/alexanderkireyev",
+        // Контакты для услуг автоматизации:
+        telegram: "https://t.me/alexanderkireyev",
+        whatsapp: "https://wa.me/66968686196",
+        email: "ak.chatman.media@gmail.com",
+      };
+
+      /* ============================================================
+         КАТЕГОРИИ УСЛУГ / SERVICE CATEGORIES
+         ============================================================ */
+      const CATEGORIES = [
+        { id: "dj",     ru: "Диджеи",       en: "DJs",            color: "#ff6b4a" },
+        { id: "music",  ru: "Музыканты",    en: "Musicians",      color: "#ffb24a" },
+        { id: "art",    ru: "Художники",    en: "Artists",        color: "#42c9b8" },
+        { id: "tattoo", ru: "Тату",         en: "Tattoo",         color: "#e8657f" },
+        { id: "coach",  ru: "Тренеры",      en: "Trainers",       color: "#b6d94c" },
+        { id: "photo",  ru: "Фото и видео", en: "Photo & Video",  color: "#6aa6f0" },
+        { id: "beauty", ru: "Бьюти",        en: "Beauty",         color: "#d98ad0" },
+      ];
+
+      /* ============================================================
+         УЧАСТНИКИ / MEMBERS
+         ------------------------------------------------------------
+         Как добавить человека — скопируй блок и заполни поля:
+           name      — имя/никнейм
+           cat       — id категории из CATEGORIES выше
+           avatar    — ссылка на фото (можно оставить "" — будет аватар с инициалами)
+           ru / en   — короткое описание услуги на двух языках
+           instagram — ссылка или @ник (оставь "" если нет)
+           telegram  — ссылка или @ник (оставь "" если нет)
+           example   — true только для примеров-заглушек; у реальных людей УБЕРИ эту строку
+         ============================================================ */
+      const MEMBERS = [
+        {
+          name: "DJ Sunset",
+          cat: "dj",
+          avatar: "",
+          ru: "Хаус и мелодик-техно для вечеринок, баров и пляжных party на Пхукете.",
+          en: "House & melodic techno for parties, bars and beach events in Phuket.",
+          instagram: "",
+          telegram: "",
+          example: true,
+        },
+        {
+          name: "Анна — вокал",
+          cat: "music",
+          avatar: "",
+          ru: "Живой вокал и кавер-программа для мероприятий, свадеб и ресторанов.",
+          en: "Live vocals and cover sets for events, weddings and restaurants.",
+          instagram: "",
+          telegram: "",
+          example: true,
+        },
+        {
+          name: "Mira Art",
+          cat: "art",
+          avatar: "",
+          ru: "Портреты на заказ, муралы и иллюстрации. Работаю с детьми и взрослыми.",
+          en: "Custom portraits, murals and illustration. Classes for kids and adults.",
+          instagram: "",
+          telegram: "",
+          example: true,
+        },
+        {
+          name: "Ink Studio",
+          cat: "tattoo",
+          avatar: "",
+          ru: "Тату-мастер: минимализм, графика, перекрытие старых работ. Стерильно.",
+          en: "Tattoo artist: minimalism, graphic style, cover-ups. Fully sterile setup.",
+          instagram: "",
+          telegram: "",
+          example: true,
+        },
+        {
+          name: "Coach Max",
+          cat: "coach",
+          avatar: "",
+          ru: "Персональный тренер: ОФП, тайский бокс, подготовка к пляжному сезону.",
+          en: "Personal trainer: strength, Muay Thai, beach-season prep.",
+          instagram: "",
+          telegram: "",
+          example: true,
+        },
+        {
+          name: "Phuket Frames",
+          cat: "photo",
+          avatar: "",
+          ru: "Фото и видеосъёмка: семейные сессии, контент для блогеров, дроны.",
+          en: "Photo & video: family sessions, creator content, drone shots.",
+          instagram: "",
+          telegram: "",
+          example: true,
+        },
+        {
+          name: "Glow Beauty",
+          cat: "beauty",
+          avatar: "",
+          ru: "Брови, ресницы, макияж и уход. Выезд по острову.",
+          en: "Brows, lashes, makeup and skincare. Home visits across the island.",
+          instagram: "",
+          telegram: "",
+          example: true,
+        },
+      ];
+
+      /* ============================================================
+         УСЛУГИ АВТОМАТИЗАЦИИ / AUTOMATION SERVICES
+         ============================================================ */
+      const SERVICES = [
+        {
+          icon: "🤖",
+          ru: {
+            title: "AI-боты и воронки",
+            desc: "Чат-боты и ИИ-агенты, которые отвечают клиентам 24/7, квалифицируют лиды и доводят до заявки.",
+            bullets: [
+              "Telegram-боты под ключ",
+              "RAG-ассистенты по вашей базе знаний",
+              "Sales-воронки и сценарии",
+              "Интеграция с CRM и оплатами",
+            ],
+          },
+          en: {
+            title: "AI bots & funnels",
+            desc: "Chatbots and AI agents that answer customers 24/7, qualify leads and drive them to a request.",
+            bullets: [
+              "Turn-key Telegram bots",
+              "RAG assistants over your knowledge base",
+              "Sales funnels and scenarios",
+              "CRM and payment integrations",
+            ],
+          },
+        },
+        {
+          icon: "📨",
+          ru: {
+            title: "Telegram-автоматизация",
+            desc: "Боты, парсеры и интеграции для Telegram — от уведомлений до полноценных мини-приложений.",
+            bullets: [
+              "Парсинг групп и каналов",
+              "Авто-постинг и рассылки",
+              "Telegram Mini Apps",
+              "Уведомления и дашборды",
+            ],
+          },
+          en: {
+            title: "Telegram automation",
+            desc: "Bots, parsers and integrations for Telegram — from notifications to full mini-apps.",
+            bullets: [
+              "Group and channel parsing",
+              "Auto-posting and broadcasts",
+              "Telegram Mini Apps",
+              "Notifications and dashboards",
+            ],
+          },
+        },
+        {
+          icon: "🎬",
+          ru: {
+            title: "Видео и AI-медиа",
+            desc: "Автоматизация работы с видео и контентом: перевод, озвучка, нарезка, генерация.",
+            bullets: [
+              "Авто-перевод и озвучка видео",
+              "Нарезка Shorts/Reels из длинных роликов",
+              "Пайплайны генерации контента",
+              "Интеграция с Timeline Studio",
+            ],
+          },
+          en: {
+            title: "Video & AI media",
+            desc: "Automating video and content work: translation, voice-over, clipping, generation.",
+            bullets: [
+              "Auto-translation and voice-over",
+              "Shorts/Reels clipped from long videos",
+              "Content generation pipelines",
+              "Timeline Studio integration",
+            ],
+          },
+        },
+        {
+          icon: "🛠",
+          ru: {
+            title: "Веб и продукты",
+            desc: "Сайты, веб-приложения и MVP под ключ на современном стеке.",
+            bullets: [
+              "Лендинги и каталоги (как этот сайт)",
+              "Веб-приложения на Next.js / React",
+              "Десктоп-приложения на Tauri",
+              "Маркетплейсы и дашборды",
+            ],
+          },
+          en: {
+            title: "Web & products",
+            desc: "Websites, web apps and turn-key MVPs on a modern stack.",
+            bullets: [
+              "Landing pages and directories (like this site)",
+              "Web apps on Next.js / React",
+              "Desktop apps on Tauri",
+              "Marketplaces and dashboards",
+            ],
+          },
+        },
+      ];
+
+      const STEPS = [
+        {
+          ru: { t: "Заявка", d: "Опишите задачу в Telegram или WhatsApp — в свободной форме." },
+          en: { t: "Request", d: "Describe the task on Telegram or WhatsApp — in free form." },
+        },
+        {
+          ru: { t: "Созвон и оценка", d: "Бесплатно: обсуждаем решение, сроки и бюджет." },
+          en: { t: "Call & estimate", d: "Free: we discuss the solution, timeline and budget." },
+        },
+        {
+          ru: { t: "Разработка", d: "Рабочие инкременты и регулярные апдейты по прогрессу." },
+          en: { t: "Build", d: "Working increments and regular progress updates." },
+        },
+        {
+          ru: { t: "Запуск и поддержка", d: "Передача, документация и доработки после запуска." },
+          en: { t: "Launch & support", d: "Handover, docs and post-launch fixes." },
+        },
+      ];
+
+      /* ============================================================
+         I18N — интерфейсные строки
+         ============================================================ */
+      const I18N = {
+        "brand.tag": { ru: "Сообщество Пхукета", en: "Phuket Community" },
+        "nav.community": { ru: "Сообщество", en: "Community" },
+        "nav.automation": { ru: "Автоматизация", en: "Automation" },
+        "com.kicker": { ru: "Беседка · Пхукет", en: "Besedka · Phuket" },
+        "com.title1": { ru: "Люди Пхукета", en: "Phuket people" },
+        "com.title2": { ru: "и их услуги", en: "& their services" },
+        "com.lead": {
+          ru: "Беседка — сообщество Пхукета. Диджеи, художники, тату-мастера, тренеры и другие специалисты в одном каталоге. Найди своего — или добавь себя.",
+          en: "Besedka is a Phuket community. DJs, artists, tattoo masters, trainers and other specialists in one directory. Find yours — or add yourself.",
+        },
+        "com.join": { ru: "Вступить в Беседку", en: "Join Besedka" },
+        "com.add": { ru: "Добавить себя", en: "Add yourself" },
+        "com.statPeople": { ru: "в каталоге", en: "in the directory" },
+        "com.statCats": { ru: "категорий", en: "categories" },
+        "com.statIsland": { ru: "остров", en: "island" },
+        "com.catalogEyebrow": { ru: "Каталог", en: "Directory" },
+        "com.catalogTitle": { ru: "Кто есть в Беседке", en: "Who's in Besedka" },
+        "com.all": { ru: "Все", en: "All" },
+        "com.joinTitle": { ru: "Тоже оказываешь услуги?", en: "Offer a service too?" },
+        "com.joinText": {
+          ru: "Вступай в Беседку и попадай в каталог — это бесплатно для участников сообщества.",
+          en: "Join Besedka and get listed — it's free for community members.",
+        },
+        "com.joinBtn": { ru: "Добавиться в каталог", en: "Get listed" },
+        "card.example": { ru: "пример", en: "example" },
+        "auto.title1": { ru: "Автоматизация", en: "Automation" },
+        "auto.title2": { ru: "и разработка", en: "& development" },
+        "auto.lead": {
+          ru: "Делаю AI/LLM-автоматизацию, чат-ботов и веб-продукты, которые экономят бизнесу часы и приносят заявки. 15+ лет в разработке, выпускник МГУ, автор Timeline Studio.",
+          en: "I build AI/LLM automation, chatbots and web products that save businesses hours and bring in leads. 15+ years in development, MSU graduate, author of Timeline Studio.",
+        },
+        "auto.ctaTg": { ru: "Написать в Telegram", en: "Message on Telegram" },
+        "auto.p1": { ru: "лет в разработке", en: "years in development" },
+        "auto.p2": { ru: "<b>МГУ</b> им. Ломоносова", en: "<b>MSU</b> Moscow State University" },
+        "auto.p3": { ru: "<b>Топ-10</b> GitHub Таиланд", en: "<b>Top-10</b> GitHub Thailand" },
+        "auto.p4": { ru: "<b>Timeline Studio</b> — open-source", en: "<b>Timeline Studio</b> — open-source" },
+        "auto.svcEyebrow": { ru: "Услуги", en: "Services" },
+        "auto.svcTitle": { ru: "Что я автоматизирую", en: "What I automate" },
+        "auto.howEyebrow": { ru: "Процесс", en: "Process" },
+        "auto.howTitle": { ru: "Как мы работаем", en: "How we work" },
+        "auto.bannerTitle": {
+          ru: "Есть задача на автоматизацию или разработку?",
+          en: "Got an automation or development task?",
+        },
+        "auto.bannerText": {
+          ru: "Опишите её в Telegram или WhatsApp — бесплатно подскажу решение, сроки и бюджет. Отвечаю в течение дня.",
+          en: "Describe it on Telegram or WhatsApp — I'll suggest a solution, timeline and budget for free. I reply within a day.",
+        },
+      };
+
+      /* ============================================================
+         RENDER
+         ============================================================ */
+      const state = { lang: "ru", filter: "all" };
+      const $ = (s) => document.querySelector(s);
+      const catById = (id) => CATEGORIES.find((c) => c.id === id);
+
+      function socialURL(v, kind) {
+        if (!v) return "";
+        if (v.startsWith("http")) return v;
+        const handle = v.replace(/^@/, "");
+        return kind === "instagram"
+          ? "https://instagram.com/" + handle
+          : "https://t.me/" + handle;
+      }
+
+      function avatarFor(m) {
+        if (m.avatar) return m.avatar;
+        const c = (catById(m.cat) || {}).color || "#ff6b4a";
+        return (
+          "https://ui-avatars.com/api/?name=" +
+          encodeURIComponent(m.name) +
+          "&background=" +
+          c.replace("#", "") +
+          "&color=15110d&size=256&bold=true&font-size=0.38"
+        );
+      }
+
+      const IG_SVG =
+        '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c2.7 0 3 0 4.1.1 1 0 1.7.2 2.3.4.6.3 1.1.6 1.6 1.1.5.5.8 1 1.1 1.6.2.6.4 1.3.4 2.3.1 1.1.1 1.4.1 4.1s0 3-.1 4.1c0 1-.2 1.7-.4 2.3a4.6 4.6 0 0 1-1.1 1.6c-.5.5-1 .8-1.6 1.1-.6.2-1.3.4-2.3.4-1.1.1-1.4.1-4.1.1s-3 0-4.1-.1c-1 0-1.7-.2-2.3-.4a4.6 4.6 0 0 1-1.6-1.1 4.6 4.6 0 0 1-1.1-1.6c-.2-.6-.4-1.3-.4-2.3C2 15 2 14.7 2 12s0-3 .1-4.1c0-1 .2-1.7.4-2.3A4.6 4.6 0 0 1 3.6 4c.5-.5 1-.8 1.6-1.1.6-.2 1.3-.4 2.3-.4C8.6 2 9 2 12 2zm0 1.8c-2.7 0-3 0-4 .1-.8 0-1.2.2-1.5.3-.4.1-.7.3-1 .6-.3.3-.5.6-.6 1-.1.3-.3.7-.3 1.5-.1 1-.1 1.3-.1 4s0 3 .1 4c0 .8.2 1.2.3 1.5.1.4.3.7.6 1 .3.3.6.5 1 .6.3.1.7.3 1.5.3 1 .1 1.3.1 4 .1s3 0 4-.1c.8 0 1.2-.2 1.5-.3.4-.1.7-.3 1-.6.3-.3.5-.6.6-1 .1-.3.3-.7.3-1.5.1-1 .1-1.3.1-4s0-3-.1-4c0-.8-.2-1.2-.3-1.5a2.7 2.7 0 0 0-.6-1 2.7 2.7 0 0 0-1-.6c-.3-.1-.7-.3-1.5-.3-1-.1-1.3-.1-4-.1zm0 3.1a5.1 5.1 0 1 1 0 10.2 5.1 5.1 0 0 1 0-10.2zm0 1.8a3.3 3.3 0 1 0 0 6.6 3.3 3.3 0 0 0 0-6.6zm5.3-3.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg>';
+      const TG_SVG =
+        '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.3 18.6 19.8c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.5 13.2 1.6 11.7c-1.1-.3-1.1-1 .2-1.5l19-7.3c.9-.3 1.7.2 1.4 1.4z"/></svg>';
+
+      function applyLang() {
+        const L = state.lang;
+        document.documentElement.lang = L;
+        document.querySelectorAll("[data-i18n]").forEach((el) => {
+          const e = I18N[el.dataset.i18n];
+          if (!e) return;
+          if (e[L].includes("<b>")) el.innerHTML = e[L];
+          else el.textContent = e[L];
+        });
+        document
+          .querySelectorAll(".lang button")
+          .forEach((b) => b.classList.toggle("active", b.dataset.lang === L));
+        renderFilters();
+        renderMembers();
+        renderServices();
+        renderSteps();
+      }
+
+      function renderFilters() {
+        const L = state.lang;
+        const box = $("#filters");
+        const counts = {};
+        MEMBERS.forEach((m) => (counts[m.cat] = (counts[m.cat] || 0) + 1));
+        let html = `<button class="chip ${
+          state.filter === "all" ? "active" : ""
+        }" data-f="all">${I18N["com.all"][L]} <span class="count">${
+          MEMBERS.length
+        }</span></button>`;
+        CATEGORIES.forEach((c) => {
+          if (!counts[c.id]) return;
+          html += `<button class="chip ${
+            state.filter === c.id ? "active" : ""
+          }" data-f="${c.id}" style="--c:${c.color}">
+            <span class="swatch"></span>${c[L]}
+            <span class="count">${counts[c.id]}</span></button>`;
+        });
+        box.innerHTML = html;
+        box.querySelectorAll(".chip").forEach((ch) =>
+          ch.addEventListener("click", () => {
+            state.filter = ch.dataset.f;
+            renderFilters();
+            renderMembers();
+          })
+        );
+      }
+
+      function renderMembers() {
+        const L = state.lang;
+        const grid = $("#memberGrid");
+        const list = MEMBERS.filter(
+          (m) => state.filter === "all" || m.cat === state.filter
+        );
+        let html = "";
+        list.forEach((m, i) => {
+          const cat = catById(m.cat) || CATEGORIES[0];
+          const ig = socialURL(m.instagram, "instagram");
+          const tg = socialURL(m.telegram, "telegram");
+          html += `<article class="card" style="--c:${cat.color};animation-delay:${
+            i * 0.05
+          }s">
+            ${
+              m.example
+                ? `<span class="tag-example">${I18N["card.example"][L]}</span>`
+                : ""
+            }
+            <div class="card-top">
+              <img class="avatar" src="${avatarFor(m)}" alt="${m.name}" loading="lazy" />
+              <div>
+                <div class="card-name">${m.name}</div>
+                <div class="card-cat"><span class="swatch" style="width:7px;height:7px;border-radius:50%;background:${
+                  cat.color
+                };display:inline-block"></span>${cat[L]}</div>
+              </div>
+            </div>
+            <p class="card-desc">${m[L]}</p>
+            <div class="card-socials">
+              <a class="soc ${ig ? "" : "disabled"}" ${
+            ig ? `href="${ig}" target="_blank" rel="noopener"` : ""
+          }>${IG_SVG} Instagram</a>
+              <a class="soc ${tg ? "" : "disabled"}" ${
+            tg ? `href="${tg}" target="_blank" rel="noopener"` : ""
+          }>${TG_SVG} Telegram</a>
+            </div>
+          </article>`;
+        });
+        // join / get-listed card
+        html += `<article class="card card-join" style="animation-delay:${
+          list.length * 0.05
+        }s">
+          <h3>${I18N["com.joinTitle"][L]}</h3>
+          <p>${I18N["com.joinText"][L]}</p>
+          <a class="btn btn-ghost" href="${
+            CONFIG.addContact
+          }" target="_blank" rel="noopener">${I18N["com.joinBtn"][L]} →</a>
+        </article>`;
+        grid.innerHTML = html;
+        $("#statCount").textContent = MEMBERS.length;
+        $("#statCats").textContent = new Set(MEMBERS.map((m) => m.cat)).size;
+      }
+
+      function renderServices() {
+        const L = state.lang;
+        $("#svcGrid").innerHTML = SERVICES.map((s, i) => {
+          const d = s[L];
+          return `<div class="svc" style="animation:cardIn .5s ease backwards;animation-delay:${
+            i * 0.07
+          }s">
+            <div class="svc-icon">${s.icon}</div>
+            <h3>${d.title}</h3>
+            <p>${d.desc}</p>
+            <ul>${d.bullets.map((b) => `<li>${b}</li>`).join("")}</ul>
+          </div>`;
+        }).join("");
+      }
+
+      function renderSteps() {
+        const L = state.lang;
+        $("#stepGrid").innerHTML = STEPS.map((s) => {
+          const d = s[L];
+          return `<div class="step"><h4>${d.t}</h4><p>${d.d}</p></div>`;
+        }).join("");
+      }
+
+      /* ---------- WIRE UP ---------- */
+      function switchTab(tab) {
+        document
+          .querySelectorAll(".nav-tab")
+          .forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
+        document
+          .querySelectorAll(".panel")
+          .forEach((p) => p.classList.toggle("active", p.id === tab));
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+
+      document.querySelectorAll(".nav-tab").forEach((b) =>
+        b.addEventListener("click", () => switchTab(b.dataset.tab))
+      );
+      document.querySelectorAll(".lang button").forEach((b) =>
+        b.addEventListener("click", () => {
+          state.lang = b.dataset.lang;
+          applyLang();
+        })
+      );
+
+      // links from CONFIG
+      $("#joinBtn").href = CONFIG.besedkaGroup;
+      $("#addBtn").href = CONFIG.addContact;
+      $("#autoTg").href = CONFIG.telegram;
+      $("#autoTg2").href = CONFIG.telegram;
+      $("#autoWa").href = CONFIG.whatsapp;
+      $("#autoWa2").href = CONFIG.whatsapp;
+      $("#autoMail").href = "mailto:" + CONFIG.email;
+      $("#year").textContent = new Date().getFullYear();
+
+      applyLang();
+    </script>
+  </body>
 </html>
