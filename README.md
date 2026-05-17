@@ -1,142 +1,135 @@
 <div align="right">
   <a href="https://user-badge.committers.top/thailand/chatman-media"><img src="https://user-badge.committers.top/thailand/chatman-media.svg?style=flat" alt="Thailand Rank"></a>
-  <img src="https://komarev.com/ghpvc/?username=chatman-media&color=0e75b6&style=flat" alt="chatman Profile Views">
-  <img src="https://wakatime.com/badge/user/4393eda7-541a-42ae-974f-3a312c0631b7.svg?style=flat" alt="Wakatime total">
+  <img src="https://komarev.com/ghpvc/?username=chatman-media&color=8b5cf6&style=flat" alt="Profile views">
 </div>
 
 <div align="center">
 
-  <a href="https://timelinestudio.pro/">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Brush+Script+MT&size=80&pause=2000&color=8B5CF6&center=true&vCenter=true&width=800&height=100&lines=Timeline+Studio&duration=4000" alt="Timeline Studio" />
-  </a>
+# Alexander Kireyev
 
-  <!-- Подзаголовок -->
-  <p align="center" style="margin-top: 10px; margin-bottom: 0px;">
-    <b>🎬 AI-Powered Video Editor • 🚀 Multi-Platform Export • ⚡ GPU Acceleration</b>
-  </p>
+### AI Automation & Software Development
 
-  <!-- Анимированная линия -->
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+**I build AI/LLM automation, chatbots and web products that save businesses hours and bring in leads.**
 
-  <!-- Timeline Studio Stats -->
-  <p align="center">
-    <a href="https://github.com/chatman-media/timeline-studio"><img src="https://img.shields.io/github/stars/chatman-media/timeline-studio?logo=github&color=8b5cf6&labelColor=1c1917" alt="Stars"></a>
-    <a href="https://github.com/chatman-media/timeline-studio"><img src="https://img.shields.io/github/v/release/chatman-media/timeline-studio?color=8b5cf6&labelColor=1c1917" alt="Version"></a>
-    <a href="https://github.com/chatman-media/timeline-studio"><img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-8b5cf6?labelColor=1c1917" alt="Platform"></a>
-  </p>
+<a href="https://t.me/alexanderkireyev"><img src="https://img.shields.io/badge/Hire%20me%20%E2%86%92%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Hire me on Telegram"></a>
+&nbsp;
+<a href="mailto:ak.chatman.media@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
 </div>
-
-| [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Alexander+Kireyev;+Welcome+to+My+Profile!;Physicist+•+Mathematician+•+Engineer+•+Philosopher+;Timeline+Studio:+founder+;X+Digital+Marketplace+ecosystem+🚀)](https://git.io/typing-svg) | [![Stack Overflow profile](https://stackoverflow-readme-profile.johannchopin.fr/profile/724036?theme=dark)](https://stackoverflow.com/users/724036/alexander-kireyev) |
-|:---:|:---:|
-
-<div align="center">
-
-<a href="https://www.youtube.com/@chatman-media">
-  <img src="icons/youtube.svg" width="50" height="50" alt="YouTube" />
-</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://t.me/alexanderkireyev">
-  <img src="icons/telegram.svg" width="50" height="50" alt="Telegram" />
-</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.tiktok.com/@chatman.media">
-  <img src="icons/tiktok.svg" width="50" height="50" alt="TikTok" />
-</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://x.com/chatman_media">
-  <img src="icons/twitter-x.svg" width="50" height="50" alt="X" />
-</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://gitroll.io/profile/urxUXkxOYRaP2R0lQPjS59tqGbxE3">
-  <img src="icons/github.svg" width="50" height="50" alt="GitRoll" />
-</a><br/><br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub_repo-this_badge_→-FF0000?logo=github&logoColor=white)](https://github.com/chatman-media/telegram-badge)
-[![Telegram](https://telegram-badge.vercel.app/api/telegram-badge?label=Join%20Group&color=2CA5E0&channelId=@aisuperhumans)](https://t.me/aisuperhumans)
-[![Discord](https://img.shields.io/badge/Chat-on%20Discord-5865F2?logo=discord&logoColor=white)](https://discord.gg/VgEAzqyQ)
-[![Twitch Status](https://img.shields.io/twitch/status/chatman1984?logo=twitch&logoColor=white&color=9146FF&label=Twitch)](https://www.twitch.tv/chatman1984)
-
-</div>
-
-## 🏆 GitHub Trophies
-
-<img width="100%" src="https://github-trophies.vercel.app/?username=chatman-media&theme=transparent&column=8&row=1&no-frame=true" alt="GitHub Trophies"/>
-
-## 📈 Coding Activity
-
-<div align="center">
-  <!-- GitHub Contribution Snake -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
-## 🎯 Profile Summary
-
-<div align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=transparent" alt="Profile Details"/>
-</div>
-
-<div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&&theme=transparent" alt="Stats"/>
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&&theme=transparent" alt="Productive Time"/>
-</div>
-
-## 🔬 Detailed Metrics
-
-<div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg" alt="Detailed Metrics"/>
-</div>
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=rogue&bg_color=transparent&color=8b5cf6&line=8b5cf6&point=bf91f3&hide_border=true" alt="Activity Graph"/>
-</div>
-
-<div align="center">
-  <img width="100%" src="https://streak-stats.demolab.com?user=chatman-media&theme=transparent&hide_border=true&card_width=1000&fire=8b5cf6&border=8b5cf6" alt="GitHub Streak"/>
-</div>
-
-#### Thanks for visiting :heart:
-
-<a href="https://info.flagcounter.com/V5YQ"><img src="https://s01.flagcounter.com/count2/V5YQ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_40/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-
-## Support 💝🚀
-
-- **BTC:** 14s9Y9Rb2CUWHSAatiQMhfkpx1MWXofUzw
-- **TON:** UQBx7Sgtn5q_PzwUAjvnA_lj9CQx1NhN9JDi3abOgpRYnAnr
-- **NOT:** UQBx7Sgtn5q_PzwUAjvnA_lj9CQx1NhN9JDi3abOgpRYnAnr
-- **ETH:** 0x286D65151b622dCC16624cEd8463FDa45585fd60
-
-<div align="center">
-  <table>
-    <tr>
-      <td><img src="btc.png" alt="BTC" height="185" width="185" /></td>
-      <td><img src="ton.png" alt="TON" height="185" width="185" /></td>
-      <td><img src="not.png" alt="NOT" height="185" width="185" /></td>
-      <td><img src="eth.png" alt="ETH" height="185" width="185" /></td>
-    </tr>
-  </table>
-</div>
-
-## Star History
-
-<a href="https://www.star-history.com/#chatman-media/chatman-media&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date" />
- </picture>
-</a>
-
-## Repo Activity
-
-![Alt](https://repobeats.axiom.co/api/embed/74975e0da934ce1756e69f04fe68f2b026a77aee.svg "Repobeats analytics image")
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Made with ❤️ by [Chatman Media](https://github.com/chatman-media)
+## 🚀 What I build
+
+| | Service | Built it before |
+|:--:|---|---|
+| 🤖 | **AI/LLM automation & chatbots** — Telegram bots, RAG assistants, sales funnels, AI agents that qualify leads and answer customers 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) · [`sales-guru`](https://github.com/chatman-media/sales-guru) |
+| 📨 | **Telegram automation** — bots, group/channel parsers, integrations and notification pipelines | [`telegram-badge`](https://github.com/chatman-media/telegram-badge) · [`telegram-groups-parser`](https://github.com/chatman-media/telegram-groups-parser) |
+| 🎬 | **Video & AI media automation** — auto-translation, voice-over, content pipelines | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
+| 🛠 | **Web & product development** — marketplaces, MVPs, dashboards on Next.js / Tauri / TypeScript | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
+
+> Not sure which you need? **[Message me on Telegram](https://t.me/alexanderkireyev)** — I'll tell you what's realistic.
+
+## 📦 Selected work
+
+| Project | What it is | |
+|---|---|---|
+| **[Timeline Studio](https://timelinestudio.pro/)** | AI-powered cross-platform video editor — my flagship open-source product | [![Stars](https://img.shields.io/github/stars/chatman-media/timeline-studio?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/timeline-studio) |
+| **[rag](https://github.com/chatman-media/rag)** | Production-grade RAG engine — hybrid retrieval (pgvector + BM25), hallucination guard, pluggable LLM providers | [![Stars](https://img.shields.io/github/stars/chatman-media/rag?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/rag) |
+| **[sales](https://github.com/chatman-media/sales)** | LLM sales funnel engine — persona composition, funnel routing, A/B testing | [![Stars](https://img.shields.io/github/stars/chatman-media/sales?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/sales) |
+| **[telegram-badge](https://github.com/chatman-media/telegram-badge)** | SVG badge generator showing live Telegram group member counts | [![Stars](https://img.shields.io/github/stars/chatman-media/telegram-badge?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/telegram-badge) |
+| **[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** | Automatic multi-language video translation with voice-over | [![Stars](https://img.shields.io/github/stars/chatman-media/Video-Translation-API?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/Video-Translation-API) |
+| **[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** | Multi-vendor marketplace platform | [![Stars](https://img.shields.io/github/stars/chatman-media/farang-marketplace?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/farang-marketplace) |
+
+## 🧑‍💻 Why work with me
+
+- 🏆 **Top-10 GitHub developers in Thailand**, ~3,000 followers
+- 📅 **14+ years on GitHub** (since 2011) — shipping real products, not demos
+- 🎬 Author and maintainer of **[Timeline Studio](https://github.com/chatman-media/timeline-studio)**, an open-source AI video editor
+- 💬 Active on [Stack Overflow](https://stackoverflow.com/users/724036/alexander-kireyev)
+- 🌏 Based in Phuket, Thailand — comfortable working remotely across Asia / Europe time zones
+
+## 🤝 How we work
+
+1. **Free intro call** — you describe the task, I tell you if and how it's doable
+2. **Scope & estimate** — clear deliverables, timeline and budget
+3. **Build** — regular progress updates, working increments
+4. **Support** — handover, docs and post-launch fixes
+
+📩 **Describe your task on [Telegram](https://t.me/alexanderkireyev) — I reply within a day.**
+
+## 📬 Contacts
+
+[![Telegram](https://img.shields.io/badge/Telegram-@alexanderkireyev-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/alexanderkireyev)
+[![Email](https://img.shields.io/badge/Email-ak.chatman.media@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ak.chatman.media@gmail.com)
+[![Website](https://img.shields.io/badge/Website-chatman.media-8b5cf6?style=flat&logo=googlechrome&logoColor=white)](https://chatman.media)
+[![X](https://img.shields.io/badge/X-@chatman__media-000000?style=flat&logo=x&logoColor=white)](https://x.com/chatman_media)
+[![YouTube](https://img.shields.io/badge/YouTube-@chatman--media-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@chatman-media)
+
+---
+
+<details>
+<summary><b>🇷🇺 Русская версия</b></summary>
+
+<br/>
+
+<div align="center">
+
+# Александр Киреев
+
+### AI-автоматизация и разработка ПО
+
+**Делаю AI/LLM-автоматизацию, чат-ботов и веб-продукты, которые экономят бизнесу часы и приносят заявки.**
+
+<a href="https://t.me/alexanderkireyev"><img src="https://img.shields.io/badge/%D0%9D%D0%B0%D0%BF%D0%B8%D1%88%D0%B8%D1%82%D0%B5%20%E2%86%92%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Написать в Telegram"></a>
+
+</div>
+
+### 🚀 Что я делаю
+
+| | Услуга | Уже делал |
+|:--:|---|---|
+| 🤖 | **AI/LLM-автоматизация и чат-боты** — Telegram-боты, RAG-ассистенты, sales-воронки, ИИ-агенты, которые квалифицируют лиды и отвечают клиентам 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) · [`sales-guru`](https://github.com/chatman-media/sales-guru) |
+| 📨 | **Telegram-автоматизация** — боты, парсеры групп/каналов, интеграции, уведомления | [`telegram-badge`](https://github.com/chatman-media/telegram-badge) · [`telegram-groups-parser`](https://github.com/chatman-media/telegram-groups-parser) |
+| 🎬 | **Видео и AI-медиа автоматизация** — авто-перевод, озвучка, контент-пайплайны | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
+| 🛠 | **Веб и продуктовая разработка** — маркетплейсы, MVP, дашборды на Next.js / Tauri / TypeScript | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
+
+> Не знаете, что именно нужно? **[Напишите в Telegram](https://t.me/alexanderkireyev)** — подскажу, что реально сделать.
+
+### 📦 Избранные проекты
+
+| Проект | Что это |
+|---|---|
+| **[Timeline Studio](https://timelinestudio.pro/)** | AI-видеоредактор для всех платформ — мой флагманский open-source продукт |
+| **[rag](https://github.com/chatman-media/rag)** | RAG-движок production-уровня: гибридный поиск (pgvector + BM25), защита от галлюцинаций |
+| **[sales](https://github.com/chatman-media/sales)** | Движок sales-воронок на LLM: композиция персон, маршрутизация воронки, A/B-тесты |
+| **[telegram-badge](https://github.com/chatman-media/telegram-badge)** | Генератор SVG-бейджей с живым счётчиком участников Telegram-групп |
+| **[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** | Автоматический перевод видео на несколько языков с озвучкой |
+| **[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** | Платформа мультивендорного маркетплейса |
+
+### 🧑‍💻 Почему я
+
+- 🏆 **Топ-10 GitHub-разработчиков Таиланда**, ~3000 подписчиков
+- 📅 **14+ лет на GitHub** (с 2011) — выпускаю реальные продукты, а не демки
+- 🎬 Автор и мейнтейнер **[Timeline Studio](https://github.com/chatman-media/timeline-studio)** — open-source AI-видеоредактора
+- 💬 Активен на [Stack Overflow](https://stackoverflow.com/users/724036/alexander-kireyev)
+- 🌏 Базируюсь в Пхукете (Таиланд) — удобно работать удалённо в часовых поясах Азии / Европы
+
+### 🤝 Как работаем
+
+1. **Бесплатный созвон** — вы описываете задачу, я говорю, реально ли и как её сделать
+2. **ТЗ и оценка** — чёткие результаты, сроки и бюджет
+3. **Разработка** — регулярные апдейты, рабочие инкременты
+4. **Поддержка** — передача, документация и доработки после запуска
+
+📩 **Опишите задачу в [Telegram](https://t.me/alexanderkireyev) — отвечу в течение дня.**
+
+### 📬 Контакты
+
+- Telegram — [@alexanderkireyev](https://t.me/alexanderkireyev)
+- Email — [ak.chatman.media@gmail.com](mailto:ak.chatman.media@gmail.com)
+- Сайт — [chatman.media](https://chatman.media)
+- X — [@chatman_media](https://x.com/chatman_media)
+- YouTube — [@chatman-media](https://www.youtube.com/@chatman-media)
+
+</details>
