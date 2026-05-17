@@ -27,7 +27,7 @@
 
 | | Service | Built it before |
 |:--:|---|---|
-| 🤖 | **AI/LLM automation & chatbots** — Telegram bots, RAG assistants, sales funnels, AI agents that qualify leads and answer customers 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) · [`sales-guru`](https://github.com/chatman-media/sales-guru) |
+| 🤖 | **AI/LLM automation & chatbots** — Telegram bots, RAG assistants, sales funnels, AI agents that qualify leads and answer customers 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) |
 | 📨 | **Telegram automation** — bots, group/channel parsers, integrations and notification pipelines | [`telegram-badge`](https://github.com/chatman-media/telegram-badge) · [`telegram-groups-parser`](https://github.com/chatman-media/telegram-groups-parser) |
 | 🎬 | **Video & AI media automation** — auto-translation, voice-over, content pipelines | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
 | 🛠 | **Web & product development** — marketplaces, MVPs, dashboards on Next.js / Tauri / TypeScript | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
@@ -100,7 +100,7 @@
 
 | | Услуга | Уже делал |
 |:--:|---|---|
-| 🤖 | **AI/LLM-автоматизация и чат-боты** — Telegram-боты, RAG-ассистенты, sales-воронки, ИИ-агенты, которые квалифицируют лиды и отвечают клиентам 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) · [`sales-guru`](https://github.com/chatman-media/sales-guru) |
+| 🤖 | **AI/LLM-автоматизация и чат-боты** — Telegram-боты, RAG-ассистенты, sales-воронки, ИИ-агенты, которые квалифицируют лиды и отвечают клиентам 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) |
 | 📨 | **Telegram-автоматизация** — боты, парсеры групп/каналов, интеграции, уведомления | [`telegram-badge`](https://github.com/chatman-media/telegram-badge) · [`telegram-groups-parser`](https://github.com/chatman-media/telegram-groups-parser) |
 | 🎬 | **Видео и AI-медиа автоматизация** — авто-перевод, озвучка, контент-пайплайны | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
 | 🛠 | **Веб и продуктовая разработка** — маркетплейсы, MVP, дашборды на Next.js / Tauri / TypeScript | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
