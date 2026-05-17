@@ -149,10 +149,6 @@
 
 ---
 
-## 🏆 GitHub Trophies
-
-<img width="100%" src="https://github-trophies.vercel.app/?username=chatman-media&theme=transparent&column=8&row=1&no-frame=true" alt="GitHub Trophies"/>
-
 ## 🎯 Profile Summary
 
 <div align="center">
