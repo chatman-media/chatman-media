@@ -776,6 +776,30 @@
         display: none !important;
       }
     </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alexander Kireyev",
+        "alternateName": "Александр Киреев",
+        "url": "https://chatman.media/",
+        "jobTitle": "Software Engineer — AI Automation & Development",
+        "knowsAbout": [
+          "AI automation",
+          "LLM chatbots",
+          "Telegram bots",
+          "Web development",
+          "Video automation"
+        ],
+        "sameAs": [
+          "https://github.com/chatman-media",
+          "https://t.me/alexanderkireyev",
+          "https://www.linkedin.com/in/kireyevalexander/",
+          "https://x.com/chatman_media",
+          "https://www.youtube.com/@chatman-media"
+        ]
+      }
+    </script>
   </head>
   <body>
     <!-- ================= NAV ================= -->
@@ -1269,7 +1293,17 @@
       /* ============================================================
          RENDER
          ============================================================ */
-      const state = { lang: "ru", filter: "all" };
+      const SAVED_LANG = (() => {
+        try {
+          return localStorage.getItem("cm-lang");
+        } catch (e) {
+          return null;
+        }
+      })();
+      const state = {
+        lang: SAVED_LANG === "en" ? "en" : "ru",
+        filter: "all",
+      };
       const $ = (s) => document.querySelector(s);
       const catById = (id) => CATEGORIES.find((c) => c.id === id);
 
@@ -1296,9 +1330,30 @@
       const TG_SVG =
         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 3 2 10l8 3 3 8z"/><path d="m10 13 5-5"/></svg>';
 
+      const TITLES = {
+        community: {
+          ru: "Беседка · Сообщество Пхукета — chatman.media",
+          en: "Besedka · Phuket Community — chatman.media",
+        },
+        automation: {
+          ru: "Автоматизация и разработка — chatman.media",
+          en: "Automation & Development — chatman.media",
+        },
+      };
+      function currentTab() {
+        const a = document.querySelector(".nav-tab.active");
+        return a ? a.dataset.tab : "community";
+      }
+      function updateTitle() {
+        document.title = TITLES[currentTab()][state.lang];
+      }
+
       function applyLang() {
         const L = state.lang;
         document.documentElement.lang = L;
+        try {
+          localStorage.setItem("cm-lang", L);
+        } catch (e) {}
         document.querySelectorAll("[data-i18n]").forEach((el) => {
           const e = I18N[el.dataset.i18n];
           if (e) el.textContent = e[L];
@@ -1311,6 +1366,7 @@
         renderServices();
         renderProjects();
         renderSteps();
+        updateTitle();
       }
 
       function renderFilters() {
@@ -1429,19 +1485,27 @@
       }
 
       /* ---------- WIRE UP ---------- */
-      function switchTab(tab) {
+      function switchTab(tab, sync) {
         document
           .querySelectorAll(".nav-tab")
           .forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
         document
           .querySelectorAll(".panel")
           .forEach((p) => p.classList.toggle("active", p.id === tab));
+        if (sync !== false && history.replaceState) {
+          history.replaceState(null, "", "#" + tab);
+        }
+        updateTitle();
         window.scrollTo({ top: 0, behavior: "smooth" });
       }
 
       document.querySelectorAll(".nav-tab").forEach((b) =>
         b.addEventListener("click", () => switchTab(b.dataset.tab))
       );
+      window.addEventListener("hashchange", () => {
+        const t = location.hash.slice(1);
+        if (t === "community" || t === "automation") switchTab(t, false);
+      });
       document.querySelectorAll(".lang button").forEach((b) =>
         b.addEventListener("click", () => {
           state.lang = b.dataset.lang;
@@ -1458,6 +1522,7 @@
       $("#autoMail").href = "mailto:" + CONFIG.email;
       $("#year").textContent = new Date().getFullYear();
 
+      if (location.hash.slice(1) === "automation") switchTab("automation", false);
       applyLang();
     </script>
   </body>
