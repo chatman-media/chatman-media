@@ -13,7 +13,7 @@
 
 <a href="https://chatman.media"><img src="https://img.shields.io/badge/Visit%20my%20site%20%E2%86%92%20chatman.media-0b0b0b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website — chatman.media"></a>
 
-<a href="https://t.me/alexanderkireyev"><img src="https://img.shields.io/badge/Hire%20me%20%E2%86%92%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Hire me on Telegram"></a>
+<a href="https://t.me/alexanderkireev"><img src="https://img.shields.io/badge/Hire%20me%20%E2%86%92%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Hire me on Telegram"></a>
 &nbsp;
 <a href="https://wa.me/66968686196"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
 &nbsp;
@@ -32,7 +32,7 @@
 | 🎬 | **Video & AI media automation** — auto-translation, voice-over, content pipelines | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
 | 🛠 | **Web & product development** — marketplaces, MVPs, dashboards on Next.js / Tauri / TypeScript | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
 
-> Not sure which you need? **[Message me on Telegram](https://t.me/alexanderkireyev)** — I'll tell you what's realistic.
+> Not sure which you need? **[Message me on Telegram](https://t.me/alexanderkireev)** — I'll tell you what's realistic.
 
 ## 📦 Selected work
 
@@ -60,11 +60,11 @@
 3. **Build** — regular progress updates, working increments
 4. **Support** — handover, docs and post-launch fixes
 
-📩 **Describe your task on [Telegram](https://t.me/alexanderkireyev) — I reply within a day.**
+📩 **Describe your task on [Telegram](https://t.me/alexanderkireev) — I reply within a day.**
 
 ## 📬 Contacts
 
-[![Telegram](https://img.shields.io/badge/Telegram-@alexanderkireyev-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/alexanderkireyev)
+[![Telegram](https://img.shields.io/badge/Telegram-@alexanderkireev-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/alexanderkireev)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-+66_96_868_6196-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/66968686196)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexander_Kireev-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kireyevalexander/)
 [![Email](https://img.shields.io/badge/Email-ak.chatman.media@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ak.chatman.media@gmail.com)
@@ -92,7 +92,7 @@
 
 <a href="https://chatman.media"><img src="https://img.shields.io/badge/%D0%9C%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%E2%86%92%20chatman.media-0b0b0b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Сайт — chatman.media"></a>
 
-<a href="https://t.me/alexanderkireyev"><img src="https://img.shields.io/badge/%D0%9D%D0%B0%D0%BF%D0%B8%D1%88%D0%B8%D1%82%D0%B5%20%E2%86%92%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Написать в Telegram"></a>
+<a href="https://t.me/alexanderkireev"><img src="https://img.shields.io/badge/%D0%9D%D0%B0%D0%BF%D0%B8%D1%88%D0%B8%D1%82%D0%B5%20%E2%86%92%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Написать в Telegram"></a>
 
 </div>
 
@@ -105,7 +105,7 @@
 | 🎬 | **Видео и AI-медиа автоматизация** — авто-перевод, озвучка, контент-пайплайны | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
 | 🛠 | **Веб и продуктовая разработка** — маркетплейсы, MVP, дашборды на Next.js / Tauri / TypeScript | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
 
-> Не знаете, что именно нужно? **[Напишите в Telegram](https://t.me/alexanderkireyev)** — подскажу, что реально сделать.
+> Не знаете, что именно нужно? **[Напишите в Telegram](https://t.me/alexanderkireev)** — подскажу, что реально сделать.
 
 ### 📦 Избранные проекты
 
@@ -133,11 +133,11 @@
 3. **Разработка** — регулярные апдейты, рабочие инкременты
 4. **Поддержка** — передача, документация и доработки после запуска
 
-📩 **Опишите задачу в [Telegram](https://t.me/alexanderkireyev) — отвечу в течение дня.**
+📩 **Опишите задачу в [Telegram](https://t.me/alexanderkireev) — отвечу в течение дня.**
 
 ### 📬 Контакты
 
-- Telegram — [@alexanderkireyev](https://t.me/alexanderkireyev)
+- Telegram — [@alexanderkireev](https://t.me/alexanderkireev)
 - WhatsApp — [+66 96 868 6196](https://wa.me/66968686196)
 - LinkedIn — [Alexander Kireev](https://www.linkedin.com/in/kireyevalexander/)
 - Email — [ak.chatman.media@gmail.com](mailto:ak.chatman.media@gmail.com)
