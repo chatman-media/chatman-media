@@ -149,8 +149,64 @@
 
 <details>
 
+## 📈 Coding Activity
+
+<div align="center">
+  <!-- GitHub Contribution Snake -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/chatman-media/chatman-media/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+## 🎯 Profile Summary
+
+<div align="center">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=transparent" alt="Profile Details"/>
+</div>
+
+<div align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&&theme=transparent" alt="Stats"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&&theme=transparent" alt="Productive Time"/>
+</div>
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=rogue&bg_color=transparent&color=8b5cf6&line=8b5cf6&point=bf91f3&hide_border=true" alt="Activity Graph"/>
+</div>
+
+<div align="center">
+  <img width="100%" src="https://streak-stats.demolab.com?user=chatman-media&theme=transparent&hide_border=true&card_width=1000&fire=8b5cf6&border=8b5cf6" alt="GitHub Streak"/>
+</div>
+
+## 🔬 Detailed Metrics
+
 <div align="center">
   <img width="100%" src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg" alt="Detailed Metrics"/>
 </div>
+
+## Star History
+
+<a href="https://www.star-history.com/#chatman-media/chatman-media&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date" />
+ </picture>
+</a>
+
+## Repo Activity
+
+![Alt](https://repobeats.axiom.co/api/embed/74975e0da934ce1756e69f04fe68f2b026a77aee.svg "Repobeats analytics image")
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with ❤️ by [Chatman Media](https://github.com/chatman-media)
 
 </details>
