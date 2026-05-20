@@ -181,6 +181,10 @@
   <img width="100%" src="https://streak-stats.demolab.com?user=chatman-media&theme=transparent&hide_border=true&card_width=1000&fire=8b5cf6&border=8b5cf6" alt="GitHub Streak"/>
 </div>
 
+## 🏆 GitHub Trophies
+
+<img width="100%" src="https://github-trophies.vercel.app/?username=chatman-media&theme=transparent&column=8&row=1&no-frame=true" alt="GitHub Trophies"/>
+
 ## 🔬 Detailed Metrics
 
 <div align="center">
