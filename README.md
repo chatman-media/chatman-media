@@ -180,26 +180,6 @@
   <img width="100%" src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg" alt="Detailed Metrics"/>
 </div>
 
-## Star History
-
-<a href="https://www.star-history.com/#chatman-media/chatman-media&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=chatman-media/chatman-media&type=Date" />
- </picture>
-</a>
-
-## Repo Activity
-
-![Alt](https://repobeats.axiom.co/api/embed/74975e0da934ce1756e69f04fe68f2b026a77aee.svg "Repobeats analytics image")
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 Made with ❤️ by [Chatman Media](https://github.com/chatman-media)
 
 </details>
