@@ -38,20 +38,9 @@ jobs:
           plugin_stargazers_charts: yes
           plugin_stargazers_charts_type: classic
 
-          plugin_habits: yes # активность за сутки и неделю
-          plugin_habits_facts: yes # отображает анализ вашей активность за неделю
-          plugin_habits_charts: yes # отображает характеристики
-
           plugin_topics: yes # плагин ипсользуемых тем
           plugin_topics_limit: 0
           plugin_topics_mode: icons
-
-          plugin_activity: yes
-          plugin_activity_days: 90
-          plugin_activity_filter: all
-          plugin_activity_limit: 1
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
 
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
