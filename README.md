@@ -149,8 +149,6 @@
 
 <details>
 
-## 🎯 Profile Summary
-
 <div align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=transparent" alt="Profile Details"/>
 </div>
@@ -160,8 +158,6 @@
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&&theme=transparent" alt="Productive Time"/>
 </div>
 
-## 📊 GitHub Stats
-
 <div align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=chatman-media&theme=rogue&bg_color=transparent&color=8b5cf6&line=8b5cf6&point=bf91f3&hide_border=true" alt="Activity Graph"/>
 </div>
@@ -170,20 +166,12 @@
   <img width="100%" src="https://streak-stats.demolab.com?user=chatman-media&theme=transparent&hide_border=true&card_width=1000&fire=8b5cf6&border=8b5cf6" alt="GitHub Streak"/>
 </div>
 
-## 🏆 GitHub Trophies
-
 <img width="100%" src="https://github-trophies.vercel.app/?username=chatman-media&theme=transparent&column=8&row=1&no-frame=true" alt="GitHub Trophies"/>
-
-## 🏆 Alternative GitHub Trophies
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=chatman-media)](https://github.com/chatman-media/github-profile-trophy)
-
-## 🔬 Detailed Metrics
 
 <div align="center">
   <img width="100%" src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg" alt="Detailed Metrics"/>
 </div>
 
-Made with ❤️ by [Chatman Media](https://github.com/chatman-media)
-
 </details>
+
+Made with ❤️ by [Chatman Media](https://github.com/chatman-media)
