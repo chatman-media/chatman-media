@@ -172,7 +172,7 @@
   <img width="100%" src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg" alt="Detailed Metrics"/>
 </div>
 
-<img width="100%" src="https://github-trophies.vercel.app/?username=chatman-media&theme=transparent&column=8&row=1&no-frame=true" alt="GitHub Trophies"/>
+<img width="100%" src="https://github-trophies.vercel.app/?username=chatman-media&theme=rogue&column=9&row=1&no-frame=true" alt="GitHub Trophies"/>
 
 </details>
 
