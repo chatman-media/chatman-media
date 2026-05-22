@@ -27,7 +27,7 @@
 
 | | Service | Built it before |
 |:--:|---|---|
-| 🤖 | **AI/LLM automation & chatbots** — Telegram bots, RAG assistants, sales funnels, AI agents that qualify leads and answer customers 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) |
+| 🤖 | **AI/LLM automation & chatbots** — Telegram bots, RAG assistants, sales funnels, AI agents that qualify leads and answer customers 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) · [`lead-engine`](https://github.com/chatman-media/lead-engine) |
 | 📨 | **Telegram automation** — bots, group/channel parsers, integrations and notification pipelines | [`telegram-badge`](https://github.com/chatman-media/telegram-badge) · [`telegram-groups-parser`](https://github.com/chatman-media/telegram-groups-parser) |
 | 🎬 | **Video & AI media automation** — auto-translation, voice-over, content pipelines | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
 | 🛠 | **Web & product development** — marketplaces, MVPs, dashboards on Next.js / Tauri / TypeScript | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
@@ -41,6 +41,7 @@
 | **[Timeline Studio](https://timelinestudio.pro/)** | AI-powered cross-platform video editor — my flagship open-source product | [![Stars](https://img.shields.io/github/stars/chatman-media/timeline-studio?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/timeline-studio) |
 | **[rag](https://github.com/chatman-media/rag)** | Production-grade RAG engine — hybrid retrieval (pgvector + BM25), hallucination guard, pluggable LLM providers | [![Stars](https://img.shields.io/github/stars/chatman-media/rag?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/rag) |
 | **[sales](https://github.com/chatman-media/sales)** | LLM sales funnel engine — persona composition, funnel routing, A/B testing | [![Stars](https://img.shields.io/github/stars/chatman-media/sales?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/sales) |
+| **[lead-engine](https://github.com/chatman-media/lead-engine)** | Multi-tenant AI sales assistant SaaS — self-service onboarding, Telegram / WhatsApp / Web channels, per-tenant RAG KB, operator inbox, Stripe billing, 741 tests | [![Stars](https://img.shields.io/github/stars/chatman-media/lead-engine?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/lead-engine) |
 | **[telegram-badge](https://github.com/chatman-media/telegram-badge)** | SVG badge generator showing live Telegram group member counts | [![Stars](https://img.shields.io/github/stars/chatman-media/telegram-badge?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/telegram-badge) |
 | **[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** | Automatic multi-language video translation with voice-over | [![Stars](https://img.shields.io/github/stars/chatman-media/Video-Translation-API?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/Video-Translation-API) |
 | **[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** | Multi-vendor marketplace platform | [![Stars](https://img.shields.io/github/stars/chatman-media/farang-marketplace?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/farang-marketplace) |
@@ -100,7 +101,7 @@
 
 | | Услуга | Уже делал |
 |:--:|---|---|
-| 🤖 | **AI/LLM-автоматизация и чат-боты** — Telegram-боты, RAG-ассистенты, sales-воронки, ИИ-агенты, которые квалифицируют лиды и отвечают клиентам 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) |
+| 🤖 | **AI/LLM-автоматизация и чат-боты** — Telegram-боты, RAG-ассистенты, sales-воронки, ИИ-агенты, которые квалифицируют лиды и отвечают клиентам 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) · [`lead-engine`](https://github.com/chatman-media/lead-engine) |
 | 📨 | **Telegram-автоматизация** — боты, парсеры групп/каналов, интеграции, уведомления | [`telegram-badge`](https://github.com/chatman-media/telegram-badge) · [`telegram-groups-parser`](https://github.com/chatman-media/telegram-groups-parser) |
 | 🎬 | **Видео и AI-медиа автоматизация** — авто-перевод, озвучка, контент-пайплайны | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
 | 🛠 | **Веб и продуктовая разработка** — маркетплейсы, MVP, дашборды на Next.js / Tauri / TypeScript | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
@@ -114,6 +115,7 @@
 | **[Timeline Studio](https://timelinestudio.pro/)** | AI-видеоредактор для всех платформ — мой флагманский open-source продукт |
 | **[rag](https://github.com/chatman-media/rag)** | RAG-движок production-уровня: гибридный поиск (pgvector + BM25), защита от галлюцинаций |
 | **[sales](https://github.com/chatman-media/sales)** | Движок sales-воронок на LLM: композиция персон, маршрутизация воронки, A/B-тесты |
+| **[lead-engine](https://github.com/chatman-media/lead-engine)** | Multi-tenant SaaS-платформа AI-ассистента для продаж — самостоятельный онбординг, каналы Telegram / WhatsApp / Web, RAG-база знаний, inbox для операторов, Stripe-биллинг, 741 тест |
 | **[telegram-badge](https://github.com/chatman-media/telegram-badge)** | Генератор SVG-бейджей с живым счётчиком участников Telegram-групп |
 | **[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** | Автоматический перевод видео на несколько языков с озвучкой |
 | **[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** | Платформа мультивендорного маркетплейса |
