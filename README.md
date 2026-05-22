@@ -151,6 +151,8 @@
 
 <details>
 
+<br/>
+
 <img width="100%" src="https://github-trophies.vercel.app/?username=chatman-media&theme=rogue&column=9&row=1&no-frame=true" alt="GitHub Trophies"/>
 
 <div align="center">
