@@ -1,5 +1,6 @@
 <div align="right">
   <a href="https://user-badge.committers.top/thailand/chatman-media"><img src="https://user-badge.committers.top/thailand/chatman-media.svg?style=flat" alt="Thailand Rank"></a>
+  <a href="https://wakatime.com/@4393eda7-541a-42ae-974f-3a312c0631b7"><img src="https://wakatime.com/badge/user/4393eda7-541a-42ae-974f-3a312c0631b7.svg" alt="Total time coded since May 6 2014" /></a>
   <img src="https://komarev.com/ghpvc/?username=chatman-media&color=8b5cf6&style=flat" alt="Profile views">
 </div>
 
