@@ -52,6 +52,26 @@
 | **[lead-engine](https://github.com/chatman-media/lead-engine)**<br/>![Flagship](https://img.shields.io/badge/★_Flagship-8b5cf6?style=flat) | Multi-tenant AI sales assistant SaaS — self-service onboarding, Telegram / WhatsApp / Web channels, per-tenant hybrid RAG KB (pgvector + BM25), LLM funnel-stage classification with a configurable state machine, dynamic lead fields, Kanban board, operator inbox and Stripe billing. Bun / Hono / React 19 / PostgreSQL (RLS), 741 tests. | [![Stars](https://img.shields.io/github/stars/chatman-media/lead-engine?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/lead-engine) |
 | **[qr-asia](https://github.com/chatman-media/qr-asia)** | QR-menu platform for restaurants and small businesses across Asia | [![Stars](https://img.shields.io/github/stars/chatman-media/qr-asia?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/qr-asia) |
 
+## 🌍 Open-source contributions
+
+Merged pull requests to other projects — updated automatically every week.
+
+<!-- EXTERNAL_PRS:START -->
+| Repository | Pull request | Merged |
+|---|---|---|
+| [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) | Jun 2026 |
+| [alagiz/particalizor-3000](https://github.com/alagiz/particalizor-3000) ⭐ 3 | [Quote lint path to avoid script issue.](https://github.com/alagiz/particalizor-3000/pull/36) | Jan 2020 |
+| [nareshbhatia/graphql-bookstore](https://github.com/nareshbhatia/graphql-bookstore) ⭐ 121 | [fixed build issues](https://github.com/nareshbhatia/graphql-bookstore/pull/4) | Jan 2019 |
+| [nareshbhatia/react-learning-path](https://github.com/nareshbhatia/react-learning-path) ⭐ 18 | [fixed typo in Readme](https://github.com/nareshbhatia/react-learning-path/pull/1) | Jul 2018 |
+| [alagiz/net-fortune](https://github.com/alagiz/net-fortune) ⭐ 1 | [Very important feature](https://github.com/alagiz/net-fortune/pull/4) | Mar 2018 |
+| [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1.9k | [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) | Aug 2017 |
+| [sugar-framework/sugar](https://github.com/sugar-framework/sugar) ⭐ 433 | [Fix link to weber website](https://github.com/sugar-framework/sugar/pull/59) | Dec 2014 |
+| [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2.5k | [fix typos](https://github.com/wardencommunity/warden/pull/92) | Jun 2014 |
+| [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 243 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) | May 2014 |
+| [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) | Apr 2014 |
+| [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) | Apr 2014 |
+<!-- EXTERNAL_PRS:END -->
+
 ## 🧑‍💻 Why work with me
 
 - 🎓 **15+ years as a Lead / Senior Software Engineer** — Lomonosov Moscow State University (MSU) graduate
@@ -153,6 +173,26 @@
 | **[sales](https://github.com/chatman-media/sales)** | Движок sales-воронок на LLM: композиция персон, маршрутизация воронки, A/B-тесты |
 | **[lead-engine](https://github.com/chatman-media/lead-engine)**<br/>![Флагман](https://img.shields.io/badge/★_Флагман-8b5cf6?style=flat) | Multi-tenant SaaS-платформа AI-ассистента для продаж — самостоятельный онбординг, каналы Telegram / WhatsApp / Web, гибридная RAG-база знаний на тенант (pgvector + BM25), LLM-классификация стадий воронки с настраиваемой state machine, динамические поля лида, Kanban-доска, inbox для операторов и Stripe-биллинг. Bun / Hono / React 19 / PostgreSQL (RLS), 741 тест. |
 | **[qr-asia](https://github.com/chatman-media/qr-asia)** | Платформа QR-меню для ресторанов и малого бизнеса в Азии |
+
+### 🌍 Вклад в open source
+
+Смерженные pull request'ы в чужие проекты — обновляется автоматически раз в неделю.
+
+<!-- EXTERNAL_PRS:START -->
+| Repository | Pull request | Merged |
+|---|---|---|
+| [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) | Jun 2026 |
+| [alagiz/particalizor-3000](https://github.com/alagiz/particalizor-3000) ⭐ 3 | [Quote lint path to avoid script issue.](https://github.com/alagiz/particalizor-3000/pull/36) | Jan 2020 |
+| [nareshbhatia/graphql-bookstore](https://github.com/nareshbhatia/graphql-bookstore) ⭐ 121 | [fixed build issues](https://github.com/nareshbhatia/graphql-bookstore/pull/4) | Jan 2019 |
+| [nareshbhatia/react-learning-path](https://github.com/nareshbhatia/react-learning-path) ⭐ 18 | [fixed typo in Readme](https://github.com/nareshbhatia/react-learning-path/pull/1) | Jul 2018 |
+| [alagiz/net-fortune](https://github.com/alagiz/net-fortune) ⭐ 1 | [Very important feature](https://github.com/alagiz/net-fortune/pull/4) | Mar 2018 |
+| [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1.9k | [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) | Aug 2017 |
+| [sugar-framework/sugar](https://github.com/sugar-framework/sugar) ⭐ 433 | [Fix link to weber website](https://github.com/sugar-framework/sugar/pull/59) | Dec 2014 |
+| [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2.5k | [fix typos](https://github.com/wardencommunity/warden/pull/92) | Jun 2014 |
+| [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 243 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) | May 2014 |
+| [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) | Apr 2014 |
+| [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) | Apr 2014 |
+<!-- EXTERNAL_PRS:END -->
 
 ### 🧑‍💻 Почему я
 
