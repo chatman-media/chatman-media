@@ -5,6 +5,8 @@ set -euo pipefail
 
 USER="chatman-media"
 README="${1:-README.md}"
+MIN_STARS="${MIN_STARS:-10}"   # показывать только репозитории с таким числом звёзд и больше
+MIN_DATE="${MIN_DATE:-2017-01-01}" # и только PR, смерженные начиная с этой даты
 
 prs=$(gh search prs --author="$USER" --merged --limit 100 \
   --json repository,title,url,closedAt -- -user:"$USER")
@@ -21,9 +23,12 @@ for repo in $(echo "$prs" | jq -r '.[].repository.nameWithOwner' | sort -u); do
   stars=$(echo "$stars" | jq --arg r "$repo" --argjson s "$count" '. + {($r): $s}')
 done
 
-table=$(echo "$prs" | jq -r --argjson stars "$stars" '
+table=$(echo "$prs" | jq -r --argjson stars "$stars" \
+  --argjson min_stars "$MIN_STARS" --arg min_date "$MIN_DATE" '
   def fmt_stars: if . >= 1000 then ((. / 100 | floor) / 10 | tostring) + "k" else tostring end;
   def esc: gsub("\\|"; "\\|");
+  map(select((($stars[.repository.nameWithOwner] // 0) >= $min_stars)
+    and (.closedAt >= $min_date))) |
   sort_by(.closedAt) | reverse | .[] |
   "| [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) ⭐ \($stars[.repository.nameWithOwner] // 0 | fmt_stars) | [\(.title | esc)](\(.url)) | \(.closedAt | fromdate | strftime("%b %Y")) |"
 ')
@@ -36,4 +41,4 @@ $table" awk '
   !skip { print }
 ' "$README" > "$README.tmp" && mv "$README.tmp" "$README"
 
-echo "Updated $README with $(echo "$prs" | jq 'length') external PRs."
+echo "Updated $README with $(echo "$table" | grep -c '^|') external PRs (of $(echo "$prs" | jq 'length') found)."

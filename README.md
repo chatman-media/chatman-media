@@ -60,16 +60,9 @@ Merged pull requests to other projects — updated automatically every week.
 | Repository | Pull request | Merged |
 |---|---|---|
 | [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) | Jun 2026 |
-| [alagiz/particalizor-3000](https://github.com/alagiz/particalizor-3000) ⭐ 3 | [Quote lint path to avoid script issue.](https://github.com/alagiz/particalizor-3000/pull/36) | Jan 2020 |
 | [nareshbhatia/graphql-bookstore](https://github.com/nareshbhatia/graphql-bookstore) ⭐ 121 | [fixed build issues](https://github.com/nareshbhatia/graphql-bookstore/pull/4) | Jan 2019 |
 | [nareshbhatia/react-learning-path](https://github.com/nareshbhatia/react-learning-path) ⭐ 18 | [fixed typo in Readme](https://github.com/nareshbhatia/react-learning-path/pull/1) | Jul 2018 |
-| [alagiz/net-fortune](https://github.com/alagiz/net-fortune) ⭐ 1 | [Very important feature](https://github.com/alagiz/net-fortune/pull/4) | Mar 2018 |
 | [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1.9k | [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) | Aug 2017 |
-| [sugar-framework/sugar](https://github.com/sugar-framework/sugar) ⭐ 433 | [Fix link to weber website](https://github.com/sugar-framework/sugar/pull/59) | Dec 2014 |
-| [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2.5k | [fix typos](https://github.com/wardencommunity/warden/pull/92) | Jun 2014 |
-| [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 243 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) | May 2014 |
-| [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) | Apr 2014 |
-| [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) | Apr 2014 |
 <!-- EXTERNAL_PRS:END -->
 
 ## 🧑‍💻 Why work with me
@@ -182,16 +175,9 @@ Merged pull requests to other projects — updated automatically every week.
 | Repository | Pull request | Merged |
 |---|---|---|
 | [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) | Jun 2026 |
-| [alagiz/particalizor-3000](https://github.com/alagiz/particalizor-3000) ⭐ 3 | [Quote lint path to avoid script issue.](https://github.com/alagiz/particalizor-3000/pull/36) | Jan 2020 |
 | [nareshbhatia/graphql-bookstore](https://github.com/nareshbhatia/graphql-bookstore) ⭐ 121 | [fixed build issues](https://github.com/nareshbhatia/graphql-bookstore/pull/4) | Jan 2019 |
 | [nareshbhatia/react-learning-path](https://github.com/nareshbhatia/react-learning-path) ⭐ 18 | [fixed typo in Readme](https://github.com/nareshbhatia/react-learning-path/pull/1) | Jul 2018 |
-| [alagiz/net-fortune](https://github.com/alagiz/net-fortune) ⭐ 1 | [Very important feature](https://github.com/alagiz/net-fortune/pull/4) | Mar 2018 |
 | [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1.9k | [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) | Aug 2017 |
-| [sugar-framework/sugar](https://github.com/sugar-framework/sugar) ⭐ 433 | [Fix link to weber website](https://github.com/sugar-framework/sugar/pull/59) | Dec 2014 |
-| [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2.5k | [fix typos](https://github.com/wardencommunity/warden/pull/92) | Jun 2014 |
-| [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 243 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) | May 2014 |
-| [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) | Apr 2014 |
-| [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) | Apr 2014 |
 <!-- EXTERNAL_PRS:END -->
 
 ### 🧑‍💻 Почему я
