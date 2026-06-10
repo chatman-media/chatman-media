@@ -1,0 +1,21 @@
+name: External PRs
+on:
+  schedule: [{ cron: "0 1 * * 1" }] # каждый понедельник
+  workflow_dispatch:
+jobs:
+  update-external-prs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update external PRs section
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash .github/scripts/update-external-prs.sh README.md
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898270+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || { git commit -m "chore: update external PRs"; git push; }
