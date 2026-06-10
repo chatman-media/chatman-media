@@ -54,9 +54,11 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
 
-          plugin_notable: yes
-          plugin_notable_from: organization
-          plugin_notable_types: commit
+          plugin_notable: yes # вклад в чужие репозитории
+          plugin_notable_from: all # и юзеры, и организации
+          plugin_notable_types: commit, pull_request
+          plugin_notable_repositories: yes # показывать имена репозиториев
+          plugin_notable_filter: stars:>100
 
           plugin_people: yes
           plugin_people_limit: 24
@@ -64,6 +66,8 @@ jobs:
           plugin_people_types: followers, following
 
           plugin_repositories: yes
+          plugin_repositories_featured: chatman-media/timeline-studio, chatman-media/lead-engine, chatman-media/rag
+          plugin_repositories_pinned: 6 # плюс пины с профиля
           plugin_repositories_order: featured, pinned, starred, random
 
           plugin_stars: yes

@@ -5,8 +5,7 @@ set -euo pipefail
 
 USER="chatman-media"
 README="${1:-README.md}"
-MIN_STARS="${MIN_STARS:-10}"   # показывать только репозитории с таким числом звёзд и больше
-MIN_DATE="${MIN_DATE:-2017-01-01}" # и только PR, смерженные начиная с этой даты
+MIN_STARS="${MIN_STARS:-100}" # показывать только репозитории с таким числом звёзд и больше
 
 prs=$(gh search prs --author="$USER" --merged --limit 100 \
   --json repository,title,url,closedAt -- -user:"$USER")
@@ -23,12 +22,10 @@ for repo in $(echo "$prs" | jq -r '.[].repository.nameWithOwner' | sort -u); do
   stars=$(echo "$stars" | jq --arg r "$repo" --argjson s "$count" '. + {($r): $s}')
 done
 
-table=$(echo "$prs" | jq -r --argjson stars "$stars" \
-  --argjson min_stars "$MIN_STARS" --arg min_date "$MIN_DATE" '
+table=$(echo "$prs" | jq -r --argjson stars "$stars" --argjson min_stars "$MIN_STARS" '
   def fmt_stars: if . >= 1000 then ((. / 100 | floor) / 10 | tostring) + "k" else tostring end;
   def esc: gsub("\\|"; "\\|");
-  map(select((($stars[.repository.nameWithOwner] // 0) >= $min_stars)
-    and (.closedAt >= $min_date))) |
+  map(select(($stars[.repository.nameWithOwner] // 0) >= $min_stars)) |
   sort_by(.closedAt) | reverse | .[] |
   "| [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) ⭐ \($stars[.repository.nameWithOwner] // 0 | fmt_stars) | [\(.title | esc)](\(.url)) | \(.closedAt | fromdate | strftime("%b %Y")) |"
 ')
