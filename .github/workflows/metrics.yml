@@ -54,14 +54,6 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
 
-          plugin_notable: yes # вклад в чужие репозитории
-          plugin_notable_from: all # и юзеры, и организации
-          # только pull_request: комбинация commit + pull_request стабильно роняет
-          # GitHub GraphQL (502) на repositoriesContributedTo для этого аккаунта
-          plugin_notable_types: pull_request
-          plugin_notable_repositories: yes # показывать имена репозиториев
-          plugin_notable_filter: stars:>100
-
           plugin_people: yes
           plugin_people_limit: 24
           plugin_people_size: 28
@@ -81,9 +73,3 @@ jobs:
 
           plugin_calendar: yes
           plugin_calendar_limit: 1
-
-          plugin_code: yes
-          plugin_code_lines: 12
-          plugin_code_load: 400
-          plugin_code_days: 3
-          plugin_code_visibility: public
