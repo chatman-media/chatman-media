@@ -6,8 +6,6 @@
 
 <div align="center">
 
-# Alexander Kireyev
-
 <a href="https://t.me/alexanderkireev"><img src="https://img.shields.io/badge/Hire%20me%20%E2%86%92%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Hire me on Telegram"></a>
 &nbsp;
 <a href="https://wa.me/66968686196"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
@@ -15,8 +13,6 @@
 <a href="mailto:ak.chatman.media@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
 </div>
-
----
 
 ## 🚀 What I build
 
