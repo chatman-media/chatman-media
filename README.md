@@ -14,7 +14,7 @@
 
 <a href="https://t.me/alexanderkireev"><img src="https://img.shields.io/badge/%F0%9F%9F%A2%20Available%20for%20new%20projects-22c55e?style=for-the-badge" alt="Available for new projects"></a>
 
-**15+ years** shipping production software &nbsp;·&nbsp; **Top-10** GitHub dev in Thailand &nbsp;·&nbsp; **166★** on my open-source video editor &nbsp;·&nbsp; replies within a day
+**15+ years** shipping production software &nbsp;·&nbsp; **Top-10** GitHub dev in Thailand &nbsp;·&nbsp; <img src="https://img.shields.io/github/stars/chatman-media/timeline-studio?style=flat-square&logo=github&label=%E2%98%85&color=8b5cf6" alt="Timeline Studio stars" /> on my open-source video editor &nbsp;·&nbsp; replies within a day
 
 <a href="https://chatman.media"><img src="https://img.shields.io/badge/Visit%20my%20site%20%E2%86%92%20chatman.media-0b0b0b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website — chatman.media"></a>
 
@@ -54,18 +54,28 @@
 
 ## 🌍 Open-source contributions
 
-Merged pull requests to other projects — updated automatically every week.
+Pull requests to major open-source projects — updated automatically every week.
 
 <!-- EXTERNAL_PRS:START -->
-| Repository | Pull request | Merged |
+| Repository | Pull request | Status |
 |---|---|---|
-| [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) | Jun 2026 |
-| [nareshbhatia/graphql-bookstore](https://github.com/nareshbhatia/graphql-bookstore) ⭐ 121 | [fixed build issues](https://github.com/nareshbhatia/graphql-bookstore/pull/4) | Jan 2019 |
-| [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1.9k | [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) | Aug 2017 |
-| [sugar-framework/sugar](https://github.com/sugar-framework/sugar) ⭐ 433 | [Fix link to weber website](https://github.com/sugar-framework/sugar/pull/59) | Dec 2014 |
-| [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2.5k | [fix typos](https://github.com/wardencommunity/warden/pull/92) | Jun 2014 |
-| [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 243 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) | May 2014 |
-| [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) | Apr 2014 |
+| [cline/cline](https://github.com/cline/cline) ⭐ 63k | [fix(webview): show text content written before attempt_completion](https://github.com/cline/cline/pull/11329) | 🟢 Open |
+| [cline/cline](https://github.com/cline/cline) ⭐ 63k | [fix(mcp): use stable deterministic tool IDs derived from server name](https://github.com/cline/cline/pull/11312) | 🟢 Open |
+| [remix-run/react-router](https://github.com/remix-run/react-router) ⭐ 56.4k | [fix: pre-encode backslash before passing decoded pathname to encodeLocation](https://github.com/remix-run/react-router/pull/15164) | 🟢 Open |
+| [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) ⭐ 53.4k | [fix(ui): guard missing Axios error.response in ToolDialog error handlers](https://github.com/FlowiseAI/Flowise/pull/6482) | 🟢 Open |
+| [TanStack/query](https://github.com/TanStack/query) ⭐ 49.7k | [fix(query-core): refetch matched queries in resetQueries after reset](https://github.com/TanStack/query/pull/10891) | 🟢 Open |
+| [payloadcms/payload](https://github.com/payloadcms/payload) ⭐ 42.9k | [fix(plugin-cloud-storage): fall back to field defaultValue when doc not yet committed](https://github.com/payloadcms/payload/pull/16912) | 🟢 Open |
+| [payloadcms/payload](https://github.com/payloadcms/payload) ⭐ 42.9k | [fix(ui): apply filterOptions to "Add Below" block drawer](https://github.com/payloadcms/payload/pull/16911) | 🟢 Open |
+| [colinhacks/zod](https://github.com/colinhacks/zod) ⭐ 42.9k | [fix(toJSONSchema): preserve default value through transform in input mode](https://github.com/colinhacks/zod/pull/6067) | 🟢 Open |
+| [trpc/trpc](https://github.com/trpc/trpc) ⭐ 40.3k | [fix(client): abort JSONL stream consumer on httpBatchStreamLink unsubscribe](https://github.com/trpc/trpc/pull/7407) | 🟢 Open |
+| [date-fns/date-fns](https://github.com/date-fns/date-fns) ⭐ 36.5k | [fix(locale/hi): accept retroflex spelling of October in month matcher](https://github.com/date-fns/date-fns/pull/4214) | 🟢 Open |
+| [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) ⭐ 34.7k | [fix(orm): evaluate $onUpdate lazily in buildUpdateSet across dialects](https://github.com/drizzle-team/drizzle-orm/pull/5851) | 🟢 Open |
+| [continuedev/continue](https://github.com/continuedev/continue) ⭐ 33.6k | [fix(openai-adapters): convert requestOptions.timeout from seconds to milliseconds](https://github.com/continuedev/continue/pull/12563) | 🟢 Open |
+| [vercel/swr](https://github.com/vercel/swr) ⭐ 32.4k | [fix: call onSuccess for all hook consumers sharing a deduplicated request](https://github.com/vercel/swr/pull/4264) | 🟢 Open |
+| [better-auth/better-auth](https://github.com/better-auth/better-auth) ⭐ 28.6k | [fix: replace hostnameRegex with per-label validation](https://github.com/better-auth/better-auth/pull/9910) | 🟢 Open |
+| [vercel/ai](https://github.com/vercel/ai) ⭐ 24.7k | [fix(ai): wrap invalid tool call input in JSON object to prevent API rejection](https://github.com/vercel/ai/pull/15863) | 🟢 Open |
+
+**47 pull requests** to external projects with 100+ stars (7 merged) · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## 🧑‍💻 Why work with me
@@ -113,14 +123,13 @@ Merged pull requests to other projects — updated automatically every week.
 
 <a href="https://info.flagcounter.com/V5YQ"><img src="https://s01.flagcounter.com/count2/V5YQ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_40/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 
-<img width="100%" src="https://github-trophies.vercel.app/?username=chatman-media&theme=rogue&column=9&row=1&no-frame=true" alt="GitHub Trophies"/>
+<img width="100%" src="https://github-trophies.vercel.app/?username=chatman-media&theme=rogue&column=9&row=1&no-frame=true&no-bg=true" alt="GitHub Trophies"/>
 <div align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=transparent" alt="Profile Details"/>
 </div>
 <br/>
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chatman-media&&theme=transparent" alt="Stats"/>
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=10&&theme=transparent" alt="Productive Time"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chatman-media&utcOffset=7&theme=transparent" alt="Productive Time"/>
 </div>
 
 <details>
@@ -138,7 +147,7 @@ Merged pull requests to other projects — updated automatically every week.
 
 <a href="https://t.me/alexanderkireev"><img src="https://img.shields.io/badge/%F0%9F%9F%A2%20%D0%93%D0%BE%D1%82%D0%BE%D0%B2%20%D0%B2%D0%B7%D1%8F%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-22c55e?style=for-the-badge" alt="Готов взять проект"></a>
 
-**15+ лет** в продакшен-разработке &nbsp;·&nbsp; **Топ-10** GitHub-разработчиков Таиланда &nbsp;·&nbsp; **166★** на моём open-source видеоредакторе &nbsp;·&nbsp; отвечаю в течение дня
+**15+ лет** в продакшен-разработке &nbsp;·&nbsp; **Топ-10** GitHub-разработчиков Таиланда &nbsp;·&nbsp; <img src="https://img.shields.io/github/stars/chatman-media/timeline-studio?style=flat-square&logo=github&label=%E2%98%85&color=8b5cf6" alt="Звёзды Timeline Studio" /> на моём open-source видеоредакторе &nbsp;·&nbsp; отвечаю в течение дня
 
 <a href="https://chatman.media"><img src="https://img.shields.io/badge/%D0%9C%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%E2%86%92%20chatman.media-0b0b0b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Сайт — chatman.media"></a>
 
@@ -172,18 +181,28 @@ Merged pull requests to other projects — updated automatically every week.
 
 ### 🌍 Вклад в open source
 
-Смерженные pull request'ы в чужие проекты — обновляется автоматически раз в неделю.
+Pull request'ы в крупные open-source проекты — обновляется автоматически раз в неделю.
 
 <!-- EXTERNAL_PRS:START -->
-| Repository | Pull request | Merged |
+| Repository | Pull request | Status |
 |---|---|---|
-| [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) | Jun 2026 |
-| [nareshbhatia/graphql-bookstore](https://github.com/nareshbhatia/graphql-bookstore) ⭐ 121 | [fixed build issues](https://github.com/nareshbhatia/graphql-bookstore/pull/4) | Jan 2019 |
-| [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1.9k | [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) | Aug 2017 |
-| [sugar-framework/sugar](https://github.com/sugar-framework/sugar) ⭐ 433 | [Fix link to weber website](https://github.com/sugar-framework/sugar/pull/59) | Dec 2014 |
-| [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2.5k | [fix typos](https://github.com/wardencommunity/warden/pull/92) | Jun 2014 |
-| [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 243 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) | May 2014 |
-| [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) | Apr 2014 |
+| [cline/cline](https://github.com/cline/cline) ⭐ 63k | [fix(webview): show text content written before attempt_completion](https://github.com/cline/cline/pull/11329) | 🟢 Open |
+| [cline/cline](https://github.com/cline/cline) ⭐ 63k | [fix(mcp): use stable deterministic tool IDs derived from server name](https://github.com/cline/cline/pull/11312) | 🟢 Open |
+| [remix-run/react-router](https://github.com/remix-run/react-router) ⭐ 56.4k | [fix: pre-encode backslash before passing decoded pathname to encodeLocation](https://github.com/remix-run/react-router/pull/15164) | 🟢 Open |
+| [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) ⭐ 53.4k | [fix(ui): guard missing Axios error.response in ToolDialog error handlers](https://github.com/FlowiseAI/Flowise/pull/6482) | 🟢 Open |
+| [TanStack/query](https://github.com/TanStack/query) ⭐ 49.7k | [fix(query-core): refetch matched queries in resetQueries after reset](https://github.com/TanStack/query/pull/10891) | 🟢 Open |
+| [payloadcms/payload](https://github.com/payloadcms/payload) ⭐ 42.9k | [fix(plugin-cloud-storage): fall back to field defaultValue when doc not yet committed](https://github.com/payloadcms/payload/pull/16912) | 🟢 Open |
+| [payloadcms/payload](https://github.com/payloadcms/payload) ⭐ 42.9k | [fix(ui): apply filterOptions to "Add Below" block drawer](https://github.com/payloadcms/payload/pull/16911) | 🟢 Open |
+| [colinhacks/zod](https://github.com/colinhacks/zod) ⭐ 42.9k | [fix(toJSONSchema): preserve default value through transform in input mode](https://github.com/colinhacks/zod/pull/6067) | 🟢 Open |
+| [trpc/trpc](https://github.com/trpc/trpc) ⭐ 40.3k | [fix(client): abort JSONL stream consumer on httpBatchStreamLink unsubscribe](https://github.com/trpc/trpc/pull/7407) | 🟢 Open |
+| [date-fns/date-fns](https://github.com/date-fns/date-fns) ⭐ 36.5k | [fix(locale/hi): accept retroflex spelling of October in month matcher](https://github.com/date-fns/date-fns/pull/4214) | 🟢 Open |
+| [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) ⭐ 34.7k | [fix(orm): evaluate $onUpdate lazily in buildUpdateSet across dialects](https://github.com/drizzle-team/drizzle-orm/pull/5851) | 🟢 Open |
+| [continuedev/continue](https://github.com/continuedev/continue) ⭐ 33.6k | [fix(openai-adapters): convert requestOptions.timeout from seconds to milliseconds](https://github.com/continuedev/continue/pull/12563) | 🟢 Open |
+| [vercel/swr](https://github.com/vercel/swr) ⭐ 32.4k | [fix: call onSuccess for all hook consumers sharing a deduplicated request](https://github.com/vercel/swr/pull/4264) | 🟢 Open |
+| [better-auth/better-auth](https://github.com/better-auth/better-auth) ⭐ 28.6k | [fix: replace hostnameRegex with per-label validation](https://github.com/better-auth/better-auth/pull/9910) | 🟢 Open |
+| [vercel/ai](https://github.com/vercel/ai) ⭐ 24.7k | [fix(ai): wrap invalid tool call input in JSON object to prevent API rejection](https://github.com/vercel/ai/pull/15863) | 🟢 Open |
+
+**47 pull requests** to external projects with 100+ stars (7 merged) · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### 🧑‍💻 Почему я
@@ -230,6 +249,7 @@ Merged pull requests to other projects — updated automatically every week.
 </details>
 
 <details>
+<summary><b>📊 Detailed GitHub metrics</b></summary>
 
 <div align="center">
   <img width="100%" src="https://raw.githubusercontent.com/chatman-media/chatman-media/main/github-metrics.svg" alt="Detailed Metrics"/>

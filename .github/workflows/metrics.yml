@@ -56,7 +56,9 @@ jobs:
 
           plugin_notable: yes # вклад в чужие репозитории
           plugin_notable_from: all # и юзеры, и организации
-          plugin_notable_types: commit, pull_request
+          # только pull_request: комбинация commit + pull_request стабильно роняет
+          # GitHub GraphQL (502) на repositoriesContributedTo для этого аккаунта
+          plugin_notable_types: pull_request
           plugin_notable_repositories: yes # показывать имена репозиториев
           plugin_notable_filter: stars:>100
 
