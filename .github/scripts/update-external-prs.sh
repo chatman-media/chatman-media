@@ -5,11 +5,13 @@ set -euo pipefail
 
 USER="chatman-media"
 README="${1:-README.md}"
-MIN_STARS="${MIN_STARS:-100}" # показывать только репозитории с таким числом звёзд и больше
-LIMIT="${LIMIT:-15}"          # строк в таблице, остальные PR уходят в счётчик под ней
-PER_REPO="${PER_REPO:-2}"     # не больше стольких PR от одного репозитория
+MIN_STARS="${MIN_STARS:-100}"    # показывать только репозитории с таким числом звёзд и больше
+LIMIT="${LIMIT:-15}"             # строк в таблице, остальные PR уходят в счётчик под ней
+PER_REPO="${PER_REPO:-2}"        # не больше стольких PR от одного репозитория
+SINCE="${SINCE:-2020-01-01}"     # учитывать только PR, смерженные начиная с этой даты
+SINCE_YEAR="${SINCE%%-*}"
 
-prs=$(gh search prs --author="$USER" --merged --limit 100 \
+prs=$(gh search prs --author="$USER" --merged --merged-at ">=$SINCE" --limit 100 \
   --json repository,title,url -- -user:"$USER")
 
 if [ "$(echo "$prs" | jq 'length')" -eq 0 ]; then
@@ -35,20 +37,20 @@ table=$(echo "$filtered" | jq -r --argjson stars "$stars" --argjson limit "$LIMI
   | map(.[:$per_repo])
   | add
   | sort_by(-($stars[.repository.nameWithOwner] // 0)) | .[:$limit] | .[] |
-  "| [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) ⭐ \($stars[.repository.nameWithOwner] // 0 | fmt_stars) | [\(.title | esc)](\(.url)) | ✅ Merged |"
+  "| [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) ⭐ \($stars[.repository.nameWithOwner] // 0 | fmt_stars) | [\(.title | esc)](\(.url)) |"
 ')
 
-search_url="https://github.com/search?q=is%3Apr+author%3A$USER+-user%3A$USER+is%3Amerged&type=pullrequests"
+search_url="https://github.com/search?q=is%3Apr+author%3A$USER+-user%3A$USER+is%3Amerged+merged%3A%3E%3D$SINCE&type=pullrequests"
 
-BLOCK="| Repository | Pull request | Status |
-|---|---|---|
+BLOCK="| Repository | Pull request |
+|---|---|
 $table
 
-**$total merged pull requests** to external projects with 100+ stars · [see all on GitHub]($search_url)" \
+**$total merged pull requests** to external projects with 100+ stars since $SINCE_YEAR · [see all on GitHub]($search_url)" \
 awk '
   /<!-- EXTERNAL_PRS:START -->/ { print; print ENVIRON["BLOCK"]; skip = 1; next }
   /<!-- EXTERNAL_PRS:END -->/ { skip = 0 }
   !skip { print }
 ' "$README" > "$README.tmp" && mv "$README.tmp" "$README"
 
-echo "Updated $README: $total merged PRs pass the filter of $(echo "$prs" | jq 'length') found, top $LIMIT in table."
+echo "Updated $README: $total merged PRs (since $SINCE) pass the filter of $(echo "$prs" | jq 'length') found, top $LIMIT in table."

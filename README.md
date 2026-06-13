@@ -55,20 +55,14 @@
 Pull requests to major open-source projects — updated automatically every week.
 
 <!-- EXTERNAL_PRS:START -->
-| Repository | Pull request | Status |
-|---|---|---|
-| [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.1k | [fix(vanilla/utils/atomWithStorage): apply reviver when parsing subscription updates](https://github.com/pmndrs/jotai/pull/3326) | ✅ Merged |
-| [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k | [fix(compat): round/ceil/floor should return Infinity for infinite values with precision](https://github.com/toss/es-toolkit/pull/1764) | ✅ Merged |
-| [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.1k | [fix(utils): prevent watch context leak across async callbacks](https://github.com/pmndrs/valtio/pull/1229) | ✅ Merged |
-| [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) | ✅ Merged |
-| [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) | ✅ Merged |
-| [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2.5k | [fix typos](https://github.com/wardencommunity/warden/pull/92) | ✅ Merged |
-| [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1.9k | [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) | ✅ Merged |
-| [sugar-framework/sugar](https://github.com/sugar-framework/sugar) ⭐ 433 | [Fix link to weber website](https://github.com/sugar-framework/sugar/pull/59) | ✅ Merged |
-| [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 243 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) | ✅ Merged |
-| [nareshbhatia/graphql-bookstore](https://github.com/nareshbhatia/graphql-bookstore) ⭐ 121 | [fixed build issues](https://github.com/nareshbhatia/graphql-bookstore/pull/4) | ✅ Merged |
+| Repository | Pull request |
+|---|---|
+| [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.1k | [fix(vanilla/utils/atomWithStorage): apply reviver when parsing subscription updates](https://github.com/pmndrs/jotai/pull/3326) |
+| [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k | [fix(compat): round/ceil/floor should return Infinity for infinite values with precision](https://github.com/toss/es-toolkit/pull/1764) |
+| [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.1k | [fix(utils): prevent watch context leak across async callbacks](https://github.com/pmndrs/valtio/pull/1229) |
+| [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) |
 
-**10 merged pull requests** to external projects with 100+ stars · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**4 merged pull requests** to external projects with 100+ stars since 2020 · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2020-01-01&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## 🧑‍💻 Why work with me
@@ -171,20 +165,14 @@ Pull requests to major open-source projects — updated automatically every week
 Pull request'ы в крупные open-source проекты — обновляется автоматически раз в неделю.
 
 <!-- EXTERNAL_PRS:START -->
-| Repository | Pull request | Status |
-|---|---|---|
-| [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.1k | [fix(vanilla/utils/atomWithStorage): apply reviver when parsing subscription updates](https://github.com/pmndrs/jotai/pull/3326) | ✅ Merged |
-| [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k | [fix(compat): round/ceil/floor should return Infinity for infinite values with precision](https://github.com/toss/es-toolkit/pull/1764) | ✅ Merged |
-| [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.1k | [fix(utils): prevent watch context leak across async callbacks](https://github.com/pmndrs/valtio/pull/1229) | ✅ Merged |
-| [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) | ✅ Merged |
-| [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) | ✅ Merged |
-| [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2.5k | [fix typos](https://github.com/wardencommunity/warden/pull/92) | ✅ Merged |
-| [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1.9k | [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) | ✅ Merged |
-| [sugar-framework/sugar](https://github.com/sugar-framework/sugar) ⭐ 433 | [Fix link to weber website](https://github.com/sugar-framework/sugar/pull/59) | ✅ Merged |
-| [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 243 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) | ✅ Merged |
-| [nareshbhatia/graphql-bookstore](https://github.com/nareshbhatia/graphql-bookstore) ⭐ 121 | [fixed build issues](https://github.com/nareshbhatia/graphql-bookstore/pull/4) | ✅ Merged |
+| Repository | Pull request |
+|---|---|
+| [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.1k | [fix(vanilla/utils/atomWithStorage): apply reviver when parsing subscription updates](https://github.com/pmndrs/jotai/pull/3326) |
+| [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k | [fix(compat): round/ceil/floor should return Infinity for infinite values with precision](https://github.com/toss/es-toolkit/pull/1764) |
+| [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.1k | [fix(utils): prevent watch context leak across async callbacks](https://github.com/pmndrs/valtio/pull/1229) |
+| [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) |
 
-**10 merged pull requests** to external projects with 100+ stars · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**4 merged pull requests** to external projects with 100+ stars since 2020 · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2020-01-01&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### 🧑‍💻 Почему я
