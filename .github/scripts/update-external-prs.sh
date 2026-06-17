@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 # Обновляет секцию README между маркерами EXTERNAL_PRS:START / EXTERNAL_PRS:END
-# таблицей смерженных PR в чужие репозитории. Требует gh (GH_TOKEN) и jq.
+# списком последних смерженных PR в чужие репозитории (новые сверху, относительные даты).
+# Полный список всех PR пишется отдельным файлом ($LIST_FILE). Требует gh (GH_TOKEN) и jq.
 set -euo pipefail
 
 USER="chatman-media"
 README="${1:-README.md}"
+LIST_FILE="${LIST_FILE:-external-prs.md}"  # файл с полным списком всех PR
 MIN_STARS="${MIN_STARS:-1000}"   # показывать только репозитории с таким числом звёзд и больше
-LIMIT="${LIMIT:-15}"             # строк в таблице, остальные PR уходят в счётчик под ней
-PER_REPO="${PER_REPO:-2}"        # не больше стольких PR от одного репозитория
+LIMIT="${LIMIT:-10}"             # сколько последних PR показывать в README, остальные — в $LIST_FILE
+TITLE_MAX="${TITLE_MAX:-60}"     # макс. длина заголовка PR в README (длиннее — обрезается с …)
 SINCE="${SINCE:-2025-01-01}"     # учитывать только PR, смерженные начиная с этой даты
 
 # Человекочитаемый порог звёзд для подписи: 1000 → "1k", 100 → "100"
@@ -33,32 +35,71 @@ for repo in $(echo "$prs" | jq -r '.[].repository.nameWithOwner' | sort -u); do
 done
 
 filtered=$(echo "$prs" | jq --argjson stars "$stars" --argjson min_stars "$MIN_STARS" '
-  map(select(($stars[.repository.nameWithOwner] // 0) >= $min_stars))')
+  map(select(($stars[.repository.nameWithOwner] // 0) >= $min_stars))
+  | sort_by(.closedAt) | reverse')
 total=$(echo "$filtered" | jq 'length')
-
-table=$(echo "$filtered" | jq -r --argjson stars "$stars" --argjson limit "$LIMIT" --argjson per_repo "$PER_REPO" '
-  def fmt_stars: if . >= 1000 then ((. / 100 | floor) / 10 | tostring) + "k" else tostring end;
-  def fmt_date: fromdateiso8601 | strftime("%b %d, %Y");
-  def esc: gsub("\\|"; "\\|");
-  sort_by(.closedAt) | reverse
-  | group_by(.repository.nameWithOwner)
-  | map(.[:$per_repo])
-  | add
-  | sort_by(.closedAt) | reverse | .[:$limit] | .[] |
-  "| [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) ⭐ \($stars[.repository.nameWithOwner] // 0 | fmt_stars) | [\(.title | esc)](\(.url)) | \(.closedAt | fmt_date) |"
-')
 
 search_url="https://github.com/search?q=is%3Apr+author%3A$USER+-user%3A$USER+is%3Amerged+merged%3A%3E%3D$SINCE&type=pullrequests"
 
-BLOCK="| Repository | Pull request | Merged |
-|---|---|---|
-$table
+# Общие jq-определения: звёзды, относительная дата, обрезка заголовка
+JQ_DEFS='
+  def fmt_stars: if . >= 1000 then ((. / 100 | floor) / 10 | tostring) + "k" else tostring end;
+  def fmt_date: fromdateiso8601 | strftime("%b %d, %Y");
+  def trunc($n): if (. | length) > $n then (.[:$n-1] | sub(" +$"; "")) + "…" else . end;
+  def esc: gsub("\\|"; "\\|");
+  def reltime:
+    (now - fromdateiso8601) as $s
+    | ($s / 86400 | floor) as $d
+    | ($s / 3600  | floor) as $h
+    | if   $d >= 365 then ($d/365|floor) as $y | "\($y) year\(if $y==1 then "" else "s" end) ago"
+      elif $d >= 30  then ($d/30 |floor) as $m | "\($m) month\(if $m==1 then "" else "s" end) ago"
+      elif $d >= 14  then ($d/7  |floor) as $w | "\($w) weeks ago"
+      elif $d >= 7   then "1 week ago"
+      elif $d >= 1   then "\($d) day\(if $d==1 then "" else "s" end) ago"
+      elif $h >= 1   then "\($h) hour\(if $h==1 then "" else "s" end) ago"
+      else "just now" end;
+'
 
-**$total merged pull requests** to external projects with $STARS_LABEL stars · [see all on GitHub]($search_url)" \
-awk '
+# Список последних $LIMIT PR для README (одна строка на PR, без переноса)
+list=$(echo "$filtered" | jq -r --argjson stars "$stars" --argjson limit "$LIMIT" --argjson tmax "$TITLE_MAX" "$JQ_DEFS"'
+  .[:$limit] | .[] |
+  "- `\(.closedAt | reltime)` — [\(.title | trunc($tmax))](\(.url)) · [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) ⭐ \($stars[.repository.nameWithOwner] // 0 | fmt_stars)"
+')
+
+# Хвост: «… ещё N» со ссылкой на полный файл, если PR больше лимита
+tail_line=""
+if [ "$total" -gt "$LIMIT" ]; then
+  tail_line="
+- … [and $((total - LIMIT)) more →]($LIST_FILE)"
+fi
+
+BLOCK="$list$tail_line
+
+**$total merged pull requests** to external projects with $STARS_LABEL stars · [full list]($LIST_FILE) · [on GitHub]($search_url)"
+
+BLOCK="$BLOCK" awk '
   /<!-- EXTERNAL_PRS:START -->/ { print; print ENVIRON["BLOCK"]; skip = 1; next }
   /<!-- EXTERNAL_PRS:END -->/ { skip = 0 }
   !skip { print }
 ' "$README" > "$README.tmp" && mv "$README.tmp" "$README"
 
-echo "Updated $README: $total merged PRs (since $SINCE) pass the filter of $(echo "$prs" | jq 'length') found, top $LIMIT in table."
+# Полный список всех PR — отдельным файлом (таблица, абсолютные даты, полные заголовки)
+full_rows=$(echo "$filtered" | jq -r --argjson stars "$stars" "$JQ_DEFS"'
+  .[] |
+  "| \(.closedAt | fmt_date) | [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) ⭐ \($stars[.repository.nameWithOwner] // 0 | fmt_stars) | [\(.title | esc)](\(.url)) |"
+')
+
+cat > "$LIST_FILE" <<EOF
+# Open-source contributions
+
+All merged pull requests to external projects with $STARS_LABEL stars since ${SINCE%%-*}, newest first.
+Auto-generated weekly — see the summary on the [profile README](README.md#-open-source-contributions).
+
+| Merged | Repository | Pull request |
+|---|---|---|
+$full_rows
+
+**$total merged pull requests** · [see all on GitHub]($search_url)
+EOF
+
+echo "Updated $README (last $LIMIT of $total) and $LIST_FILE (all $total)."
