@@ -5,11 +5,18 @@ set -euo pipefail
 
 USER="chatman-media"
 README="${1:-README.md}"
-MIN_STARS="${MIN_STARS:-100}"    # показывать только репозитории с таким числом звёзд и больше
+MIN_STARS="${MIN_STARS:-1000}"   # показывать только репозитории с таким числом звёзд и больше
 LIMIT="${LIMIT:-15}"             # строк в таблице, остальные PR уходят в счётчик под ней
 PER_REPO="${PER_REPO:-2}"        # не больше стольких PR от одного репозитория
 SINCE="${SINCE:-2025-01-01}"     # учитывать только PR, смерженные начиная с этой даты
 SINCE_YEAR="${SINCE%%-*}"
+
+# Человекочитаемый порог звёзд для подписи: 1000 → "1k", 100 → "100"
+if [ "$MIN_STARS" -ge 1000 ]; then
+  STARS_LABEL="$((MIN_STARS / 1000))k+"
+else
+  STARS_LABEL="${MIN_STARS}+"
+fi
 
 prs=$(gh search prs --author="$USER" --merged --merged-at ">=$SINCE" --limit 100 \
   --json repository,title,url -- -user:"$USER")
@@ -46,7 +53,7 @@ BLOCK="| Repository | Pull request |
 |---|---|
 $table
 
-**$total merged pull requests** to external projects with 100+ stars since $SINCE_YEAR · [see all on GitHub]($search_url)" \
+**$total merged pull requests** to external projects with $STARS_LABEL stars since $SINCE_YEAR · [see all on GitHub]($search_url)" \
 awk '
   /<!-- EXTERNAL_PRS:START -->/ { print; print ENVIRON["BLOCK"]; skip = 1; next }
   /<!-- EXTERNAL_PRS:END -->/ { skip = 0 }
