@@ -38,19 +38,20 @@ total=$(echo "$filtered" | jq 'length')
 
 table=$(echo "$filtered" | jq -r --argjson stars "$stars" --argjson limit "$LIMIT" --argjson per_repo "$PER_REPO" '
   def fmt_stars: if . >= 1000 then ((. / 100 | floor) / 10 | tostring) + "k" else tostring end;
+  def fmt_date: fromdateiso8601 | strftime("%b %d, %Y");
   def esc: gsub("\\|"; "\\|");
   sort_by(.closedAt) | reverse
   | group_by(.repository.nameWithOwner)
   | map(.[:$per_repo])
   | add
   | sort_by(.closedAt) | reverse | .[:$limit] | .[] |
-  "| [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) ⭐ \($stars[.repository.nameWithOwner] // 0 | fmt_stars) | [\(.title | esc)](\(.url)) |"
+  "| [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) ⭐ \($stars[.repository.nameWithOwner] // 0 | fmt_stars) | [\(.title | esc)](\(.url)) | \(.closedAt | fmt_date) |"
 ')
 
 search_url="https://github.com/search?q=is%3Apr+author%3A$USER+-user%3A$USER+is%3Amerged+merged%3A%3E%3D$SINCE&type=pullrequests"
 
-BLOCK="| Repository | Pull request |
-|---|---|
+BLOCK="| Repository | Pull request | Merged |
+|---|---|---|
 $table
 
 **$total merged pull requests** to external projects with $STARS_LABEL stars · [see all on GitHub]($search_url)" \
