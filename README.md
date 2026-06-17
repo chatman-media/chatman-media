@@ -12,7 +12,7 @@
 
 <a href="https://t.me/alexanderkireev"><img src="https://img.shields.io/badge/%F0%9F%9F%A2%20Available%20for%20new%20projects-22c55e?style=for-the-badge" alt="Available for new projects"></a>
 
-**15+ years** shipping production software &nbsp;·&nbsp; **Top-10** GitHub dev in Thailand &nbsp;·&nbsp; <img src="https://img.shields.io/github/stars/chatman-media/timeline-studio?style=flat-square&logo=github&label=%E2%98%85&color=8b5cf6" alt="Timeline Studio stars" /> on my open-source video editor &nbsp;·&nbsp; replies within a day
+**15+ years** shipping production software &nbsp;·&nbsp; **Top-10** GitHub dev in Thailand &nbsp;·&nbsp; replies within a day
 
 <a href="https://chatman.media"><img src="https://img.shields.io/badge/Visit%20my%20site%20%E2%86%92%20chatman.media-0b0b0b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website — chatman.media"></a>
 
