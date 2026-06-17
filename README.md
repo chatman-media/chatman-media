@@ -64,7 +64,7 @@ Pull requests to major open-source projects — updated automatically every week
 | [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) |
 | [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k | [fix: correctly handle even numbers of backslashes before closing string quote](https://github.com/jeffijoe/awilix/pull/427) |
 
-**6 merged pull requests** to external projects with 1k+ stars since 2025 · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2025-01-01&type=pullrequests)
+**6 merged pull requests** to external projects with 1k+ stars · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2025-01-01&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## 🧑‍💻 Why work with me
@@ -180,7 +180,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 | [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) |
 | [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k | [fix: correctly handle even numbers of backslashes before closing string quote](https://github.com/jeffijoe/awilix/pull/427) |
 
-**6 merged pull requests** to external projects with 1k+ stars since 2025 · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2025-01-01&type=pullrequests)
+**6 merged pull requests** to external projects with 1k+ stars · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2025-01-01&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### 🧑‍💻 Почему я
