@@ -18,7 +18,7 @@ else
 fi
 
 prs=$(gh search prs --author="$USER" --merged --merged-at ">=$SINCE" --limit 100 \
-  --json repository,title,url -- -user:"$USER")
+  --json repository,title,url,closedAt -- -user:"$USER")
 
 if [ "$(echo "$prs" | jq 'length')" -eq 0 ]; then
   echo "No external PRs found, leaving README unchanged."
@@ -39,10 +39,11 @@ total=$(echo "$filtered" | jq 'length')
 table=$(echo "$filtered" | jq -r --argjson stars "$stars" --argjson limit "$LIMIT" --argjson per_repo "$PER_REPO" '
   def fmt_stars: if . >= 1000 then ((. / 100 | floor) / 10 | tostring) + "k" else tostring end;
   def esc: gsub("\\|"; "\\|");
-  group_by(.repository.nameWithOwner)
+  sort_by(.closedAt) | reverse
+  | group_by(.repository.nameWithOwner)
   | map(.[:$per_repo])
   | add
-  | sort_by(-($stars[.repository.nameWithOwner] // 0)) | .[:$limit] | .[] |
+  | sort_by(.closedAt) | reverse | .[:$limit] | .[] |
   "| [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) ⭐ \($stars[.repository.nameWithOwner] // 0 | fmt_stars) | [\(.title | esc)](\(.url)) |"
 ')
 
