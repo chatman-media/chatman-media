@@ -30,25 +30,22 @@
 
 | | Service | Built it before |
 |:--:|---|---|
-| 🤖 | **AI/LLM automation & chatbots** — Telegram bots, RAG assistants, sales funnels, AI agents that qualify leads and answer customers 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) · [`lead-engine`](https://github.com/chatman-media/lead-engine) |
-| 📨 | **Telegram automation** — bots, group/channel parsers, integrations and notification pipelines | [`telegram-badge`](https://github.com/chatman-media/telegram-badge) · [`telegram-groups-parser`](https://github.com/chatman-media/telegram-groups-parser) |
-| 🎬 | **Video & AI media automation** — auto-translation, voice-over, content pipelines | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
-| 🛠 | **Web & product development** — marketplaces, MVPs, dashboards on Next.js / Tauri / TypeScript | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
+| 🤖 | **AI/LLM automation & chatbots** — RAG assistants, sales funnels, lead-qualifying agents, 24/7 bots | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) · [`lead-engine`](https://github.com/chatman-media/lead-engine) |
+| 📨 | **Telegram automation** — bots, parsers, integrations, notifications | [`telegram-badge`](https://github.com/chatman-media/telegram-badge) · [`telegram-groups-parser`](https://github.com/chatman-media/telegram-groups-parser) |
+| 🎬 | **Video & AI media** — auto-translation, voice-over, content pipelines | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
+| 🛠 | **Web & product** — marketplaces, MVPs, dashboards (Next.js / Tauri / TypeScript) | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
 
 > Not sure which you need? **[Message me on Telegram](https://t.me/alexanderkireev)** — I'll tell you what's realistic.
 
 ## 📦 Selected work
 
-| Project | What it is | Stars&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-|---|---|---|
-| **[Timeline Studio](https://timelinestudio.pro/)**<br/>![Flagship](https://img.shields.io/badge/★_Flagship-8b5cf6?style=flat) | AI-powered cross-platform video editor — my flagship open-source product. Multi-track non-linear editing with GPU-accelerated rendering (Tauri/Rust), an AI director (scene detection, montage planner, script-based editing), multicam, spatial audio and a full effects / transitions / color-grading stack. Built on Next.js + Tauri + Rust. | [![Stars](https://img.shields.io/github/stars/chatman-media/timeline-studio?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/timeline-studio) |
-| **[telegram-badge](https://github.com/chatman-media/telegram-badge)** | SVG badge generator showing live Telegram group member counts | [![Stars](https://img.shields.io/github/stars/chatman-media/telegram-badge?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/telegram-badge) |
-| **[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** | Multi-vendor marketplace platform | [![Stars](https://img.shields.io/github/stars/chatman-media/farang-marketplace?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/farang-marketplace) |
-| **[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** | Automatic multi-language video translation with voice-over | [![Stars](https://img.shields.io/github/stars/chatman-media/Video-Translation-API?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/Video-Translation-API) |
-| **[rag](https://github.com/chatman-media/rag)** | Production-grade RAG engine — hybrid retrieval (pgvector + BM25), hallucination guard, pluggable LLM providers | [![Stars](https://img.shields.io/github/stars/chatman-media/rag?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/rag) |
-| **[sales](https://github.com/chatman-media/sales)** | LLM sales funnel engine — persona composition, funnel routing, A/B testing | [![Stars](https://img.shields.io/github/stars/chatman-media/sales?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/sales) |
-| **[lead-engine](https://github.com/chatman-media/lead-engine)**<br/>![Flagship](https://img.shields.io/badge/★_Flagship-8b5cf6?style=flat) | Multi-tenant AI sales assistant SaaS — self-service onboarding, Telegram / WhatsApp / Web channels, per-tenant hybrid RAG KB (pgvector + BM25), LLM funnel-stage classification with a configurable state machine, dynamic lead fields, Kanban board, operator inbox and Stripe billing. Bun / Hono / React 19 / PostgreSQL (RLS), 741 tests. | [![Stars](https://img.shields.io/github/stars/chatman-media/lead-engine?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/lead-engine) |
-| **[qr-asia](https://github.com/chatman-media/qr-asia)** | QR-menu platform for restaurants and small businesses across Asia | [![Stars](https://img.shields.io/github/stars/chatman-media/qr-asia?style=flat&logo=github&color=8b5cf6&labelColor=1c1917)](https://github.com/chatman-media/qr-asia) |
+| Project | What it is |
+|---|---|
+| **[Timeline Studio](https://timelinestudio.pro/)**<br/>![Flagship](https://img.shields.io/badge/★_Flagship-8b5cf6?style=flat) | AI video editor — multi-track NLE, GPU rendering (Tauri/Rust), AI director (scene detection, montage planner), multicam, color grading. Next.js + Tauri + Rust. |
+| **[lead-engine](https://github.com/chatman-media/lead-engine)**<br/>![Flagship](https://img.shields.io/badge/★_Flagship-8b5cf6?style=flat) | Multi-tenant AI sales-assistant SaaS — per-tenant hybrid RAG, LLM funnel-stage classification, Telegram/WhatsApp/Web, Kanban, Stripe billing. Bun / Hono / React 19 / PostgreSQL. |
+| **[rag](https://github.com/chatman-media/rag)** | Production RAG engine — hybrid retrieval (pgvector + BM25), hallucination guard, pluggable LLM providers. |
+| **[sales](https://github.com/chatman-media/sales)** | LLM sales-funnel engine — persona composition, funnel routing, A/B testing. |
+| **[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** | Automatic multi-language video translation with voice-over. |
 
 ## 🌍 Open-source contributions
 
@@ -134,10 +131,10 @@ Pull requests to major open-source projects — updated automatically every week
 
 | | Услуга | Уже делал |
 |:--:|---|---|
-| 🤖 | **AI/LLM-автоматизация и чат-боты** — Telegram-боты, RAG-ассистенты, sales-воронки, ИИ-агенты, которые квалифицируют лиды и отвечают клиентам 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) · [`lead-engine`](https://github.com/chatman-media/lead-engine) |
-| 📨 | **Telegram-автоматизация** — боты, парсеры групп/каналов, интеграции, уведомления | [`telegram-badge`](https://github.com/chatman-media/telegram-badge) · [`telegram-groups-parser`](https://github.com/chatman-media/telegram-groups-parser) |
-| 🎬 | **Видео и AI-медиа автоматизация** — авто-перевод, озвучка, контент-пайплайны | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
-| 🛠 | **Веб и продуктовая разработка** — маркетплейсы, MVP, дашборды на Next.js / Tauri / TypeScript | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
+| 🤖 | **AI/LLM-автоматизация и чат-боты** — RAG-ассистенты, sales-воронки, агенты-квалификаторы лидов, боты 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) · [`lead-engine`](https://github.com/chatman-media/lead-engine) |
+| 📨 | **Telegram-автоматизация** — боты, парсеры, интеграции, уведомления | [`telegram-badge`](https://github.com/chatman-media/telegram-badge) · [`telegram-groups-parser`](https://github.com/chatman-media/telegram-groups-parser) |
+| 🎬 | **Видео и AI-медиа** — авто-перевод, озвучка, контент-пайплайны | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
+| 🛠 | **Веб и продукт** — маркетплейсы, MVP, дашборды (Next.js / Tauri / TypeScript) | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
 
 > Не знаете, что именно нужно? **[Напишите в Telegram](https://t.me/alexanderkireev)** — подскажу, что реально сделать.
 
@@ -145,14 +142,11 @@ Pull requests to major open-source projects — updated automatically every week
 
 | Проект | Что это |
 |---|---|
-| **[Timeline Studio](https://timelinestudio.pro/)**<br/>![Флагман](https://img.shields.io/badge/★_Флагман-8b5cf6?style=flat) | AI-видеоредактор для всех платформ — мой флагманский open-source продукт. Мультитрековый нелинейный монтаж с GPU-ускоренным рендером (Tauri/Rust), AI-режиссёр (автоопределение сцен, планировщик монтажа, монтаж по сценарию), multicam, спатиал-аудио и полный набор эффектов / переходов / цветокора. На Next.js + Tauri + Rust. |
-| **[telegram-badge](https://github.com/chatman-media/telegram-badge)** | Генератор SVG-бейджей с живым счётчиком участников Telegram-групп |
-| **[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** | Платформа мультивендорного маркетплейса |
-| **[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** | Автоматический перевод видео на несколько языков с озвучкой |
-| **[rag](https://github.com/chatman-media/rag)** | RAG-движок production-уровня: гибридный поиск (pgvector + BM25), защита от галлюцинаций |
-| **[sales](https://github.com/chatman-media/sales)** | Движок sales-воронок на LLM: композиция персон, маршрутизация воронки, A/B-тесты |
-| **[lead-engine](https://github.com/chatman-media/lead-engine)**<br/>![Флагман](https://img.shields.io/badge/★_Флагман-8b5cf6?style=flat) | Multi-tenant SaaS-платформа AI-ассистента для продаж — самостоятельный онбординг, каналы Telegram / WhatsApp / Web, гибридная RAG-база знаний на тенант (pgvector + BM25), LLM-классификация стадий воронки с настраиваемой state machine, динамические поля лида, Kanban-доска, inbox для операторов и Stripe-биллинг. Bun / Hono / React 19 / PostgreSQL (RLS), 741 тест. |
-| **[qr-asia](https://github.com/chatman-media/qr-asia)** | Платформа QR-меню для ресторанов и малого бизнеса в Азии |
+| **[Timeline Studio](https://timelinestudio.pro/)**<br/>![Флагман](https://img.shields.io/badge/★_Флагман-8b5cf6?style=flat) | AI-видеоредактор — мультитрековый нелинейный монтаж, GPU-рендер (Tauri/Rust), AI-режиссёр (автосцены, планировщик монтажа), multicam, цветокор. Next.js + Tauri + Rust. |
+| **[lead-engine](https://github.com/chatman-media/lead-engine)**<br/>![Флагман](https://img.shields.io/badge/★_Флагман-8b5cf6?style=flat) | Multi-tenant SaaS AI-ассистента продаж — гибридная RAG-база на тенант, LLM-классификация стадий воронки, Telegram/WhatsApp/Web, Kanban, Stripe. Bun / Hono / React 19 / PostgreSQL. |
+| **[rag](https://github.com/chatman-media/rag)** | RAG-движок production-уровня — гибридный поиск (pgvector + BM25), защита от галлюцинаций, сменные LLM-провайдеры. |
+| **[sales](https://github.com/chatman-media/sales)** | Движок sales-воронок на LLM — композиция персон, маршрутизация, A/B-тесты. |
+| **[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** | Автоматический перевод видео на несколько языков с озвучкой. |
 
 ### 🌍 Вклад в open source
 
