@@ -53,7 +53,7 @@ Pull requests to major open-source projects — updated automatically every week
 - `today` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.4k
 - `today` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
 - `today` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
-- `3 days ago` — [fix: correctly handle even numbers of backslashes before cl…](https://github.com/jeffijoe/awilix/pull/427) · [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k
+- `4 days ago` — [fix: correctly handle even numbers of backslashes before cl…](https://github.com/jeffijoe/awilix/pull/427) · [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k
 - `5 days ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
 - `1 week ago` — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k
 - `1 week ago` — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k
@@ -158,7 +158,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 - `today` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.4k
 - `today` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
 - `today` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
-- `3 days ago` — [fix: correctly handle even numbers of backslashes before cl…](https://github.com/jeffijoe/awilix/pull/427) · [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k
+- `4 days ago` — [fix: correctly handle even numbers of backslashes before cl…](https://github.com/jeffijoe/awilix/pull/427) · [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k
 - `5 days ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
 - `1 week ago` — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k
 - `1 week ago` — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k
