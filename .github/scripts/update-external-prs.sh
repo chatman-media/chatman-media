@@ -50,14 +50,12 @@ JQ_DEFS='
   def reltime:
     (now - fromdateiso8601) as $s
     | ($s / 86400 | floor) as $d
-    | ($s / 3600  | floor) as $h
     | if   $d >= 365 then ($d/365|floor) as $y | "\($y) year\(if $y==1 then "" else "s" end) ago"
       elif $d >= 30  then ($d/30 |floor) as $m | "\($m) month\(if $m==1 then "" else "s" end) ago"
       elif $d >= 14  then ($d/7  |floor) as $w | "\($w) weeks ago"
       elif $d >= 7   then "1 week ago"
       elif $d >= 1   then "\($d) day\(if $d==1 then "" else "s" end) ago"
-      elif $h >= 1   then "\($h) hour\(if $h==1 then "" else "s" end) ago"
-      else "just now" end;
+      else "today" end;
 '
 
 # Список последних $LIMIT PR для README (одна строка на PR, без переноса)
