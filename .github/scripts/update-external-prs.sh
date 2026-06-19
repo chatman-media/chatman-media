@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Обновляет секцию README между маркерами EXTERNAL_PRS:START / EXTERNAL_PRS:END
-# списком ВСЕХ смерженных PR в чужие репозитории с MIN_STARS+ звёзд (сортировка по звёздам ↓).
+# списком ВСЕХ смерженных PR (с SINCE) в чужие репозитории с MIN_STARS+ звёзд (новые сверху).
 # Полный список всех PR пишется отдельным файлом ($LIST_FILE). Требует gh (GH_TOKEN) и jq.
 set -euo pipefail
 
@@ -10,7 +10,7 @@ LIST_FILE="${LIST_FILE:-external-prs.md}"  # файл с полным списк
 MIN_STARS="${MIN_STARS:-1000}"   # показывать только репозитории с таким числом звёзд и больше
 LIMIT="${LIMIT:-1000}"           # практически без лимита: показываем в README ВСЕ PR из репо ≥ MIN_STARS
 TITLE_MAX="${TITLE_MAX:-60}"     # макс. длина заголовка PR в README (длиннее — обрезается с …)
-SINCE="${SINCE:-2008-01-01}"     # без ограничения по дате (с основания GitHub) — фильтр только по звёздам
+SINCE="${SINCE:-2025-01-01}"     # учитывать PR, смерженные начиная с этой даты (вместе с фильтром по звёздам)
 
 # Человекочитаемый порог звёзд для подписи: 1000 → "1k", 100 → "100"
 if [ "$MIN_STARS" -ge 1000 ]; then
@@ -36,7 +36,7 @@ done
 
 filtered=$(echo "$prs" | jq --argjson stars "$stars" --argjson min_stars "$MIN_STARS" '
   map(select(($stars[.repository.nameWithOwner] // 0) >= $min_stars))
-  | sort_by([($stars[.repository.nameWithOwner] // 0), .closedAt]) | reverse')
+  | sort_by(.closedAt) | reverse')
 total=$(echo "$filtered" | jq 'length')
 
 search_url="https://github.com/search?q=is%3Apr+author%3A$USER+-user%3A$USER+is%3Amerged+merged%3A%3E%3D$SINCE&type=pullrequests"
@@ -90,7 +90,7 @@ full_rows=$(echo "$filtered" | jq -r --argjson stars "$stars" "$JQ_DEFS"'
 cat > "$LIST_FILE" <<EOF
 # Open-source contributions
 
-All merged pull requests to external projects with $STARS_LABEL stars, most-starred first.
+All merged pull requests to external projects with $STARS_LABEL stars since ${SINCE%%-*}, newest first.
 Auto-generated weekly — see the summary on the [profile README](README.md#-open-source-contributions).
 
 | Merged | Repository | Pull request |
