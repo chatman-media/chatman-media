@@ -50,17 +50,20 @@
 Pull requests to major open-source projects — updated automatically every week.
 
 <!-- EXTERNAL_PRS:START -->
-- `today` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.4k
-- `today` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
-- `today` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
-- `4 days ago` — [fix: correctly handle even numbers of backslashes before cl…](https://github.com/jeffijoe/awilix/pull/427) · [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k
 - `5 days ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
-- `1 week ago` — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k
 - `1 week ago` — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k
+- `today` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
+- `today` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.4k
+- `1 week ago` — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k
 - `1 week ago` — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.1k
 - `1 week ago` — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612) · [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k
+- `today` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
+- `4 days ago` — [fix: correctly handle even numbers of backslashes before cl…](https://github.com/jeffijoe/awilix/pull/427) · [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k
+- `12 years ago` — [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) · [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k
+- `12 years ago` — [fix typos](https://github.com/wardencommunity/warden/pull/92) · [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2.5k
+- `8 years ago` — [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) · [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1.9k
 
-**9 merged pull requests** to external projects with 1k+ stars · [full list](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2025-01-01&type=pullrequests)
+**12 merged pull requests** to external projects with 1k+ stars · [full list](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2008-01-01&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## 🧑‍💻 Why work with me
@@ -155,17 +158,20 @@ Pull requests to major open-source projects — updated automatically every week
 Pull request'ы в крупные open-source проекты — обновляется автоматически раз в неделю.
 
 <!-- EXTERNAL_PRS:START -->
-- `today` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.4k
-- `today` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
-- `today` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
-- `4 days ago` — [fix: correctly handle even numbers of backslashes before cl…](https://github.com/jeffijoe/awilix/pull/427) · [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k
 - `5 days ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
-- `1 week ago` — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k
 - `1 week ago` — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k
+- `today` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
+- `today` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.4k
+- `1 week ago` — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k
 - `1 week ago` — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.1k
 - `1 week ago` — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612) · [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k
+- `today` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
+- `4 days ago` — [fix: correctly handle even numbers of backslashes before cl…](https://github.com/jeffijoe/awilix/pull/427) · [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k
+- `12 years ago` — [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) · [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k
+- `12 years ago` — [fix typos](https://github.com/wardencommunity/warden/pull/92) · [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2.5k
+- `8 years ago` — [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) · [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1.9k
 
-**9 merged pull requests** to external projects with 1k+ stars · [full list](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2025-01-01&type=pullrequests)
+**12 merged pull requests** to external projects with 1k+ stars · [full list](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2008-01-01&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### 🧑‍💻 Почему я
