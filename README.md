@@ -10,10 +10,6 @@
 
 **I build AI/LLM automation, chatbots and web products that save businesses hours and bring in leads.**
 
-<a href="https://t.me/alexanderkireev"><img src="https://img.shields.io/badge/%F0%9F%9F%A2%20Available%20for%20new%20projects-22c55e?style=for-the-badge" alt="Available for new projects"></a>
-
-**15+ years** shipping production software &nbsp;·&nbsp; **Top-10** GitHub dev in Thailand &nbsp;·&nbsp; replies within a day
-
 <a href="https://t.me/alexanderkireev"><img src="https://img.shields.io/badge/Hire%20me%20%E2%86%92%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Hire me on Telegram"></a>
 &nbsp;
 <a href="https://wa.me/66968686196"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
@@ -23,17 +19,6 @@
 </div>
 
 ---
-
-## 🚀 What I build
-
-| | Service | Built it before |
-|:--:|---|---|
-| 🤖 | **AI/LLM automation & chatbots** — RAG assistants, sales funnels, lead-qualifying agents, 24/7 bots | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) · [`lead-engine`](https://github.com/chatman-media/lead-engine) |
-| 📨 | **Telegram automation** — bots, parsers, integrations, notifications | [`telegram-badge`](https://github.com/chatman-media/telegram-badge) · [`telegram-groups-parser`](https://github.com/chatman-media/telegram-groups-parser) |
-| 🎬 | **Video & AI media** — auto-translation, voice-over, content pipelines | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
-| 🛠 | **Web & product** — marketplaces, MVPs, dashboards (Next.js / Tauri / TypeScript) | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
-
-> Not sure which you need? **[Message me on Telegram](https://t.me/alexanderkireev)** — I'll tell you what's realistic.
 
 ## 📦 Selected work
 
@@ -121,26 +106,11 @@ Pull requests to major open-source projects — updated automatically every week
 
 **Делаю AI/LLM-автоматизацию, чат-ботов и веб-продукты, которые экономят бизнесу часы и приносят заявки.**
 
-<a href="https://t.me/alexanderkireev"><img src="https://img.shields.io/badge/%F0%9F%9F%A2%20%D0%93%D0%BE%D1%82%D0%BE%D0%B2%20%D0%B2%D0%B7%D1%8F%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-22c55e?style=for-the-badge" alt="Готов взять проект"></a>
-
-**15+ лет** в продакшен-разработке &nbsp;·&nbsp; **Топ-10** GitHub-разработчиков Таиланда &nbsp;·&nbsp; <img src="https://img.shields.io/github/stars/chatman-media/timeline-studio?style=flat-square&logo=github&label=%E2%98%85&color=8b5cf6" alt="Звёзды Timeline Studio" /> на моём open-source видеоредакторе &nbsp;·&nbsp; отвечаю в течение дня
-
 <a href="https://chatman.media"><img src="https://img.shields.io/badge/%D0%9C%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%E2%86%92%20chatman.media-0b0b0b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Сайт — chatman.media"></a>
 
 <a href="https://t.me/alexanderkireev"><img src="https://img.shields.io/badge/%D0%9D%D0%B0%D0%BF%D0%B8%D1%88%D0%B8%D1%82%D0%B5%20%E2%86%92%20Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Написать в Telegram"></a>
 
 </div>
-
-### 🚀 Что я делаю
-
-| | Услуга | Уже делал |
-|:--:|---|---|
-| 🤖 | **AI/LLM-автоматизация и чат-боты** — RAG-ассистенты, sales-воронки, агенты-квалификаторы лидов, боты 24/7 | [`rag`](https://github.com/chatman-media/rag) · [`sales`](https://github.com/chatman-media/sales) · [`lead-engine`](https://github.com/chatman-media/lead-engine) |
-| 📨 | **Telegram-автоматизация** — боты, парсеры, интеграции, уведомления | [`telegram-badge`](https://github.com/chatman-media/telegram-badge) · [`telegram-groups-parser`](https://github.com/chatman-media/telegram-groups-parser) |
-| 🎬 | **Видео и AI-медиа** — авто-перевод, озвучка, контент-пайплайны | [`Video-Translation-API`](https://github.com/chatman-media/Video-Translation-API) · [`timeline-studio`](https://github.com/chatman-media/timeline-studio) |
-| 🛠 | **Веб и продукт** — маркетплейсы, MVP, дашборды (Next.js / Tauri / TypeScript) | [`farang-marketplace`](https://github.com/chatman-media/farang-marketplace) · [`qr-asia`](https://github.com/chatman-media/qr-asia) |
-
-> Не знаете, что именно нужно? **[Напишите в Telegram](https://t.me/alexanderkireev)** — подскажу, что реально сделать.
 
 ### 📦 Избранные проекты
 
