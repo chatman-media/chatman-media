@@ -91,7 +91,7 @@ cat > "$LIST_FILE" <<EOF
 # Open-source contributions
 
 All merged pull requests to external projects with $STARS_LABEL stars since ${SINCE%%-*}, newest first.
-Auto-generated weekly — see the summary on the [profile README](README.md#-open-source-contributions).
+Auto-generated daily — see the summary on the [profile README](README.md#-open-source-contributions).
 
 | Merged | Repository | Pull request |
 |---|---|---|

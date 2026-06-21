@@ -32,22 +32,23 @@
 
 ## 🌍 Open-source contributions
 
-Pull requests to major open-source projects — updated automatically every week.
+Pull requests to major open-source projects — updated automatically every day.
 
 <!-- EXTERNAL_PRS:START -->
-- `today` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k
-- `today` — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k
-- `1 day ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.4k
-- `1 day ago` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
-- `1 day ago` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
-- `4 days ago` — [fix: correctly handle even numbers of backslashes before cl…](https://github.com/jeffijoe/awilix/pull/427) · [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k
-- `6 days ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
+- `1 day ago` — [fix: clamp negative truncate length to zero (uninitialized-…](https://github.com/streamich/memfs/pull/1261) · [streamich/memfs](https://github.com/streamich/memfs) ⭐ 2k
+- `1 day ago` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k
+- `1 day ago` — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k
+- `2 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.4k
+- `2 days ago` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
+- `2 days ago` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
+- `6 days ago` — [fix: correctly handle even numbers of backslashes before cl…](https://github.com/jeffijoe/awilix/pull/427) · [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k
+- `1 week ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
 - `1 week ago` — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k
 - `1 week ago` — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k
-- `1 week ago` — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.1k
+- `1 week ago` — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k
 - `1 week ago` — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612) · [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k
 
-**11 merged pull requests** to external projects with 1k+ stars · [full list](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2025-01-01&type=pullrequests)
+**12 merged pull requests** to external projects with 1k+ stars · [full list](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2025-01-01&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## 🧑‍💻 Why work with me
@@ -124,22 +125,23 @@ Pull requests to major open-source projects — updated automatically every week
 
 ### 🌍 Вклад в open source
 
-Pull request'ы в крупные open-source проекты — обновляется автоматически раз в неделю.
+Pull request'ы в крупные open-source проекты — обновляется автоматически раз в день.
 
 <!-- EXTERNAL_PRS:START -->
-- `today` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k
-- `today` — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k
-- `1 day ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.4k
-- `1 day ago` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
-- `1 day ago` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
-- `4 days ago` — [fix: correctly handle even numbers of backslashes before cl…](https://github.com/jeffijoe/awilix/pull/427) · [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k
-- `6 days ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
+- `1 day ago` — [fix: clamp negative truncate length to zero (uninitialized-…](https://github.com/streamich/memfs/pull/1261) · [streamich/memfs](https://github.com/streamich/memfs) ⭐ 2k
+- `1 day ago` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k
+- `1 day ago` — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k
+- `2 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.4k
+- `2 days ago` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
+- `2 days ago` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
+- `6 days ago` — [fix: correctly handle even numbers of backslashes before cl…](https://github.com/jeffijoe/awilix/pull/427) · [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k
+- `1 week ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
 - `1 week ago` — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k
 - `1 week ago` — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k
-- `1 week ago` — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.1k
+- `1 week ago` — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k
 - `1 week ago` — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612) · [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k
 
-**11 merged pull requests** to external projects with 1k+ stars · [full list](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2025-01-01&type=pullrequests)
+**12 merged pull requests** to external projects with 1k+ stars · [full list](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2025-01-01&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### 🧑‍💻 Почему я
