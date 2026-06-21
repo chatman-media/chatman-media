@@ -1,6 +1,6 @@
 name: External PRs
 on:
-  schedule: [{ cron: "0 1 * * 1" }] # каждый понедельник
+  schedule: [{ cron: "0 1 * * *" }] # каждый день в 01:00 UTC
   workflow_dispatch:
 jobs:
   update-external-prs:
