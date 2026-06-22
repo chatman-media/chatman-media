@@ -83,6 +83,8 @@ Pull requests to major open-source projects — updated automatically every day.
 
 <a href="https://trophy.exchanges.agency"><img width="100%" src="https://trophy.exchanges.agency/?username=chatman-media&column=9&row=1&no-frame=true" alt="GitHub Trophies"/></a>
 
+<div align="center"><sub>⚡ Self-hosted on an actively-maintained service — <a href="https://trophy.exchanges.agency">make your own trophies →</a></sub></div>
+
 <div align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=transparent" alt="Profile Details"/>
 </div>
