@@ -5,6 +5,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jun 21, 2026 | [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k | [Fix `searchParams` setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454) |
 | Jun 20, 2026 | [streamich/memfs](https://github.com/streamich/memfs) ⭐ 2k | [fix: clamp negative truncate length to zero (uninitialized-memory leak)](https://github.com/streamich/memfs/pull/1261) |
 | Jun 20, 2026 | [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k | [fix(locale): exclude forbidden letter combinations from nl postcodes](https://github.com/faker-js/faker/pull/3888) |
 | Jun 19, 2026 | [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k | [fix: include prereleases in tilde range lower bound with includePrerelease](https://github.com/npm/node-semver/pull/878) |
@@ -18,4 +19,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jun 11, 2026 | [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k | [fix(utils): prevent watch context leak across async callbacks](https://github.com/pmndrs/valtio/pull/1229) |
 | Jun 10, 2026 | [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) |
 
-**12 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2025-01-01&type=pullrequests)
+**13 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2025-01-01&type=pullrequests)
