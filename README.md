@@ -22,13 +22,17 @@
 
 ## 📦 Selected work
 
-| Project | What it is |
-|---|---|
-| **[Timeline Studio](https://timelinestudio.pro/)**<br/>![Flagship](https://img.shields.io/badge/★_Flagship-8b5cf6?style=flat) | AI video editor — multi-track NLE, GPU rendering (Tauri/Rust), AI director (scene detection, montage planner), multicam, color grading. Next.js + Tauri + Rust. |
-| **[lead-engine](https://github.com/chatman-media/lead-engine)**<br/>![Flagship](https://img.shields.io/badge/★_Flagship-8b5cf6?style=flat) | Multi-tenant AI sales-assistant SaaS — per-tenant hybrid RAG, LLM funnel-stage classification, Telegram/WhatsApp/Web, Kanban, Stripe billing. Bun / Hono / React 19 / PostgreSQL. |
-| **[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** | 🇹🇭 Premium marketplace platform for Thailand — real estate, vehicles, services. Next.js / TypeScript. |
-| **[rag](https://github.com/chatman-media/rag)** | Production RAG engine — hybrid retrieval (pgvector + BM25), hallucination guard, pluggable LLM providers. |
-| **[telegram-badge](https://github.com/chatman-media/telegram-badge)** | Telegram group/channel badge generator — live SVG badges with member counts. |
+- ★ **[Timeline Studio](https://timelinestudio.pro/)** — AI video editor: multi-track NLE, GPU rendering (Tauri/Rust), AI director (scene detection, montage planner), multicam, color grading. Next.js + Tauri + Rust.
+- ★ **[lead-engine](https://github.com/chatman-media/lead-engine)** — Multi-tenant AI sales-assistant SaaS: per-tenant hybrid RAG, LLM funnel-stage classification, Telegram/WhatsApp/Web, Kanban, Stripe billing. Bun / Hono / React 19 / PostgreSQL.
+- **[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** — 🇹🇭 Premium marketplace platform for Thailand: real estate, vehicles, services. Next.js / TypeScript.
+- **[rag](https://github.com/chatman-media/rag)** — Production RAG engine: hybrid retrieval (pgvector + BM25), hallucination guard, pluggable LLM providers.
+- **[sales](https://github.com/chatman-media/sales)** — LLM sales-funnel engine: persona composition, funnel routing, ELO A/B testing.
+- **[storage](https://github.com/chatman-media/storage)** — PostgreSQL storage adapters for the sales engine.
+- **[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** — Automatic multi-language video translation with voice-over. Python.
+- **[telegram-badge](https://github.com/chatman-media/telegram-badge)** — Telegram group/channel badge generator: live SVG badges with member counts.
+- **[telegram-groups-parser](https://github.com/chatman-media/telegram-groups-parser)** — Search and filter Telegram groups/channels by keyword.
+- **[Chronos](https://github.com/chatman-media/Chronos)** — NLE timeline core in Rust + FFI.
+- **[qr-asia](https://github.com/chatman-media/qr-asia)** — QR menu platform for restaurants & small businesses across Asia.
 
 ## 🌍 Open-source contributions
 
@@ -116,13 +120,17 @@ Pull requests to major open-source projects — updated automatically every day.
 
 ### 📦 Избранные проекты
 
-| Проект | Что это |
-|---|---|
-| **[Timeline Studio](https://timelinestudio.pro/)**<br/>![Флагман](https://img.shields.io/badge/★_Флагман-8b5cf6?style=flat) | AI-видеоредактор — мультитрековый нелинейный монтаж, GPU-рендер (Tauri/Rust), AI-режиссёр (автосцены, планировщик монтажа), multicam, цветокор. Next.js + Tauri + Rust. |
-| **[lead-engine](https://github.com/chatman-media/lead-engine)**<br/>![Флагман](https://img.shields.io/badge/★_Флагман-8b5cf6?style=flat) | Multi-tenant SaaS AI-ассистента продаж — гибридная RAG-база на тенант, LLM-классификация стадий воронки, Telegram/WhatsApp/Web, Kanban, Stripe. Bun / Hono / React 19 / PostgreSQL. |
-| **[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** | 🇹🇭 Премиальная маркетплейс-платформа для Таиланда — недвижимость, авто, услуги. Next.js / TypeScript. |
-| **[rag](https://github.com/chatman-media/rag)** | RAG-движок production-уровня — гибридный поиск (pgvector + BM25), защита от галлюцинаций, сменные LLM-провайдеры. |
-| **[telegram-badge](https://github.com/chatman-media/telegram-badge)** | Генератор бейджей Telegram-групп/каналов — живые SVG-бейджи с числом участников. |
+- ★ **[Timeline Studio](https://timelinestudio.pro/)** — AI-видеоредактор: мультитрековый нелинейный монтаж, GPU-рендер (Tauri/Rust), AI-режиссёр (автосцены, планировщик монтажа), multicam, цветокор. Next.js + Tauri + Rust.
+- ★ **[lead-engine](https://github.com/chatman-media/lead-engine)** — Multi-tenant SaaS AI-ассистента продаж: гибридная RAG-база на тенант, LLM-классификация стадий воронки, Telegram/WhatsApp/Web, Kanban, Stripe. Bun / Hono / React 19 / PostgreSQL.
+- **[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** — 🇹🇭 Премиальная маркетплейс-платформа для Таиланда: недвижимость, авто, услуги. Next.js / TypeScript.
+- **[rag](https://github.com/chatman-media/rag)** — RAG-движок production-уровня: гибридный поиск (pgvector + BM25), защита от галлюцинаций, сменные LLM-провайдеры.
+- **[sales](https://github.com/chatman-media/sales)** — Движок sales-воронок на LLM: композиция персон, маршрутизация, ELO A/B-тесты.
+- **[storage](https://github.com/chatman-media/storage)** — PostgreSQL-адаптеры хранилища для движка sales.
+- **[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** — Автоматический перевод видео на несколько языков с озвучкой. Python.
+- **[telegram-badge](https://github.com/chatman-media/telegram-badge)** — Генератор бейджей Telegram-групп/каналов: живые SVG-бейджи с числом участников.
+- **[telegram-groups-parser](https://github.com/chatman-media/telegram-groups-parser)** — Поиск и фильтрация Telegram-групп/каналов по ключевым словам.
+- **[Chronos](https://github.com/chatman-media/Chronos)** — Ядро NLE-таймлайна на Rust + FFI.
+- **[qr-asia](https://github.com/chatman-media/qr-asia)** — QR-меню платформа для ресторанов и малого бизнеса по Азии.
 
 ### 🌍 Вклад в open source
 
