@@ -31,7 +31,6 @@
 - **[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** — Automatic multi-language video translation with voice-over. Python.
 - **[telegram-badge](https://github.com/chatman-media/telegram-badge)** — Telegram group/channel badge generator: live SVG badges with member counts.
 - **[telegram-groups-parser](https://github.com/chatman-media/telegram-groups-parser)** — Search and filter Telegram groups/channels by keyword.
-- **[Chronos](https://github.com/chatman-media/Chronos)** — NLE timeline core in Rust + FFI.
 - **[qr-asia](https://github.com/chatman-media/qr-asia)** — QR menu platform for restaurants & small businesses across Asia.
 
 ## 🌍 Open-source contributions
@@ -129,7 +128,6 @@ Pull requests to major open-source projects — updated automatically every day.
 - **[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** — Автоматический перевод видео на несколько языков с озвучкой. Python.
 - **[telegram-badge](https://github.com/chatman-media/telegram-badge)** — Генератор бейджей Telegram-групп/каналов: живые SVG-бейджи с числом участников.
 - **[telegram-groups-parser](https://github.com/chatman-media/telegram-groups-parser)** — Поиск и фильтрация Telegram-групп/каналов по ключевым словам.
-- **[Chronos](https://github.com/chatman-media/Chronos)** — Ядро NLE-таймлайна на Rust + FFI.
 - **[qr-asia](https://github.com/chatman-media/qr-asia)** — QR-меню платформа для ресторанов и малого бизнеса по Азии.
 
 ### 🌍 Вклад в open source
