@@ -1,10 +1,11 @@
 # Open-source contributions
 
-All merged pull requests to external projects with 1k+ stars since 2025, newest first.
+All merged pull requests to external projects, newest first.
 Auto-generated daily — see the summary on the [profile README](README.md#-open-source-contributions).
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jun 22, 2026 | [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k | [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) |
 | Jun 21, 2026 | [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k | [Fix `searchParams` setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454) |
 | Jun 20, 2026 | [streamich/memfs](https://github.com/streamich/memfs) ⭐ 2k | [fix: clamp negative truncate length to zero (uninitialized-memory leak)](https://github.com/streamich/memfs/pull/1261) |
 | Jun 20, 2026 | [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k | [fix(locale): exclude forbidden letter combinations from nl postcodes](https://github.com/faker-js/faker/pull/3888) |
@@ -18,5 +19,15 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jun 11, 2026 | [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k | [fix(vanilla/utils/atomWithStorage): apply reviver when parsing subscription updates](https://github.com/pmndrs/jotai/pull/3326) |
 | Jun 11, 2026 | [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k | [fix(utils): prevent watch context leak across async callbacks](https://github.com/pmndrs/valtio/pull/1229) |
 | Jun 10, 2026 | [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) |
+| Jan 26, 2020 | [alagiz/particalizor-3000](https://github.com/alagiz/particalizor-3000) ⭐ 3 | [Quote lint path to avoid script issue.](https://github.com/alagiz/particalizor-3000/pull/36) |
+| Jan 05, 2019 | [nareshbhatia/graphql-bookstore](https://github.com/nareshbhatia/graphql-bookstore) ⭐ 121 | [fixed build issues](https://github.com/nareshbhatia/graphql-bookstore/pull/4) |
+| Jul 28, 2018 | [nareshbhatia/react-learning-path](https://github.com/nareshbhatia/react-learning-path) ⭐ 18 | [fixed typo in Readme](https://github.com/nareshbhatia/react-learning-path/pull/1) |
+| Mar 19, 2018 | [alagiz/net-fortune](https://github.com/alagiz/net-fortune) ⭐ 1 | [Very important feature](https://github.com/alagiz/net-fortune/pull/4) |
+| Aug 03, 2017 | [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1.9k | [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) |
+| Dec 31, 2014 | [sugar-framework/sugar](https://github.com/sugar-framework/sugar) ⭐ 433 | [Fix link to weber website](https://github.com/sugar-framework/sugar/pull/59) |
+| Jun 15, 2014 | [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2.5k | [fix typos](https://github.com/wardencommunity/warden/pull/92) |
+| May 10, 2014 | [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 243 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) |
+| Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
+| Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**13 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged+merged%3A%3E%3D2025-01-01&type=pullrequests)
+**24 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
