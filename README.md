@@ -51,7 +51,7 @@ Pull requests to major open-source projects — updated automatically every day.
 - `1 day ago` — [Fix `searchParams` setter dropping the value when a URL is…](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k
 - `2 days ago` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k
 - `3 days ago` — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k
-- `3 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.4k
+- `3 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k
 - `3 days ago` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
 - `4 days ago` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
 - `1 week ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
@@ -141,7 +141,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 - `1 day ago` — [Fix `searchParams` setter dropping the value when a URL is…](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k
 - `2 days ago` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k
 - `3 days ago` — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k
-- `3 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.4k
+- `3 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k
 - `3 days ago` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
 - `4 days ago` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
 - `1 week ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
