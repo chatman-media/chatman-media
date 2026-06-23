@@ -79,14 +79,6 @@ Pull requests to major open-source projects — updated automatically every day.
 [![X](https://img.shields.io/badge/X-@chatman__media-000000?style=flat&logo=x&logoColor=white)](https://x.com/chatman_media)
 [![YouTube](https://img.shields.io/badge/YouTube-@chatman--media-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@chatman-media)
 
-#### Thanks for visiting :heart:
-
-<a href="https://info.flagcounter.com/V5YQ"><img src="https://s01.flagcounter.com/count2/V5YQ/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_40/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-
-<a href="https://trophy.exchanges.agency"><img width="100%" src="https://trophy.exchanges.agency/?username=chatman-media&column=9&row=1&no-frame=true" alt="GitHub Trophies"/></a>
-
-<div align="center"><sub>⚡ Self-hosted on an actively-maintained service — <a href="https://trophy.exchanges.agency">make your own trophies →</a></sub></div>
-
 <div align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chatman-media&theme=transparent" alt="Profile Details"/>
 </div>
@@ -94,6 +86,10 @@ Pull requests to major open-source projects — updated automatically every day.
 <div align="center">
   <img width="100%" src="https://streak-stats.demolab.com?user=chatman-media&theme=transparent&hide_border=true&card_width=1000&fire=8b5cf6&border=8b5cf6" alt="GitHub Streak"/>
 </div>
+
+<a href="https://trophy.exchanges.agency"><img width="100%" src="https://trophy.exchanges.agency/?username=chatman-media&column=9&row=1&no-frame=true" alt="GitHub Trophies"/></a>
+
+<div align="center"><sub>⚡ Self-hosted on an actively-maintained service — <a href="https://trophy.exchanges.agency">make your own trophies →</a></sub></div>
 
 <details>
 <summary><b>🇷🇺 Русская версия</b></summary>
