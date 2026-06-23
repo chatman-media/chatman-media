@@ -47,13 +47,14 @@
 Pull requests to major open-source projects — updated automatically every day.
 
 <!-- EXTERNAL_PRS:START -->
+- `today` — [`LastArrayElement`: Fix handling of tuples with optional el…](https://github.com/sindresorhus/type-fest/pull/1461) · [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k
 - `today` — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420) · [h3js/h3](https://github.com/h3js/h3) ⭐ 5.3k
 - `today` — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285) · [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 14.6k
 - `today` — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) · [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k
 - `1 day ago` — [Fix `searchParams` setter dropping the value when a URL is…](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k
-- `2 days ago` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k
+- `3 days ago` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k
 - `3 days ago` — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k
-- `3 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k
+- `4 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k
 - `4 days ago` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
 - `4 days ago` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
 - `1 week ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
@@ -62,7 +63,7 @@ Pull requests to major open-source projects — updated automatically every day.
 - `1 week ago` — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k
 - `1 week ago` — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612) · [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k
 
-**14 merged pull requests** to external projects with 5k+ stars · [full list of all 26](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**15 merged pull requests** to external projects with 5k+ stars · [full list of all 27](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## Work with me
@@ -135,13 +136,14 @@ Pull requests to major open-source projects — updated automatically every day.
 Pull request'ы в крупные open-source проекты — обновляется автоматически раз в день.
 
 <!-- EXTERNAL_PRS:START -->
+- `today` — [`LastArrayElement`: Fix handling of tuples with optional el…](https://github.com/sindresorhus/type-fest/pull/1461) · [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k
 - `today` — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420) · [h3js/h3](https://github.com/h3js/h3) ⭐ 5.3k
 - `today` — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285) · [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 14.6k
 - `today` — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) · [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k
 - `1 day ago` — [Fix `searchParams` setter dropping the value when a URL is…](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k
-- `2 days ago` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k
+- `3 days ago` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k
 - `3 days ago` — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k
-- `3 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k
+- `4 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k
 - `4 days ago` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
 - `4 days ago` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
 - `1 week ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
@@ -150,7 +152,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 - `1 week ago` — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k
 - `1 week ago` — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612) · [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k
 
-**14 merged pull requests** to external projects with 5k+ stars · [full list of all 26](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**15 merged pull requests** to external projects with 5k+ stars · [full list of all 27](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### Работа со мной

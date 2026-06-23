@@ -5,6 +5,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jun 23, 2026 | [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k | [`LastArrayElement`: Fix handling of tuples with optional elements](https://github.com/sindresorhus/type-fest/pull/1461) |
 | Jun 23, 2026 | [h3js/h3](https://github.com/h3js/h3) ⭐ 5.3k | [fix(sanitizeStatusCode): return default for non-numeric input instead of NaN](https://github.com/h3js/h3/pull/1420) |
 | Jun 23, 2026 | [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 14.6k | [fix(Cron): do not skip earlier days when the upcoming day is missing from the month](https://github.com/Effect-TS/effect/pull/6285) |
 | Jun 22, 2026 | [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k | [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) |
@@ -32,4 +33,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**26 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**27 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
