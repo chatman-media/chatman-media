@@ -22,24 +22,15 @@
 
 ## Selected work
 
-**[Timeline Studio](https://timelinestudio.pro/)** — AI video editor: multi-track NLE, GPU rendering (Tauri/Rust), AI director (scene detection, montage planner), multicam, color grading. Next.js + Tauri + Rust.
-
-**[lead-engine](https://github.com/chatman-media/lead-engine)** — Multi-tenant AI sales-assistant SaaS: per-tenant hybrid RAG, LLM funnel-stage classification, Telegram/WhatsApp/Web, Kanban, Stripe billing. Bun / Hono / React 19 / PostgreSQL.
-
-**[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** — Premium marketplace platform for Thailand: real estate, vehicles, services. Next.js / TypeScript.
-
-**[rag](https://github.com/chatman-media/rag)** — Production RAG engine: hybrid retrieval (pgvector + BM25), hallucination guard, pluggable LLM providers.
-
-**[sales](https://github.com/chatman-media/sales)** — LLM sales-funnel engine: persona composition, funnel routing, ELO A/B testing.
-
-**[storage](https://github.com/chatman-media/storage)** — PostgreSQL storage adapters for the sales engine.
-
-**[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** — Automatic multi-language video translation with voice-over. Python.
-
-**[telegram-badge](https://github.com/chatman-media/telegram-badge)** — Telegram group/channel badge generator: live SVG badges with member counts.
-
-**[telegram-groups-parser](https://github.com/chatman-media/telegram-groups-parser)** — Search and filter Telegram groups/channels by keyword.
-
+**[Timeline Studio](https://timelinestudio.pro/)** — AI video editor: multi-track NLE, GPU rendering (Tauri/Rust), AI director (scene detection, montage planner), multicam, color grading. Next.js + Tauri + Rust.<br>
+**[lead-engine](https://github.com/chatman-media/lead-engine)** — Multi-tenant AI sales-assistant SaaS: per-tenant hybrid RAG, LLM funnel-stage classification, Telegram/WhatsApp/Web, Kanban, Stripe billing. Bun / Hono / React 19 / PostgreSQL.<br>
+**[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** — Premium marketplace platform for Thailand: real estate, vehicles, services. Next.js / TypeScript.<br>
+**[rag](https://github.com/chatman-media/rag)** — Production RAG engine: hybrid retrieval (pgvector + BM25), hallucination guard, pluggable LLM providers.<br>
+**[sales](https://github.com/chatman-media/sales)** — LLM sales-funnel engine: persona composition, funnel routing, ELO A/B testing.<br>
+**[storage](https://github.com/chatman-media/storage)** — PostgreSQL storage adapters for the sales engine.<br>
+**[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** — Automatic multi-language video translation with voice-over. Python.<br>
+**[telegram-badge](https://github.com/chatman-media/telegram-badge)** — Telegram group/channel badge generator: live SVG badges with member counts.<br>
+**[telegram-groups-parser](https://github.com/chatman-media/telegram-groups-parser)** — Search and filter Telegram groups/channels by keyword.<br>
 **[qr-asia](https://github.com/chatman-media/qr-asia)** — QR menu platform for restaurants & small businesses across Asia.
 
 ## Open-source contributions
@@ -47,21 +38,21 @@
 Pull requests to major open-source projects — updated automatically every day.
 
 <!-- EXTERNAL_PRS:START -->
-- `today` — [`LastArrayElement`: Fix handling of tuples with optional el…](https://github.com/sindresorhus/type-fest/pull/1461) · [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k
-- `today` — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420) · [h3js/h3](https://github.com/h3js/h3) ⭐ 5.3k
-- `today` — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285) · [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 14.6k
-- `today` — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) · [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k
-- `1 day ago` — [Fix `searchParams` setter dropping the value when a URL is…](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k
-- `3 days ago` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k
-- `3 days ago` — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k
-- `4 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k
-- `4 days ago` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
-- `4 days ago` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
-- `1 week ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
-- `1 week ago` — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k
-- `1 week ago` — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k
-- `1 week ago` — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k
-- `1 week ago` — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612) · [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k
+`today` — [`LastArrayElement`: Fix handling of tuples with optional el…](https://github.com/sindresorhus/type-fest/pull/1461) · [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k<br>
+`today` — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420) · [h3js/h3](https://github.com/h3js/h3) ⭐ 5.3k<br>
+`today` — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285) · [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 14.6k<br>
+`today` — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) · [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k<br>
+`1 day ago` — [Fix `searchParams` setter dropping the value when a URL is…](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k<br>
+`3 days ago` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k<br>
+`3 days ago` — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k<br>
+`4 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k<br>
+`4 days ago` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k<br>
+`4 days ago` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k<br>
+`1 week ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k<br>
+`1 week ago` — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k<br>
+`1 week ago` — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k<br>
+`1 week ago` — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k<br>
+`1 week ago` — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612) · [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k<br>
 
 **15 merged pull requests** to external projects with 5k+ stars · [full list of all 27](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
@@ -111,24 +102,15 @@ Pull requests to major open-source projects — updated automatically every day.
 
 ### Избранные проекты
 
-**[Timeline Studio](https://timelinestudio.pro/)** — AI-видеоредактор: мультитрековый нелинейный монтаж, GPU-рендер (Tauri/Rust), AI-режиссёр (автосцены, планировщик монтажа), multicam, цветокор. Next.js + Tauri + Rust.
-
-**[lead-engine](https://github.com/chatman-media/lead-engine)** — Multi-tenant SaaS AI-ассистента продаж: гибридная RAG-база на тенант, LLM-классификация стадий воронки, Telegram/WhatsApp/Web, Kanban, Stripe. Bun / Hono / React 19 / PostgreSQL.
-
-**[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** — Премиальная маркетплейс-платформа для Таиланда: недвижимость, авто, услуги. Next.js / TypeScript.
-
-**[rag](https://github.com/chatman-media/rag)** — RAG-движок production-уровня: гибридный поиск (pgvector + BM25), защита от галлюцинаций, сменные LLM-провайдеры.
-
-**[sales](https://github.com/chatman-media/sales)** — Движок sales-воронок на LLM: композиция персон, маршрутизация, ELO A/B-тесты.
-
-**[storage](https://github.com/chatman-media/storage)** — PostgreSQL-адаптеры хранилища для движка sales.
-
-**[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** — Автоматический перевод видео на несколько языков с озвучкой. Python.
-
-**[telegram-badge](https://github.com/chatman-media/telegram-badge)** — Генератор бейджей Telegram-групп/каналов: живые SVG-бейджи с числом участников.
-
-**[telegram-groups-parser](https://github.com/chatman-media/telegram-groups-parser)** — Поиск и фильтрация Telegram-групп/каналов по ключевым словам.
-
+**[Timeline Studio](https://timelinestudio.pro/)** — AI-видеоредактор: мультитрековый нелинейный монтаж, GPU-рендер (Tauri/Rust), AI-режиссёр (автосцены, планировщик монтажа), multicam, цветокор. Next.js + Tauri + Rust.<br>
+**[lead-engine](https://github.com/chatman-media/lead-engine)** — Multi-tenant SaaS AI-ассистента продаж: гибридная RAG-база на тенант, LLM-классификация стадий воронки, Telegram/WhatsApp/Web, Kanban, Stripe. Bun / Hono / React 19 / PostgreSQL.<br>
+**[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** — Премиальная маркетплейс-платформа для Таиланда: недвижимость, авто, услуги. Next.js / TypeScript.<br>
+**[rag](https://github.com/chatman-media/rag)** — RAG-движок production-уровня: гибридный поиск (pgvector + BM25), защита от галлюцинаций, сменные LLM-провайдеры.<br>
+**[sales](https://github.com/chatman-media/sales)** — Движок sales-воронок на LLM: композиция персон, маршрутизация, ELO A/B-тесты.<br>
+**[storage](https://github.com/chatman-media/storage)** — PostgreSQL-адаптеры хранилища для движка sales.<br>
+**[Video-Translation-API](https://github.com/chatman-media/Video-Translation-API)** — Автоматический перевод видео на несколько языков с озвучкой. Python.<br>
+**[telegram-badge](https://github.com/chatman-media/telegram-badge)** — Генератор бейджей Telegram-групп/каналов: живые SVG-бейджи с числом участников.<br>
+**[telegram-groups-parser](https://github.com/chatman-media/telegram-groups-parser)** — Поиск и фильтрация Telegram-групп/каналов по ключевым словам.<br>
 **[qr-asia](https://github.com/chatman-media/qr-asia)** — QR-меню платформа для ресторанов и малого бизнеса по Азии.
 
 ### Вклад в open source
@@ -136,21 +118,21 @@ Pull requests to major open-source projects — updated automatically every day.
 Pull request'ы в крупные open-source проекты — обновляется автоматически раз в день.
 
 <!-- EXTERNAL_PRS:START -->
-- `today` — [`LastArrayElement`: Fix handling of tuples with optional el…](https://github.com/sindresorhus/type-fest/pull/1461) · [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k
-- `today` — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420) · [h3js/h3](https://github.com/h3js/h3) ⭐ 5.3k
-- `today` — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285) · [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 14.6k
-- `today` — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) · [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k
-- `1 day ago` — [Fix `searchParams` setter dropping the value when a URL is…](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k
-- `3 days ago` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k
-- `3 days ago` — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k
-- `4 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k
-- `4 days ago` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k
-- `4 days ago` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k
-- `1 week ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k
-- `1 week ago` — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k
-- `1 week ago` — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k
-- `1 week ago` — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k
-- `1 week ago` — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612) · [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k
+`today` — [`LastArrayElement`: Fix handling of tuples with optional el…](https://github.com/sindresorhus/type-fest/pull/1461) · [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k<br>
+`today` — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420) · [h3js/h3](https://github.com/h3js/h3) ⭐ 5.3k<br>
+`today` — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285) · [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 14.6k<br>
+`today` — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) · [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k<br>
+`1 day ago` — [Fix `searchParams` setter dropping the value when a URL is…](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k<br>
+`3 days ago` — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k<br>
+`3 days ago` — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k<br>
+`4 days ago` — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k<br>
+`4 days ago` — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k<br>
+`4 days ago` — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k<br>
+`1 week ago` — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k<br>
+`1 week ago` — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k<br>
+`1 week ago` — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k<br>
+`1 week ago` — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k<br>
+`1 week ago` — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612) · [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6.7k<br>
 
 **15 merged pull requests** to external projects with 5k+ stars · [full list of all 27](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->

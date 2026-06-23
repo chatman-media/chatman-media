@@ -69,7 +69,7 @@ JQ_DEFS='
 # Сводка для README (одна строка на PR, без переноса) — только репо ≥ README_MIN_STARS
 list=$(echo "$filtered" | jq -r --argjson stars "$stars" --argjson limit "$LIMIT" --argjson tmax "$TITLE_MAX" "$JQ_DEFS"'
   .[:$limit] | .[] |
-  "- `\(.closedAt | reltime)` — [\(.title | trunc($tmax))](\(.url)) · [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) ⭐ \($stars[.repository.nameWithOwner] // 0 | fmt_stars)"
+  "`\(.closedAt | reltime)` — [\(.title | trunc($tmax))](\(.url)) · [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) ⭐ \($stars[.repository.nameWithOwner] // 0 | fmt_stars)<br>"
 ')
 
 # Хвост: «… ещё N» со ссылкой на полный файл, если PR больше лимита
