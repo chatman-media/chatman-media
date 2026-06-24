@@ -42,10 +42,10 @@ today — [fix(types): correct Model.validate() return type to Promise…](https
 today — [LastArrayElement: Fix handling of tuples with optional elem…](https://github.com/sindresorhus/type-fest/pull/1461) · [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k<br>
 today — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420) · [h3js/h3](https://github.com/h3js/h3) ⭐ 5.3k<br>
 today — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285) · [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 14.6k<br>
-today — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) · [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k<br>
-1 day ago — [Fix searchParams setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k<br>
+1 day ago — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) · [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k<br>
+2 days ago — [Fix searchParams setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k<br>
 3 days ago — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k<br>
-3 days ago — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k<br>
+4 days ago — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k<br>
 4 days ago — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k<br>
 4 days ago — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k<br>
 5 days ago — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k<br>
@@ -123,10 +123,10 @@ today — [fix(types): correct Model.validate() return type to Promise…](https
 today — [LastArrayElement: Fix handling of tuples with optional elem…](https://github.com/sindresorhus/type-fest/pull/1461) · [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k<br>
 today — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420) · [h3js/h3](https://github.com/h3js/h3) ⭐ 5.3k<br>
 today — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285) · [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 14.6k<br>
-today — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) · [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k<br>
-1 day ago — [Fix searchParams setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k<br>
+1 day ago — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) · [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k<br>
+2 days ago — [Fix searchParams setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k<br>
 3 days ago — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k<br>
-3 days ago — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k<br>
+4 days ago — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k<br>
 4 days ago — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k<br>
 4 days ago — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k<br>
 5 days ago — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k<br>
