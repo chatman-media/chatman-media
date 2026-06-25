@@ -5,6 +5,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jun 24, 2026 | [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) ⭐ 18.6k | [Fix noEscape numeric values being added instead of concatenated](https://github.com/handlebars-lang/handlebars.js/pull/2167) |
 | Jun 24, 2026 | [nanostores/nanostores](https://github.com/nanostores/nanostores) ⭐ 7.4k | [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404) |
 | Jun 23, 2026 | [Automattic/mongoose](https://github.com/Automattic/mongoose) ⭐ 27.4k | [fix(types): correct `Model.validate()` return type to `Promise<TRawDocType>`](https://github.com/Automattic/mongoose/pull/16340) |
 | Jun 23, 2026 | [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k | [`LastArrayElement`: Fix handling of tuples with optional elements](https://github.com/sindresorhus/type-fest/pull/1461) |
@@ -35,4 +36,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**29 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**30 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
