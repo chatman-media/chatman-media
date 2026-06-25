@@ -5,6 +5,8 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jun 25, 2026 | [Turfjs/turf](https://github.com/Turfjs/turf) ⭐ 10.3k | [@turf/line-arc: always reach bearing2 (fix dropped final vertex)](https://github.com/Turfjs/turf/pull/3078) |
+| Jun 25, 2026 | [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) ⭐ 39k | [fix(command-safety): make python -m arity entries reachable in classify_command](https://github.com/Hmbown/CodeWhale/pull/3588) |
 | Jun 24, 2026 | [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) ⭐ 18.6k | [Fix noEscape numeric values being added instead of concatenated](https://github.com/handlebars-lang/handlebars.js/pull/2167) |
 | Jun 24, 2026 | [nanostores/nanostores](https://github.com/nanostores/nanostores) ⭐ 7.4k | [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404) |
 | Jun 23, 2026 | [Automattic/mongoose](https://github.com/Automattic/mongoose) ⭐ 27.4k | [fix(types): correct `Model.validate()` return type to `Promise<TRawDocType>`](https://github.com/Automattic/mongoose/pull/16340) |
@@ -20,7 +22,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jun 19, 2026 | [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k | [fix(hmr): preserve runtime-added properties of setup store refs](https://github.com/vuejs/pinia/pull/3132) |
 | Jun 18, 2026 | [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k | [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) |
 | Jun 15, 2026 | [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4.1k | [fix: correctly handle even numbers of backslashes before closing string quote](https://github.com/jeffijoe/awilix/pull/427) |
-| Jun 13, 2026 | [emilk/egui](https://github.com/emilk/egui) ⭐ 29.4k | [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) |
+| Jun 13, 2026 | [emilk/egui](https://github.com/emilk/egui) ⭐ 29.5k | [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) |
 | Jun 11, 2026 | [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k | [fix(compat): round/ceil/floor should return Infinity for infinite values with precision](https://github.com/toss/es-toolkit/pull/1764) |
 | Jun 11, 2026 | [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k | [fix(vanilla/utils/atomWithStorage): apply reviver when parsing subscription updates](https://github.com/pmndrs/jotai/pull/3326) |
 | Jun 11, 2026 | [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k | [fix(utils): prevent watch context leak across async callbacks](https://github.com/pmndrs/valtio/pull/1229) |
@@ -36,4 +38,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**30 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**32 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
