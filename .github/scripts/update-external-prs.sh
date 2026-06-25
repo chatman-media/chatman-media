@@ -9,7 +9,7 @@ README="${1:-README.md}"
 LIST_FILE="${LIST_FILE:-external-prs.md}"      # файл с полным списком всех PR
 README_MIN_STARS="${README_MIN_STARS:-5000}"   # README-сводка: только репозитории с таким числом звёзд и больше
 FULL_MIN_STARS="${FULL_MIN_STARS:-0}"          # полный список (external-prs.md): ВСЕ принятые PR, без порога
-LIMIT="${LIMIT:-1000}"           # практически без лимита: показываем в README ВСЕ PR из репо ≥ README_MIN_STARS
+LIMIT="${LIMIT:-20}"             # README: топ-20 (новые сверху); всё сверх — только в полном файле external-prs.md
 TITLE_MAX="${TITLE_MAX:-60}"     # макс. длина заголовка PR в README (длиннее — обрезается с …)
 SINCE="${SINCE:-2014-01-01}"     # за всё время (аккаунт с 2011)
 
@@ -75,8 +75,7 @@ list=$(echo "$filtered" | jq -r --argjson stars "$stars" --argjson limit "$LIMIT
 # Хвост: «… ещё N» со ссылкой на полный файл, если PR больше лимита
 tail_line=""
 if [ "$total" -gt "$LIMIT" ]; then
-  tail_line="
-- … [and $((total - LIMIT)) more →]($LIST_FILE)"
+  tail_line="… [and $((total - LIMIT)) more with ${STARS_LABEL} stars →]($LIST_FILE)<br>"
 fi
 
 BLOCK="$list$tail_line
