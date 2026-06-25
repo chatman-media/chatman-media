@@ -10,7 +10,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jun 23, 2026 | [Automattic/mongoose](https://github.com/Automattic/mongoose) ⭐ 27.4k | [fix(types): correct `Model.validate()` return type to `Promise<TRawDocType>`](https://github.com/Automattic/mongoose/pull/16340) |
 | Jun 23, 2026 | [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k | [`LastArrayElement`: Fix handling of tuples with optional elements](https://github.com/sindresorhus/type-fest/pull/1461) |
 | Jun 23, 2026 | [h3js/h3](https://github.com/h3js/h3) ⭐ 5.3k | [fix(sanitizeStatusCode): return default for non-numeric input instead of NaN](https://github.com/h3js/h3/pull/1420) |
-| Jun 23, 2026 | [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 14.6k | [fix(Cron): do not skip earlier days when the upcoming day is missing from the month](https://github.com/Effect-TS/effect/pull/6285) |
+| Jun 23, 2026 | [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 14.7k | [fix(Cron): do not skip earlier days when the upcoming day is missing from the month](https://github.com/Effect-TS/effect/pull/6285) |
 | Jun 22, 2026 | [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k | [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) |
 | Jun 21, 2026 | [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k | [Fix `searchParams` setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454) |
 | Jun 20, 2026 | [streamich/memfs](https://github.com/streamich/memfs) ⭐ 2k | [fix: clamp negative truncate length to zero (uninitialized-memory leak)](https://github.com/streamich/memfs/pull/1261) |
