@@ -38,26 +38,26 @@
 Pull requests to major open-source projects — updated automatically every day.
 
 <!-- EXTERNAL_PRS:START -->
-today — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560) · [lovell/sharp](https://github.com/lovell/sharp) ⭐ 32.3k<br>
-today — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078) · [Turfjs/turf](https://github.com/Turfjs/turf) ⭐ 10.3k<br>
-today — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588) · [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) ⭐ 39k<br>
-1 day ago — [Fix noEscape numeric values being added instead of concaten…](https://github.com/handlebars-lang/handlebars.js/pull/2167) · [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) ⭐ 18.6k<br>
-1 day ago — [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404) · [nanostores/nanostores](https://github.com/nanostores/nanostores) ⭐ 7.4k<br>
-2 days ago — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340) · [Automattic/mongoose](https://github.com/Automattic/mongoose) ⭐ 27.4k<br>
-2 days ago — [LastArrayElement: Fix handling of tuples with optional elem…](https://github.com/sindresorhus/type-fest/pull/1461) · [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k<br>
-2 days ago — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420) · [h3js/h3](https://github.com/h3js/h3) ⭐ 5.3k<br>
-2 days ago — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285) · [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 14.7k<br>
-3 days ago — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) · [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k<br>
-4 days ago — [Fix searchParams setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k<br>
-5 days ago — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k<br>
-6 days ago — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k<br>
-6 days ago — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k<br>
-6 days ago — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k<br>
-1 week ago — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k<br>
-1 week ago — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.5k<br>
-2 weeks ago — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k<br>
-2 weeks ago — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k<br>
-2 weeks ago — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k<br>… [and 1 more with 5k+ stars →](external-prs.md)<br>
+**39k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
+**33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
+**32.3k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
+**29.5k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
+**27.4k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
+**21.2k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
+**18.6k** ⭐ [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) — [Fix noEscape numeric values being added instead of concaten…](https://github.com/handlebars-lang/handlebars.js/pull/2167)<br>
+**17.2k** ⭐ [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) — [LastArrayElement: Fix handling of tuples with optional elem…](https://github.com/sindresorhus/type-fest/pull/1461)<br>
+**15.3k** ⭐ [faker-js/faker](https://github.com/faker-js/faker) — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888)<br>
+**14.9k** ⭐ [sindresorhus/got](https://github.com/sindresorhus/got) — [Fix searchParams setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454)<br>
+**14.7k** ⭐ [Effect-TS/effect](https://github.com/Effect-TS/effect) — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285)<br>
+**14.6k** ⭐ [vuejs/pinia](https://github.com/vuejs/pinia) — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132)<br>
+**13.5k** ⭐ [mholt/PapaParse](https://github.com/mholt/PapaParse) — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124)<br>
+**11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764)<br>
+**10.3k** ⭐ [Turfjs/turf](https://github.com/Turfjs/turf) — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078)<br>
+**10.2k** ⭐ [pmndrs/valtio](https://github.com/pmndrs/valtio) — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229)<br>
+**7.4k** ⭐ [nanostores/nanostores](https://github.com/nanostores/nanostores) — [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404)<br>
+**6.7k** ⭐ [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612)<br>
+**5.4k** ⭐ [npm/node-semver](https://github.com/npm/node-semver) — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878)<br>
+**5.3k** ⭐ [h3js/h3](https://github.com/h3js/h3) — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420)<br>… [and 1 more with 5k+ stars →](external-prs.md)<br>
 
 **21 merged pull requests** to external projects with 5k+ stars · [full list of all 33](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
@@ -123,26 +123,26 @@ today — [fix(command-safety): make python -m arity entries reachable…](https
 Pull request'ы в крупные open-source проекты — обновляется автоматически раз в день.
 
 <!-- EXTERNAL_PRS:START -->
-today — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560) · [lovell/sharp](https://github.com/lovell/sharp) ⭐ 32.3k<br>
-today — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078) · [Turfjs/turf](https://github.com/Turfjs/turf) ⭐ 10.3k<br>
-today — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588) · [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) ⭐ 39k<br>
-1 day ago — [Fix noEscape numeric values being added instead of concaten…](https://github.com/handlebars-lang/handlebars.js/pull/2167) · [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) ⭐ 18.6k<br>
-1 day ago — [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404) · [nanostores/nanostores](https://github.com/nanostores/nanostores) ⭐ 7.4k<br>
-2 days ago — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340) · [Automattic/mongoose](https://github.com/Automattic/mongoose) ⭐ 27.4k<br>
-2 days ago — [LastArrayElement: Fix handling of tuples with optional elem…](https://github.com/sindresorhus/type-fest/pull/1461) · [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k<br>
-2 days ago — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420) · [h3js/h3](https://github.com/h3js/h3) ⭐ 5.3k<br>
-2 days ago — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285) · [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 14.7k<br>
-3 days ago — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) · [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k<br>
-4 days ago — [Fix searchParams setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454) · [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14.9k<br>
-5 days ago — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888) · [faker-js/faker](https://github.com/faker-js/faker) ⭐ 15.3k<br>
-6 days ago — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878) · [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5.4k<br>
-6 days ago — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) · [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13.5k<br>
-6 days ago — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k<br>
-1 week ago — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k<br>
-1 week ago — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.5k<br>
-2 weeks ago — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k<br>
-2 weeks ago — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k<br>
-2 weeks ago — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k<br>… [and 1 more with 5k+ stars →](external-prs.md)<br>
+**39k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
+**33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
+**32.3k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
+**29.5k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
+**27.4k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
+**21.2k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
+**18.6k** ⭐ [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) — [Fix noEscape numeric values being added instead of concaten…](https://github.com/handlebars-lang/handlebars.js/pull/2167)<br>
+**17.2k** ⭐ [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) — [LastArrayElement: Fix handling of tuples with optional elem…](https://github.com/sindresorhus/type-fest/pull/1461)<br>
+**15.3k** ⭐ [faker-js/faker](https://github.com/faker-js/faker) — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888)<br>
+**14.9k** ⭐ [sindresorhus/got](https://github.com/sindresorhus/got) — [Fix searchParams setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454)<br>
+**14.7k** ⭐ [Effect-TS/effect](https://github.com/Effect-TS/effect) — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285)<br>
+**14.6k** ⭐ [vuejs/pinia](https://github.com/vuejs/pinia) — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132)<br>
+**13.5k** ⭐ [mholt/PapaParse](https://github.com/mholt/PapaParse) — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124)<br>
+**11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764)<br>
+**10.3k** ⭐ [Turfjs/turf](https://github.com/Turfjs/turf) — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078)<br>
+**10.2k** ⭐ [pmndrs/valtio](https://github.com/pmndrs/valtio) — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229)<br>
+**7.4k** ⭐ [nanostores/nanostores](https://github.com/nanostores/nanostores) — [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404)<br>
+**6.7k** ⭐ [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612)<br>
+**5.4k** ⭐ [npm/node-semver](https://github.com/npm/node-semver) — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878)<br>
+**5.3k** ⭐ [h3js/h3](https://github.com/h3js/h3) — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420)<br>… [and 1 more with 5k+ stars →](external-prs.md)<br>
 
 **21 merged pull requests** to external projects with 5k+ stars · [full list of all 33](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->

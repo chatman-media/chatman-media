@@ -38,7 +38,7 @@ done
 # README-набор: репозитории ≥ README_MIN_STARS (за всё время), новые сверху
 filtered=$(echo "$prs" | jq --argjson stars "$stars" --argjson min_stars "$README_MIN_STARS" '
   map(select(($stars[.repository.nameWithOwner] // 0) >= $min_stars))
-  | sort_by(.closedAt) | reverse')
+  | sort_by([($stars[.repository.nameWithOwner] // 0), .closedAt]) | reverse')
 total=$(echo "$filtered" | jq 'length')
 
 # Полный набор: ВСЕ принятые PR ≥ FULL_MIN_STARS (за всё время), новые сверху
@@ -69,7 +69,7 @@ JQ_DEFS='
 # Сводка для README (одна строка на PR, без переноса) — только репо ≥ README_MIN_STARS
 list=$(echo "$filtered" | jq -r --argjson stars "$stars" --argjson limit "$LIMIT" --argjson tmax "$TITLE_MAX" "$JQ_DEFS"'
   .[:$limit] | .[] |
-  "\(.closedAt | reltime) — [\(.title | gsub("`"; "") | trunc($tmax))](\(.url)) · [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) ⭐ \($stars[.repository.nameWithOwner] // 0 | fmt_stars)<br>"
+  "**\($stars[.repository.nameWithOwner] // 0 | fmt_stars)** ⭐ [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) — [\(.title | gsub("`"; "") | trunc($tmax))](\(.url))<br>"
 ')
 
 # Хвост: «… ещё N» со ссылкой на полный файл, если PR больше лимита
