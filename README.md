@@ -41,7 +41,7 @@ Pull requests to major open-source projects — updated automatically every day.
 today — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560) · [lovell/sharp](https://github.com/lovell/sharp) ⭐ 32.3k<br>
 today — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078) · [Turfjs/turf](https://github.com/Turfjs/turf) ⭐ 10.3k<br>
 today — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588) · [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) ⭐ 39k<br>
-today — [Fix noEscape numeric values being added instead of concaten…](https://github.com/handlebars-lang/handlebars.js/pull/2167) · [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) ⭐ 18.6k<br>
+1 day ago — [Fix noEscape numeric values being added instead of concaten…](https://github.com/handlebars-lang/handlebars.js/pull/2167) · [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) ⭐ 18.6k<br>
 1 day ago — [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404) · [nanostores/nanostores](https://github.com/nanostores/nanostores) ⭐ 7.4k<br>
 2 days ago — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340) · [Automattic/mongoose](https://github.com/Automattic/mongoose) ⭐ 27.4k<br>
 2 days ago — [LastArrayElement: Fix handling of tuples with optional elem…](https://github.com/sindresorhus/type-fest/pull/1461) · [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k<br>
@@ -55,7 +55,7 @@ today — [Fix noEscape numeric values being added instead of concaten…](https
 6 days ago — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k<br>
 1 week ago — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k<br>
 1 week ago — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.5k<br>
-1 week ago — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k<br>
+2 weeks ago — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k<br>
 2 weeks ago — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k<br>
 2 weeks ago — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k<br>… [and 1 more with 5k+ stars →](external-prs.md)<br>
 
@@ -126,7 +126,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 today — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560) · [lovell/sharp](https://github.com/lovell/sharp) ⭐ 32.3k<br>
 today — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078) · [Turfjs/turf](https://github.com/Turfjs/turf) ⭐ 10.3k<br>
 today — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588) · [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) ⭐ 39k<br>
-today — [Fix noEscape numeric values being added instead of concaten…](https://github.com/handlebars-lang/handlebars.js/pull/2167) · [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) ⭐ 18.6k<br>
+1 day ago — [Fix noEscape numeric values being added instead of concaten…](https://github.com/handlebars-lang/handlebars.js/pull/2167) · [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) ⭐ 18.6k<br>
 1 day ago — [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404) · [nanostores/nanostores](https://github.com/nanostores/nanostores) ⭐ 7.4k<br>
 2 days ago — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340) · [Automattic/mongoose](https://github.com/Automattic/mongoose) ⭐ 27.4k<br>
 2 days ago — [LastArrayElement: Fix handling of tuples with optional elem…](https://github.com/sindresorhus/type-fest/pull/1461) · [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17.2k<br>
@@ -140,7 +140,7 @@ today — [Fix noEscape numeric values being added instead of concaten…](https
 6 days ago — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132) · [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14.6k<br>
 1 week ago — [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) · [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5.2k<br>
 1 week ago — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) · [emilk/egui](https://github.com/emilk/egui) ⭐ 29.5k<br>
-1 week ago — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k<br>
+2 weeks ago — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764) · [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k<br>
 2 weeks ago — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326) · [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21.2k<br>
 2 weeks ago — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229) · [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10.2k<br>… [and 1 more with 5k+ stars →](external-prs.md)<br>
 
