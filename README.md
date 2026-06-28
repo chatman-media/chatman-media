@@ -55,11 +55,11 @@ Pull requests to major open-source projects — updated automatically every day.
 **11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764)<br>
 **10.3k** ⭐ [Turfjs/turf](https://github.com/Turfjs/turf) — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078)<br>
 **10.2k** ⭐ [pmndrs/valtio](https://github.com/pmndrs/valtio) — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229)<br>
+**8.7k** ⭐ [open-circle/valibot](https://github.com/open-circle/valibot) — [fix: cache word-count segmenter for non-primitive locales](https://github.com/open-circle/valibot/pull/1521)<br>
 **7.4k** ⭐ [nanostores/nanostores](https://github.com/nanostores/nanostores) — [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404)<br>
-**6.7k** ⭐ [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612)<br>
-**5.4k** ⭐ [npm/node-semver](https://github.com/npm/node-semver) — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878)<br>… [and 2 more with 5k+ stars →](external-prs.md)<br>
+**6.7k** ⭐ [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612)<br>… [and 3 more with 5k+ stars →](external-prs.md)<br>
 
-**22 merged pull requests** to external projects with 5k+ stars · [full list of all 34](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**23 merged pull requests** to external projects with 5k+ stars · [full list of all 35](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## Work with me
@@ -140,11 +140,11 @@ Pull request'ы в крупные open-source проекты — обновля�
 **11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764)<br>
 **10.3k** ⭐ [Turfjs/turf](https://github.com/Turfjs/turf) — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078)<br>
 **10.2k** ⭐ [pmndrs/valtio](https://github.com/pmndrs/valtio) — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229)<br>
+**8.7k** ⭐ [open-circle/valibot](https://github.com/open-circle/valibot) — [fix: cache word-count segmenter for non-primitive locales](https://github.com/open-circle/valibot/pull/1521)<br>
 **7.4k** ⭐ [nanostores/nanostores](https://github.com/nanostores/nanostores) — [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404)<br>
-**6.7k** ⭐ [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612)<br>
-**5.4k** ⭐ [npm/node-semver](https://github.com/npm/node-semver) — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878)<br>… [and 2 more with 5k+ stars →](external-prs.md)<br>
+**6.7k** ⭐ [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612)<br>… [and 3 more with 5k+ stars →](external-prs.md)<br>
 
-**22 merged pull requests** to external projects with 5k+ stars · [full list of all 34](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**23 merged pull requests** to external projects with 5k+ stars · [full list of all 35](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### Работа со мной
