@@ -38,11 +38,12 @@
 Pull requests to major open-source projects — updated automatically every day.
 
 <!-- EXTERNAL_PRS:START -->
-**39k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
+**39.1k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
 **32.3k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
 **29.5k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
 **27.4k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
+**24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21.2k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
 **18.6k** ⭐ [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) — [Fix noEscape numeric values being added instead of concaten…](https://github.com/handlebars-lang/handlebars.js/pull/2167)<br>
 **17.2k** ⭐ [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) — [LastArrayElement: Fix handling of tuples with optional elem…](https://github.com/sindresorhus/type-fest/pull/1461)<br>
@@ -56,10 +57,9 @@ Pull requests to major open-source projects — updated automatically every day.
 **10.2k** ⭐ [pmndrs/valtio](https://github.com/pmndrs/valtio) — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229)<br>
 **7.4k** ⭐ [nanostores/nanostores](https://github.com/nanostores/nanostores) — [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404)<br>
 **6.7k** ⭐ [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612)<br>
-**5.4k** ⭐ [npm/node-semver](https://github.com/npm/node-semver) — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878)<br>
-**5.3k** ⭐ [h3js/h3](https://github.com/h3js/h3) — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420)<br>… [and 1 more with 5k+ stars →](external-prs.md)<br>
+**5.4k** ⭐ [npm/node-semver](https://github.com/npm/node-semver) — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878)<br>… [and 2 more with 5k+ stars →](external-prs.md)<br>
 
-**21 merged pull requests** to external projects with 5k+ stars · [full list of all 33](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**22 merged pull requests** to external projects with 5k+ stars · [full list of all 34](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## Work with me
@@ -123,11 +123,12 @@ Pull requests to major open-source projects — updated automatically every day.
 Pull request'ы в крупные open-source проекты — обновляется автоматически раз в день.
 
 <!-- EXTERNAL_PRS:START -->
-**39k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
+**39.1k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
 **32.3k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
 **29.5k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
 **27.4k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
+**24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21.2k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
 **18.6k** ⭐ [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) — [Fix noEscape numeric values being added instead of concaten…](https://github.com/handlebars-lang/handlebars.js/pull/2167)<br>
 **17.2k** ⭐ [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) — [LastArrayElement: Fix handling of tuples with optional elem…](https://github.com/sindresorhus/type-fest/pull/1461)<br>
@@ -141,10 +142,9 @@ Pull request'ы в крупные open-source проекты — обновля�
 **10.2k** ⭐ [pmndrs/valtio](https://github.com/pmndrs/valtio) — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229)<br>
 **7.4k** ⭐ [nanostores/nanostores](https://github.com/nanostores/nanostores) — [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404)<br>
 **6.7k** ⭐ [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612)<br>
-**5.4k** ⭐ [npm/node-semver](https://github.com/npm/node-semver) — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878)<br>
-**5.3k** ⭐ [h3js/h3](https://github.com/h3js/h3) — [fix(sanitizeStatusCode): return default for non-numeric inp…](https://github.com/h3js/h3/pull/1420)<br>… [and 1 more with 5k+ stars →](external-prs.md)<br>
+**5.4k** ⭐ [npm/node-semver](https://github.com/npm/node-semver) — [fix: include prereleases in tilde range lower bound with in…](https://github.com/npm/node-semver/pull/878)<br>… [and 2 more with 5k+ stars →](external-prs.md)<br>
 
-**21 merged pull requests** to external projects with 5k+ stars · [full list of all 33](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**22 merged pull requests** to external projects with 5k+ stars · [full list of all 34](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### Работа со мной
