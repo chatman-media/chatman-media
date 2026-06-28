@@ -22,7 +22,7 @@
 
 ## Selected work
 
-**[Timeline Studio](https://timelinestudio.pro/)** — AI video editor: multi-track NLE, GPU rendering (Tauri/Rust), AI director (scene detection, montage planner), multicam, color grading. Next.js + Tauri + Rust.<br>
+**[Timeline Studio](https://github.com/chatman-media/timeline-studio/)** — AI video editor: multi-track NLE, GPU rendering (Tauri/Rust), AI director (scene detection, montage planner), multicam, color grading. Next.js + Tauri + Rust.<br>
 **[lead-engine](https://github.com/chatman-media/lead-engine)** — Multi-tenant AI sales-assistant SaaS: per-tenant hybrid RAG, LLM funnel-stage classification, Telegram/WhatsApp/Web, Kanban, Stripe billing. Bun / Hono / React 19 / PostgreSQL.<br>
 **[farang-marketplace](https://github.com/chatman-media/farang-marketplace)** — Premium marketplace platform for Thailand: real estate, vehicles, services. Next.js / TypeScript.<br>
 **[rag](https://github.com/chatman-media/rag)** — Production RAG engine: hybrid retrieval (pgvector + BM25), hallucination guard, pluggable LLM providers.<br>
