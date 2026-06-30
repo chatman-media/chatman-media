@@ -5,9 +5,10 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jun 30, 2026 | [hustcc/timeago.js](https://github.com/hustcc/timeago.js) ⭐ 5.3k | [fix(toDate): handle negative timezone offsets](https://github.com/hustcc/timeago.js/pull/284) |
 | Jun 28, 2026 | [open-circle/valibot](https://github.com/open-circle/valibot) ⭐ 8.7k | [fix: cache word-count segmenter for non-primitive locales](https://github.com/open-circle/valibot/pull/1521) |
 | Jun 28, 2026 | [ramda/ramda](https://github.com/ramda/ramda) ⭐ 24k | [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533) |
-| Jun 25, 2026 | [lovell/sharp](https://github.com/lovell/sharp) ⭐ 32.3k | [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560) |
+| Jun 25, 2026 | [lovell/sharp](https://github.com/lovell/sharp) ⭐ 32.4k | [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560) |
 | Jun 25, 2026 | [Turfjs/turf](https://github.com/Turfjs/turf) ⭐ 10.3k | [@turf/line-arc: always reach bearing2 (fix dropped final vertex)](https://github.com/Turfjs/turf/pull/3078) |
 | Jun 25, 2026 | [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) ⭐ 39.1k | [fix(command-safety): make python -m arity entries reachable in classify_command](https://github.com/Hmbown/CodeWhale/pull/3588) |
 | Jun 24, 2026 | [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) ⭐ 18.6k | [Fix noEscape numeric values being added instead of concatenated](https://github.com/handlebars-lang/handlebars.js/pull/2167) |
@@ -41,4 +42,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**35 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**36 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
