@@ -5,10 +5,11 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jul 01, 2026 | [microsoft/playwright](https://github.com/microsoft/playwright) ⭐ 92k | [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557) |
 | Jul 01, 2026 | [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11.1k | [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835) |
 | Jun 30, 2026 | [postcss/postcss](https://github.com/postcss/postcss) ⭐ 28.9k | [Fix `Input#origin()` mixing null and undefined for unmapped end position](https://github.com/postcss/postcss/pull/2106) |
 | Jun 30, 2026 | [hustcc/timeago.js](https://github.com/hustcc/timeago.js) ⭐ 5.3k | [fix(toDate): handle negative timezone offsets](https://github.com/hustcc/timeago.js/pull/284) |
-| Jun 28, 2026 | [open-circle/valibot](https://github.com/open-circle/valibot) ⭐ 8.7k | [fix: cache word-count segmenter for non-primitive locales](https://github.com/open-circle/valibot/pull/1521) |
+| Jun 28, 2026 | [open-circle/valibot](https://github.com/open-circle/valibot) ⭐ 8.8k | [fix: cache word-count segmenter for non-primitive locales](https://github.com/open-circle/valibot/pull/1521) |
 | Jun 28, 2026 | [ramda/ramda](https://github.com/ramda/ramda) ⭐ 24k | [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533) |
 | Jun 25, 2026 | [lovell/sharp](https://github.com/lovell/sharp) ⭐ 32.4k | [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560) |
 | Jun 25, 2026 | [Turfjs/turf](https://github.com/Turfjs/turf) ⭐ 10.3k | [@turf/line-arc: always reach bearing2 (fix dropped final vertex)](https://github.com/Turfjs/turf/pull/3078) |
@@ -44,4 +45,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**38 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**39 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
