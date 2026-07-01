@@ -38,10 +38,11 @@
 Pull requests to major open-source projects — updated automatically every day.
 
 <!-- EXTERNAL_PRS:START -->
-**39.1k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
+**39.2k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
 **32.4k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
 **29.5k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
+**28.9k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
 **27.4k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21.2k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
@@ -52,14 +53,13 @@ Pull requests to major open-source projects — updated automatically every day.
 **14.7k** ⭐ [Effect-TS/effect](https://github.com/Effect-TS/effect) — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285)<br>
 **14.6k** ⭐ [vuejs/pinia](https://github.com/vuejs/pinia) — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132)<br>
 **13.5k** ⭐ [mholt/PapaParse](https://github.com/mholt/PapaParse) — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124)<br>
+**11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835)<br>
 **11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764)<br>
 **10.3k** ⭐ [Turfjs/turf](https://github.com/Turfjs/turf) — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078)<br>
 **10.2k** ⭐ [pmndrs/valtio](https://github.com/pmndrs/valtio) — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229)<br>
-**8.7k** ⭐ [open-circle/valibot](https://github.com/open-circle/valibot) — [fix: cache word-count segmenter for non-primitive locales](https://github.com/open-circle/valibot/pull/1521)<br>
-**7.4k** ⭐ [nanostores/nanostores](https://github.com/nanostores/nanostores) — [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404)<br>
-**6.7k** ⭐ [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612)<br>… [and 4 more with 5k+ stars →](external-prs.md)<br>
+**8.7k** ⭐ [open-circle/valibot](https://github.com/open-circle/valibot) — [fix: cache word-count segmenter for non-primitive locales](https://github.com/open-circle/valibot/pull/1521)<br>… [and 6 more with 5k+ stars →](external-prs.md)<br>
 
-**24 merged pull requests** to external projects with 5k+ stars · [full list of all 36](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**26 merged pull requests** to external projects with 5k+ stars · [full list of all 38](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## Work with me
@@ -123,10 +123,11 @@ Pull requests to major open-source projects — updated automatically every day.
 Pull request'ы в крупные open-source проекты — обновляется автоматически раз в день.
 
 <!-- EXTERNAL_PRS:START -->
-**39.1k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
+**39.2k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
 **32.4k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
 **29.5k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
+**28.9k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
 **27.4k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21.2k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
@@ -137,14 +138,13 @@ Pull request'ы в крупные open-source проекты — обновля�
 **14.7k** ⭐ [Effect-TS/effect](https://github.com/Effect-TS/effect) — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285)<br>
 **14.6k** ⭐ [vuejs/pinia](https://github.com/vuejs/pinia) — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132)<br>
 **13.5k** ⭐ [mholt/PapaParse](https://github.com/mholt/PapaParse) — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124)<br>
+**11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835)<br>
 **11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764)<br>
 **10.3k** ⭐ [Turfjs/turf](https://github.com/Turfjs/turf) — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078)<br>
 **10.2k** ⭐ [pmndrs/valtio](https://github.com/pmndrs/valtio) — [fix(utils): prevent watch context leak across async callbac…](https://github.com/pmndrs/valtio/pull/1229)<br>
-**8.7k** ⭐ [open-circle/valibot](https://github.com/open-circle/valibot) — [fix: cache word-count segmenter for non-primitive locales](https://github.com/open-circle/valibot/pull/1521)<br>
-**7.4k** ⭐ [nanostores/nanostores](https://github.com/nanostores/nanostores) — [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404)<br>
-**6.7k** ⭐ [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) — [fix: avoid calling property default factory twice in Value.…](https://github.com/sinclairzx81/typebox/pull/1612)<br>… [and 4 more with 5k+ stars →](external-prs.md)<br>
+**8.7k** ⭐ [open-circle/valibot](https://github.com/open-circle/valibot) — [fix: cache word-count segmenter for non-primitive locales](https://github.com/open-circle/valibot/pull/1521)<br>… [and 6 more with 5k+ stars →](external-prs.md)<br>
 
-**24 merged pull requests** to external projects with 5k+ stars · [full list of all 36](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**26 merged pull requests** to external projects with 5k+ stars · [full list of all 38](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### Работа со мной
