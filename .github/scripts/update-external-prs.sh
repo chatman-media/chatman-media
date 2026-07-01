@@ -72,10 +72,10 @@ list=$(echo "$filtered" | jq -r --argjson stars "$stars" --argjson limit "$LIMIT
   "**\($stars[.repository.nameWithOwner] // 0 | fmt_stars)** ⭐ [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) — [\(.title | gsub("`"; "") | trunc($tmax))](\(.url))<br>"
 ')
 
-# Хвост: «… ещё N» со ссылкой на полный файл, если PR больше лимита
+# Хвост: «… ещё N» без ссылки (ссылка на полный файл только одна, в сводке ниже)
 tail_line=""
 if [ "$total" -gt "$LIMIT" ]; then
-  tail_line="… [and $((total - LIMIT)) more with ${STARS_LABEL} stars →]($LIST_FILE)<br>"
+  tail_line="… and $((total - LIMIT)) more with ${STARS_LABEL} stars, see below<br>"
 fi
 
 BLOCK="$list$tail_line
