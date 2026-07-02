@@ -39,6 +39,7 @@ Pull requests to major open-source projects — updated automatically every day.
 
 <!-- EXTERNAL_PRS:START -->
 **92k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
+**45.2k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
 **39.2k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
 **35.6k** ⭐ [solidjs/solid](https://github.com/solidjs/solid) — [fix(server): Show/Switch should ignore zero-arg function ch…](https://github.com/solidjs/solid/pull/2808)<br>
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
@@ -57,8 +58,7 @@ Pull requests to major open-source projects — updated automatically every day.
 **13.5k** ⭐ [mholt/PapaParse](https://github.com/mholt/PapaParse) — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124)<br>
 **11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835)<br>
 **11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764)<br>
-**10.3k** ⭐ [Turfjs/turf](https://github.com/Turfjs/turf) — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078)<br>
-… and 9 more · **29 merged pull requests** to external projects · [full list of all 41](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+[full list of all 42](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## Work with me
@@ -123,6 +123,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 
 <!-- EXTERNAL_PRS:START -->
 **92k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
+**45.2k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
 **39.2k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
 **35.6k** ⭐ [solidjs/solid](https://github.com/solidjs/solid) — [fix(server): Show/Switch should ignore zero-arg function ch…](https://github.com/solidjs/solid/pull/2808)<br>
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
@@ -141,8 +142,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 **13.5k** ⭐ [mholt/PapaParse](https://github.com/mholt/PapaParse) — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124)<br>
 **11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835)<br>
 **11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764)<br>
-**10.3k** ⭐ [Turfjs/turf](https://github.com/Turfjs/turf) — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078)<br>
-… and 9 more · **29 merged pull requests** to external projects · [full list of all 41](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+[full list of all 42](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### Работа со мной

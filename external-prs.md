@@ -5,6 +5,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jul 02, 2026 | [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) ⭐ 45.2k | [Fix LatLng.validate throwing on null instead of returning false](https://github.com/Leaflet/Leaflet/pull/10276) |
 | Jul 01, 2026 | [solidjs/solid](https://github.com/solidjs/solid) ⭐ 35.6k | [fix(server): Show/Switch should ignore zero-arg function children](https://github.com/solidjs/solid/pull/2808) |
 | Jul 01, 2026 | [toji/gl-matrix](https://github.com/toji/gl-matrix) ⭐ 5.6k | [Fix equals() returning true for vectors/values containing Infinity](https://github.com/toji/gl-matrix/pull/498) |
 | Jul 01, 2026 | [microsoft/playwright](https://github.com/microsoft/playwright) ⭐ 92k | [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557) |
@@ -47,4 +48,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2.6k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**41 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**42 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)

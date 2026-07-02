@@ -72,14 +72,8 @@ list=$(echo "$filtered" | jq -r --argjson stars "$stars" --argjson limit "$LIMIT
   "**\($stars[.repository.nameWithOwner] // 0 | fmt_stars)** ⭐ [\(.repository.nameWithOwner)](https://github.com/\(.repository.nameWithOwner)) — [\(.title | gsub("`"; "") | trunc($tmax))](\(.url))<br>"
 ')
 
-# Хвост: «… ещё N», сливается в одну строку со сводкой ниже (одна ссылка на полный файл, без упоминания порога звёзд)
-tail_line=""
-if [ "$total" -gt "$LIMIT" ]; then
-  tail_line="… and $((total - LIMIT)) more · "
-fi
-
 BLOCK="$list
-$tail_line**$total merged pull requests** to external projects · [full list of all $full_total]($LIST_FILE) · [on GitHub]($search_url)"
+[full list of all $full_total]($LIST_FILE) · [on GitHub]($search_url)"
 
 BLOCK="$BLOCK" awk '
   /<!-- EXTERNAL_PRS:START -->/ { print; print ENVIRON["BLOCK"]; skip = 1; next }
