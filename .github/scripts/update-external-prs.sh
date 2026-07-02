@@ -79,7 +79,7 @@ if [ "$total" -gt "$LIMIT" ]; then
 fi
 
 BLOCK="$list
-$tail_line**$full_total merged pull requests** to external projects · [full list]($LIST_FILE) · [on GitHub]($search_url)"
+$tail_line**$total merged pull requests** to external projects · [full list of all $full_total]($LIST_FILE) · [on GitHub]($search_url)"
 
 BLOCK="$BLOCK" awk '
   /<!-- EXTERNAL_PRS:START -->/ { print; print ENVIRON["BLOCK"]; skip = 1; next }

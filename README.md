@@ -58,7 +58,7 @@ Pull requests to major open-source projects — updated automatically every day.
 **11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835)<br>
 **11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764)<br>
 **10.3k** ⭐ [Turfjs/turf](https://github.com/Turfjs/turf) — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078)<br>
-… and 9 more · **41 merged pull requests** to external projects · [full list](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+… and 9 more · **29 merged pull requests** to external projects · [full list of all 41](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## Work with me
@@ -142,7 +142,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 **11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835)<br>
 **11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat): round/ceil/floor should return Infinity for in…](https://github.com/toss/es-toolkit/pull/1764)<br>
 **10.3k** ⭐ [Turfjs/turf](https://github.com/Turfjs/turf) — [@turf/line-arc: always reach bearing2 (fix dropped final ve…](https://github.com/Turfjs/turf/pull/3078)<br>
-… and 9 more · **41 merged pull requests** to external projects · [full list](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+… and 9 more · **29 merged pull requests** to external projects · [full list of all 41](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### Работа со мной
