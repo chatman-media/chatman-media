@@ -38,26 +38,18 @@
 Pull requests to major open-source projects — updated automatically every day.
 
 <!-- EXTERNAL_PRS:START -->
-**92.1k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
-**60.6k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
-**45.2k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
-**39.3k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
-**35.6k** ⭐ [solidjs/solid](https://github.com/solidjs/solid) — [fix(server): Show/Switch should ignore zero-arg function ch…](https://github.com/solidjs/solid/pull/2808)<br>
+**92k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
+**60k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
+**45k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
+**39k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
+**35k** ⭐ [solidjs/solid](https://github.com/solidjs/solid) — [fix(server): Show/Switch should ignore zero-arg function ch…](https://github.com/solidjs/solid/pull/2808)<br>
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
-**32.4k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
-**29.5k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
-**28.9k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
-**27.4k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
+**32k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
+**29k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
+**28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
+**27k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
-**21.2k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
-**18.6k** ⭐ [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) — [Fix noEscape numeric values being added instead of concaten…](https://github.com/handlebars-lang/handlebars.js/pull/2167)<br>
-**17.2k** ⭐ [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) — [LastArrayElement: Fix handling of tuples with optional elem…](https://github.com/sindresorhus/type-fest/pull/1461)<br>
-**15.3k** ⭐ [faker-js/faker](https://github.com/faker-js/faker) — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888)<br>
-**14.9k** ⭐ [sindresorhus/got](https://github.com/sindresorhus/got) — [Fix searchParams setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454)<br>
-**14.7k** ⭐ [Effect-TS/effect](https://github.com/Effect-TS/effect) — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285)<br>
-**14.6k** ⭐ [vuejs/pinia](https://github.com/vuejs/pinia) — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132)<br>
-**13.5k** ⭐ [mholt/PapaParse](https://github.com/mholt/PapaParse) — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124)<br>
-**11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835)<br>
+**21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
 [full list of all 44](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
@@ -122,26 +114,18 @@ Pull requests to major open-source projects — updated automatically every day.
 Pull request'ы в крупные open-source проекты — обновляется автоматически раз в день.
 
 <!-- EXTERNAL_PRS:START -->
-**92.1k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
-**60.6k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
-**45.2k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
-**39.3k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
-**35.6k** ⭐ [solidjs/solid](https://github.com/solidjs/solid) — [fix(server): Show/Switch should ignore zero-arg function ch…](https://github.com/solidjs/solid/pull/2808)<br>
+**92k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
+**60k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
+**45k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
+**39k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
+**35k** ⭐ [solidjs/solid](https://github.com/solidjs/solid) — [fix(server): Show/Switch should ignore zero-arg function ch…](https://github.com/solidjs/solid/pull/2808)<br>
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
-**32.4k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
-**29.5k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
-**28.9k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
-**27.4k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
+**32k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
+**29k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
+**28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
+**27k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
-**21.2k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
-**18.6k** ⭐ [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) — [Fix noEscape numeric values being added instead of concaten…](https://github.com/handlebars-lang/handlebars.js/pull/2167)<br>
-**17.2k** ⭐ [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) — [LastArrayElement: Fix handling of tuples with optional elem…](https://github.com/sindresorhus/type-fest/pull/1461)<br>
-**15.3k** ⭐ [faker-js/faker](https://github.com/faker-js/faker) — [fix(locale): exclude forbidden letter combinations from nl…](https://github.com/faker-js/faker/pull/3888)<br>
-**14.9k** ⭐ [sindresorhus/got](https://github.com/sindresorhus/got) — [Fix searchParams setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454)<br>
-**14.7k** ⭐ [Effect-TS/effect](https://github.com/Effect-TS/effect) — [fix(Cron): do not skip earlier days when the upcoming day i…](https://github.com/Effect-TS/effect/pull/6285)<br>
-**14.6k** ⭐ [vuejs/pinia](https://github.com/vuejs/pinia) — [fix(hmr): preserve runtime-added properties of setup store…](https://github.com/vuejs/pinia/pull/3132)<br>
-**13.5k** ⭐ [mholt/PapaParse](https://github.com/mholt/PapaParse) — [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124)<br>
-**11.1k** ⭐ [toss/es-toolkit](https://github.com/toss/es-toolkit) — [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835)<br>
+**21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
 [full list of all 44](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 

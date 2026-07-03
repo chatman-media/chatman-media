@@ -7,7 +7,7 @@ set -euo pipefail
 USER="chatman-media"
 README="${1:-README.md}"
 LIST_FILE="${LIST_FILE:-external-prs.md}"      # файл с полным списком всех PR
-README_MIN_STARS="${README_MIN_STARS:-5000}"   # README-сводка: только репозитории с таким числом звёзд и больше
+README_MIN_STARS="${README_MIN_STARS:-20000}"  # README-сводка: только репозитории с таким числом звёзд и больше
 FULL_MIN_STARS="${FULL_MIN_STARS:-0}"          # полный список (external-prs.md): ВСЕ принятые PR, без порога
 LIMIT="${LIMIT:-20}"             # README: топ-20 (новые сверху); всё сверх — только в полном файле external-prs.md
 TITLE_MAX="${TITLE_MAX:-60}"     # макс. длина заголовка PR в README (длиннее — обрезается с …)
@@ -51,7 +51,7 @@ search_url="https://github.com/search?q=is%3Apr+author%3A$USER+-user%3A$USER+is%
 
 # Общие jq-определения: звёзды, относительная дата, обрезка заголовка
 JQ_DEFS='
-  def fmt_stars: if . >= 1000 then ((. / 100 | floor) / 10 | tostring) + "k" else tostring end;
+  def fmt_stars: if . >= 1000 then ((. / 1000 | floor | tostring) + "k") else tostring end;
   def fmt_date: fromdateiso8601 | strftime("%b %d, %Y");
   def trunc($n): if (. | length) > $n then (.[:$n-1] | sub(" +$"; "")) + "…" else . end;
   def esc: gsub("\\|"; "\\|");
