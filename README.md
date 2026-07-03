@@ -38,6 +38,8 @@
 Pull requests to major open-source projects — updated automatically every day.
 
 <!-- EXTERNAL_PRS:START -->
+**107k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
+**95k** ⭐ [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197)<br>
 **92k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
 **60k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
 **45k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
@@ -47,10 +49,11 @@ Pull requests to major open-source projects — updated automatically every day.
 **32k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
 **29k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
 **28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
+**28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
 **27k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
-[full list of all 44](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+[full list of all 48](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## Work with me
@@ -114,6 +117,8 @@ Pull requests to major open-source projects — updated automatically every day.
 Pull request'ы в крупные open-source проекты — обновляется автоматически раз в день.
 
 <!-- EXTERNAL_PRS:START -->
+**107k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
+**95k** ⭐ [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197)<br>
 **92k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
 **60k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
 **45k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
@@ -123,10 +128,11 @@ Pull request'ы в крупные open-source проекты — обновля�
 **32k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
 **29k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
 **28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
+**28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
 **27k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
-[full list of all 44](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+[full list of all 48](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### Работа со мной

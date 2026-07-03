@@ -5,6 +5,10 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jul 03, 2026 | [immerjs/immer](https://github.com/immerjs/immer) ⭐ 28k | [fix: undefined assigned to a prototype-inherited key gets dropped](https://github.com/immerjs/immer/pull/1262) |
+| Jul 03, 2026 | [denoland/deno](https://github.com/denoland/deno) ⭐ 107k | [fix(permissions): split comma-separated paths in --ignore-read](https://github.com/denoland/deno/pull/35661) |
+| Jul 03, 2026 | [bytesize-rs/bytesize](https://github.com/bytesize-rs/bytesize) ⭐ 158 | [fix: ideal_unit_std picks the wrong unit near power-of-unit boundaries](https://github.com/bytesize-rs/bytesize/pull/175) |
+| Jul 03, 2026 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) ⭐ 95k | [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197) |
 | Jul 03, 2026 | [pest-parser/pest](https://github.com/pest-parser/pest) ⭐ 5k | [Reject unescaped quote inside char literal in meta grammar](https://github.com/pest-parser/pest/pull/1175) |
 | Jul 02, 2026 | [withastro/astro](https://github.com/withastro/astro) ⭐ 60k | [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247) |
 | Jul 02, 2026 | [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) ⭐ 45k | [Fix LatLng.validate throwing on null instead of returning false](https://github.com/Leaflet/Leaflet/pull/10276) |
@@ -50,4 +54,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**44 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**48 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
