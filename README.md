@@ -53,7 +53,8 @@ Pull requests to major open-source projects — updated automatically every day.
 **27k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
-[full list of all 48](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**20k** ⭐ [krisk/Fuse](https://github.com/krisk/Fuse) — [fix(fieldNorm): count tabs and newlines as word separators](https://github.com/krisk/Fuse/pull/836)<br>
+[full list of all 49](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## Work with me
@@ -132,7 +133,8 @@ Pull request'ы в крупные open-source проекты — обновля�
 **27k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
-[full list of all 48](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**20k** ⭐ [krisk/Fuse](https://github.com/krisk/Fuse) — [fix(fieldNorm): count tabs and newlines as word separators](https://github.com/krisk/Fuse/pull/836)<br>
+[full list of all 49](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### Работа со мной

@@ -5,6 +5,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jul 03, 2026 | [krisk/Fuse](https://github.com/krisk/Fuse) ⭐ 20k | [fix(fieldNorm): count tabs and newlines as word separators](https://github.com/krisk/Fuse/pull/836) |
 | Jul 03, 2026 | [immerjs/immer](https://github.com/immerjs/immer) ⭐ 28k | [fix: undefined assigned to a prototype-inherited key gets dropped](https://github.com/immerjs/immer/pull/1262) |
 | Jul 03, 2026 | [denoland/deno](https://github.com/denoland/deno) ⭐ 107k | [fix(permissions): split comma-separated paths in --ignore-read](https://github.com/denoland/deno/pull/35661) |
 | Jul 03, 2026 | [bytesize-rs/bytesize](https://github.com/bytesize-rs/bytesize) ⭐ 158 | [fix: ideal_unit_std picks the wrong unit near power-of-unit boundaries](https://github.com/bytesize-rs/bytesize/pull/175) |
@@ -54,4 +55,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**48 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**49 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
