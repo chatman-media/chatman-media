@@ -5,11 +5,12 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jul 05, 2026 | [MikeMcl/bignumber.js](https://github.com/MikeMcl/bignumber.js) ⭐ 7k | [Fix toFraction returning a sub-optimal rational approximation](https://github.com/MikeMcl/bignumber.js/pull/409) |
 | Jul 04, 2026 | [raineorshine/npm-check-updates](https://github.com/raineorshine/npm-check-updates) ⭐ 10k | [Fix major/minor/patch grouping when a range operator changes](https://github.com/raineorshine/npm-check-updates/pull/1907) |
 | Jul 03, 2026 | [krisk/Fuse](https://github.com/krisk/Fuse) ⭐ 20k | [fix(fieldNorm): count tabs and newlines as word separators](https://github.com/krisk/Fuse/pull/836) |
 | Jul 03, 2026 | [immerjs/immer](https://github.com/immerjs/immer) ⭐ 28k | [fix: undefined assigned to a prototype-inherited key gets dropped](https://github.com/immerjs/immer/pull/1262) |
 | Jul 03, 2026 | [denoland/deno](https://github.com/denoland/deno) ⭐ 107k | [fix(permissions): split comma-separated paths in --ignore-read](https://github.com/denoland/deno/pull/35661) |
-| Jul 03, 2026 | [bytesize-rs/bytesize](https://github.com/bytesize-rs/bytesize) ⭐ 159 | [fix: ideal_unit_std picks the wrong unit near power-of-unit boundaries](https://github.com/bytesize-rs/bytesize/pull/175) |
+| Jul 03, 2026 | [bytesize-rs/bytesize](https://github.com/bytesize-rs/bytesize) ⭐ 160 | [fix: ideal_unit_std picks the wrong unit near power-of-unit boundaries](https://github.com/bytesize-rs/bytesize/pull/175) |
 | Jul 03, 2026 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) ⭐ 95k | [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197) |
 | Jul 03, 2026 | [pest-parser/pest](https://github.com/pest-parser/pest) ⭐ 5k | [Reject unescaped quote inside char literal in meta grammar](https://github.com/pest-parser/pest/pull/1175) |
 | Jul 02, 2026 | [withastro/astro](https://github.com/withastro/astro) ⭐ 60k | [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247) |
@@ -52,8 +53,8 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Aug 03, 2017 | [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1k | [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) |
 | Dec 31, 2014 | [sugar-framework/sugar](https://github.com/sugar-framework/sugar) ⭐ 433 | [Fix link to weber website](https://github.com/sugar-framework/sugar/pull/59) |
 | Jun 15, 2014 | [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2k | [fix typos](https://github.com/wardencommunity/warden/pull/92) |
-| May 10, 2014 | [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 243 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) |
+| May 10, 2014 | [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 244 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) |
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**50 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**51 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
