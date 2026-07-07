@@ -5,6 +5,9 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jul 07, 2026 | [reduxjs/redux-toolkit](https://github.com/reduxjs/redux-toolkit) ⭐ 11k | [fix: don't swallow `createAsyncThunk` aborts that happen before pending](https://github.com/reduxjs/redux-toolkit/pull/5314) |
+| Jul 07, 2026 | [avoidwork/filesize.js](https://github.com/avoidwork/filesize.js) ⭐ 1k | [fix: clamp negative forced exponent instead of returning NaN](https://github.com/avoidwork/filesize.js/pull/304) |
+| Jul 07, 2026 | [chaijs/chai](https://github.com/chaijs/chai) ⭐ 8k | [fix: not.deep.oneOf failure message is missing the not](https://github.com/chaijs/chai/pull/1822) |
 | Jul 06, 2026 | [sindresorhus/ky](https://github.com/sindresorhus/ky) ⭐ 16k | [Fix `extend()` dropping numeric `retry` limit when merging with an object](https://github.com/sindresorhus/ky/pull/867) |
 | Jul 05, 2026 | [MikeMcl/bignumber.js](https://github.com/MikeMcl/bignumber.js) ⭐ 7k | [Fix toFraction returning a sub-optimal rational approximation](https://github.com/MikeMcl/bignumber.js/pull/409) |
 | Jul 04, 2026 | [raineorshine/npm-check-updates](https://github.com/raineorshine/npm-check-updates) ⭐ 10k | [Fix major/minor/patch grouping when a range operator changes](https://github.com/raineorshine/npm-check-updates/pull/1907) |
@@ -58,4 +61,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**52 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**55 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
