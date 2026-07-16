@@ -48,8 +48,8 @@ Pull requests to major open-source projects — updated automatically every day.
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
 **32k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
 **29k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
-**28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
+**28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
 **27k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
@@ -128,8 +128,8 @@ Pull request'ы в крупные open-source проекты — обновля�
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
 **32k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
 **29k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
-**28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
+**28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
 **27k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
