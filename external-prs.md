@@ -5,6 +5,8 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jul 16, 2026 | [konvajs/konva](https://github.com/konvajs/konva) ⭐ 14k | [fix: Arc.getSelfRect() reports a full circle for angle: 0, clockwise: true](https://github.com/konvajs/konva/pull/2054) |
+| Jul 16, 2026 | [immerjs/immer](https://github.com/immerjs/immer) ⭐ 28k | [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249) |
 | Jul 07, 2026 | [reduxjs/redux-toolkit](https://github.com/reduxjs/redux-toolkit) ⭐ 11k | [fix: don't swallow `createAsyncThunk` aborts that happen before pending](https://github.com/reduxjs/redux-toolkit/pull/5314) |
 | Jul 07, 2026 | [avoidwork/filesize.js](https://github.com/avoidwork/filesize.js) ⭐ 1k | [fix: clamp negative forced exponent instead of returning NaN](https://github.com/avoidwork/filesize.js/pull/304) |
 | Jul 07, 2026 | [chaijs/chai](https://github.com/chaijs/chai) ⭐ 8k | [fix: not.deep.oneOf failure message is missing the not](https://github.com/chaijs/chai/pull/1822) |
@@ -61,4 +63,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**55 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**57 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
