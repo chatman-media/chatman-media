@@ -5,6 +5,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Jul 17, 2026 | [sveltejs/devalue](https://github.com/sveltejs/devalue) ⭐ 2k | [fix: preserve shared-reference identity for Map keys in uneval](https://github.com/sveltejs/devalue/pull/164) |
 | Jul 16, 2026 | [konvajs/konva](https://github.com/konvajs/konva) ⭐ 14k | [fix: Arc.getSelfRect() reports a full circle for angle: 0, clockwise: true](https://github.com/konvajs/konva/pull/2054) |
 | Jul 16, 2026 | [immerjs/immer](https://github.com/immerjs/immer) ⭐ 28k | [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249) |
 | Jul 07, 2026 | [reduxjs/redux-toolkit](https://github.com/reduxjs/redux-toolkit) ⭐ 11k | [fix: don't swallow `createAsyncThunk` aborts that happen before pending](https://github.com/reduxjs/redux-toolkit/pull/5314) |
@@ -23,7 +24,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jul 02, 2026 | [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) ⭐ 45k | [Fix LatLng.validate throwing on null instead of returning false](https://github.com/Leaflet/Leaflet/pull/10276) |
 | Jul 01, 2026 | [solidjs/solid](https://github.com/solidjs/solid) ⭐ 35k | [fix(server): Show/Switch should ignore zero-arg function children](https://github.com/solidjs/solid/pull/2808) |
 | Jul 01, 2026 | [toji/gl-matrix](https://github.com/toji/gl-matrix) ⭐ 5k | [Fix equals() returning true for vectors/values containing Infinity](https://github.com/toji/gl-matrix/pull/498) |
-| Jul 01, 2026 | [microsoft/playwright](https://github.com/microsoft/playwright) ⭐ 92k | [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557) |
+| Jul 01, 2026 | [microsoft/playwright](https://github.com/microsoft/playwright) ⭐ 93k | [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557) |
 | Jul 01, 2026 | [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11k | [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835) |
 | Jun 30, 2026 | [postcss/postcss](https://github.com/postcss/postcss) ⭐ 28k | [Fix `Input#origin()` mixing null and undefined for unmapped end position](https://github.com/postcss/postcss/pull/2106) |
 | Jun 30, 2026 | [hustcc/timeago.js](https://github.com/hustcc/timeago.js) ⭐ 5k | [fix(toDate): handle negative timezone offsets](https://github.com/hustcc/timeago.js/pull/284) |
@@ -63,4 +64,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**57 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**58 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
