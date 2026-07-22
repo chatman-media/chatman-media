@@ -34,7 +34,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jun 28, 2026 | [ramda/ramda](https://github.com/ramda/ramda) ⭐ 24k | [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533) |
 | Jun 25, 2026 | [lovell/sharp](https://github.com/lovell/sharp) ⭐ 32k | [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560) |
 | Jun 25, 2026 | [Turfjs/turf](https://github.com/Turfjs/turf) ⭐ 10k | [@turf/line-arc: always reach bearing2 (fix dropped final vertex)](https://github.com/Turfjs/turf/pull/3078) |
-| Jun 25, 2026 | [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) ⭐ 39k | [fix(command-safety): make python -m arity entries reachable in classify_command](https://github.com/Hmbown/CodeWhale/pull/3588) |
+| Jun 25, 2026 | [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) ⭐ 40k | [fix(command-safety): make python -m arity entries reachable in classify_command](https://github.com/Hmbown/CodeWhale/pull/3588) |
 | Jun 24, 2026 | [handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js) ⭐ 18k | [Fix noEscape numeric values being added instead of concatenated](https://github.com/handlebars-lang/handlebars.js/pull/2167) |
 | Jun 24, 2026 | [nanostores/nanostores](https://github.com/nanostores/nanostores) ⭐ 7k | [Fix getPath throwing on null intermediate values](https://github.com/nanostores/nanostores/pull/404) |
 | Jun 23, 2026 | [Automattic/mongoose](https://github.com/Automattic/mongoose) ⭐ 27k | [fix(types): correct `Model.validate()` return type to `Promise<TRawDocType>`](https://github.com/Automattic/mongoose/pull/16340) |
