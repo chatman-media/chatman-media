@@ -61,7 +61,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jul 28, 2018 | [nareshbhatia/react-learning-path](https://github.com/nareshbhatia/react-learning-path) ⭐ 18 | [fixed typo in Readme](https://github.com/nareshbhatia/react-learning-path/pull/1) |
 | Mar 19, 2018 | [alagiz/net-fortune](https://github.com/alagiz/net-fortune) ⭐ 1 | [Very important feature](https://github.com/alagiz/net-fortune/pull/4) |
 | Aug 03, 2017 | [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1k | [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) |
-| Dec 31, 2014 | [sugar-framework/sugar](https://github.com/sugar-framework/sugar) ⭐ 433 | [Fix link to weber website](https://github.com/sugar-framework/sugar/pull/59) |
+| Dec 31, 2014 | [sugar-framework/sugar](https://github.com/sugar-framework/sugar) ⭐ 431 | [Fix link to weber website](https://github.com/sugar-framework/sugar/pull/59) |
 | Jun 15, 2014 | [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2k | [fix typos](https://github.com/wardencommunity/warden/pull/92) |
 | May 10, 2014 | [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 244 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) |
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
