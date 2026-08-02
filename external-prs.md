@@ -5,6 +5,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Aug 02, 2026 | [dagrejs/graphlib](https://github.com/dagrejs/graphlib) ⭐ 1k | [Fix findCycles missing self-loops created with named edges](https://github.com/dagrejs/graphlib/pull/235) |
 | Jul 23, 2026 | [getzola/zola](https://github.com/getzola/zola) ⭐ 17k | [Expose page aliases to templates](https://github.com/getzola/zola/pull/3177) |
 | Jul 20, 2026 | [tokio-rs/tokio](https://github.com/tokio-rs/tokio) ⭐ 32k | [time: fix alt timer leaking cancelled entries into the wheel](https://github.com/tokio-rs/tokio/pull/8252) |
 | Jul 19, 2026 | [edmundhung/conform](https://github.com/edmundhung/conform) ⭐ 2k | [fix(zod): support z.readonly() in coerceFormValue and getZodConstraint](https://github.com/edmundhung/conform/pull/1239) |
@@ -67,4 +68,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**61 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**62 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
