@@ -38,7 +38,7 @@
 Pull requests to major open-source projects — updated automatically every day.
 
 <!-- EXTERNAL_PRS:START -->
-**107k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
+**108k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
 **95k** ⭐ [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197)<br>
 **93k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
 **61k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
@@ -120,7 +120,7 @@ Pull requests to major open-source projects — updated automatically every day.
 Pull request'ы в крупные open-source проекты — обновляется автоматически раз в день.
 
 <!-- EXTERNAL_PRS:START -->
-**107k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
+**108k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
 **95k** ⭐ [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197)<br>
 **93k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
 **61k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
