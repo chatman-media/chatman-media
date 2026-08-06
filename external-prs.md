@@ -5,6 +5,8 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Aug 05, 2026 | [moment/luxon](https://github.com/moment/luxon) ⭐ 16k | [Fix lost negative sign in Duration#toFormat when largest unit is zero (signMode negativeLargestOnly)](https://github.com/moment/luxon/pull/1786) |
+| Aug 05, 2026 | [moment/luxon](https://github.com/moment/luxon) ⭐ 16k | [Fix FixedOffsetZone reporting isValid=true for unsupported inputs](https://github.com/moment/luxon/pull/1781) |
 | Aug 04, 2026 | [pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp) ⭐ 8k | [Fix stringify of param names with control characters](https://github.com/pillarjs/path-to-regexp/pull/445) |
 | Aug 02, 2026 | [dagrejs/graphlib](https://github.com/dagrejs/graphlib) ⭐ 1k | [Fix findCycles missing self-loops created with named edges](https://github.com/dagrejs/graphlib/pull/235) |
 | Jul 23, 2026 | [getzola/zola](https://github.com/getzola/zola) ⭐ 17k | [Expose page aliases to templates](https://github.com/getzola/zola/pull/3177) |
@@ -29,7 +31,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jul 02, 2026 | [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) ⭐ 45k | [Fix LatLng.validate throwing on null instead of returning false](https://github.com/Leaflet/Leaflet/pull/10276) |
 | Jul 01, 2026 | [solidjs/solid](https://github.com/solidjs/solid) ⭐ 35k | [fix(server): Show/Switch should ignore zero-arg function children](https://github.com/solidjs/solid/pull/2808) |
 | Jul 01, 2026 | [toji/gl-matrix](https://github.com/toji/gl-matrix) ⭐ 5k | [Fix equals() returning true for vectors/values containing Infinity](https://github.com/toji/gl-matrix/pull/498) |
-| Jul 01, 2026 | [microsoft/playwright](https://github.com/microsoft/playwright) ⭐ 93k | [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557) |
+| Jul 01, 2026 | [microsoft/playwright](https://github.com/microsoft/playwright) ⭐ 94k | [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557) |
 | Jul 01, 2026 | [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11k | [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835) |
 | Jun 30, 2026 | [postcss/postcss](https://github.com/postcss/postcss) ⭐ 28k | [Fix `Input#origin()` mixing null and undefined for unmapped end position](https://github.com/postcss/postcss/pull/2106) |
 | Jun 30, 2026 | [hustcc/timeago.js](https://github.com/hustcc/timeago.js) ⭐ 5k | [fix(toDate): handle negative timezone offsets](https://github.com/hustcc/timeago.js/pull/284) |
@@ -69,4 +71,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**63 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**65 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
