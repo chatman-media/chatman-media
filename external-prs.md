@@ -53,7 +53,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jun 19, 2026 | [npm/node-semver](https://github.com/npm/node-semver) ⭐ 5k | [fix: include prereleases in tilde range lower bound with includePrerelease](https://github.com/npm/node-semver/pull/878) |
 | Jun 19, 2026 | [mholt/PapaParse](https://github.com/mholt/PapaParse) ⭐ 13k | [fix: correctly escape and quote custom quoteChar in unparse](https://github.com/mholt/PapaParse/pull/1124) |
 | Jun 19, 2026 | [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14k | [fix(hmr): preserve runtime-added properties of setup store refs](https://github.com/vuejs/pinia/pull/3132) |
-| Jun 18, 2026 | [flightcontrolhq/superjson](https://github.com/flightcontrolhq/superjson) ⭐ 5k | [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/flightcontrolhq/superjson/pull/353) |
+| Jun 18, 2026 | [ravionhq/superjson](https://github.com/ravionhq/superjson) ⭐ 5k | [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/ravionhq/superjson/pull/353) |
 | Jun 15, 2026 | [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4k | [fix: correctly handle even numbers of backslashes before closing string quote](https://github.com/jeffijoe/awilix/pull/427) |
 | Jun 13, 2026 | [emilk/egui](https://github.com/emilk/egui) ⭐ 29k | [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) |
 | Jun 11, 2026 | [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11k | [fix(compat): round/ceil/floor should return Infinity for infinite values with precision](https://github.com/toss/es-toolkit/pull/1764) |
