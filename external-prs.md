@@ -5,6 +5,8 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Aug 08, 2026 | [evanw/esbuild](https://github.com/evanw/esbuild) ⭐ 40k | [css: fix green/blue channel swap in oklch gamut mapping](https://github.com/evanw/esbuild/pull/4488) |
+| Aug 08, 2026 | [dcastil/tailwind-merge](https://github.com/dcastil/tailwind-merge) ⭐ 5k | [fix: keep leading-none when leading theme scale is overridden](https://github.com/dcastil/tailwind-merge/pull/689) |
 | Aug 05, 2026 | [moment/luxon](https://github.com/moment/luxon) ⭐ 16k | [Fix lost negative sign in Duration#toFormat when largest unit is zero (signMode negativeLargestOnly)](https://github.com/moment/luxon/pull/1786) |
 | Aug 05, 2026 | [moment/luxon](https://github.com/moment/luxon) ⭐ 16k | [Fix FixedOffsetZone reporting isValid=true for unsupported inputs](https://github.com/moment/luxon/pull/1781) |
 | Aug 04, 2026 | [pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp) ⭐ 8k | [Fix stringify of param names with control characters](https://github.com/pillarjs/path-to-regexp/pull/445) |
@@ -55,7 +57,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jun 19, 2026 | [vuejs/pinia](https://github.com/vuejs/pinia) ⭐ 14k | [fix(hmr): preserve runtime-added properties of setup store refs](https://github.com/vuejs/pinia/pull/3132) |
 | Jun 18, 2026 | [ravionhq/superjson](https://github.com/ravionhq/superjson) ⭐ 5k | [fix: support BigInt64Array and BigUint64Array serialization](https://github.com/ravionhq/superjson/pull/353) |
 | Jun 15, 2026 | [jeffijoe/awilix](https://github.com/jeffijoe/awilix) ⭐ 4k | [fix: correctly handle even numbers of backslashes before closing string quote](https://github.com/jeffijoe/awilix/pull/427) |
-| Jun 13, 2026 | [emilk/egui](https://github.com/emilk/egui) ⭐ 29k | [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) |
+| Jun 13, 2026 | [emilk/egui](https://github.com/emilk/egui) ⭐ 30k | [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233) |
 | Jun 11, 2026 | [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11k | [fix(compat): round/ceil/floor should return Infinity for infinite values with precision](https://github.com/toss/es-toolkit/pull/1764) |
 | Jun 11, 2026 | [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21k | [fix(vanilla/utils/atomWithStorage): apply reviver when parsing subscription updates](https://github.com/pmndrs/jotai/pull/3326) |
 | Jun 11, 2026 | [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10k | [fix(utils): prevent watch context leak across async callbacks](https://github.com/pmndrs/valtio/pull/1229) |
@@ -71,4 +73,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**65 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**67 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)

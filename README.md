@@ -44,11 +44,12 @@ Pull requests to major open-source projects — updated automatically every day.
 **61k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
 **45k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
 **40k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
+**40k** ⭐ [evanw/esbuild](https://github.com/evanw/esbuild) — [css: fix green/blue channel swap in oklch gamut mapping](https://github.com/evanw/esbuild/pull/4488)<br>
 **35k** ⭐ [solidjs/solid](https://github.com/solidjs/solid) — [fix(server): Show/Switch should ignore zero-arg function ch…](https://github.com/solidjs/solid/pull/2808)<br>
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
 **32k** ⭐ [tokio-rs/tokio](https://github.com/tokio-rs/tokio) — [time: fix alt timer leaking cancelled entries into the wheel](https://github.com/tokio-rs/tokio/pull/8252)<br>
 **32k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
-**29k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
+**30k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
 **28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
@@ -56,7 +57,7 @@ Pull requests to major open-source projects — updated automatically every day.
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
 **20k** ⭐ [krisk/Fuse](https://github.com/krisk/Fuse) — [fix(fieldNorm): count tabs and newlines as word separators](https://github.com/krisk/Fuse/pull/836)<br>
-[full list of all 65](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+[full list of all 67](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## Work with me
@@ -126,11 +127,12 @@ Pull request'ы в крупные open-source проекты — обновля�
 **61k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
 **45k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
 **40k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
+**40k** ⭐ [evanw/esbuild](https://github.com/evanw/esbuild) — [css: fix green/blue channel swap in oklch gamut mapping](https://github.com/evanw/esbuild/pull/4488)<br>
 **35k** ⭐ [solidjs/solid](https://github.com/solidjs/solid) — [fix(server): Show/Switch should ignore zero-arg function ch…](https://github.com/solidjs/solid/pull/2808)<br>
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
 **32k** ⭐ [tokio-rs/tokio](https://github.com/tokio-rs/tokio) — [time: fix alt timer leaking cancelled entries into the wheel](https://github.com/tokio-rs/tokio/pull/8252)<br>
 **32k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
-**29k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
+**30k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
 **28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
@@ -138,7 +140,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
 **20k** ⭐ [krisk/Fuse](https://github.com/krisk/Fuse) — [fix(fieldNorm): count tabs and newlines as word separators](https://github.com/krisk/Fuse/pull/836)<br>
-[full list of all 65](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+[full list of all 67](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### Работа со мной
