@@ -42,6 +42,7 @@ Pull requests to major open-source projects — updated automatically every day.
 **95k** ⭐ [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197)<br>
 **94k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
 **61k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
+**50k** ⭐ [TanStack/query](https://github.com/TanStack/query) — [fix(query-core): reset isPlaceholderData when select throws…](https://github.com/TanStack/query/pull/11011)<br>
 **45k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
 **40k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
 **40k** ⭐ [evanw/esbuild](https://github.com/evanw/esbuild) — [css: fix green/blue channel swap in oklch gamut mapping](https://github.com/evanw/esbuild/pull/4488)<br>
@@ -57,7 +58,7 @@ Pull requests to major open-source projects — updated automatically every day.
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
 **20k** ⭐ [krisk/Fuse](https://github.com/krisk/Fuse) — [fix(fieldNorm): count tabs and newlines as word separators](https://github.com/krisk/Fuse/pull/836)<br>
-[full list of all 68](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+[full list of all 69](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## Work with me
@@ -125,6 +126,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 **95k** ⭐ [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197)<br>
 **94k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
 **61k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
+**50k** ⭐ [TanStack/query](https://github.com/TanStack/query) — [fix(query-core): reset isPlaceholderData when select throws…](https://github.com/TanStack/query/pull/11011)<br>
 **45k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
 **40k** ⭐ [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/CodeWhale/pull/3588)<br>
 **40k** ⭐ [evanw/esbuild](https://github.com/evanw/esbuild) — [css: fix green/blue channel swap in oklch gamut mapping](https://github.com/evanw/esbuild/pull/4488)<br>
@@ -140,7 +142,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
 **20k** ⭐ [krisk/Fuse](https://github.com/krisk/Fuse) — [fix(fieldNorm): count tabs and newlines as word separators](https://github.com/krisk/Fuse/pull/836)<br>
-[full list of all 68](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+[full list of all 69](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### Работа со мной
