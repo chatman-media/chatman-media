@@ -5,6 +5,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Aug 19, 2026 | [mobxjs/mobx](https://github.com/mobxjs/mobx) ⭐ 28k | [fix: ObservableSet.replace only emits events for actual changes](https://github.com/mobxjs/mobx/pull/4672) |
 | Aug 18, 2026 | [TanStack/query](https://github.com/TanStack/query) ⭐ 50k | [fix(query-core): reset isPlaceholderData when select throws on placeholder data](https://github.com/TanStack/query/pull/11011) |
 | Aug 10, 2026 | [changesets/changesets](https://github.com/changesets/changesets) ⭐ 12k | [Do not bump ignored independent packages when exiting pre mode](https://github.com/changesets/changesets/pull/2092) |
 | Aug 08, 2026 | [evanw/esbuild](https://github.com/evanw/esbuild) ⭐ 40k | [css: fix green/blue channel swap in oklch gamut mapping](https://github.com/evanw/esbuild/pull/4488) |
@@ -75,4 +76,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**69 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**70 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)

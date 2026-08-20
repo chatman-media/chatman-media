@@ -54,11 +54,11 @@ Pull requests to major open-source projects — updated automatically every day.
 **28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
+**28k** ⭐ [mobxjs/mobx](https://github.com/mobxjs/mobx) — [fix: ObservableSet.replace only emits events for actual cha…](https://github.com/mobxjs/mobx/pull/4672)<br>
 **27k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
-**20k** ⭐ [krisk/Fuse](https://github.com/krisk/Fuse) — [fix(fieldNorm): count tabs and newlines as word separators](https://github.com/krisk/Fuse/pull/836)<br>
-[full list of all 69](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+[full list of all 70](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ## Work with me
@@ -138,11 +138,11 @@ Pull request'ы в крупные open-source проекты — обновля�
 **28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
+**28k** ⭐ [mobxjs/mobx](https://github.com/mobxjs/mobx) — [fix: ObservableSet.replace only emits events for actual cha…](https://github.com/mobxjs/mobx/pull/4672)<br>
 **27k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
 **24k** ⭐ [ramda/ramda](https://github.com/ramda/ramda) — [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533)<br>
 **21k** ⭐ [pmndrs/jotai](https://github.com/pmndrs/jotai) — [fix(vanilla/utils/atomWithStorage): apply reviver when pars…](https://github.com/pmndrs/jotai/pull/3326)<br>
-**20k** ⭐ [krisk/Fuse](https://github.com/krisk/Fuse) — [fix(fieldNorm): count tabs and newlines as word separators](https://github.com/krisk/Fuse/pull/836)<br>
-[full list of all 69](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+[full list of all 70](external-prs.md) · [on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
 <!-- EXTERNAL_PRS:END -->
 
 ### Работа со мной
