@@ -10,7 +10,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Aug 18, 2026 | [TanStack/query](https://github.com/TanStack/query) ⭐ 50k | [fix(query-core): reset isPlaceholderData when select throws on placeholder data](https://github.com/TanStack/query/pull/11011) |
 | Aug 10, 2026 | [changesets/changesets](https://github.com/changesets/changesets) ⭐ 12k | [Do not bump ignored independent packages when exiting pre mode](https://github.com/changesets/changesets/pull/2092) |
 | Aug 08, 2026 | [evanw/esbuild](https://github.com/evanw/esbuild) ⭐ 40k | [css: fix green/blue channel swap in oklch gamut mapping](https://github.com/evanw/esbuild/pull/4488) |
-| Aug 08, 2026 | [dcastil/tailwind-merge](https://github.com/dcastil/tailwind-merge) ⭐ 5k | [fix: keep leading-none when leading theme scale is overridden](https://github.com/dcastil/tailwind-merge/pull/689) |
+| Aug 08, 2026 | [dcastil/tailwind-merge](https://github.com/dcastil/tailwind-merge) ⭐ 5k | [Default config: Keep leading-none when leading theme scale is overridden](https://github.com/dcastil/tailwind-merge/pull/689) |
 | Aug 05, 2026 | [moment/luxon](https://github.com/moment/luxon) ⭐ 16k | [Fix lost negative sign in Duration#toFormat when largest unit is zero (signMode negativeLargestOnly)](https://github.com/moment/luxon/pull/1786) |
 | Aug 05, 2026 | [moment/luxon](https://github.com/moment/luxon) ⭐ 16k | [Fix FixedOffsetZone reporting isValid=true for unsupported inputs](https://github.com/moment/luxon/pull/1781) |
 | Aug 04, 2026 | [pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp) ⭐ 8k | [Fix stringify of param names with control characters](https://github.com/pillarjs/path-to-regexp/pull/445) |
@@ -75,6 +75,6 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jun 15, 2014 | [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2k | [fix typos](https://github.com/wardencommunity/warden/pull/92) |
 | May 10, 2014 | [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 244 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) |
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
-| Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 52 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
+| Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 51 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
 **71 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
