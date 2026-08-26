@@ -16,7 +16,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Aug 04, 2026 | [pillarjs/path-to-regexp](https://github.com/pillarjs/path-to-regexp) ⭐ 8k | [Fix stringify of param names with control characters](https://github.com/pillarjs/path-to-regexp/pull/445) |
 | Aug 02, 2026 | [dagrejs/graphlib](https://github.com/dagrejs/graphlib) ⭐ 1k | [Fix findCycles missing self-loops created with named edges](https://github.com/dagrejs/graphlib/pull/235) |
 | Jul 23, 2026 | [getzola/zola](https://github.com/getzola/zola) ⭐ 17k | [Expose page aliases to templates](https://github.com/getzola/zola/pull/3177) |
-| Jul 20, 2026 | [tokio-rs/tokio](https://github.com/tokio-rs/tokio) ⭐ 32k | [time: fix alt timer leaking cancelled entries into the wheel](https://github.com/tokio-rs/tokio/pull/8252) |
+| Jul 20, 2026 | [tokio-rs/tokio](https://github.com/tokio-rs/tokio) ⭐ 33k | [time: fix alt timer leaking cancelled entries into the wheel](https://github.com/tokio-rs/tokio/pull/8252) |
 | Jul 19, 2026 | [edmundhung/conform](https://github.com/edmundhung/conform) ⭐ 2k | [fix(zod): support z.readonly() in coerceFormValue and getZodConstraint](https://github.com/edmundhung/conform/pull/1239) |
 | Jul 17, 2026 | [sveltejs/devalue](https://github.com/sveltejs/devalue) ⭐ 2k | [fix: preserve shared-reference identity for Map keys in uneval](https://github.com/sveltejs/devalue/pull/164) |
 | Jul 16, 2026 | [konvajs/konva](https://github.com/konvajs/konva) ⭐ 14k | [fix: Arc.getSelfRect() reports a full circle for angle: 0, clockwise: true](https://github.com/konvajs/konva/pull/2054) |
