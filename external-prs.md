@@ -5,7 +5,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
-| Aug 20, 2026 | [sveltejs/svelte](https://github.com/sveltejs/svelte) ⭐ 87k | [fix: warn on undeclared shorthand event handlers on svelte:window/document/body](https://github.com/sveltejs/svelte/pull/18480) |
+| Aug 20, 2026 | [sveltejs/svelte](https://github.com/sveltejs/svelte) ⭐ 88k | [fix: warn on undeclared shorthand event handlers on svelte:window/document/body](https://github.com/sveltejs/svelte/pull/18480) |
 | Aug 19, 2026 | [mobxjs/mobx](https://github.com/mobxjs/mobx) ⭐ 28k | [fix: ObservableSet.replace only emits events for actual changes](https://github.com/mobxjs/mobx/pull/4672) |
 | Aug 18, 2026 | [TanStack/query](https://github.com/TanStack/query) ⭐ 50k | [fix(query-core): reset isPlaceholderData when select throws on placeholder data](https://github.com/TanStack/query/pull/11011) |
 | Aug 10, 2026 | [changesets/changesets](https://github.com/changesets/changesets) ⭐ 12k | [Do not bump ignored independent packages when exiting pre mode](https://github.com/changesets/changesets/pull/2092) |
