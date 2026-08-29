@@ -73,7 +73,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Aug 03, 2017 | [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) ⭐ 1k | [Fix tabs in Readme](https://github.com/jeremyevans/rodauth/pull/39) |
 | Dec 31, 2014 | [sugar-framework/sugar](https://github.com/sugar-framework/sugar) ⭐ 431 | [Fix link to weber website](https://github.com/sugar-framework/sugar/pull/59) |
 | Jun 15, 2014 | [wardencommunity/warden](https://github.com/wardencommunity/warden) ⭐ 2k | [fix typos](https://github.com/wardencommunity/warden/pull/92) |
-| May 10, 2014 | [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 244 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) |
+| May 10, 2014 | [luislavena/bench-micro](https://github.com/luislavena/bench-micro) ⭐ 243 | [fix path to framework](https://github.com/luislavena/bench-micro/pull/9) |
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 51 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
