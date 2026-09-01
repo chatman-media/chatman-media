@@ -5,6 +5,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Aug 31, 2026 | [orf/gping](https://github.com/orf/gping) ⭐ 12k | [Fix off-by-one that leaves one stale point in the graph buffer](https://github.com/orf/gping/pull/580) |
 | Aug 20, 2026 | [sveltejs/svelte](https://github.com/sveltejs/svelte) ⭐ 88k | [fix: warn on undeclared shorthand event handlers on svelte:window/document/body](https://github.com/sveltejs/svelte/pull/18480) |
 | Aug 19, 2026 | [mobxjs/mobx](https://github.com/mobxjs/mobx) ⭐ 28k | [fix: ObservableSet.replace only emits events for actual changes](https://github.com/mobxjs/mobx/pull/4672) |
 | Aug 18, 2026 | [TanStack/query](https://github.com/TanStack/query) ⭐ 50k | [fix(query-core): reset isPlaceholderData when select throws on placeholder data](https://github.com/TanStack/query/pull/11011) |
@@ -77,4 +78,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 51 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**71 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**72 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
