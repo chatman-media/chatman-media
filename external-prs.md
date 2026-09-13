@@ -38,11 +38,11 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jul 02, 2026 | [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) ⭐ 45k | [Fix LatLng.validate throwing on null instead of returning false](https://github.com/Leaflet/Leaflet/pull/10276) |
 | Jul 01, 2026 | [solidjs/solid](https://github.com/solidjs/solid) ⭐ 36k | [fix(server): Show/Switch should ignore zero-arg function children](https://github.com/solidjs/solid/pull/2808) |
 | Jul 01, 2026 | [toji/gl-matrix](https://github.com/toji/gl-matrix) ⭐ 5k | [Fix equals() returning true for vectors/values containing Infinity](https://github.com/toji/gl-matrix/pull/498) |
-| Jul 01, 2026 | [microsoft/playwright](https://github.com/microsoft/playwright) ⭐ 95k | [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557) |
+| Jul 01, 2026 | [microsoft/playwright](https://github.com/microsoft/playwright) ⭐ 96k | [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557) |
 | Jul 01, 2026 | [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11k | [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835) |
 | Jun 30, 2026 | [postcss/postcss](https://github.com/postcss/postcss) ⭐ 28k | [Fix `Input#origin()` mixing null and undefined for unmapped end position](https://github.com/postcss/postcss/pull/2106) |
 | Jun 30, 2026 | [hustcc/timeago.js](https://github.com/hustcc/timeago.js) ⭐ 5k | [fix(toDate): handle negative timezone offsets](https://github.com/hustcc/timeago.js/pull/284) |
-| Jun 28, 2026 | [open-circle/valibot](https://github.com/open-circle/valibot) ⭐ 8k | [fix: cache word-count segmenter for non-primitive locales](https://github.com/open-circle/valibot/pull/1521) |
+| Jun 28, 2026 | [open-circle/valibot](https://github.com/open-circle/valibot) ⭐ 9k | [fix: cache word-count segmenter for non-primitive locales](https://github.com/open-circle/valibot/pull/1521) |
 | Jun 28, 2026 | [ramda/ramda](https://github.com/ramda/ramda) ⭐ 24k | [Fix R.clone returning the same reference for Error objects](https://github.com/ramda/ramda/pull/3533) |
 | Jun 25, 2026 | [lovell/sharp](https://github.com/lovell/sharp) ⭐ 32k | [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560) |
 | Jun 25, 2026 | [Turfjs/turf](https://github.com/Turfjs/turf) ⭐ 10k | [@turf/line-arc: always reach bearing2 (fix dropped final vertex)](https://github.com/Turfjs/turf/pull/3078) |
@@ -52,7 +52,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jun 23, 2026 | [Automattic/mongoose](https://github.com/Automattic/mongoose) ⭐ 27k | [fix(types): correct `Model.validate()` return type to `Promise<TRawDocType>`](https://github.com/Automattic/mongoose/pull/16340) |
 | Jun 23, 2026 | [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) ⭐ 17k | [`LastArrayElement`: Fix handling of tuples with optional elements](https://github.com/sindresorhus/type-fest/pull/1461) |
 | Jun 23, 2026 | [h3js/h3](https://github.com/h3js/h3) ⭐ 5k | [fix(sanitizeStatusCode): return default for non-numeric input instead of NaN](https://github.com/h3js/h3/pull/1420) |
-| Jun 23, 2026 | [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 15k | [fix(Cron): do not skip earlier days when the upcoming day is missing from the month](https://github.com/Effect-TS/effect/pull/6285) |
+| Jun 23, 2026 | [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 16k | [fix(Cron): do not skip earlier days when the upcoming day is missing from the month](https://github.com/Effect-TS/effect/pull/6285) |
 | Jun 22, 2026 | [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) ⭐ 33k | [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227) |
 | Jun 21, 2026 | [sindresorhus/got](https://github.com/sindresorhus/got) ⭐ 14k | [Fix `searchParams` setter dropping the value when a URL is set](https://github.com/sindresorhus/got/pull/2454) |
 | Jun 20, 2026 | [streamich/memfs](https://github.com/streamich/memfs) ⭐ 2k | [fix: clamp negative truncate length to zero (uninitialized-memory leak)](https://github.com/streamich/memfs/pull/1261) |
