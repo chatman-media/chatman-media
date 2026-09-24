@@ -56,6 +56,21 @@
       html {
         scroll-behavior: smooth;
       }
+      @media (prefers-reduced-motion: reduce) {
+        html { scroll-behavior: auto; }
+        *, *::before, *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .skip-link {
+        position: absolute; left: 1rem; top: 1rem; z-index: 1000;
+        padding: 0.5rem 0.75rem; background: #f4f4f4; color: #000;
+        font-family: var(--mono); font-size: 0.8rem; text-decoration: none;
+        clip-path: inset(100%);
+      }
+      .skip-link:focus { clip-path: none; outline: 2px solid #fff; outline-offset: 2px; }
 
       body {
         font-family: var(--sans);
@@ -778,7 +793,8 @@
     </style>
   </head>
   <body>
-    <!-- ================= NAV ================= -->
+    <a class="skip-link" href="#main">Skip to content</a>
+        <!-- ================= NAV ================= -->
     <nav class="nav">
       <a href="#" class="brand">
         chatman<span class="sl">/</span>media
@@ -801,7 +817,7 @@
     <!-- ================= COMMUNITY PANEL ================= -->
     <section id="community" class="panel active">
       <div class="wrap">
-        <div class="hero">
+        <div class="hero" id="main" tabindex="-1">
           <span class="kicker">
             <span class="sl">//</span>
             <span data-i18n="com.kicker">Беседка · Пхукет</span>
