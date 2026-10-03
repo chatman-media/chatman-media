@@ -35,11 +35,11 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jul 03, 2026 | [bytesize-rs/bytesize](https://github.com/bytesize-rs/bytesize) ⭐ 164 | [fix: ideal_unit_std picks the wrong unit near power-of-unit boundaries](https://github.com/bytesize-rs/bytesize/pull/175) |
 | Jul 03, 2026 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) ⭐ 95k | [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197) |
 | Jul 03, 2026 | [pest-parser/pest](https://github.com/pest-parser/pest) ⭐ 5k | [Reject unescaped quote inside char literal in meta grammar](https://github.com/pest-parser/pest/pull/1175) |
-| Jul 02, 2026 | [withastro/astro](https://github.com/withastro/astro) ⭐ 62k | [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247) |
+| Jul 02, 2026 | [withastro/astro](https://github.com/withastro/astro) ⭐ 63k | [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247) |
 | Jul 02, 2026 | [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) ⭐ 45k | [Fix LatLng.validate throwing on null instead of returning false](https://github.com/Leaflet/Leaflet/pull/10276) |
 | Jul 01, 2026 | [solidjs/solid](https://github.com/solidjs/solid) ⭐ 36k | [fix(server): Show/Switch should ignore zero-arg function children](https://github.com/solidjs/solid/pull/2808) |
 | Jul 01, 2026 | [toji/gl-matrix](https://github.com/toji/gl-matrix) ⭐ 5k | [Fix equals() returning true for vectors/values containing Infinity](https://github.com/toji/gl-matrix/pull/498) |
-| Jul 01, 2026 | [microsoft/playwright](https://github.com/microsoft/playwright) ⭐ 96k | [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557) |
+| Jul 01, 2026 | [microsoft/playwright](https://github.com/microsoft/playwright) ⭐ 97k | [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557) |
 | Jul 01, 2026 | [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11k | [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835) |
 | Jun 30, 2026 | [postcss/postcss](https://github.com/postcss/postcss) ⭐ 28k | [Fix `Input#origin()` mixing null and undefined for unmapped end position](https://github.com/postcss/postcss/pull/2106) |
 | Jun 30, 2026 | [hustcc/timeago.js](https://github.com/hustcc/timeago.js) ⭐ 5k | [fix(toDate): handle negative timezone offsets](https://github.com/hustcc/timeago.js/pull/284) |

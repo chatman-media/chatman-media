@@ -39,10 +39,10 @@ Pull requests to major open-source projects — updated automatically every day.
 
 <!-- EXTERNAL_PRS:START -->
 **108k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
-**96k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
+**97k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
 **95k** ⭐ [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197)<br>
 **88k** ⭐ [sveltejs/svelte](https://github.com/sveltejs/svelte) — [fix: warn on undeclared shorthand event handlers on svelte:…](https://github.com/sveltejs/svelte/pull/18480)<br>
-**62k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
+**63k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
 **50k** ⭐ [TanStack/query](https://github.com/TanStack/query) — [fix(query-core): reset isPlaceholderData when select throws…](https://github.com/TanStack/query/pull/11011)<br>
 **45k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
 **41k** ⭐ [Hmbown/Codewhale](https://github.com/Hmbown/Codewhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/Codewhale/pull/3588)<br>
@@ -123,10 +123,10 @@ Pull request'ы в крупные open-source проекты — обновля�
 
 <!-- EXTERNAL_PRS:START -->
 **108k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
-**96k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
+**97k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
 **95k** ⭐ [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197)<br>
 **88k** ⭐ [sveltejs/svelte](https://github.com/sveltejs/svelte) — [fix: warn on undeclared shorthand event handlers on svelte:…](https://github.com/sveltejs/svelte/pull/18480)<br>
-**62k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
+**63k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
 **50k** ⭐ [TanStack/query](https://github.com/TanStack/query) — [fix(query-core): reset isPlaceholderData when select throws…](https://github.com/TanStack/query/pull/11011)<br>
 **45k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
 **41k** ⭐ [Hmbown/Codewhale](https://github.com/Hmbown/Codewhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/Hmbown/Codewhale/pull/3588)<br>
