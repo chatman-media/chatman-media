@@ -51,7 +51,7 @@ Pull requests to major open-source projects — updated automatically every day.
 **33k** ⭐ [tokio-rs/tokio](https://github.com/tokio-rs/tokio) — [time: fix alt timer leaking cancelled entries into the wheel](https://github.com/tokio-rs/tokio/pull/8252)<br>
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
 **32k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
-**30k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
+**31k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
 **28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
@@ -135,7 +135,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 **33k** ⭐ [tokio-rs/tokio](https://github.com/tokio-rs/tokio) — [time: fix alt timer leaking cancelled entries into the wheel](https://github.com/tokio-rs/tokio/pull/8252)<br>
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
 **32k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
-**30k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
+**31k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249)<br>
 **28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
 **28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
