@@ -67,7 +67,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jun 11, 2026 | [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11k | [fix(compat): round/ceil/floor should return Infinity for infinite values with precision](https://github.com/toss/es-toolkit/pull/1764) |
 | Jun 11, 2026 | [pmndrs/jotai](https://github.com/pmndrs/jotai) ⭐ 21k | [fix(vanilla/utils/atomWithStorage): apply reviver when parsing subscription updates](https://github.com/pmndrs/jotai/pull/3326) |
 | Jun 11, 2026 | [pmndrs/valtio](https://github.com/pmndrs/valtio) ⭐ 10k | [fix(utils): prevent watch context leak across async callbacks](https://github.com/pmndrs/valtio/pull/1229) |
-| Jun 10, 2026 | [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 6k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) |
+| Jun 10, 2026 | [sinclairzx81/typebox](https://github.com/sinclairzx81/typebox) ⭐ 7k | [fix: avoid calling property default factory twice in Value.Default for objects](https://github.com/sinclairzx81/typebox/pull/1612) |
 | Jan 26, 2020 | [alagiz/particalizor-3000](https://github.com/alagiz/particalizor-3000) ⭐ 3 | [Quote lint path to avoid script issue.](https://github.com/alagiz/particalizor-3000/pull/36) |
 | Jan 05, 2019 | [nareshbhatia/graphql-bookstore](https://github.com/nareshbhatia/graphql-bookstore) ⭐ 120 | [fixed build issues](https://github.com/nareshbhatia/graphql-bookstore/pull/4) |
 | Jul 28, 2018 | [nareshbhatia/react-learning-path](https://github.com/nareshbhatia/react-learning-path) ⭐ 18 | [fixed typo in Readme](https://github.com/nareshbhatia/react-learning-path/pull/1) |
