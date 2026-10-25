@@ -5,6 +5,8 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Oct 24, 2026 | [gka/chroma.js](https://github.com/gka/chroma.js) ⭐ 10k | [fix(hcg): return chroma/grayness on [0..1] so rgb2hcg round-trips (#250)](https://github.com/gka/chroma.js/pull/393) |
+| Oct 24, 2026 | [gka/chroma.js](https://github.com/gka/chroma.js) ⭐ 10k | [fix: don't double-weight first color's hue in average](https://github.com/gka/chroma.js/pull/391) |
 | Oct 21, 2026 | [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 17k | [fix: Duration.decode and Duration.times throwing on fractional values](https://github.com/Effect-TS/effect/pull/6270) |
 | Oct 19, 2026 | [dexie/Dexie.js](https://github.com/dexie/Dexie.js) ⭐ 14k | [fix(WhereClause): empty anyOf()/between() no longer empties an or()-union (#1607)](https://github.com/dexie/Dexie.js/pull/2319) |
 | Oct 01, 2026 | [arktypeio/arktype](https://github.com/arktypeio/arktype) ⭐ 7k | [fix(util): render bigints correctly in printable error messages](https://github.com/arktypeio/arktype/pull/1626) |
@@ -81,4 +83,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 51 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**75 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**77 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
