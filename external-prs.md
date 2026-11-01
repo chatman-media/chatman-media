@@ -26,7 +26,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jul 19, 2026 | [edmundhung/conform](https://github.com/edmundhung/conform) ⭐ 2k | [fix(zod): support z.readonly() in coerceFormValue and getZodConstraint](https://github.com/edmundhung/conform/pull/1239) |
 | Jul 17, 2026 | [sveltejs/devalue](https://github.com/sveltejs/devalue) ⭐ 2k | [fix: preserve shared-reference identity for Map keys in uneval](https://github.com/sveltejs/devalue/pull/164) |
 | Jul 16, 2026 | [konvajs/konva](https://github.com/konvajs/konva) ⭐ 14k | [fix: Arc.getSelfRect() reports a full circle for angle: 0, clockwise: true](https://github.com/konvajs/konva/pull/2054) |
-| Jul 16, 2026 | [immerjs/immer](https://github.com/immerjs/immer) ⭐ 28k | [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249) |
+| Jul 16, 2026 | [immerjs/immer](https://github.com/immerjs/immer) ⭐ 29k | [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249) |
 | Jul 07, 2026 | [reduxjs/redux-toolkit](https://github.com/reduxjs/redux-toolkit) ⭐ 11k | [fix: don't swallow `createAsyncThunk` aborts that happen before pending](https://github.com/reduxjs/redux-toolkit/pull/5314) |
 | Jul 07, 2026 | [avoidwork/filesize.js](https://github.com/avoidwork/filesize.js) ⭐ 1k | [fix: clamp negative forced exponent instead of returning NaN](https://github.com/avoidwork/filesize.js/pull/304) |
 | Jul 07, 2026 | [chaijs/chai](https://github.com/chaijs/chai) ⭐ 8k | [fix: not.deep.oneOf failure message is missing the not](https://github.com/chaijs/chai/pull/1822) |
@@ -34,7 +34,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jul 05, 2026 | [MikeMcl/bignumber.js](https://github.com/MikeMcl/bignumber.js) ⭐ 7k | [Fix toFraction returning a sub-optimal rational approximation](https://github.com/MikeMcl/bignumber.js/pull/409) |
 | Jul 04, 2026 | [raineorshine/npm-check-updates](https://github.com/raineorshine/npm-check-updates) ⭐ 10k | [Fix major/minor/patch grouping when a range operator changes](https://github.com/raineorshine/npm-check-updates/pull/1907) |
 | Jul 03, 2026 | [krisk/Fuse](https://github.com/krisk/Fuse) ⭐ 20k | [fix(fieldNorm): count tabs and newlines as word separators](https://github.com/krisk/Fuse/pull/836) |
-| Jul 03, 2026 | [immerjs/immer](https://github.com/immerjs/immer) ⭐ 28k | [fix: undefined assigned to a prototype-inherited key gets dropped](https://github.com/immerjs/immer/pull/1262) |
+| Jul 03, 2026 | [immerjs/immer](https://github.com/immerjs/immer) ⭐ 29k | [fix: undefined assigned to a prototype-inherited key gets dropped](https://github.com/immerjs/immer/pull/1262) |
 | Jul 03, 2026 | [denoland/deno](https://github.com/denoland/deno) ⭐ 108k | [fix(permissions): split comma-separated paths in --ignore-read](https://github.com/denoland/deno/pull/35661) |
 | Jul 03, 2026 | [bytesize-rs/bytesize](https://github.com/bytesize-rs/bytesize) ⭐ 167 | [fix: ideal_unit_std picks the wrong unit near power-of-unit boundaries](https://github.com/bytesize-rs/bytesize/pull/175) |
 | Jul 03, 2026 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) ⭐ 95k | [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197) |
@@ -43,7 +43,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jul 02, 2026 | [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) ⭐ 45k | [Fix LatLng.validate throwing on null instead of returning false](https://github.com/Leaflet/Leaflet/pull/10276) |
 | Jul 01, 2026 | [solidjs/solid](https://github.com/solidjs/solid) ⭐ 36k | [fix(server): Show/Switch should ignore zero-arg function children](https://github.com/solidjs/solid/pull/2808) |
 | Jul 01, 2026 | [toji/gl-matrix](https://github.com/toji/gl-matrix) ⭐ 5k | [Fix equals() returning true for vectors/values containing Infinity](https://github.com/toji/gl-matrix/pull/498) |
-| Jul 01, 2026 | [microsoft/playwright](https://github.com/microsoft/playwright) ⭐ 98k | [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557) |
+| Jul 01, 2026 | [microsoft/playwright](https://github.com/microsoft/playwright) ⭐ 99k | [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557) |
 | Jul 01, 2026 | [toss/es-toolkit](https://github.com/toss/es-toolkit) ⭐ 11k | [fix(compat/inRange): don't throw on a lone negative bound](https://github.com/toss/es-toolkit/pull/1835) |
 | Jun 30, 2026 | [postcss/postcss](https://github.com/postcss/postcss) ⭐ 28k | [Fix `Input#origin()` mixing null and undefined for unmapped end position](https://github.com/postcss/postcss/pull/2106) |
 | Jun 30, 2026 | [hustcc/timeago.js](https://github.com/hustcc/timeago.js) ⭐ 5k | [fix(toDate): handle negative timezone offsets](https://github.com/hustcc/timeago.js/pull/284) |

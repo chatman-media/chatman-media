@@ -39,7 +39,7 @@ Pull requests to major open-source projects — updated automatically every day.
 
 <!-- EXTERNAL_PRS:START -->
 **108k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
-**98k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
+**99k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
 **95k** ⭐ [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197)<br>
 **88k** ⭐ [sveltejs/svelte](https://github.com/sveltejs/svelte) — [fix: warn on undeclared shorthand event handlers on svelte:…](https://github.com/sveltejs/svelte/pull/18480)<br>
 **63k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
@@ -52,8 +52,8 @@ Pull requests to major open-source projects — updated automatically every day.
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
 **32k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
 **31k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
-**28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249)<br>
-**28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
+**29k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249)<br>
+**29k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
 **28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
 **28k** ⭐ [mobxjs/mobx](https://github.com/mobxjs/mobx) — [fix: ObservableSet.replace only emits events for actual cha…](https://github.com/mobxjs/mobx/pull/4672)<br>
 **27k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
@@ -123,7 +123,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 
 <!-- EXTERNAL_PRS:START -->
 **108k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
-**98k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
+**99k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
 **95k** ⭐ [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197)<br>
 **88k** ⭐ [sveltejs/svelte](https://github.com/sveltejs/svelte) — [fix: warn on undeclared shorthand event handlers on svelte:…](https://github.com/sveltejs/svelte/pull/18480)<br>
 **63k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
@@ -136,8 +136,8 @@ Pull request'ы в крупные open-source проекты — обновля�
 **33k** ⭐ [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) — [fix(Repeat): lastIndexOf returned size instead of size - 1](https://github.com/immutable-js/immutable-js/pull/2227)<br>
 **32k** ⭐ [lovell/sharp](https://github.com/lovell/sharp) — [Reject ragged matrices in recomb and affine](https://github.com/lovell/sharp/pull/4560)<br>
 **31k** ⭐ [emilk/egui](https://github.com/emilk/egui) — [docs: add AccessKit accessibility guide](https://github.com/emilk/egui/pull/8233)<br>
-**28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249)<br>
-**28k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
+**29k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249)<br>
+**29k** ⭐ [immerjs/immer](https://github.com/immerjs/immer) — [fix: undefined assigned to a prototype-inherited key gets d…](https://github.com/immerjs/immer/pull/1262)<br>
 **28k** ⭐ [postcss/postcss](https://github.com/postcss/postcss) — [Fix Input#origin() mixing null and undefined for unmapped e…](https://github.com/postcss/postcss/pull/2106)<br>
 **28k** ⭐ [mobxjs/mobx](https://github.com/mobxjs/mobx) — [fix: ObservableSet.replace only emits events for actual cha…](https://github.com/mobxjs/mobx/pull/4672)<br>
 **27k** ⭐ [Automattic/mongoose](https://github.com/Automattic/mongoose) — [fix(types): correct Model.validate() return type to Promise…](https://github.com/Automattic/mongoose/pull/16340)<br>
