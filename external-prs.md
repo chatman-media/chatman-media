@@ -11,7 +11,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Oct 19, 2026 | [dexie/Dexie.js](https://github.com/dexie/Dexie.js) ⭐ 14k | [fix(WhereClause): empty anyOf()/between() no longer empties an or()-union (#1607)](https://github.com/dexie/Dexie.js/pull/2319) |
 | Oct 01, 2026 | [arktypeio/arktype](https://github.com/arktypeio/arktype) ⭐ 7k | [fix(util): render bigints correctly in printable error messages](https://github.com/arktypeio/arktype/pull/1626) |
 | Aug 31, 2026 | [orf/gping](https://github.com/orf/gping) ⭐ 12k | [Fix off-by-one that leaves one stale point in the graph buffer](https://github.com/orf/gping/pull/580) |
-| Aug 20, 2026 | [sveltejs/svelte](https://github.com/sveltejs/svelte) ⭐ 88k | [fix: warn on undeclared shorthand event handlers on svelte:window/document/body](https://github.com/sveltejs/svelte/pull/18480) |
+| Aug 20, 2026 | [sveltejs/svelte](https://github.com/sveltejs/svelte) ⭐ 89k | [fix: warn on undeclared shorthand event handlers on svelte:window/document/body](https://github.com/sveltejs/svelte/pull/18480) |
 | Aug 19, 2026 | [mobxjs/mobx](https://github.com/mobxjs/mobx) ⭐ 28k | [fix: ObservableSet.replace only emits events for actual changes](https://github.com/mobxjs/mobx/pull/4672) |
 | Aug 18, 2026 | [TanStack/query](https://github.com/TanStack/query) ⭐ 50k | [fix(query-core): reset isPlaceholderData when select throws on placeholder data](https://github.com/TanStack/query/pull/11011) |
 | Aug 10, 2026 | [changesets/changesets](https://github.com/changesets/changesets) ⭐ 12k | [Do not bump ignored independent packages when exiting pre mode](https://github.com/changesets/changesets/pull/2092) |
@@ -39,7 +39,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jul 03, 2026 | [bytesize-rs/bytesize](https://github.com/bytesize-rs/bytesize) ⭐ 167 | [fix: ideal_unit_std picks the wrong unit near power-of-unit boundaries](https://github.com/bytesize-rs/bytesize/pull/175) |
 | Jul 03, 2026 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) ⭐ 95k | [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197) |
 | Jul 03, 2026 | [pest-parser/pest](https://github.com/pest-parser/pest) ⭐ 5k | [Reject unescaped quote inside char literal in meta grammar](https://github.com/pest-parser/pest/pull/1175) |
-| Jul 02, 2026 | [withastro/astro](https://github.com/withastro/astro) ⭐ 63k | [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247) |
+| Jul 02, 2026 | [withastro/astro](https://github.com/withastro/astro) ⭐ 64k | [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247) |
 | Jul 02, 2026 | [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) ⭐ 45k | [Fix LatLng.validate throwing on null instead of returning false](https://github.com/Leaflet/Leaflet/pull/10276) |
 | Jul 01, 2026 | [solidjs/solid](https://github.com/solidjs/solid) ⭐ 36k | [fix(server): Show/Switch should ignore zero-arg function children](https://github.com/solidjs/solid/pull/2808) |
 | Jul 01, 2026 | [toji/gl-matrix](https://github.com/toji/gl-matrix) ⭐ 5k | [Fix equals() returning true for vectors/values containing Infinity](https://github.com/toji/gl-matrix/pull/498) |
