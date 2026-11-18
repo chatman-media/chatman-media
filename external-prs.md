@@ -35,7 +35,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jul 04, 2026 | [raineorshine/npm-check-updates](https://github.com/raineorshine/npm-check-updates) ⭐ 10k | [Fix major/minor/patch grouping when a range operator changes](https://github.com/raineorshine/npm-check-updates/pull/1907) |
 | Jul 03, 2026 | [krisk/Fuse](https://github.com/krisk/Fuse) ⭐ 20k | [fix(fieldNorm): count tabs and newlines as word separators](https://github.com/krisk/Fuse/pull/836) |
 | Jul 03, 2026 | [immerjs/immer](https://github.com/immerjs/immer) ⭐ 29k | [fix: undefined assigned to a prototype-inherited key gets dropped](https://github.com/immerjs/immer/pull/1262) |
-| Jul 03, 2026 | [denoland/deno](https://github.com/denoland/deno) ⭐ 108k | [fix(permissions): split comma-separated paths in --ignore-read](https://github.com/denoland/deno/pull/35661) |
+| Jul 03, 2026 | [denoland/deno](https://github.com/denoland/deno) ⭐ 109k | [fix(permissions): split comma-separated paths in --ignore-read](https://github.com/denoland/deno/pull/35661) |
 | Jul 03, 2026 | [bytesize-rs/bytesize](https://github.com/bytesize-rs/bytesize) ⭐ 167 | [fix: ideal_unit_std picks the wrong unit near power-of-unit boundaries](https://github.com/bytesize-rs/bytesize/pull/175) |
 | Jul 03, 2026 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) ⭐ 95k | [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197) |
 | Jul 03, 2026 | [pest-parser/pest](https://github.com/pest-parser/pest) ⭐ 5k | [Reject unescaped quote inside char literal in meta grammar](https://github.com/pest-parser/pest/pull/1175) |
