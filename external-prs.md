@@ -25,7 +25,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Jul 20, 2026 | [tokio-rs/tokio](https://github.com/tokio-rs/tokio) ⭐ 33k | [time: fix alt timer leaking cancelled entries into the wheel](https://github.com/tokio-rs/tokio/pull/8252) |
 | Jul 19, 2026 | [edmundhung/conform](https://github.com/edmundhung/conform) ⭐ 2k | [fix(zod): support z.readonly() in coerceFormValue and getZodConstraint](https://github.com/edmundhung/conform/pull/1239) |
 | Jul 17, 2026 | [sveltejs/devalue](https://github.com/sveltejs/devalue) ⭐ 2k | [fix: preserve shared-reference identity for Map keys in uneval](https://github.com/sveltejs/devalue/pull/164) |
-| Jul 16, 2026 | [konvajs/konva](https://github.com/konvajs/konva) ⭐ 14k | [fix: Arc.getSelfRect() reports a full circle for angle: 0, clockwise: true](https://github.com/konvajs/konva/pull/2054) |
+| Jul 16, 2026 | [konvajs/konva](https://github.com/konvajs/konva) ⭐ 15k | [fix: Arc.getSelfRect() reports a full circle for angle: 0, clockwise: true](https://github.com/konvajs/konva/pull/2054) |
 | Jul 16, 2026 | [immerjs/immer](https://github.com/immerjs/immer) ⭐ 29k | [fix: correct curried produceWithPatches return type](https://github.com/immerjs/immer/pull/1249) |
 | Jul 07, 2026 | [reduxjs/redux-toolkit](https://github.com/reduxjs/redux-toolkit) ⭐ 11k | [fix: don't swallow `createAsyncThunk` aborts that happen before pending](https://github.com/reduxjs/redux-toolkit/pull/5314) |
 | Jul 07, 2026 | [avoidwork/filesize.js](https://github.com/avoidwork/filesize.js) ⭐ 1k | [fix: clamp negative forced exponent instead of returning NaN](https://github.com/avoidwork/filesize.js/pull/304) |
