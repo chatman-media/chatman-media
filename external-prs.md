@@ -5,6 +5,7 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 
 | Merged | Repository | Pull request |
 |---|---|---|
+| Nov 21, 2026 | [ratatui/ratatui](https://github.com/ratatui/ratatui) ⭐ 23k | [fix: Clear doesn't shrink a wide glyph straddling the left edge](https://github.com/ratatui/ratatui/pull/2628) |
 | Oct 24, 2026 | [gka/chroma.js](https://github.com/gka/chroma.js) ⭐ 10k | [fix(hcg): return chroma/grayness on [0..1] so rgb2hcg round-trips (#250)](https://github.com/gka/chroma.js/pull/393) |
 | Oct 24, 2026 | [gka/chroma.js](https://github.com/gka/chroma.js) ⭐ 10k | [fix: don't double-weight first color's hue in average](https://github.com/gka/chroma.js/pull/391) |
 | Oct 21, 2026 | [Effect-TS/effect](https://github.com/Effect-TS/effect) ⭐ 17k | [fix: Duration.decode and Duration.times throwing on fractional values](https://github.com/Effect-TS/effect/pull/6270) |
@@ -83,4 +84,4 @@ Auto-generated daily — see the summary on the [profile README](README.md#-open
 | Apr 27, 2014 | [ragingwind/generator-chrome-extension](https://github.com/ragingwind/generator-chrome-extension) ⭐ 2k | [jshint warning](https://github.com/ragingwind/generator-chrome-extension/pull/53) |
 | Apr 23, 2014 | [mrzmyr/angular-google-plus](https://github.com/mrzmyr/angular-google-plus) ⭐ 51 | [change main value in bower.json](https://github.com/mrzmyr/angular-google-plus/pull/5) |
 
-**77 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
+**78 merged pull requests** · [see all on GitHub](https://github.com/search?q=is%3Apr+author%3Achatman-media+-user%3Achatman-media+is%3Amerged&type=pullrequests)
