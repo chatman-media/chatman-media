@@ -38,8 +38,8 @@
 Pull requests to major open-source projects — updated automatically every day.
 
 <!-- EXTERNAL_PRS:START -->
-**109k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
-**100k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
+**108k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
+**101k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
 **95k** ⭐ [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197)<br>
 **89k** ⭐ [sveltejs/svelte](https://github.com/sveltejs/svelte) — [fix: warn on undeclared shorthand event handlers on svelte:…](https://github.com/sveltejs/svelte/pull/18480)<br>
 **64k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
@@ -122,8 +122,8 @@ Pull requests to major open-source projects — updated automatically every day.
 Pull request'ы в крупные open-source проекты — обновляется автоматически раз в день.
 
 <!-- EXTERNAL_PRS:START -->
-**109k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
-**100k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
+**108k** ⭐ [denoland/deno](https://github.com/denoland/deno) — [fix(permissions): split comma-separated paths in --ignore-r…](https://github.com/denoland/deno/pull/35661)<br>
+**101k** ⭐ [microsoft/playwright](https://github.com/microsoft/playwright) — [fix(routing): match ws(s) baseURL rewrite case-insensitively](https://github.com/microsoft/playwright/pull/41557)<br>
 **95k** ⭐ [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — [fix: don't throw in checkVisibility for a detached text node](https://github.com/puppeteer/puppeteer/pull/15197)<br>
 **89k** ⭐ [sveltejs/svelte](https://github.com/sveltejs/svelte) — [fix: warn on undeclared shorthand event handlers on svelte:…](https://github.com/sveltejs/svelte/pull/18480)<br>
 **64k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
