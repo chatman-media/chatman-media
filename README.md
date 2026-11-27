@@ -44,7 +44,7 @@ Pull requests to major open-source projects — updated automatically every day.
 **89k** ⭐ [sveltejs/svelte](https://github.com/sveltejs/svelte) — [fix: warn on undeclared shorthand event handlers on svelte:…](https://github.com/sveltejs/svelte/pull/18480)<br>
 **64k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
 **50k** ⭐ [TanStack/query](https://github.com/TanStack/query) — [fix(query-core): reset isPlaceholderData when select throws…](https://github.com/TanStack/query/pull/11011)<br>
-**45k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
+**46k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
 **41k** ⭐ [codewhale-hq/Codewhale](https://github.com/codewhale-hq/Codewhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/codewhale-hq/Codewhale/pull/3588)<br>
 **40k** ⭐ [evanw/esbuild](https://github.com/evanw/esbuild) — [css: fix green/blue channel swap in oklch gamut mapping](https://github.com/evanw/esbuild/pull/4488)<br>
 **36k** ⭐ [solidjs/solid](https://github.com/solidjs/solid) — [fix(server): Show/Switch should ignore zero-arg function ch…](https://github.com/solidjs/solid/pull/2808)<br>
@@ -128,7 +128,7 @@ Pull request'ы в крупные open-source проекты — обновля�
 **89k** ⭐ [sveltejs/svelte](https://github.com/sveltejs/svelte) — [fix: warn on undeclared shorthand event handlers on svelte:…](https://github.com/sveltejs/svelte/pull/18480)<br>
 **64k** ⭐ [withastro/astro](https://github.com/withastro/astro) — [Fix route generator throwing on a dynamic param value of 0](https://github.com/withastro/astro/pull/17247)<br>
 **50k** ⭐ [TanStack/query](https://github.com/TanStack/query) — [fix(query-core): reset isPlaceholderData when select throws…](https://github.com/TanStack/query/pull/11011)<br>
-**45k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
+**46k** ⭐ [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) — [Fix LatLng.validate throwing on null instead of returning f…](https://github.com/Leaflet/Leaflet/pull/10276)<br>
 **41k** ⭐ [codewhale-hq/Codewhale](https://github.com/codewhale-hq/Codewhale) — [fix(command-safety): make python -m arity entries reachable…](https://github.com/codewhale-hq/Codewhale/pull/3588)<br>
 **40k** ⭐ [evanw/esbuild](https://github.com/evanw/esbuild) — [css: fix green/blue channel swap in oklch gamut mapping](https://github.com/evanw/esbuild/pull/4488)<br>
 **36k** ⭐ [solidjs/solid](https://github.com/solidjs/solid) — [fix(server): Show/Switch should ignore zero-arg function ch…](https://github.com/solidjs/solid/pull/2808)<br>
